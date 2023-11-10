@@ -78,7 +78,7 @@ public customOptions2: OwlOptions = {
   autoplayHoverPause:true,
   nav: true,
   // stagePadding: 0,
-  navText: ["<img src='./assets/images/arrow_cc.svg'>","<img src='./assets/images/arrow_c.svg'>"],
+  navText: ["<img src='./assets/images/arrow_cc.svg' alt='leftArrow1'>","<img src='./assets/images/arrow_c.svg' alt='leftArrow2'>"],
 
   responsive: {
     0:{
