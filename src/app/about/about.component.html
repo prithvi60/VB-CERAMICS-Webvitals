@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preload" fetchpriority="high" as="image" href="../../assets/About_service.webp" type="image/webp">
 </head>
 
 <div class="container-fluid flex-grow-1 d-flex flex-column flex-sm-row" style="overflow: hidden;">
@@ -193,7 +194,7 @@
         </div>
         <div class="main_section1_content">
           <div class="main_section1_img">
-            <img src="../../assets/About_service.webp" />
+            <img src="../../assets/About_service.webp" fetchpriority="high" />
           </div>
           <div class="main_section1_cnt">
             <p>
@@ -216,7 +217,7 @@
         </div>
         <div class="main_section2_content">
           <div class="main_section2_img">
-            <img src="../../assets/About_vision.webp" />
+            <img src="../../assets/About_vision.webp" fetchpriority="low" />
           </div>
           <div class="main_section2_cnt">
             <p>{{visionContent}}</p>
@@ -242,7 +243,7 @@
         </div>
         <div class="main_section3_content">
           <div class="main_section3_cnt">
-            <img src="../../assets/Naveen.webp"/>
+            <img src="../../assets/Naveen.webp" fetchpriority="low"/>
             <div class="section3_cnt">
               <div class="section3_name">Mr. V. Naveen</div>
               <div class="section3_education">B.Tech , Ceramic Engineer</div>
@@ -250,7 +251,7 @@
             </div>
           </div>
           <div class="main_section3_cnt">
-            <img src="../../assets/Viswabaskaran.webp"/>
+            <img src="../../assets/Viswabaskaran.webp" fetchpriority="low"/>
             <div class="section3_cnt">
               <div class="section3_name">Dr.V.Viswabaskaran</div>
               <div class="section3_education">M.Tech, Ph.D, F.I.I</div>
@@ -258,7 +259,7 @@
             </div>
           </div>
           <div class="main_section3_cnt">
-            <img src="../../assets/Uma.webp"/>
+            <img src="../../assets/Uma.webp" fetchpriority="low"/>
             <div class="section3_cnt">
               <div class="section3_name">Mr.S.Uma Chandran</div>
               <div class="section3_education">Ceramic Technology from</div>
@@ -266,7 +267,7 @@
             </div>
           </div>
           <div class="main_section3_cnt">
-            <img src="../../assets/Prakash.webp"/>
+            <img src="../../assets/Prakash.webp" fetchpriority="low"/>
             <div class="section3_cnt">
               <div class="section3_name">Mr. S M Prakash</div>
               <div class="section3_education">M. Sc, PGDCA</div>
@@ -281,7 +282,7 @@
         </div>
         <div class="main_section4_content">
           <div class="main_section4_cnt">
-            <img src="../../assets/Viswabaskaran.webp" (click)="open('panelModal_1')"/>
+            <img src="../../assets/Viswabaskaran.webp" (click)="open('panelModal_1')" fetchpriority="low"/>
             <div class="section4_cnt">
               <div class="section4_name">Dr.V.Viswabaskaran</div>
               <div class="section4_education">M.Tech, Ph.D, F.I.I</div>
@@ -294,7 +295,7 @@
                   class="modalDiv">
                   <div
                     class="modalImage">
-                    <img src="../../assets/Viswabaskaran.webp" class="img_img" />
+                    <img src="../../assets/Viswabaskaran.webp" class="img_img" fetchpriority="low"/>
                     <div class="section4_cnt">
                       <div class="section4_name">Dr.V.Viswabaskaran</div>
                       <div class="section4_education">M.Tech, Ph.D, F.I.I</div>
@@ -328,7 +329,7 @@
             </div>
           </div>
           <div class="main_section4_cnt">
-            <img src="../../assets/Jeyakumar.webp" (click)="open('panelModal_2')"/>
+            <img src="../../assets/Jeyakumar.webp" fetchpriority="low" (click)="open('panelModal_2')"/>
             <div class="section4_cnt">
               <div class="section4_name">Dr. D. Jeyakumar</div>
               <div class="section4_education">M.Tech, Ph.D, F.I.I</div>
@@ -341,7 +342,7 @@
                   class="modalDiv">
                   <div
                     class="modalImage">
-                    <img src="../../assets/Jeyakumar.webp" class="img_img" />
+                    <img src="../../assets/Jeyakumar.webp" fetchpriority="low" class="img_img" />
                     <div class="section4_cnt">
                       <div class="section4_name">Dr. D. Jeyakumar</div>
                       <div class="section4_education">M.Tech, Ph.D, F.I.I</div>
@@ -375,7 +376,7 @@
             </div>
           </div>
           <div class="main_section4_cnt">
-            <img src="../../assets/Prem.webp" (click)="open('panelModal_3')"/>
+            <img src="../../assets/Prem.webp" fetchpriority="low" (click)="open('panelModal_3')"/>
             <div class="section4_cnt">
               <div class="section4_name">Mr. T. Premkumar</div>
               <div class="section4_education">B.Sc., M.Sc., Ph.D.</div>
@@ -388,7 +389,7 @@
                   class="modalDiv">
                   <div
                     class="modalImage">
-                    <img src="../../assets/Prem.webp" class="img_img" />
+                    <img src="../../assets/Prem.webp" fetchpriority="low" class="img_img" />
                     <div class="section4_cnt">
                       <div class="section4_name">Mr. T. Premkumar</div>
                       <div class="section4_education">B.Sc., M.Sc., Ph.D.</div>
