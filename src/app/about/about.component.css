@@ -291,7 +291,7 @@ background: #cdd9fa;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_service.jpg'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_service.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 .main_section1_cnt,
@@ -314,7 +314,7 @@ background: #cdd9fa;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_vision.jpg'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_vision.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 .main_section3_content,
@@ -382,7 +382,7 @@ background: #cdd9fa;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_fellowship.png'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_fellowship.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 .section5_images {
@@ -487,7 +487,7 @@ background: #cdd9fa;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_projects.png'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_projects.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 .section7_projects {
@@ -537,7 +537,7 @@ background: #cdd9fa;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_projects.png'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_projects.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 .main_section8_img,
@@ -545,7 +545,7 @@ background: #cdd9fa;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_academic.png'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_academic.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 /* .overlay {
