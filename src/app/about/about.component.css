@@ -177,7 +177,7 @@
   border-bottom: 1px solid #969696;
 }
 
-.navbar_li a {
+.navbar_li button {
   display: flex;
   gap: 10px;
   color: #132249 !important;
