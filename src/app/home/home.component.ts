@@ -17,7 +17,7 @@ import * as $ from 'jquery';
       ]),
     ]),
   ],
-  
+
 })
 
 export class HomeComponent  {
@@ -27,7 +27,7 @@ export class HomeComponent  {
       this.getScreenSize();
   }
 
-    @HostListener('window:resize', ['$event'])
+    @HostListener('window:resize', ['$event', `{ passive: true }`])
     getScreenSize(event?) {
           this.screenHeight = window.innerHeight;
           this.screenWidth = window.innerWidth;
@@ -99,14 +99,14 @@ public customOptions2: OwlOptions = {
     debounceDelay: 500, // the delay on debounce used while resizing window (advanced)
     once: false, // whether animation should happen only once - while scrolling down
     mirror: true, // whether elements should animate out while scrolling past them
-  
+
   });
   }
   @ViewChildren('boxElement') boxElements!: QueryList<ElementRef>;
   isVisible = false;
 
 
-  @HostListener('window:scroll', ['$event'])
+  @HostListener('window:scroll', ['$event', `{ passive: true }`])
   onViewportScroll(event: any): void {
     this.boxElements.forEach((boxElement) => {
       const observer = new IntersectionObserver((entries) => {
