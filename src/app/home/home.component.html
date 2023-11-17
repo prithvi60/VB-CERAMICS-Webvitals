@@ -13,8 +13,8 @@
   </script>
 <link rel="preload" fetchpriority="high" as="image" href="./assets/images/caro1.webp" type="image/webp">
   <script src="../resources/assets/bootstrap/js/bootstrap.min.js" defer></script>
-  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" >
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" >
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" rel="stylesheet">
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js">
@@ -25,7 +25,7 @@
   <script src="../resources/assets/bootstrap/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800;900&display=swap" rel="stylesheet"> -->
-  <!-- 
+  <!--
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
   <script src="../resources/assets/js/smoothproducts.min.js"></script>
   <script src="../resources/assets/js/theme.js"></script> -->
@@ -49,7 +49,7 @@
             <li class="nav-item">
               <a class="nav-link" [routerLink] ='["/library"]'>Library</a>
             </li>
-         
+
           <li class="nav-item">
             <a class="nav-link" [routerLink] ='["/gallery"]'>Gallery</a>
           </li>
@@ -152,7 +152,7 @@
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                   <button (mouseover)="changeImage7()" (mouseout)="changeImage7b()"  class="right-slide" id="right button" aria-label="Name1"><img loading="lazy" [src]="arrowimages[currentImageIndex7]" class="carousel-control-prev-icon" aria-hidden="true" src="./assets/images/arrow_cc.svg" alt="left arrow"></button>
                     <span class="sr-only">Previous</span>
-                
+
                 </a>
                 <a  class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                   <button (mouseover)="changeImage8()" (mouseout)="changeImage8b()" class="left-slide" id="left button" aria-label="Name2"><img loading="lazy" [src]="arrowimages2[currentImageIndex8]"  class="carousel-control-next-icon" aria-hidden="true" src="./assets/images/arrow_c.svg" alt="right arraow"></button>
@@ -160,7 +160,7 @@
                 </a>
 
               </div>
-             
+
             </div>
           </div>
         </div>
@@ -213,13 +213,13 @@
                 <div class="slider">
                   <img src="./assets/images/St.Josephs.svg" loading="lazy" fetchpriority="low" height="50" width="50" alt="14" /><span class='college' style="margin-left:10px">St.Joseph’s Inst.</span>
                 </div>
-                
+
               </div>
             </div>
 
-            <hr id="hr_tag" style='color:white'>     
+            <hr id="hr_tag" style='color:white'>
           </div>
-          
+
           <div class="flex4" >
             <div class="card card1 numbers" style='width: 32%;'>
             <img class='flex-items4' style="border-radius:20px" src="./assets/images/Frame 110 (1).webp" alt="">
@@ -228,7 +228,7 @@
                 <span class="numbers__window">
                     <span data-aos="new-animation" #boxElement class="numbers__window__digit numbers__window__digit--1" data-fake="8642519073">9</span>
                 </span>
-                
+
                 <span class="numbers__window">
                     <span data-aos="new-animation" #boxElement class="numbers__window__digit numbers__window__digit--3" data-fake="8395216407">9</span>
                 </span>
@@ -250,7 +250,7 @@
                   </span>
                   <span class="dot_num">
                     <span  #boxElement  data-aos-mirror="true" class="" data-fake="8642519.73">.</span>
-                </span>        
+                </span>
                   <span class="numbers__window">
                       <span   #boxElement data-aos-mirror="true" class="numbers__window__digit numbers__window__digit--2" data-fake="8395216407">0</span>
                   </span>
@@ -412,7 +412,7 @@
               </tbody>
             </table>
           </div>
-          
+
           <div *ngIf="screenWidth <= 649"  class="flex6">
             <table>
               <caption style='cursor: pointer;' [routerLink]='["/service"]'>View All <span><img src="./assets/images/Vector.svg" alt=""></span></caption>
@@ -517,7 +517,7 @@
         </div>
       </div>
       <hr style="color:white;" class="hr_tag">
-  
+
       <div id="accordion">
   <div class="card" style="margin-bottom: 20px;">
     <div class="card-header" id="headingOne">
@@ -709,8 +709,8 @@
         </div>
     </ng-template>
 
-  </owl-carousel-o>     
-  <hr id="hr_tag" style='color:white'>      
+  </owl-carousel-o>
+  <hr id="hr_tag" style='color:white'>
 </div>
 
 
