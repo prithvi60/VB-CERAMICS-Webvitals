@@ -10,14 +10,14 @@ export class AboutComponent {
   // Set the initial state of the menu
   public showMenu: boolean = false;
   public lastSectionID: string;
-  
+
   windowScrolled: boolean;
   constructor(@Inject(DOCUMENT) private document: Document) {}
-  @HostListener("window:scroll", [])
+  @HostListener("window:scroll", [ `{ passive: true }`])
   onWindowScroll() {
       if (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop > 100) {
           this.windowScrolled = true;
-      } 
+      }
      else if (this.windowScrolled && window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop < 10) {
           this.windowScrolled = false;
       }
@@ -30,7 +30,7 @@ export class AboutComponent {
           }
       })();
     }
-  
+
   scrollToSection(sectionId: string): void {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -52,7 +52,7 @@ export class AboutComponent {
       document.querySelector(".menu-btn");
     let menu =
       document.querySelector(".menu");
-    if (!this.showMenu) { 
+    if (!this.showMenu) {
       menuBtn.classList.add("close");
       menu.classList.add("show");
       window.scrollTo(0, 0);
@@ -69,10 +69,10 @@ export class AboutComponent {
   zoom(): void {
     var imageId = document.getElementById('fellowship_img');
     imageId.classList.toggle('zoomed');
-    
+
       // var div = document.getElementById('section5_images1');
       // div.classList.add('overlay');
-     
+
   }
 
   ourGroups(param : any){
@@ -145,7 +145,7 @@ export class AboutComponent {
   public academic_activity_li1: string = `VBCC jointly Organized a TWO DAY UGC SPONSORED NATIONAL CONFERENCE ON NANOSCIENCE - A Multidisciplinary Approach on 10th & 11th FEBRUARY, 2016 at the Department of Electronics at the Mount Carmel College (Autonomous) Bengaluru.`;
   public academic_activity_li2: string = `VBCC jointly conducted a THIRD INTERNATIONAL WORKSHOP ON ADVANCED FUNCTIONAL NANOMATERIALS (TIWAN-2015) during 16th to 18th December, 2015 at Centre for Nanoscience & Technology, Anna University, Chennai.`;
   public academic_activity_li3: string = `VBCC jointly organized a Three Day International Conference on Advances in Materials, Manufacturing and Applications (AMMA 2015) during April 9th-11th April 2015 at the Department of Metallurgical and Materials Engineering, National Institute of Technology, Tiruchirappalli.`;
- 
+
   ngOnInit(): void {
   }
 
