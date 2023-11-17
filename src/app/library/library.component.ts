@@ -51,42 +51,42 @@ export class LibraryComponent implements OnInit{
 
   library = [
     {
-      img1: './assets/images/article1.jpeg',
+      img1: './assets/images/article1.webp',
       content: 'Quartz - Interesting Facts',
       topic:'Raw Material',
       library_id:1,
       routing : "quartz-interesting-facts"
     },
     {
-      img1: './assets/images/article2.jpeg',
+      img1: './assets/images/article2.webp',
       topic:'Raw Material',
       content: 'Agate and It’s Importance',
       library_id:2,
       routing : "agate-importance"
     },
     {
-      img1: './assets/images/article3.jpeg',
+      img1: './assets/images/article3.webp',
       topic:'Raw Material',
       content: "Graphite’s Impact in Industries",
       library_id:3,
       routing : 'graphite-impact-in-industries'
     },
     {
-      img1: './assets/images/article4.jpeg',
+      img1: './assets/images/article4.webp',
       topic:'Thermal Testing ',
       content: 'Thermal Dynamics with Precision (Dilatometer)',
       library_id:4,
       routing : "thermal-dynamic-with-precision"
     },
     {
-      img1: '../../assets/gloveBox.png',
+      img1: '../../assets/gloveBox.webp',
       topic:'Material Preparation',
       content: 'Glove Boxes for Scientific Advancement',
       library_id:5,
       routing : 'glove-boxes-for-scientific-advancement'
     },
     {
-      img1: './assets/images/article6.jpeg',
+      img1: './assets/images/article6.webp',
       topic:'Heat treatment facility',
       content: 'Working Principle of Hot Air Oven',
       library_id:6,
