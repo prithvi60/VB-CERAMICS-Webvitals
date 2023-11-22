@@ -21,6 +21,7 @@ import * as $ from 'jquery';
 })
 
 export class HomeComponent  {
+
   screenHeight: number;
   screenWidth: number;
     constructor() {
