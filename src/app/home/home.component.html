@@ -89,12 +89,12 @@
                 <img id='caroimg' class="d-block w-100" src="./assets/images/caro1.webp"  fetchpriority="high" alt="First slide" >
                 <div class="carousel-caption  d-md-block">
                   <div class="fixed-top">
-                    <h4 class="fixed-top-head">Pure research</h4>
+                    <h3 class="fixed-top-head">Pure research</h3>
                     <h3 id="paraoneofcaro1" class="fixed-top-head">Excellence</h3>
                     <p class="item_p">At VBCRC, Research Excellence is our guiding principle, fuelling innovation and driving impactful discoveries.</p>
                   </div>
                   <div class='buttonFlex'>
-                    <button id='car_button_1' (click)="scrollToSection('exploreService')"><span>Explore Services</span> <span class="btnExplore"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                    <button id='car_explore_1' (click)="scrollToSection('exploreService')"><span>Explore Services</span> <span class="btnExplore"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
                       <path d="M-6.99382e-07 16C0.741999 16 1.85 16.733 2.78 17.475C3.98 18.429 5.027 19.569 5.826 20.876C6.425 21.856 7 23.044 7 24M7 24C7 23.044 7.575 21.855 8.174 20.876C8.974 19.569 10.021 18.429 11.219 17.475C12.15 16.733 13.26 16 14 16M7 24L7 3.0598e-07" stroke="white" stroke-width="2"/>
                       </svg></span></button>
                     <button id='car_button_2'  [routerLink]='["/contact"]'>Contact Us</button>
@@ -110,7 +110,7 @@
                     <p class="item_p">Through relentless inquiry, ground breaking investigations, and collaborative spirit, we strive to push the boundaries of human understanding and shape a brighter future for all</p>
                   </div>
                   <div class='buttonFlex'>
-                   <button id='car_button_1' (click)="scrollToSection('exploreService')"><span>Explore Services</span> <span class="btnExplore"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                   <button id='car_explore_2' (click)="scrollToSection('exploreService')"><span>Explore Services</span> <span class="btnExplore"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
                     <path d="M-6.99382e-07 16C0.741999 16 1.85 16.733 2.78 17.475C3.98 18.429 5.027 19.569 5.826 20.876C6.425 21.856 7 23.044 7 24M7 24C7 23.044 7.575 21.855 8.174 20.876C8.974 19.569 10.021 18.429 11.219 17.475C12.15 16.733 13.26 16 14 16M7 24L7 3.0598e-07" stroke="white" stroke-width="2"/>
                     </svg></span></button>
                     <button id='car_button_3'  [routerLink]='["/contact"]'>Contact Us</button>
@@ -126,7 +126,7 @@
                     <p class="item_p">Our unwavering commitment to rigorous inquiry and pioneering methodologies ensures that we consistently deliver research of the highest calibre.</p>
                   </div>
                   <div class='buttonFlex'>
-                   <button id='car_button_1' (click)="scrollToSection('exploreService')"><span>Explore Services</span> <span class="btnExplore"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
+                   <button id='car_explore_3' (click)="scrollToSection('exploreService')"><span>Explore Services</span> <span class="btnExplore"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24" fill="none">
                     <path d="M-6.99382e-07 16C0.741999 16 1.85 16.733 2.78 17.475C3.98 18.429 5.027 19.569 5.826 20.876C6.425 21.856 7 23.044 7 24M7 24C7 23.044 7.575 21.855 8.174 20.876C8.974 19.569 10.021 18.429 11.219 17.475C12.15 16.733 13.26 16 14 16M7 24L7 3.0598e-07" stroke="white" stroke-width="2"/>
                     </svg></span></button>
                     <button id='car_button_4'  [routerLink]='["/contact"]'>Contact Us</button>
@@ -524,7 +524,7 @@
       <h5 (click)="changeImage()" style="align-items: center;"  class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
         <img class='facimg' src="./assets/images/Frame 132.png" alt="fimg1" width="60px" height="60px">
         <div>
-          <h2 class='acctext1'>Advanced Material Synthesis</h2>
+          <p class='acctext1'>Advanced Material Synthesis</p>
           <p class='acctext2'>Materials Science</p>
         </div>
         <button (click)="changeImage9()" style="margin-left:auto" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="down Arrow1" aria-label="Name3">
@@ -544,7 +544,7 @@
       <h5 style="align-items: center;" (click)="changeImage2()"  class="mb-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         <img src="./assets/images/Frame 132 (1).png" fetchpriority="low" alt="fimg1" width="60px" height="60px"class='facimg'>
         <div>
-          <h2 class='acctext1'>Nano Materials</h2>
+          <p class='acctext1'>Nano Materials</p>
           <p class='acctext2'>Nanotechnology</p>
         </div>
         <button (click)="changeImage10()" aria-label="Name4" id="down Arrow2" style="margin-left:auto" class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -564,7 +564,7 @@
       <h5 style="align-items: center;" (click)="changeImage3()"  class="mb-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
         <img src="./assets/images/Frame 132 (2).png" fetchpriority="low" alt="fimg1" width="60px" height="60px"class='facimg'>
         <div>
-          <h2 class='acctext1'>Sanitaryware as per IS</h2>
+          <p class='acctext1'>Sanitaryware as per IS</p>
           <p class='acctext2'>Manufacturing and Materials Science</p>
         </div>
         <button (click)="changeImage11()" aria-label="Name5" style="margin-left:auto" id="down Arrow3" class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -584,7 +584,7 @@
       <h5 style="align-items: center;" (click)="changeImage4()"  class="mb-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
         <img src="./assets/images/Frame 132 (3).png" fetchpriority="low" alt="fimg1" width="60px" height="60px"class='facimg'>
         <div>
-          <h2 class='acctext1'>Refractories as per IS</h2>
+          <p class='acctext1'>Refractories as per IS</p>
           <p class='acctext2'>Manufacturing and Industrial Processes</p>
         </div>
         <button (click)="changeImage12()" aria-label="Name6" style="margin-left:auto" id="down Arrow4" class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -604,7 +604,7 @@
       <h5 style="align-items: center;" (click)="changeImage5()"  class="mb-0" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
         <img src="./assets/images/Frame 132 (4).png" fetchpriority="low" alt="fimg1" width="60px" height="60px" class='facimg'>
         <div>
-          <h2 class='acctext1'>Ceramic Tiles as per IS</h2>
+          <p class='acctext1'>Ceramic Tiles as per IS</p>
           <p class='acctext2'>Materials Science, Codes and Standards</p>
         </div>
         <button (click)="changeImage13()" aria-label="Name7" style="margin-left:auto" id="down Arrow5" class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -624,7 +624,7 @@
       <h5 style="align-items: center;" (click)="changeImage6()"  class="mb-0" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
         <img src="./assets/images/Frame 132 (5).png" alt="fimg1" width="60px" height="60px" class='facimg'>
         <div>
-          <h2 class='acctext1'> Advanced Characterization</h2>
+          <p class='acctext1'> Advanced Characterization</p>
           <p class='acctext2'>Spectroscopy, Surface Analysis</p>
         </div>
         <button (click)="changeImage14()" aria-label="Name8" style="margin-left:auto" id="down Arrow6" class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
