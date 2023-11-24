@@ -79,7 +79,7 @@ public customOptions2: OwlOptions = {
   autoplayHoverPause:true,
   nav: true,
   // stagePadding: 0,
-  navText: ["<img src='./assets/images/arrow_cc.svg' alt='leftArrow1'>","<img src='./assets/images/arrow_c.svg' alt='leftArrow2'>"],
+  navText: ["<img src='./assets/images/arrow_cc.svg' width='50px' height='50px' alt='leftArrow1'>","<img src='./assets/images/arrow_c.svg' width='50px' height='50px' alt='leftArrow2'>"],
 
   responsive: {
     0:{
@@ -93,7 +93,7 @@ public customOptions2: OwlOptions = {
     },
 }
   };
-
+  private worker!: Worker;
   ngOnInit(): void
   {
   AOS.init({
@@ -102,7 +102,12 @@ public customOptions2: OwlOptions = {
     mirror: true, // whether elements should animate out while scrolling past them
 
   });
+  this.worker = new Worker(new URL('../performanceboost.worker', import.meta.url));
+  this.worker.postMessage('Hello!');
   }
+  ngOnDestroy(){
+this.worker.terminate();
+}
   @ViewChildren('boxElement') boxElements!: QueryList<ElementRef>;
   isVisible = false;
 
