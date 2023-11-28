@@ -32,7 +32,7 @@ export class ServiceComponent {
     this.filteredList =new MatTableDataSource(this.service);
     this.filteredSelector =new MatTableDataSource(this.service);
   }
-  
+
   service = [
     {
       service_id: 1,
@@ -62,7 +62,7 @@ export class ServiceComponent {
       header : 'Sophisticated Instruments',
       heading : 'Scanning Electron Microscope (SEM)(3 Images)',
       description : 'It is an instrument that produces a largely magnified image by using electrons instead of light to form an image',
-      students : '₹1000 - Students', 
+      students : '₹1000 - Students',
       industries : '₹2000 - Industries',
       isShown : this.isSophisticated,
       routing : "scanning-electron-microscope-sem"
@@ -338,7 +338,7 @@ export class ServiceComponent {
     },
     {
       service_id: 29,
-      img: '../../assets/gloveBox.webp',
+      img: '../../assets/gloveBox.png',
       header : 'Material preparation',
       heading : 'Glove Box',
       description : 'A glovebox is a sealed container that is designed to allow one to manipulate objects where a separate atmosphere is desired.',
@@ -725,7 +725,7 @@ export class ServiceComponent {
       document.getElementById('castingText').classList.remove('white');
   }
 
- 
+
   all() {
     this.isAllServices = !this.isAllServices ? true: false;
     if(this.isAllServices) {
@@ -811,7 +811,7 @@ export class ServiceComponent {
     this.isNanoCoating = !this.isNanoCoating ? true: false;
     if(this.isNanoCoating) {
       document.getElementById('nano').classList.add('green');
-      document.getElementById('nanoText').classList.add('white'); 
+      document.getElementById('nanoText').classList.add('white');
     } else {
       document.getElementById('nano').classList.remove('green');
       document.getElementById('nanoText').classList.remove('white');
@@ -845,11 +845,11 @@ export class ServiceComponent {
       window.location.href = 'paste a facebook URL here';
     }
   }
-  
+
   toggleMenu(): void {
     let menuBtn =
       document.querySelector(".menu-btn");
-    if (!this.showMenu1) { 
+    if (!this.showMenu1) {
       menuBtn.classList.add("close");
       // Reset the menu state
       this.showMenu1 = true;

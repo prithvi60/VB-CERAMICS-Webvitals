@@ -2429,4 +2429,7 @@ tfoot > tr > td {
     bottom: 10px; /* Adjust this value for smaller screens */
     right: 10px; /* Adjust this value for smaller screens */
   }
+  #car_explore_1, #car_explore_2, #car_explore_3, #car_explore_4{
+    display: none;
+  }
 }

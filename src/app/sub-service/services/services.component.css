@@ -10,7 +10,7 @@
 }
 
 .nav-link {
-  display: flex;                         
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px 15px !important;
@@ -33,7 +33,7 @@
 .navbar-toggler {
   border: unset;
   box-shadow: unset;
-} 
+}
 .navbar-toggler img {
   width: 30px;
   height: 30px;
@@ -243,7 +243,7 @@ font-weight: 700;
 line-height: 150%; /* 48px */
 flex: 1 0 0;
 }
-  
+
 .service_cnt_btn {
   display: flex;
   align-items: flex-end;
@@ -302,7 +302,7 @@ line-height: 170%; /* 34px */
 }
 /* table, td, th {
   border: 1px solid #B9B9B9;
-  
+
 } */
 td {
  padding: 1% 2%;
@@ -333,7 +333,7 @@ table{
  table td:not(:last-child) {
   border-right: 1px solid #B9B9B9;
  }
- 
+
  /* Apply a border to the bottom of all but the last row */
  table>thead>tr:not(:last-child)>th,
  table>thead>tr:not(:last-child)>td,
@@ -402,7 +402,7 @@ line-height: 30px; /* 187.5% */
 
 .card10 li:hover {
   padding-left: 30px;
-  transition: 0.2s; 
+  transition: 0.2s;
 }
 
 .footer_img {
@@ -443,6 +443,13 @@ line-height: 30px; /* 187.5% */
   width: 1px;
   height: 26px;
 }
+/* List style */
+.number{
+  list-style: decimal;
+}
+.circle{
+  list-style-type: disc;
+}
 @media (max-width: 1320px) {
 
   .gall-para, .service_description, .sec2_top_sec, td, .btn-contact,.instruments_div {
@@ -460,7 +467,7 @@ line-height: 30px; /* 187.5% */
   .service_students, .service_industries {
     font-size: 27px;
   }
-}  
+}
 @media (max-width: 1100px) {
 
   .gall-para, .service_description, .sec2_top_sec, td, .btn-contact, .instruments_div {
@@ -656,5 +663,5 @@ line-height: 30px; /* 187.5% */
   .sec2_right {
     min-width: 320px;
  }
-  
+
 }
