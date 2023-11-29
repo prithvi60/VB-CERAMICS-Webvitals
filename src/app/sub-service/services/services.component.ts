@@ -125,15 +125,21 @@ export class ServicesComponent {
       para1 : "",
       para2 :`
           <p>X-ray diffraction (XRD) is a non-destructive method for analyzing matters ranging from liquids to crystals. This characterization method provides statistical information on interlayer multiple orientations of carbon nanomaterials. The parameters examined by this technique are structural strain, diameter, chirality distribution, and impurities in CNMs.</p>
-          <h2>Benchtop X-ray Diffractometer for Phase Analysis</h2>
+         <br>
+          <h4>Benchtop X-ray Diffractometer for Phase Analysis</h4>
           <p>New sixth generation MiniFlex benchtop X-ray diffractometer is a multipurpose powder diffraction analytical instrument that can determine: crystalline phase identification (phase ID) and quantification, percent (%) crystallinity, crystallite size and strain, lattice parameter refinement, Rietveld refinement, and molecular structure. It is widely used in research, especially in material science and chemistry, as well as in industry for research and quality control. It is the newest addition to the MiniFlex series of benchtop X-ray diffraction analyzers from Rigaku, which began with the introduction of the original MiniFlex XRD system decades ago.</p>
-          <h2>X-ray Powder Diffraction with HPAD Detector</h2>
+
+         <br>
+          <h4>X-ray Powder Diffraction with HPAD Detector</h4>
           <p>MiniFlex XRD system delivers speed and sensitivity through innovative technology advances, including the HyPix-400 MF 2D hybrid pixel array detector (HPAD) together with an available 600 W X-ray source and new 8-position automatic sample changer.</p>
-          <h2>Hybrid Pixel Array Detector (HPAD)</h2>
+          <br>
+          <h4>Hybrid Pixel Array Detector (HPAD)</h4>
           <p>This new direct photon counting detector enables high-speed, low-noise data collection and may be operated in 0D and 1D modes for conventional XRD analysis and 2D mode for samples with coarse grain size and/or preferred orientation.</p>
-          <h2>XRD Accessories Enhance Your MiniFlex</h2>
+          <br>
+          <h4>XRD Accessories Enhance Your MiniFlex</h4>
           <p>A variety of X-ray tube anodes – along with a range of sample rotation and positioning accessories, together with a variety of temperature attachments – are offered to ensure that the MiniFlex X-ray diffraction (XRD) system is versatile enough to perform challenging qualitative and quantitative analyses of a broad range of samples, whether performing research or routine quality control. The new (Gen 6) MiniFlex X-ray diffractometer system embodies the Rigaku philosophy of “Leading with Innovation” by offering the world’s most advanced benchtop system for powder diffractometry.</p>
-          <h2>Advanced Powder Diffraction Software</h2>
+          <br>
+          <h4>Advanced Powder Diffraction Software</h4>
           <p>Each MiniFlex comes standard with the latest version of SmartLab Studio-II, Rigaku's full-function powder diffraction analysis package. The latest version offers important new functionality; including a fundamental parameter method (FP) for more accurate peak calculation, phase identification using the Crystallography Open Database (COD), and a wizard for ab inito crystal structure analysis.</p>
 
 
@@ -153,79 +159,34 @@ export class ServicesComponent {
       industries : '₹2000 - Industries',
       para1 : "",
       para2 : `
-    <p>X-ray fluorescence (XRF) is a non-destructive analytical technique that has revolutionized material analysis by enabling the determination of elemental compositions. XRF analyzers utilize a primary X-ray source to excite a sample, measuring the emitted fluorescent X-rays to provide insights into a material's chemistry.</p>
+          <p>A non-destructive analytical technique revolutionizing material analysis by determining elemental compositions. Utilizing a primary X-ray source to excite a sample, XRF analyzers measure the emitted fluorescent X-rays, providing insights into a material's chemistry.</p>
 
-    <h2>Key Features</h2>
+          <br>
+          <h4>Key Features:</h4>
+          <ul>
+              <li>Non-destructive Analysis: Requires minimal sample preparation, allowing subsequent measurements by other techniques if needed.</li>
+              <li>Maximum Sensitivity: Employs a thin window Ag anode X-ray tube for high sensitivity, ensuring accuracy with a 50 kV X-ray tube ideal for heavier elements.</li>
+              <li>Easy Communication: Equipped with USB and network connections for seamless integration with computer peripherals, facilitating extended use and application development.</li>
+              <li>Atmospheric Variations: Built-in sensors compensate for air-pressure and temperature variations, ensuring consistent results regardless of weather conditions.</li>
+              <li>Spillage Protection: Incorporates a spillage protection foil, easily replaceable by the operator in case of accidents.</li>
+          </ul>
 
-    <ul>
-        <li>
-            <h3>Non-destructive Analysis</h3>
-            <p>XRF analysis requires minimal sample preparation, allowing for subsequent measurements by other techniques if needed.</p>
-        </li>
-        <li>
-            <h3>Maximum Sensitivity</h3>
-            <p>XRF analyzers employ a thin window Ag anode X-ray tube for high sensitivity, ensuring accuracy with a 50 kV X-ray tube ideal for heavier elements.</p>
-        </li>
-        <li>
-            <h3>Easy Communication</h3>
-            <p>XRF analyzers are equipped with USB and network connections for seamless integration with computer peripherals, facilitating extended use and application development.</p>
-        </li>
-        <li>
-            <h3>Environmental Compensation</h3>
-            <p>XRF analyzers incorporate built-in sensors that compensate for air-pressure and temperature variations, ensuring consistent results regardless of weather conditions.</p>
-        </li>
-        <li>
-            <h3>Spillage Protection</h3>
-            <p>XRF analyzers feature a spillage protection foil, easily replaceable by the operator in case of accidents.</p>
-        </li>
-    </ul>
+          <br>
+          <h4>Applications:</h4>
+          <ul>
+              <li>Mining and Minerals: Quantification of rocks, ores, and drill cores; standardless analysis for mineral quantification.</li>
+              <li>Metals: Coating inspection, positive material identification, elemental quantification of slags.</li>
+              <li>Petrochemicals: Sulfur quantification in fuels, compliant performance for ASTM D6481, ISO, and JIS test methods.</li>
+              <li>Food: Rapid quantification of nutrients, process control in food production, accurate quantification of milk powder.</li>
+              <li>Building Materials: On-site quality control of cement and clinker, screening of alternative fuels and raw materials.</li>
+              <li>Academia: Versatile instrument suitable for various sample types, ideal for education with pre-calibrated Academia solution.</li>
+              <li>Pharmaceuticals: Accelerated process development, FDA compliance with Enhanced Data Security software, efficient raw material inspection.</li>
+              <li>Environmental: In-field identification of contaminated soils, analysis of inorganic compounds on air filters, quick wastewater analysis.</li>
+              <li>Plastics and Polymers: RoHS-3 analysis, detailed analysis of heterogeneous samples, unique CRM solutions for polyethylene.</li>
+          </ul>
 
-    <h2>Applications</h2>
+          <p>This concise overview encapsulates the versatility and efficiency of XRF in diverse industries, making it a transformative tool for elemental analysis.</p>
 
-    <p>XRF's versatility extends to a wide range of industries, including:</p>
-
-    <ul>
-        <li>
-            <h3>Mining and Minerals</h3>
-            <p>XRF is used for the quantification of rocks, ores, and drill cores, enabling standardless analysis for mineral quantification.</p>
-        </li>
-        <li>
-            <h3>Metals</h3>
-            <p>XRF is applied for coating inspection, positive material identification, and elemental quantification of slags.</p>
-        </li>
-        <li>
-            <h3>Petrochemicals</h3>
-            <p>XRF is used for sulfur quantification in fuels, offering compliant performance for ASTM D6481, ISO, and JIS test methods.</p>
-        </li>
-        <li>
-            <h3>Food</h3>
-            <p>XRF facilitates rapid quantification of nutrients, process control in food production, and accurate quantification of milk powder.</p>
-        </li>
-        <li>
-            <h3>Building Materials</h3>
-            <p>XRF is employed for on-site quality control of cement and clinker, as well as for screening of alternative fuels and raw materials.</p>
-        </li>
-        <li>
-            <h3>Academia</h3>
-            <p>XRF's versatility makes it suitable for various sample types, with a pre-calibrated Academia solution ideal for educational purposes.</p>
-        </li>
-        <li>
-            <h3>Pharmaceuticals</h3>
-            <p>XRF is used for accelerated process development, FDA compliance with Enhanced Data Security software, and efficient raw material inspection.</p>
-        </li>
-        <li>
-            <h3>Environmental</h3>
-            <p>XRF facilitates in-field identification of contaminated soils, analysis of inorganic compounds on air filters, and quick wastewater analysis.</p>
-        </li>
-        <li>
-            <h3>Plastics and Polymers</h3>
-            <p>XRF is applied for RoHS-3 analysis, detailed analysis of heterogeneous samples, and offers unique CRM solutions for polyethylene.</p>
-        </li>
-    </ul>
-
-    <h2>Conclusion</h2>
-
-    <p>This concise overview highlights the versatility and efficiency of XRF in diverse industries, making it a transformative tool for elemental analysis. XRF's non-destructive nature, high sensitivity, and wide range of applications make it an essential tool for material characterization and quality control.</p>
 
       `,
       para3 :"",
@@ -245,73 +206,47 @@ export class ServicesComponent {
       industries : '₹2000 - Industries',
       para1 : "",
       para2 : `
-          <p>The Scanning Electron Microscope (SEM) is a sophisticated instrument that utilizes electrons instead of light to generate highly magnified images of materials. It provides invaluable insights into the surface topography and composition of samples, enabling researchers and scientists to study materials at the nanoscale.</p>
+    <p>The Scanning Electron Microscope (SEM) is an instrument that produces a largely magnified image by using electrons instead of light to form an image. The electrons interact with atoms in the sample, producing various signals that contain information about the surface topography and composition of the sample.</p>
 
-          <h2>Equipment Features</h2>
+    <h4>Equipment Features</h4>
+    <p>Benchtop Scanning Electron Microscope. Intuitive operation is achieved via touch panel and new operation screens. The low vacuum mode is included in the standard configuration, and EDS can be installed, offering a truly multi-functional benchtop SEM</p>
+        <h4 >Compact benchtop SEM</h4>
+        <ul>
+        <li>Compact size of 325 mm (W) × 490 mm (D) × 430 mm (H)</li>
+        <li>Sleek exterior design</li>
+        <li>External appearance does not change even when EDS is installed</li>
+        </ul>
+        <h4>Intuitive operation</h4>
+        <ul>
+        <li>Designed with easy-to-understand controls and operation screens</li>
+        <li>Touch panels are adopted to provide more intuitive operation</li>
+        <li>A wealth of functions</li>
+        <li>High and Low vacuum modes are standard</li>
+        <li>Length measurement functions are also standard</li>
+        <li>Tilt & rotation motor-driven holder can be installed (option)</li>
+        <li>EDS (elemental analysis device) can be installed (option)</li>
+        </ul>
+        <h4>Quick response</h4>
+        <ul>
+        <li>Images can be displayed 3 minutes after the instrument is started</li>
+        <li>One-touch switching between High vacuum and Low vacuum modes</li>
+        <li>Easy maintenance with a one-piece grid</li>
+        </ul>
 
-          <h3>JCM-6000Plus Benchtop SEM</h3>
+    <br>
 
-          <p>The JCM-6000Plus benchtop SEM is a versatile and user-friendly instrument that offers a range of features for comprehensive material analysis:</p>
+    <h4>Application JCM-6000Plus</h4>
+    <br>
+    <h5>Lithium Ion Battery Note</h5>
+    <p>The applications for lithium ion batteries (LIB) cover a wide range, from power sources for personal computers and mobile devices to automobiles, and there is always a demand for even better performance and safety. To ensure the performance and quality of LIB, analysis and evaluation using high-performance assessment systems is necessary. This LIB note offers characteristic comparisons and application examples of lithium ion battery material assessment which satisfies such needs.</p>
+    <br>
+    <h5>High Angle Backscattered Electrons and Low Angle Backscattered Electrons</h5>
+    <p>Backscattered electrons emitted from a sample can be captured at angles that are closer to the direction of incident electrons (high takeoff angle) or are farther from the incident electrons (low takeoff angle) by changing the position of the backscattered electron detector. The former is called high angle backscattered electrons, while the latter low angle backscattered electrons. Each provides different types of information.</p>
+<br>
+    <h5>Backscattered Electrons</h5>
+    <p>When a beam of electrons is projected onto the surface of a solid sample, many of the incident electrons will be scattered inside of the sample, resulting in repeated collisions with the atomic core and electrons that compose the sample, until they lose their energy inside the sample.</p>
 
-          <ul>
-              <li>
-                  <h3>Intuitive Operation</h3>
-                  <p>The SEM features a touch panel and intuitive operation screens for seamless control.</p>
-              </li>
-              <li>
-                  <h3>Multifunctional Capabilities</h3>
-                  <p>The low vacuum mode and optional EDS (elemental analysis device) expand the SEM's analytical capabilities.</p>
-              </li>
-              <li>
-                  <h3>Compact Design</h3>
-                  <p>The SEM's compact size (325 mm (W) × 490 mm (D) × 430 mm (H)) makes it a space-saving solution for laboratories.</p>
-              </li>
-              <li>
-                  <h3>Sleek Exterior</h3>
-                  <p>The SEM's sleek exterior design maintains its aesthetic appeal even with the addition of the EDS.</p>
-              </li>
-              <li>
-                  <h3>User-Friendly Interface</h3>
-                  <p>The SEM's easy-to-understand controls and operation screens enhance user experience.</p>
-              </li>
-              <li>
-                  <h3>Touch Panel Operation</h3>
-                  <p>Touch panels provide an intuitive and responsive interface for operating the SEM.</p>
-              </li>
-              <li>
-                  <h3>Wide Range of Functions</h3>
-                  <p>The SEM offers a comprehensive set of functions, including high and low vacuum modes, length measurement functions, and an optional motor-driven tilt & rotation holder.</p>
-              </li>
-              <li>
-                  <h3>Rapid Response</h3>
-                  <p>Images can be displayed within 3 minutes of starting the instrument, ensuring efficient analysis.</p>
-              </li>
-              <li>
-                  <h3>Seamless Mode Switching</h3>
-                  <p>One-touch switching between high vacuum and low vacuum modes simplifies operation.</p>
-              </li>
-              <li>
-                  <h3>Easy Maintenance</h3>
-                  <p>The one-piece grid facilitates easy maintenance, minimizing downtime.</p>
-              </li>
-          </ul>
-
-          <h2>Applications of Scanning Electron Microscopy</h2>
-
-          <p>The SEM's versatility extends to a wide range of applications, including:</p>
-
-          <h3>Lithium Ion Battery Material Assessment</h3>
-
-          <p>SEM plays a crucial role in the evaluation and optimization of lithium ion batteries (LIBs) for enhanced performance and safety. By analyzing the morphology, structure, and composition of LIB materials, researchers can gain critical insights into battery performance and potential failure mechanisms.</p>
-
-          <h3>High Angle Backscattered Electrons (HAB) vs. Low Angle Backscattered Electrons (LAB)</h3>
-
-          <p>The SEM's ability to detect backscattered electrons from different angles provides valuable information about sample composition. HAB images reveal atomic number contrast, while LAB images highlight surface topography.</p>
-
-          <h2>Conclusion</h2>
-
-          <p>The Scanning Electron Microscope (SEM) has revolutionized the field of material science by providing unparalleled insights into the microstructure of materials. Its versatility, ease of use, and wide range of applications make it an indispensable tool for researchers, scientists, and engineers across various disciplines.</p>
-      `,
+        `,
       routing : "scanning-electron-microscope-sem"
     },
     {
@@ -325,56 +260,52 @@ export class ServicesComponent {
       students : '₹1250 - Students',
       industries : '₹2500 - Industries',
       para1 : "",
-      para2 : `
-          <p>Scanning Electron Microscopy (SEM) is a powerful technique for examining the surface topography and composition of materials at the nanoscale. However, certain samples require preparation to optimize image quality and information acquisition. Sputter coating, a process that deposits a thin layer of electrically conductive material onto the sample surface, is a crucial step in SEM sample preparation for non-conductive materials.</p>
-
-          <h2>What is Sputter Coating?</h2>
-
-          <p>Sputter coating is a physical vapor deposition (PVD) technique that utilizes a plasma discharge to bombard target material (e.g., gold, platinum) with ions, dislodging atoms from the target and propelling them towards the sample surface. These sputtered atoms form a thin, uniform coating on the sample, enhancing its conductivity and preventing charging during SEM imaging.</p>
-
-          <h2>Benefits of Sputter Coating</h2>
-
-          <p>Sputter coating offers several advantages for SEM sample preparation:</p>
-
+      para2 :`
+      <p>The Scanning Electron Microscope (SEM) is an instrument that produces a largely magnified image by using electrons instead of light to form an image. The electrons interact with atoms in the sample, producing various signals that contain information about the surface topography and composition of the sample.</p>
+  <br>
+  <p>
+  Sputter coating for SEM is the process of applying an ultra-thin coating of electrically-conducting metal – such as gold (Au).
+  </p>
+  <br>
+      <h4>Equipment Features</h4>
+      <p>Benchtop Scanning Electron Microscope. Intuitive operation is achieved via touch panel and new operation screens. The low vacuum mode is included in the standard configuration, and EDS can be installed, offering a truly multi-functional benchtop SEM</p>
+          <h4 >Compact benchtop SEM</h4>
           <ul>
-              <li>
-                  <h3>Prevents Charging</h3>
-                  <p>Non-conductive samples tend to accumulate charge during electron bombardment in SEM, leading to image distortions and artifacts. Sputter coating provides a conductive path for electrons to dissipate, minimizing charging and improving image quality.</p>
-              </li>
-              <li>
-                  <h3>Enhances Secondary Electron Yield</h3>
-                  <p>Sputter coating increases the yield of secondary electrons, the signals that SEM detectors collect to form images. This improves image resolution and sensitivity, revealing finer details of the sample surface.</p>
-              </li>
-              <li>
-                  <h3>Protects the Sample</h3>
-                  <p>The sputtered coating acts as a protective layer, shielding the sample from potential damage caused by the electron beam during SEM imaging.</p>
-              </li>
+          <li>Compact size of 325 mm (W) × 490 mm (D) × 430 mm (H)</li>
+          <li>Sleek exterior design</li>
+          <li>External appearance does not change even when EDS is installed</li>
+          </ul>
+          <h4>Intuitive operation</h4>
+          <ul>
+          <li>Designed with easy-to-understand controls and operation screens</li>
+          <li>Touch panels are adopted to provide more intuitive operation</li>
+          <li>A wealth of functions</li>
+          <li>High and Low vacuum modes are standard</li>
+          <li>Length measurement functions are also standard</li>
+          <li>Tilt & rotation motor-driven holder can be installed (option)</li>
+          <li>EDS (elemental analysis device) can be installed (option)</li>
+          </ul>
+          <h4>Quick response</h4>
+          <ul>
+          <li>Images can be displayed 3 minutes after the instrument is started</li>
+          <li>One-touch switching between High vacuum and Low vacuum modes</li>
+          <li>Easy maintenance with a one-piece grid</li>
           </ul>
 
-          <h2>Applications of Sputter Coating</h2>
+      <br>
 
-          <p>Sputter coating is widely used in various fields, including:</p>
+      <h4>Application JCM-6000Plus</h4>
+      <br>
+      <h5>Lithium Ion Battery Note</h5>
+      <p>The applications for lithium ion batteries (LIB) cover a wide range, from power sources for personal computers and mobile devices to automobiles, and there is always a demand for even better performance and safety. To ensure the performance and quality of LIB, analysis and evaluation using high-performance assessment systems is necessary. This LIB note offers characteristic comparisons and application examples of lithium ion battery material assessment which satisfies such needs.</p>
+      <br>
+      <h5>High Angle Backscattered Electrons and Low Angle Backscattered Electrons</h5>
+      <p>Backscattered electrons emitted from a sample can be captured at angles that are closer to the direction of incident electrons (high takeoff angle) or are farther from the incident electrons (low takeoff angle) by changing the position of the backscattered electron detector. The former is called high angle backscattered electrons, while the latter low angle backscattered electrons. Each provides different types of information.</p>
+  <br>
+      <h5>Backscattered Electrons</h5>
+      <p>When a beam of electrons is projected onto the surface of a solid sample, many of the incident electrons will be scattered inside of the sample, resulting in repeated collisions with the atomic core and electrons that compose the sample, until they lose their energy inside the sample.</p>
 
-          <ul>
-              <li>
-                  <h3>Materials Science</h3>
-                  <p>Sputter coating is essential for examining a wide range of materials, including polymers, ceramics, semiconductors, and biological samples.</p>
-              </li>
-                  <h3>Electronics and Nanotechnology</h3>
-                  <p>Sputter coating is used to prepare thin films, microstructures, and nanostructures for SEM analysis.</p>
-              </li>
-                  <h3>Geology and Mineralogy</h3>
-                  <p>Sputter coating enhances SEM imaging of geological samples, minerals, and rocks.</p>
-              </li>
-                  <h3>Biology and Biotechnology</h3>
-                  <p>Sputter coating facilitates SEM analysis of biological tissues, cells, and microorganisms.</p>
-              </li>
-          </ul>
-
-          <h2>Conclusion</h2>
-
-          <p>Sputter coating plays a vital role in SEM sample preparation, particularly for non-conductive materials. By reducing charging, improving secondary electron yield, and protecting the sample, sputter coating ensures high-quality SEM images and accurate information extraction, making it an essential tool for researchers and scientists across various disciplines.</p>
-      `,
+          `,
       para3 : "",
       routing : "scanning-electron-microscope-sem-gold-sputtering"
     },
@@ -390,64 +321,40 @@ export class ServicesComponent {
       industries : '₹2000 - Industries',
       para1 : "",
       para2 : `
-          <p>In the realm of particle characterization, laser diffraction stands out as a powerful technique for determining particle size distributions. The HORIBA LA-960V2 Laser Scattering Particle Size Distribution Analyzer epitomizes this technology, offering exceptional precision and versatility for measuring particle sizes across a wide range of applications.</p>
+<p>
+Laser diffraction measures particle size distributions by measuring the angular variation in intensity of light scattered as a laser beam passes through a dispersed particulate sample. Large particles scatter light at small angles relative to the laser beam and small particles scatter light at large angles.
+</p>
+          <br>
+          <p>The HORIBA LA-960V2 Laser Scattering Particle Size Distribution Analyzer is a state-of-the-art instrument that employs laser diffraction to measure particle size distributions with exceptional precision. It utilizes the angular variation in light intensity scattered as a laser beam passes through a dispersed particulate sample. Large particles scatter light at small angles, while small particles scatter light at larger angles, allowing for accurate size determination.</p>
 
-          <h2>The Science Behind Laser Diffraction</h2>
+          <br>
+          <h4>Advanced Detector Design:</h4>
+          <p>The instrument features an advanced detector design where the number of detectors, angular range, and layout contribute to overall system performance.</p>
 
-          <p>At the heart of the LA-960V2 lies the principle of laser diffraction. As a laser beam illuminates a dispersed particulate sample, the light scattered by the particles exhibits an angular variation in intensity. This variation is directly related to particle size, with larger particles scattering light at smaller angles and smaller particles scattering light at larger angles.</p>
+          <br>
+          <h4>Superior Instrument-to-Instrument Precision:</h4>
+          <p>Designed for consistency, the LA-960V2 ensures the same user experience irrespective of the manufacture date, operator skill, or geographic location. It achieves unmatched instrument agreement without the need for correlation.</p>
 
-          <h2>Unveiling Particle Size Distributions with Precision</h2>
+          <br>
+          <h4>Automatic Laser Alignment in Seconds:</h4>
+          <p>With computer-controlled laser alignment, the LA-960V2 ensures perfect measurements. The innovative alignment process takes only a few seconds, streamlining the measurement procedure.</p>
 
-          <p>The LA-960V2 employs cutting-edge technology to capture and analyze the scattered light, providing accurate and reliable particle size distributions. Its advanced detector design, featuring multiple detectors, a wide angular range, and optimized layout, contributes to the instrument's exceptional performance.</p>
+          <br>
+          <h4>Guaranteed Accuracy and Precision:</h4>
+          <p>The LA-960V2 is a refined particle size analyzer capable of accurately measuring NIST-traceable size standards within 0.6% of specification. It fully complies with ISO 13320 recommendations for materials on the D10, D50, and D90.</p>
 
-          <h2>Key Features that Elevate Particle Size Analysis</h2>
+          <!-- Other content follows with similar formatting -->
 
-          <p>The LA-960V2 distinguishes itself with a range of advanced features that enhance its capabilities and user experience:</p>
+          <br>
+          <h4>LY-9610 Imaging Unit:</h4>
+          <p>The imaging unit allows real-time observation, particle image acquisition, and assessment of particles in the wet circulation system, enhancing understanding and analysis.</p>
 
-          <ul>
-              <li>
-                  <h3>Superior Instrument-to-Instrument Precision</h3>
-                  <p>Regardless of the instrument's manufacturing date, operator skill, or geographical location, the LA-960V2 consistently delivers unmatched instrument-to-instrument precision. This remarkable consistency eliminates the need for correlation studies, saving time and resources.</p>
-              </li>
-              <li>
-                  <h3>Automated Laser Alignment in Seconds</h3>
-                  <p>The LA-960V2 streamlines the measurement process with its computer-controlled laser alignment, ensuring perfect alignment in just a few seconds. This automation eliminates time-consuming manual alignment procedures and enhances measurement accuracy.</p>
-              </li>
-              <li>
-                  <h3>Guaranteed Accuracy and Precision</h3>
-                  <p>The LA-960V2 sets the benchmark for particle size analysis accuracy and precision. It consistently measures NIST-traceable size standards within 0.6% of specification and fully complies with ISO 13320 recommendations for D10, D50, and D90 particle size measurements.</p>
-              </li>
-              <li>
-                  <h3>State-of-the-Art Sampling Systems for Diverse Applications</h3>
-                  <p>The LA-960V2 caters to a wide range of applications with its versatile sampling systems:</p>
+          <br>
+          <h4>Features and Functions:</h4>
+          <p>Detect and count trace amounts of unusual particles, detect bubbles in the wet circulation system, and gain improved understanding of sample dispersion. Optional advanced software allows for particle shape analysis.</p>
 
-                  <p>**Wet Measurement:** The wet circulation system facilitates sample-to-sample analysis in less than 60 seconds, ensuring rapid and efficient measurements. It features a comprehensive set of components, including a dispersant fill pump, liquid level sensor, circulation pump, ultrasonic probe, and drain valve, all software-controlled for seamless operation.</p>
-
-                  <p>**Dry Measurement:** The LA-960V2 PowderJet tackles the challenges of dry powder measurement with its automated and powerful dispersion capabilities. It combines patented features and the Auto Measurement function to provide precise control over dispersion parameters. This system effectively handles applications involving small sample amounts, friable powders, and highly agglomerated materials.</p>
-
-              </li>
-              <li>
-                  <h3>Smart Scans – Trigger Function for Precise Measurements</h3>
-                  <p>For limited or low-flowability samples, the Trigger function ensures accurate measurements by precisely starting and stopping the measurement process. This feature proves particularly useful in applications where precise timing is crucial.</p>
-              </li>
-              <li>
-                  <h3>Self-Adjusting Powder Flow for Consistent Results</h3>
-                  <p>The LA-960V2 PowderJet addresses the challenges of maintaining consistent powder flow during dry powder measurements. It employs a self-adjusting feedback loop that maintains a constant laser transmittance, ensuring reliable and reproducible results.</p>
-              </li>
-              <li>
-                  <h3>LY-9610 Imaging Unit for Real-time Observation and Analysis</h3>
-                  <p>The optional LY-9610 Imaging Unit enhances particle-level understanding by providing real-time observation and particle image acquisition. It allows users to assess particles in the wet circulation
-
-                  <p>Features and Functions:</p>
-
-                  <ul>
-                      <li>Detect and count trace amounts of unusual particles.</li>
-                      <li>Detect bubbles in the wet circulation system.</li>
-                      <li>Gain improved understanding of sample dispersion.</li>
-                      <li>Optional advanced software allows for particle shape analysis.</li>
-                  </ul>
-
-                  <p>In summary, the HORIBA LA-960V2 combines advanced technology, precision, and user-friendly features, making it a versatile and reliable solution for particle size analysis across diverse applications.</p>
+          <br>
+          <p>In summary, the HORIBA LA-960V2 combines advanced technology, precision, and user-friendly features, making it a versatile and reliable solution for particle size analysis across diverse applications.</p>
 
 
       `,
@@ -468,7 +375,7 @@ export class ServicesComponent {
       para2 : `
           <p>A Dilatometer, a sophisticated thermo-analytical instrument, serves as a crucial tool for measuring the thermal expansion or contraction of various materials under specific controlled temperature-time programs. Equipped with a high-resolution linear variable differential transformer (LVDT) measuring system, it ensures precise digital measurements.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Digital Measurement:</p>
           <p>The Dilatometer employs a high-resolution LVDT measuring system (1-micrometer accuracy) to digitally measure thermal expansion or contraction.</p>
           <p>Computer Integration:</p>
@@ -476,11 +383,11 @@ export class ServicesComponent {
           <p>Online Graph Plotting:</p>
           <p>Labview software is utilized to plot an online graph illustrating the relationship between temperature and the percentage of total expansion.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Diverse Material Testing:</p>
           <p>Dilatometry finds application in testing a diverse range of materials, including traditional and advanced ceramics, glasses, metals, and polymers.</p>
 
-          <h2>Key Features:</h2>
+          <h4>Key Features:</h4>
           <p>Maximum Temperature Capability:</p>
           <p>The Dilatometer is designed to operate at temperatures up to 1000°C, allowing for testing under high-temperature conditions.</p>
           <p>Sample Size Flexibility:</p>
@@ -488,7 +395,7 @@ export class ServicesComponent {
           <p>Thermal Expansion Insights:</p>
           <p>Provides critical insights into the thermal expansion behavior of materials, aiding in material characterization and performance prediction.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Precision in Measurements:</p>
           <p>The LVDT measuring system ensures high precision, with a resolution of 1 micrometer, leading to accurate thermal expansion measurements.</p>
           <p>Real-time Graphical Representation:</p>
@@ -520,40 +427,48 @@ export class ServicesComponent {
       industries : '₹4000 - Industries',
       para1 : "",
       para2 :`
-          <h1>Brunauer-Emmett-Teller (BET) Analysis: A Powerful Tool for Surface Area and Porosity Characterization</h1>
+    <p>Brunauer-Emmett-Teller (BET) Analysis is a crucial physical characterization technique offering quantitative insights into the specific surface area and porosity distribution of solid materials. Applicable to diverse matrices, from catalyst powders to monolithic materials, BET analysis plays a vital role in understanding a material's physical properties.</p>
+<br>
+    <h4>Use Cases:</h4>
+    <p>BET analysis finds widespread application across various industries and material types. It is notably used in catalyst research, pharmaceuticals, nanomaterials, and porous materials such as zeolites and activated carbons. The technique provides essential data for optimizing processes related to gas storage, drug delivery, and catalytic reactions. In the field of catalyst development, researchers leverage BET analysis to assess the efficiency of catalysts by examining their surface area, which directly influences catalytic activity.</p>
+    <br>
+    <h4>Benefits:</h4>
+    <p>1. Quantitative Surface Area Measurement:</p>
+    <ul>
+        <li>BET analysis offers a quantitative measure of the specific surface area, allowing researchers to precisely understand the available surface for interactions.</li>
+    </ul>
 
-          <h2>Introduction</h2>
+    <p>2. Porosity Assessment:</p>
+    <ul>
+        <li>Beyond surface area, BET analysis provides information about the porosity distribution of a material, aiding in the characterization of its internal structure.</li>
+    </ul>
 
-          <p>Brunauer-Emmett-Teller (BET) analysis stands as a cornerstone of physical characterization techniques, providing invaluable insights into the specific surface area and porosity distribution of solid materials. Its versatility extends across diverse matrices, from catalyst powders to monolithic materials, making it an indispensable tool for understanding the physical properties of a wide range of substances.</p>
+    <p>3. Gas Adsorption Isotherms:</p>
+    <ul>
+        <li>By studying the adsorption isotherms, researchers gain insights into the interaction between gases and solids, contributing to a comprehensive understanding of material behavior.</li>
+    </ul>
 
-          <h2>Enriching Our Understanding of Materials</h2>
+    <p>4. Catalyst Optimization:</p>
+    <ul>
+        <li>In catalysis research, BET analysis plays a crucial role in optimizing catalysts for enhanced performance, leading to more efficient chemical processes.</li>
+    </ul>
 
-          <p>BET analysis finds widespread application across various industries and material types, including:</p>
+    <p>5. Material Development:</p>
+    <ul>
+        <li>For materials like activated carbons and zeolites, BET analysis guides the development of materials with tailored porosity for specific applications, such as gas separation or water purification.</li>
+    </ul>
 
-          <ul>
-              <li><strong>Catalyst Research:</strong> Researchers leverage BET analysis to assess the efficiency of catalysts by examining their surface area, which directly influences catalytic activity.</li>
-              <li><strong>Pharmaceuticals:</strong> BET analysis plays a crucial role in optimizing drug formulations by ensuring consistency in the porosity and surface area of materials used in drug delivery systems.</li>
-              <li><strong>Nanomaterials:</strong> The characterization of nanomaterials, with their unique surface-to-volume ratios, relies heavily on BET analysis to determine their specific surface area and pore sizes.</li>
-              <li><strong>Porous Materials:</strong> BET analysis is essential for understanding the porosity distribution of materials such as zeolites and activated carbons, which are widely used in gas separation, water purification, and catalysis.</li>
-          </ul>
+    <p>6. Quality Control:</p>
+    <ul>
+        <li>Industries such as pharmaceuticals use BET analysis for quality control, ensuring consistency in the porosity and surface area of materials used in drug formulations.</li>
+    </ul>
 
-          <h2>Benefits of BET Analysis</h2>
+    <p>In summary, BET analysis is a versatile and indispensable tool, providing crucial data for researchers and industries involved in material development, catalysis, and various applications where surface characteristics and porosity play a vital role. Its ability to deliver quantitative and insightful results makes it an essential technique in the field of materials science.</p>
+    <br>
+    <h4>Analyzing BET Data:</h4>
+    <p>The technique assesses the amount of gas adsorbed, considering factors such as exposed surface area, temperature, gas pressure, and the strength of interaction between the gas and solid. Nitrogen is commonly used in BET surface area analysis due to its high purity and strong interaction with most solids, making it a versatile and widely applicable method for material characterization. The obtained data aids in optimizing processes and enhancing the performance of various materials across multiple industries.</p>
 
-          <p>BET analysis offers a range of benefits that make it an indispensable tool for material characterization:</p>
-
-          <ul>
-              <li><strong>Quantitative Surface Area Measurement:</strong> BET analysis provides a precise and quantitative measure of the specific surface area, allowing researchers to understand the available surface for interactions.</li>
-              <li><strong>Porosity Assessment:</strong> Beyond surface area, BET analysis provides detailed information about the porosity distribution of a material, aiding in the characterization of its internal structure, including pore size and volume.</li>
-              <li><strong>Gas Adsorption Isotherms:</strong> By studying the adsorption isotherms, researchers gain insights into the interaction between gases and solids, contributing to a comprehensive understanding of material behavior.</li>
-              <li><strong>Catalyst Optimization:</strong> BET analysis plays a crucial role in optimizing catalysts for enhanced performance, leading to more efficient chemical processes.</li>
-              <li><strong>Material Development:</strong> For materials like activated carbons and zeolites, BET analysis guides the development of materials with tailored porosity for specific applications, such as gas separation or water purification.</li>
-              <li><strong>Quality Control:</strong> Industries such as pharmaceuticals use BET analysis for quality control, ensuring consistency in the porosity and surface area of materials used in drug formulations.</li>
-          </ul>
-
-          <h2>Conclusion</h2>
-
-          <p>In summary, BET analysis is a versatile and indispensable tool, providing crucial data for researchers and industries involved in material development, catalysis, and various applications where surface characteristics and porosity play a vital role. Its ability to deliver quantitative and insightful results makes it an essential technique in the field of materials science.</p>
-      `,
+        `,
       routing : "bet-analysis"
     },
     {
@@ -568,39 +483,50 @@ export class ServicesComponent {
       industries : '₹1500 - Industries',
       para1 : ``,
       para2 :`
-          <p>In the realm of tribology, the study of wear and friction, the pin-on-disc tribometer reigns supreme as a versatile and powerful tool for characterizing the wear resistance and frictional behavior of materials. This specialized instrument mimics real-world sliding conditions, bringing valuable insights into the interactions between materials under simulated wear and friction scenarios.</p>
+    <p>The Pin-On-Disc Wear Test is a commonly used tribological characterization technique to estimate the coefficient of friction and the wear mechanism.</p>
 
-          <h2>Unveiling Wear Mechanisms and Friction Coefficients</h2>
+    <p>The ball, or pin on disk, wear testing machine presses stationary pin or ball against the rotating disk. Measure coefficient of friction (COF), friction force, wear rate, wear volume, temperature, and several other tribology parameters.</p>
+<br>
+    <h4>A Pin-On-Disc Tribometer</h4>
+    <p>is a specialized instrument designed to assess and quantify the wear and friction characteristics of materials under controlled sliding conditions. This tribological testing device consists of a stationary pin in contact with a rotating disc, simulating the frictional conditions encountered in real-world applications.</p>
+    <br>
+    <h4>Use Cases:</h4>
+    <p>The Pin-On-Disc Tribometer finds extensive application in various industries for evaluating the wear resistance and frictional behavior of materials. It is commonly used in the automotive sector to study the wear performance of brake materials, helping optimize brake pad formulations for enhanced durability and safety. In the field of manufacturing, the tribometer is employed to assess the wear resistance of cutting tools, providing insights into tool material selection and coating effectiveness. Additionally, it plays a crucial role in the development of bearings, gears, and other components in machinery, where minimizing wear and friction is paramount for efficient operation.</p>
+    <br>
+    <h4>Benefits:</h4>
+    <p>1. Wear Analysis:</p>
+    <ul>
+        <li>Pin-On-Disc Tribometers enable precise quantification of wear rates, aiding researchers and engineers in evaluating the durability and longevity of materials.</li>
+    </ul>
 
-          <p>At the heart of the pin-on-disc tribometer lies the principle of simulating real-world frictional contact. A stationary pin is pressed against a rotating disc, replicating the sliding interactions that occur in various applications. By meticulously measuring the wear rate, friction force, and coefficient of friction (COF), researchers and engineers gain a comprehensive understanding of the wear mechanisms and frictional characteristics of materials.</p>
+    <p>2. Frictional Behavior:</p>
+    <ul>
+        <li>The tribometer allows for the measurement of friction coefficients under different conditions, contributing to the understanding of material interactions and the optimization of lubrication strategies.</li>
+    </ul>
 
-          <h2>A Versatile Tool for Diverse Applications</h2>
+    <p>3. Material Selection:</p>
+    <ul>
+        <li>Industries involved in material development and selection benefit from tribometer testing by identifying materials that exhibit superior wear resistance, leading to the creation of more robust and reliable products.</li>
+    </ul>
 
-          <p>The pin-on-disc tribometer finds widespread application in a myriad of industries, including:</p>
+    <p>4. Coating Evaluation:</p>
+    <ul>
+        <li>Researchers use the tribometer to assess the effectiveness of coatings in reducing wear and friction, guiding the development of advanced surface treatments for various applications.</li>
+    </ul>
 
-          <ul>
-              <li><strong>Automotive Industry:</strong> Optimizing brake pad formulations for enhanced durability and safety by evaluating brake material wear performance.</li>
-              <li><strong>Manufacturing Industry:</strong> Assessing the wear resistance of cutting tools, providing insights into tool material selection and coating effectiveness.</li>
-              <li><strong>Machinery Development:</strong> Minimizing wear and friction in bearings, gears, and other components to ensure efficient operation and extended lifespan.</li>
-          </ul>
+    <p>5. Quality Control:</p>
+    <ul>
+        <li>The tribometer serves as a valuable tool in quality control processes, ensuring that materials and components meet specified wear and friction criteria before reaching the market.</li>
+    </ul>
 
-          <h2>A Treasure Trove of Benefits</h2>
+    <p>6. Optimization of Design:</p>
+    <ul>
+        <li>Tribometer data aids in the optimization of designs for various mechanical components, allowing engineers to make informed decisions that enhance the overall performance and reliability of systems.</li>
+    </ul>
 
-          <p>The pin-on-disc tribometer offers a wealth of benefits that make it an indispensable tool for tribological studies:</p>
+    <p>In summary, the Pin-On-Disc Tribometer is a versatile tool with wide-ranging applications in wear analysis and frictional studies. Its benefits extend to industries seeking to improve the durability, efficiency, and reliability of materials and components in diverse applications.</p>
 
-          <ul>
-              <li><strong>Wear Analysis:</strong> Precise quantification of wear rates, aiding in the evaluation of material durability and longevity.</li>
-              <li><strong>Frictional Behavior Assessment:</strong> Measurement of friction coefficients under different conditions, contributing to the understanding of material interactions and the optimization of lubrication strategies.</li>
-              <li><strong>Material Selection Guidance:</strong> Identification of materials with superior wear resistance, leading to the creation of more robust and reliable products.</li>
-              <li><strong>Coating Evaluation:</strong> Assessment of coating effectiveness in reducing wear and friction, guiding the development of advanced surface treatments for diverse applications.</li>
-              <li><strong>Quality Control:</strong> Ensuring that materials and components meet specified wear and friction criteria before reaching the market.</li>
-              <li><strong>Design Optimization:</strong> Informing design decisions for various mechanical components, enhancing overall performance and reliability.</li>
-          </ul>
-
-          <h2>Conclusion</h2>
-
-          <p>In summary, the pin-on-disc tribometer stands as an invaluable asset in the field of tribology, providing researchers and engineers with a comprehensive understanding of wear mechanisms and frictional behavior. Its versatility and wide range of applications make it an indispensable tool for optimizing material selection, developing advanced surface treatments, and ensuring the durability and reliability of components across diverse industries.</p>
-      `,
+         `,
       para3 : "",
       routing : "pin-on-disc-tribometer-wear"
     },
@@ -618,29 +544,28 @@ export class ServicesComponent {
       para2 : `
           <p>Planetary ball mills are smaller than common ball mills and mainly used in laboratories for grinding sample material down to very small sizes. A planetary ball mill consists of at least one grinding jar which is arranged eccentrically on a so-called sun wheel.</p>
 
-          <h2>Features:</h2>
+          <h4>Planetary Mill with TC Balls & Vial:</h4>
+          <p>Features:</p>
           <ul>
-              <li><strong>Automatic Operation:</strong> The equipment operates entirely automatically, offering convenient time settings and variable speed adjustments for precise control over the milling process.</li>
-              <li><strong>Vial Material:</strong> Crafted with durable Tungsten Carbide, ensuring longevity and resistance to wear during milling and mixing operations.</li>
-              <li><strong>Vial Capacity:</strong> Boasting a generous 250 ml capacity, providing ample space for milling and mixing various materials with ease.</li>
-              <li><strong>Grinding Media:</strong> Utilizes high-quality Tungsten Carbide Balls (10 mm diameter - 30 Nos) as efficient grinding media, ensuring effective particle size reduction.</li>
-              <li><strong>Loading Capacity:</strong> Accommodates a maximum loading capacity of 100g, dependent on the material density, and a minimum loading capacity of 5g for versatility in experimental setups.</li>
-              <li><strong>Material Loss:</strong> Minimal material loss of only 2%, preserving the integrity of the processed materials.</li>
+              <li>Automatic Operation: The equipment operates entirely automatically, offering convenient time settings and variable speed adjustments for precise control over the milling process.</li>
+              <li>Vial Material: Crafted with durable Tungsten Carbide, ensuring longevity and resistance to wear during milling and mixing operations.</li>
+              <li>Vial Capacity: Boasting a generous 250 ml capacity, providing ample space for milling and mixing various materials with ease.</li>
+              <li>Grinding Media: Utilizes high-quality Tungsten Carbide Balls (10 mm diameter - 30 Nos) as efficient grinding media, ensuring effective particle size reduction.</li>
+              <li>Loading Capacity: Accommodates a maximum loading capacity of 100g, dependent on the material density, and a minimum loading capacity of 5g for versatility in experimental setups.</li>
+              <li>Material Loss: Minimal material loss of only 2%, preserving the integrity of the processed materials.</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The VBCRC Planetary Ball Mill, equipped with TC balls and vial, finds its application in the realm of Advanced Ceramics, catering to nanotechnology applications with precision and efficiency:</p>
           <ul>
-              <li><strong>Advanced Ceramics Processing:</strong> Specifically designed for milling and mixing tasks related to Advanced Ceramics, ensuring uniform and controlled processing of ceramic materials.</li>
-              <li><strong>Particle Size Reduction:</strong> Facilitates the reduction of particle sizes from Micron (10-6µm) to Nano Size (10-9nm) within a short timeframe of 30 to 60 minutes, crucial for nanotechnology applications.</li>
-              <li><strong>Nanotechnology Research:</strong> Ideal for nanotechnology research where achieving nano-sized particles is essential for enhanced material properties and performance.</li>
-              <li><strong>Time-Efficient Operation:</strong> The automatic operation with time settings allows for efficient milling within specified durations, promoting productivity in laboratory settings.</li>
-              <li><strong>Variable Speed Control:</strong> Variable speed adjustments provide flexibility in controlling the milling process, accommodating diverse materials and experimental requirements.</li>
+              <li>Advanced Ceramics Processing: Specifically designed for milling and mixing tasks related to Advanced Ceramics, ensuring uniform and controlled processing of ceramic materials.</li>
+              <li>Particle Size Reduction: Facilitates the reduction of particle sizes from Micron (10-6µm) to Nano Size (10-9nm) within a short timeframe of 30 to 60 minutes, crucial for nanotechnology applications.</li>
+              <li>Nanotechnology Research: Ideal for nanotechnology research where achieving nano-sized particles is essential for enhanced material properties and performance.</li>
+              <li>Time-Efficient Operation: The automatic operation with time settings allows for efficient milling within specified durations, promoting productivity in laboratory settings.</li>
+              <li>Variable Speed Control: Variable speed adjustments provide flexibility in controlling the milling process, accommodating diverse materials and experimental requirements.</li>
           </ul>
 
           <p>The Planetary Mill with TC Balls & Vial stands as a reliable tool in materials research and nanotechnology, offering precision, efficiency, and versatility in the milling and mixing of Advanced Ceramics. Its automated features and robust design make it an essential instrument for laboratories engaged in cutting-edge research and development.</p>
-
-
       `,
       para3 :"",
       table1_th : 'Vial Material',
@@ -673,31 +598,48 @@ export class ServicesComponent {
       industries : '₹500 - Industries',
       para1 : "",
       para2 : `
-      <p><strong>Overview:</strong> The VBCRC Planetary Ball Mill, equipped with a Porcelain Jar, stands as a versatile instrument essential for the milling and mixing of various materials, specifically tailored for Traditional Ceramics applications. This state-of-the-art equipment is designed to reduce particle sizes from millimeters (10-3mm) to micron dimensions (10-6µm) with utmost precision.</p>
+    <p>Pellet mill is a kind of machine that is used for producing pellets from powdered biomass material. It is also known as pellet press. It works very effectively and you can always rely on for the production of very fine pellets. To produce the small substances, it works by putting together smaller particles into larger and homogenous mass. It therefore implies that it doesn’t break the large materials into smaller substances.</p>
 
-      <h2>Key Features:</h2>
-      <ul>
-          <li><strong>Automatic Operation:</strong> The equipment operates in a fully automatic mode, ensuring user-friendly and efficient performance.</li>
-          <li><strong>Time Setting:</strong> Users benefit from precise control over the milling duration, enhancing reproducibility and customization.</li>
-          <li><strong>Variable Speed Adjustments:</strong> Variable speed adjustments provide flexibility, accommodating diverse milling requirements with optimal efficiency.</li>
-      </ul>
+    <h4>VBCRC Press is used to compact the different kinds of Ceramic and Metal Powders into Pellet shape for variety of Applications and Characterization.</h4>
 
-      <h2>Specifications:</h2>
-      <ul>
-          <li><strong>Vial Material:</strong> Crafted from high-quality Porcelain, the vial ensures compatibility with Traditional Ceramics and durability.</li>
-          <li><strong>Vial Capacity:</strong> The 500 ml capacity supports efficient processing of medium-sized batches.</li>
-          <li><strong>Grinding Media:</strong> Options of Alumina and Steatite grinding media in 10mm and 20mm diameters offer versatility for different materials.</li>
-          <li><strong>Loading Capacity:</strong> With a loading capacity ranging from 50g to 300g (depending on material density), the mill caters to varying sample sizes.</li>
-      </ul>
+    <h4>10-Ton Hydraulic Pellet Press - Manual Operation</h4>
+    <p>The 10-ton hydraulic pellet press, designed for manual operation, ensures precise and reliable pellet compaction for diverse applications.</p>
 
-      <h2>Use Cases:</h2>
-      <ul>
-          <li><strong>Traditional Ceramics:</strong> Tailored for Traditional Ceramics, the mill excels in applications such as casting, providing precision in material preparation.</li>
-          <li><strong>Particle Size Reduction:</strong> Efficiently reduces particle sizes from millimeters to microns, catering to a broad range of milling needs.</li>
-          <li><strong>Laboratory and Industrial Applications:</strong> Suitable for both laboratory research and industrial applications, offering versatility in material processing.</li>
-      </ul>
+    <h4>Capacity:</h4>
+    <ul>
+        <li>Press Capacity: 10 tons</li>
+        <li>Cylinder Capacity: 10 tons (Max) - Driven by a robust hydraulic power unit.</li>
+    </ul>
 
-      <p>The Planetary Ball Mill with Porcelain Jar emerges as a reliable and advanced tool for applications in Traditional Ceramics. Its automatic operation, variable speed adjustments, and robust design make it a valuable asset for achieving precision and efficiency in materials processing.</p>
+    <h4>Design Features:</h4>
+    <ul>
+        <li>Piston Stroke: Maximum 50mm stroke for controlled pellet compaction.</li>
+        <li>Ram Configuration: Stationary upper ram ensures stability during operation.</li>
+        <li>Loading Type: Vertical up loading simplifies the process for user convenience.</li>
+    </ul>
+
+    <h4>Dimensions and Construction:</h4>
+    <ul>
+        <li>Daylight: Ample 120mm distance between punch and die for flexibility.</li>
+        <li>Platen Size: 100mm diameter provides a uniform surface for pellet compression.</li>
+        <li>Press Frame: Sturdy 2-pillar type construction ensures durability and stability.</li>
+    </ul>
+
+    <h4>Pressure Control:</h4>
+    <ul>
+        <li>Pressure Gauge: Equipped with a precise digital pressure gauge for effective monitoring.</li>
+        <li>Max Pressure: Capable of exerting a maximum pressure of 300 bars (30Mpa).</li>
+    </ul>
+
+    <h4>Model and Dies:</h4>
+    <ul>
+        <li>Model: Designed as a Table Top model for easy placement and operation.</li>
+        <li>Pellet Dies: Includes 12mm (2 nos) and 15mm (2 nos) pellet dies for versatile pellet size options.</li>
+    </ul>
+
+    <p>The 10-ton hydraulic pellet press blends power and precision, offering user-friendly features for manual pellet compaction across various industries. Whether for research, development, or production, this press delivers consistent results with the flexibility to accommodate different pellet sizes. Its sturdy construction, digital pressure control, and multiple die options make it an ideal solution for efficient and controlled manual pellet compaction.</p>
+
+    <p>The Equipment is completely automatic with Time setting and Variable adjustments. Its features are:</p>
       `,
       para3 : "",
       table1_th : 'Capacity of Press',
@@ -730,9 +672,9 @@ export class ServicesComponent {
       para2 : `
           <p>A Box Furnace features a vertical lift or swing out door allowing the various sized product(s) to be placed in the furnace. Box Furnaces are utilized for heat-treating, calcining, curing, annealing, stress relieving, preheating, tempering, and other high temperature thermal processes.</p>
 
-          <h2>Box Furnace - up to 1200°C (5°C Ramp & 3hrs Dwell):</h2>
+          <h4>Box Furnace - up to 1200°C (5°C Ramp & 3hrs Dwell):</h4>
 
-          <h3>Features:</h3>
+          <h4>Features:</h4>
           <ul>
               <li><strong>Vertical Lift or Swing Out Door:</strong> Allows convenient placement of various-sized products, ensuring flexibility in the heat-treating process.</li>
               <li><strong>Working Temperature up to RT of 1200°C:</strong> Capable of accommodating high-temperature thermal processes such as annealing, stress relieving, and tempering.</li>
@@ -746,7 +688,7 @@ export class ServicesComponent {
               <li><strong>TAIE PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control for precise temperature regulation.</li>
           </ul>
 
-          <h3>Operating Specifications:</h3>
+          <h4>Operating Specifications:</h4>
           <ul>
               <li><strong>Available Space:</strong> 150 x 150 x 200 mm (lxbxh)</li>
               <li><strong>Rate of Heating:</strong> 5°C/Min</li>
@@ -755,7 +697,7 @@ export class ServicesComponent {
               <li><strong>Working Zone:</strong> 150 x 150 x 200 mm</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The Box Furnace operating at temperatures up to 1200°C with a 5°C ramp and 3hrs dwell finds extensive application in various thermal processes, including:</p>
           <ul>
               <li><strong>Heat Treatment:</strong> Ideal for subjecting materials to controlled high temperatures for heat treatment.</li>
@@ -792,7 +734,7 @@ export class ServicesComponent {
       para2 : `
           <p>A Box Furnace features a vertical lift or swing out door allowing the various sized product(s) to be placed in the furnace. Box Furnaces are utilized for heat-treating, calcining, curing, annealing, stress relieving, preheating, tempering, and other high temperature thermal processes.</p>
 
-          <h2>Box Furnace - up to 1400°C (5°C Ramp & 3hrs Dwell):</h2>
+          <h4>Box Furnace - up to 1400°C (5°C Ramp & 3hrs Dwell):</h4>
 
           <h3>Features:</h3>
           <ul>
@@ -817,7 +759,7 @@ export class ServicesComponent {
               <li><strong>Working Zone:</strong> 150 x 150 x 200 mm</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The Box Furnace operating at temperatures up to 1400°C with a 5°C ramp and 3hrs dwell is versatile and finds applications in various thermal processes, including:</p>
           <ul>
               <li><strong>Heat Treatment:</strong> Ideal for subjecting materials to controlled high temperatures for heat treatment.</li>
@@ -854,7 +796,7 @@ export class ServicesComponent {
       para2 : `
           <p>A Box Furnace features a vertical lift or swing out door allowing the various sized product(s) to be placed in the furnace. Box Furnaces are utilized for heat-treating, calcining, curing, annealing, stress relieving, preheating, tempering, and other high temperature thermal processes.</p>
 
-          <h2>Box Furnace - up to 1600°C (5°C Ramp & 3hrs Dwell):</h2>
+          <h4>Box Furnace - up to 1600°C (5°C Ramp & 3hrs Dwell):</h4>
 
           <h3>Features:</h3>
           <ul>
@@ -879,7 +821,7 @@ export class ServicesComponent {
               <li><strong>Working Zone:</strong> 150 x 150 x 200 mm</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The Box Furnace operating at temperatures up to 1600°C with a 5°C ramp and 3hrs dwell is designed for various high-temperature thermal processes, including:</p>
           <ul>
               <li><strong>Heat Treatment at Extreme Temperatures:</strong> Ideal for subjecting materials to controlled high temperatures for heat treatment under extreme conditions.</li>
@@ -916,7 +858,7 @@ export class ServicesComponent {
       para2 : `
           <p>A tube furnace is an electric heating device used to conduct syntheses and purifications of inorganic compounds and occasionally in organic synthesis. One possible design consists of a cylindrical cavity surrounded by heating coils that are embedded in a thermally insulating matrix.</p>
 
-          <h2>Tubular Furnace with Controlled Atmosphere 1200°C:</h2>
+          <h4>Tubular Furnace with Controlled Atmosphere 1200°C:</h4>
 
           <h3>Features:</h3>
           <ul>
@@ -942,7 +884,7 @@ export class ServicesComponent {
               <li><strong>Working Zone:</strong> 50x150 mm</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The Tubular Furnace with Controlled Atmosphere 1200°C, featuring Cold Vacuum and Argon Purging, is highly versatile and finds applications in:</p>
           <ul>
               <li><strong>Inorganic Compound Synthesis:</strong> Ideal for conducting precise syntheses of inorganic compounds with controlled atmospheric conditions.</li>
@@ -980,7 +922,7 @@ export class ServicesComponent {
       para2 : `
           <p>A tube furnace is an electric heating device used to conduct syntheses and purifications of inorganic compounds and occasionally in organic synthesis. One possible design consists of a cylindrical cavity surrounded by heating coils that are embedded in a thermally insulating matrix.</p>
 
-          <h2>Features:</h2>
+          <h4>Features:</h4>
           <ul>
               <li><strong>Electric Heating Device:</strong> A tube furnace designed for conducting syntheses and purifications of inorganic compounds, occasionally applied in organic synthesis.</li>
               <li><strong>Working Temperature up to RT to 1600°C:</strong> Offers an extensive temperature range suitable for a variety of applications, from ambient conditions to high-temperature processes.</li>
@@ -997,7 +939,7 @@ export class ServicesComponent {
               <li><strong>Optional Rough Vacuum:</strong> Offers the flexibility of operating under rough vacuum conditions, enhancing the furnace's versatility.</li>
           </ul>
 
-          <h2>Operating Specifications:</h2>
+          <h4>Operating Specifications:</h4>
           <ul>
               <li><strong>Available Space:</strong> 60(ID) x 200(L) mm</li>
               <li><strong>Rate of Heating:</strong> 1 to 10°C/Min (Normally 10°C/Min)</li>
@@ -1006,7 +948,7 @@ export class ServicesComponent {
               <li><strong>Working Zone:</strong> 50x150 mm</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The Tubular Furnace with Controlled Atmosphere 1600°C, featuring Cold Vacuum and Argon Purging, excels in various applications:</p>
           <ul>
               <li><strong>High-Temperature Syntheses:</strong> Ideal for conducting syntheses requiring extremely high temperatures up to 1600°C.</li>
@@ -1043,7 +985,7 @@ export class ServicesComponent {
       para2 :`
           <p>Microwave furnace is another type of laboratory furnace used to carry out thermal research protocols. Microwave furnaces represent a system that combines free radiating heating elements with a microwave field. Traditional heating elements heat material from the outside in, and microwave energy heats volumetrically. Key advantages include greater energy efficiency, faster sample heating, more uniform heating, and improved material properties.</p>
 
-          <h2>Microwave Furnace up to 1500°C:</h2>
+          <h4>Microwave Furnace up to 1500°C:</h4>
 
           <h3>Features:</h3>
           <ul>
@@ -1070,7 +1012,7 @@ export class ServicesComponent {
               <li><strong>Working Zone:</strong> 25x25x50 mm</li>
           </ul>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>The Microwave Furnace up to 1500°C, featuring a 20°C ramp and 30 min dwell, offers versatile applications in thermal research:</p>
           <ul>
               <li><strong>Material Synthesis:</strong> Enables efficient and uniform heating for synthesizing advanced materials, especially in nanotechnology applications.</li>
@@ -1105,32 +1047,32 @@ export class ServicesComponent {
       industries : '₹800 - Industries',
       para1 : "",
       para2 : `
-      <p>Spin coating is a specialized technique used for applying thin films with exceptional uniformity across the surface of a substrate. This process involves coating a rotating substrate with a solution—often referred to as an "ink"—resulting in the creation of a thin, even film of solid material.</p>
+    <p>Spin coating is a specialized technique used for applying thin films with exceptional uniformity across the surface of a substrate. This process involves coating a rotating substrate with a solution—often referred to as an "ink"—resulting in the creation of a thin, even film of solid material.</p>
 
-      <h2>How It Works:</h2>
-      <ul>
-          <li><strong>Solution Application:</strong> A liquid solution, containing the desired material dissolved in a solvent, is cast onto a rotating substrate.</li>
-          <li><strong>Centrifugal Force:</strong> High-speed rotation (typically &gt;10 rotations per second) generates centripetal force, combined with surface tension, which uniformly spreads the liquid coating.</li>
-          <li><strong>Evaporation:</strong> While spinning, the solvent in the solution evaporates, leaving behind a thin, even layer of the desired material on the substrate.</li>
-      </ul>
+    <h4>How It Works:</h4>
+    <ul>
+        <li>Solution Application: A liquid solution, containing the desired material dissolved in a solvent, is cast onto a rotating substrate.</li>
+        <li>Centrifugal Force: High-speed rotation (typically >10 rotations per second) generates centripetal force, combined with surface tension, which uniformly spreads the liquid coating.</li>
+        <li>Evaporation: While spinning, the solvent in the solution evaporates, leaving behind a thin, even layer of the desired material on the substrate.</li>
+    </ul>
 
-      <h2>Use Cases:</h2>
-      <ul>
-          <li><strong>Semiconductor Fabrication:</strong> Essential in semiconductor manufacturing for applying uniform coatings of photoresists and other materials.</li>
-          <li><strong>Optoelectronic Devices:</strong> Used in the production of optoelectronic devices, such as light-emitting diodes (LEDs) and solar cells, to create precise thin films.</li>
-          <li><strong>Organic Electronics:</strong> Applied in the fabrication of organic electronic devices like organic light-emitting diodes (OLEDs) and organic photovoltaic cells.</li>
-          <li><strong>Biosensor Development:</strong> Utilized for coating biosensors to ensure a consistent and thin layer for accurate sensing.</li>
-      </ul>
+    <h4>Use Cases:</h4>
+    <ol>
+        <li>Semiconductor Fabrication: Essential in semiconductor manufacturing for applying uniform coatings of photoresists and other materials.</li>
+        <li>Optoelectronic Devices: Used in the production of optoelectronic devices, such as light-emitting diodes (LEDs) and solar cells, to create precise thin films.</li>
+        <li>Organic Electronics: Applied in the fabrication of organic electronic devices like organic light-emitting diodes (OLEDs) and organic photovoltaic cells.</li>
+        <li>Biosensor Development: Utilized for coating biosensors to ensure a consistent and thin layer for accurate sensing.</li>
+    </ol>
 
-      <h2>Benefits:</h2>
-      <ul>
-          <li><strong>Uniformity:</strong> Ensures exceptional uniformity in thin film deposition, critical for applications in microelectronics and optics.</li>
-          <li><strong>Precision and Control:</strong> Offers precise control over film thickness, crucial in industries requiring accurate and consistent coatings.</li>
-          <li><strong>Versatility:</strong> Applicable to a wide range of materials, making it versatile for various industries and applications.</li>
-          <li><strong>High Throughput:</strong> Rapid coating process allows for high throughput in manufacturing, contributing to overall efficiency.</li>
-      </ul>
+    <h4>Benefits:</h4>
+    <ol>
+        <li>Uniformity: Ensures exceptional uniformity in thin film deposition, critical for applications in microelectronics and optics.</li>
+        <li>Precision and Control: Offers precise control over film thickness, crucial in industries requiring accurate and consistent coatings.</li>
+        <li>Versatility: Applicable to a wide range of materials, making it versatile for various industries and applications.</li>
+        <li>High Throughput: Rapid coating process allows for high throughput in manufacturing, contributing to overall efficiency.</li>
+    </ol>
 
-      <p>In summary, spin coating stands as a fundamental technique in thin film deposition, playing a pivotal role in industries ranging from semiconductors to optoelectronics. Its ability to provide uniform and controlled coatings positions it as a valuable tool in the production of advanced electronic and optical devices.</p>
+    <p>In summary, spin coating stands as a fundamental technique in thin film deposition, playing a pivotal role in industries ranging from semiconductors to optoelectronics. Its ability to provide uniform and controlled coatings positions it as a valuable tool in the production of advanced electronic and optical devices.</p>
       `,
       para3 : "",
       table1_th : 'Substrate Size',
@@ -1155,31 +1097,33 @@ export class ServicesComponent {
       industries : '₹3000 - Industries',
       para1 : "",
       para2 : `
-      <p>Spray pyrolysis is a specialized process used for the synthesis of nanostructures, where a precursor solution is sprayed onto a heated substrate. This technique facilitates the controlled decomposition of the precursor, leading to the formation of the desired final material on the substrate.</p>
+    <p>Spray pyrolysis is a specialized process used for the synthesis of nanostructures, where a precursor solution is sprayed onto a heated substrate. This technique facilitates the controlled decomposition of the precursor, leading to the formation of the desired final material on the substrate.</p>
 
-      <h2>How It Works:</h2>
-      <ul>
-          <li><strong>Precursor Solution:</strong> A solution containing the precursor material is sprayed or injected onto a hot substrate using a nano-porous nebulizer.</li>
-          <li><strong>Decomposition and Formation:</strong> The precursor decomposes on the hot substrate, forming the final desired material through chemical reactions.</li>
-      </ul>
+    <h4>How It Works:</h4>
+    <ul>
+        <li>Precursor Solution: A solution containing the precursor material is sprayed or injected onto a hot substrate using a nano-porous nebulizer.</li>
+        <li>Decomposition and Formation: The precursor decomposes on the hot substrate, forming the final desired material through chemical reactions.</li>
+    </ul>
 
-      <h2>Use Cases:</h2>
-      <ul>
-          <li><strong>Thin Film Deposition:</strong> Widely used for depositing thin films with controlled thickness on various substrates.</li>
-          <li><strong>Oxide Deposition:</strong> Particularly useful for the deposition of oxides, where chemical reactants are selected to ensure volatile by-products at the deposition temperature.</li>
-          <li><strong>Nanostructure Synthesis:</strong> Applied in the synthesis of nanostructures, contributing to the development of advanced materials with tailored properties.</li>
-          <li><strong>Photovoltaic Devices:</strong> Utilized in the fabrication of thin films for solar cells and other photovoltaic devices.</li>
-      </ul>
+    <h4>Use Cases:</h4>
+    <ol>
+        <li>Thin Film Deposition: Widely used for depositing thin films with controlled thickness on various substrates.</li>
+        <li>Oxide Deposition: Particularly useful for the deposition of oxides, where chemical reactants are selected to ensure volatile by-products at the deposition temperature.</li>
+        <li>Nanostructure Synthesis: Applied in the synthesis of nanostructures, contributing to the development of advanced materials with tailored properties.</li>
+        <li>Photovoltaic Devices: Utilized in the fabrication of thin films for solar cells and other photovoltaic devices.</li>
+    </ol>
 
-      <h2>Benefits:</h2>
-      <ul>
-          <li><strong>Automated Operation:</strong> The equipment is fully automatic, offering convenience in operation with time setting and variable adjustments.</li>
-          <li><strong>Temperature Control:</strong> Allows precise control of the substrate temperature, ensuring optimal conditions for the decomposition and formation process.</li>
-          <li><strong>Versatility:</strong> Suitable for a range of materials, making it versatile for various applications, especially in the deposition of oxides.</li>
-          <li><strong>High-Quality Films:</strong> Facilitates the production of high-quality thin films with uniform thickness, crucial for applications in electronics and materials science.</li>
-      </ul>
+    <h4>Benefits:</h4>
+    <ol>
+        <li>Automated Operation: The equipment is fully automatic, offering convenience in operation with time setting and variable adjustments.</li>
+        <li>Temperature Control: Allows precise control of the substrate temperature, ensuring optimal conditions for the decomposition and formation process.</li>
+        <li>Versatility: Suitable for a range of materials, making it versatile for various applications, especially in the deposition of oxides.</li>
+        <li>High-Quality Films: Facilitates the production of high-quality thin films with uniform thickness, crucial for applications in electronics and materials science.</li>
+    </ol>
 
-      <p>In summary, spray pyrolysis stands as a valuable technique in the realm of nanostructure synthesis and thin film deposition. Its automated operation, versatility, and ability to produce high-quality films make it a significant contributor to advancements in materials science and technology.</p>
+    <p>In summary, spray pyrolysis stands as a valuable technique in the realm of nanostructure synthesis and thin film deposition. Its automated operation, versatility, and ability to produce high-quality films make it a significant contributor to advancements in materials science and technology.</p>
+
+
       `,
       para3 :"",
       table1_th : 'Max Substrate Temperature',
@@ -1208,41 +1152,36 @@ export class ServicesComponent {
       industries : '₹500 - Industries',
       para1 : "",
       para2 : `
-      <p>Dip coating is a meticulous process where a substrate material undergoes immersion in conformal coating, followed by controlled drying. The method is widely utilized for the creation of thin film coatings, ensuring uniformity and precision in the application.</p>
 
-      <h2>How It Works:</h2>
-      <ul>
-          <li><strong>Submergence and Coating:</strong> Substrate material is fully immersed in a tank containing the desired coating material.</li>
-          <li>The coated substrate is then lifted, allowing excess coating to drip off.</li>
-          <li><strong>Drying Techniques:</strong> The coated piece undergoes a drying phase, employing techniques such as force-drying or baking.</li>
-          <li>Drying is critical for achieving the desired coating thickness and properties.</li>
-      </ul>
+    <p>Dip coating is a meticulous process where a substrate material undergoes immersion in conformal coating, followed by controlled drying. The method is widely utilized for the creation of thin film coatings, ensuring uniformity and precision in the application.</p>
 
-      <h2>Equipment and Automation:</h2>
-      <ul>
-          <li><strong>Dip Coater:</strong> An automatic unit with time settings and variable adjustments.</li>
-          <li>Ensures consistency and repeatability in the coating process.</li>
-      </ul>
+    <h4>How It Works:</h4>
+    <ul>
+        <li>Submergence and Coating: Substrate material is fully immersed in a tank containing the desired coating material.</li>
+        <li>The coated substrate is then lifted, allowing excess coating to drip off.</li>
+        <li>Drying Techniques: The coated piece undergoes a drying phase, employing techniques such as force-drying or baking. Drying is critical for achieving the desired coating thickness and properties.</li>
+    </ul>
 
-      <h2>Use Cases:</h2>
-      <ul>
-          <li><strong>Thin Film Production:</strong> Ideal for creating thin films with precise thickness and uniformity.</li>
-          <li>Commonly employed in industries requiring controlled coating thickness.</li>
-          <li><strong>Precision Coating:</strong> Used in applications where precision in coating thickness is paramount.</li>
-          <li>Ensures even distribution of coating material on complex surfaces.</li>
-      </ul>
+    <h4>Equipment and Automation:</h4>
+    <ul>
+        <li>Dip Coater: An automatic unit with time settings and variable adjustments. Ensures consistency and repeatability in the coating process.</li>
+    </ul>
 
-      <h2>Benefits:</h2>
-      <ul>
-          <li><strong>Uniform Coating:</strong> Facilitates the achievement of uniform coating thickness across the substrate.</li>
-          <li>Enhances the quality and performance of coated materials.</li>
-          <li><strong>Versatility:</strong> Adaptable to a variety of substrates and coating materials.</li>
-          <li>Suitable for diverse industries and applications.</li>
-          <li><strong>Efficiency and Automation:</strong> Automatic equipment streamlines the coating process, reducing manual intervention.</li>
-          <li>Enhances efficiency and repeatability in thin film production.</li>
-      </ul>
+    <h4>Use Cases:</h4>
+    <ol>
+        <li>Thin Film Production: Ideal for creating thin films with precise thickness and uniformity.</li>
+        <li>Commonly employed in industries requiring controlled coating thickness.</li>
+        <li>Precision Coating: Used in applications where precision in coating thickness is paramount. Ensures even distribution of coating material on complex surfaces.</li>
+    </ol>
 
-      <p>Dip coating stands as a versatile and precise method for applying conformal coatings, especially in the production of thin films. Its ability to provide uniform and controlled coatings makes it invaluable in industries where precision and consistency are paramount, ensuring optimal performance of coated materials.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Uniform Coating: Facilitates the achievement of uniform coating thickness across the substrate. Enhances the quality and performance of coated materials.</li>
+        <li>Versatility: Adaptable to a variety of substrates and coating materials. Suitable for diverse industries and applications.</li>
+        <li>Efficiency and Automation: Automatic equipment streamlines the coating process, reducing manual intervention. Enhances efficiency and repeatability in thin film production.</li>
+    </ul>
+
+    <p>Dip coating stands as a versatile and precise method for applying conformal coatings, especially in the production of thin films. Its ability to provide uniform and controlled coatings makes it invaluable in industries where precision and consistency are paramount, ensuring optimal performance of coated materials.</p>
       `,
       para3 : "",
       table2_th : 'Equipment',
@@ -1262,50 +1201,80 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 :"",
       para2 : `
-          <p>Flexural strength, also known as the modulus of rupture (MOR), bend strength, or fracture strength, is a mechanical parameter that gauges a material's ability to resist deformation under load, particularly in bending scenarios.</p>
+      <p>Flexural Strength, also known as the Modulus of Rupture (MOR), Bend Strength, or Fracture Strength is
+    It is a mechanical parameter that gauges a material's ability to resist deformation under load, particularly in bending scenarios.</p>
 
-          <h2>Formulas for Calculation:</h2>
-          <p>For a rectangular sample under a load in three-point bending:</p>
-          <p>FS = 3FL/2bd<sup>2</sup></p>
-          <p>F is the load (force) at the fracture point.</p>
-          <p>L is the length of the support span.</p>
-          <p>b is the width.</p>
-          <p>d is the thickness.</p>
+    <h4>Formulas for Calculation:</h4>
+    <p>For a rectangular sample under a load in three-point bending:</p>
+    <p>FS = 3FL/2bd²</p>
+    <ul>
+        <li>F is the load (force) at the fracture point.</li>
+        <li>L is the length of the support span.</li>
+        <li>b is the width.</li>
+        <li>d is the thickness.</li>
+    </ul>
 
-          <h2>Equipment:</h2>
-          <p>Laboratory Scale: Cold / Fired MOR</p>
-          <p>Suitable for small-scale sample testing.</p>
-          <p>Accommodates up to three samples.</p>
-          <p>Industrial Tile Sizes: Cold / Fired MOR</p>
-          <p>Designed for larger tiles (up to 600 x 600 mm).</p>
-          <p>Allows testing on a per-sample basis.</p>
+    <h4>Equipment:</h4>
+    <ul>
+        <li>Laboratory Scale: Cold / Fired MOR</li>
+        <ul>
+            <li>Suitable for small-scale sample testing.</li>
+            <li>Accommodates up to three samples.</li>
+        </ul>
+        <li>Industrial Tile Sizes: Cold / Fired MOR</li>
+        <ul>
+            <li>Designed for larger tiles (up to 600 x 600 mm).</li>
+            <li>Allows testing on a per-sample basis.</li>
+        </ul>
+    </ul>
 
-          <h2>Use Cases:</h2>
-          <p>Construction Materials:</p>
-          <p>Assessing the strength of concrete beams, tiles, and masonry.</p>
-          <p>Ceramic and Glass Products:</p>
-          <p>Ensuring tiles and glass components can withstand bending forces.</p>
-          <p>Automotive Components:</p>
-          <p>Evaluating the flexural strength of vehicle parts.</p>
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Construction Materials:</li>
+        <ul>
+            <li>Assessing the strength of concrete beams, tiles, and masonry.</li>
+        </ul>
+        <li>Ceramic and Glass Products:</li>
+        <ul>
+            <li>Ensuring tiles and glass components can withstand bending forces.</li>
+        </ul>
+        <li>Automotive Components:</li>
+        <ul>
+            <li>Evaluating the flexural strength of vehicle parts.</li>
+        </ul>
+    </ul>
 
-          <h2>How it Works:</h2>
-          <p>Three-Point Bending:</p>
-          <p>Applies a load at the center of a sample supported at both ends.</p>
-          <p>Measures the maximum bending stress before fracture.</p>
-          <p>Calculates flexural strength using the provided formula.</p>
+    <h4>How it Works:</h4>
+    <p>Three-Point Bending:</p>
+    <ul>
+        <li>Applies a load at the center of a sample supported at both ends.</li>
+        <li>Measures the maximum bending stress before fracture.</li>
+        <li>Calculates flexural strength using the provided formula.</li>
+    </ul>
 
-          <h2>Benefits:</h2>
-          <p>Structural Integrity:</p>
-          <p>Determines a material's ability to resist bending deformation.</p>
-          <p>Quality Assurance:</p>
-          <p>Ensures products meet specified strength requirements.</p>
-          <p>Design Optimization:</p>
-          <p>Guides the design of materials for enhanced flexural performance.</p>
-          <p>Safety Evaluation:</p>
-          <p>Crucial for applications where materials are subjected to bending forces.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Structural Integrity:</li>
+        <ul>
+            <li>Determines a material's ability to resist bending deformation.</li>
+        </ul>
+        <li>Quality Assurance:</li>
+        <ul>
+            <li>Ensures products meet specified strength requirements.</li>
+        </ul>
+        <li>Design Optimization:</li>
+        <ul>
+            <li>Guides the design of materials for enhanced flexural performance.</li>
+        </ul>
+        <li>Safety Evaluation:</li>
+        <ul>
+            <li>Crucial for applications where materials are subjected to bending forces.</li>
+        </ul>
+    </ul>
 
-          <p>Flexural strength, evaluated through modulus of rupture testing, is a critical parameter for materials used in construction, ceramics, and automotive applications. The equipment accommodates both laboratory-scale assessments and larger industrial tiles, providing valuable insights into a material's ability to withstand bending forces.</p>
-      `,
+    <p>Flexural strength, evaluated through modulus of rupture testing, is a critical parameter for materials used in construction, ceramics, and automotive applications. The equipment accommodates both laboratory-scale assessments and larger industrial tiles, providing valuable insights into a material's ability to withstand bending forces.</p>
+
+       `,
       para3 :"",
       table2_th : 'Equipment',
       table2_th2 : 'Quantity / Time',
@@ -1328,19 +1297,23 @@ export class ServicesComponent {
       industries : '₹5000 - Industries',
       para1 : "",
       para2 : `
-      <p>Stir casting is one of the most popular and widely used methods in which material formation, mainly Metal Alloys and Metal Matrix Composites, is done by melting metals and casting them into suitable shapes and sizes by pouring them into cavities. It is also called as liquid metallurgy.</p>
+    <p>Stir casting is one of the most popular and widely used methods in which material formation (mainly Metal Alloys and Metal Matrix Composites) is done by melting metals and casting them into suitable shapes and sizes by pouring them into cavities. It is also called as liquid metallurgy.</p>
 
-      <h2>Aluminium Stir Casting:</h2>
-      <p>Aluminium stir casting, a prominent method in material formation, particularly for metal alloys and metal matrix composites (MMCs), stands as a cornerstone in the realm of liquid metallurgy. This widely utilized technique involves melting metals, including aluminium, and casting them into predefined shapes and sizes through controlled pouring into molds or cavities.</p>
+    <h4>Aluminium Stir Casting:</h4>
+    <p>Aluminium stir casting, a prominent method in material formation, particularly for metal alloys and metal matrix composites (MMCs), stands as a cornerstone in the realm of liquid metallurgy. This widely utilized technique involves melting metals, including aluminium, and casting them into predefined shapes and sizes through controlled pouring into molds or cavities.</p>
 
-      <p>The process of stir casting begins with the essential step of melting aluminium, a versatile and widely used metal known for its lightweight and excellent mechanical properties. The molten aluminium undergoes stirring, which is critical for achieving homogeneity and reinforcing the material with various components.</p>
+    <p>The process of stir casting begins with the essential step of melting aluminium, a versatile and widely used metal known for its lightweight and excellent mechanical properties. The molten aluminium undergoes stirring, which is critical for achieving homogeneity and reinforcing the material with various components.</p>
 
-      <p>This method is particularly advantageous for fabricating aluminium matrix composites (AMCs) and hybrid aluminium matrix composites. The economic efficiency of stir casting makes it a preferred choice for mass production in industrial applications. Its versatility is showcased in its ability to accommodate different substrate sizes, with a typical size of 25 mm, and variable stirring speeds ranging from 100 to 6,000 rpm. The equipment employed, known as a spin coater, facilitates controlled and uniform distribution of the molten material onto the substrate.</p>
+    <p>This method is particularly advantageous for fabricating aluminium matrix composites (AMCs) and hybrid aluminium matrix composites. The economic efficiency of stir casting makes it a preferred choice for mass production in industrial applications. Its versatility is showcased in its ability to accommodate different substrate sizes, with a typical size of 25 mm, and variable stirring speeds ranging from 100 to 6,000 rpm. The equipment employed, known as a spin coater, facilitates controlled and uniform distribution of the molten material onto the substrate.</p>
 
-      <p>The significance of aluminium stir casting lies not only in its cost-effectiveness but also in its ability to produce materials with enhanced mechanical and thermal properties. This makes it a valuable technique for applications demanding lightweight, high-strength materials, such as automotive components and aerospace structures. In a research or industrial setting, the quantity of material produced per sample and the processing time are critical considerations, and the adaptability of stir casting addresses these requirements efficiently.</p>
+    <p>The significance of aluminium stir casting lies not only in its cost-effectiveness but also in its ability to produce materials with enhanced mechanical and thermal properties. This makes it a valuable technique for applications demanding lightweight, high-strength materials, such as automotive components and aerospace structures. In a research or industrial setting, the quantity of material produced per sample and the processing time are critical considerations, and the adaptability of stir casting addresses these requirements efficiently.</p>
 
-      <p>In conclusion, aluminium stir casting emerges as a pivotal process in the fabrication of advanced materials, offering a cost-effective and scalable solution for the production of aluminium matrix composites with tailored properties, positioning itself as a vital player in the domain of modern material engineering.</p>
-      `,
+    <p>In conclusion, aluminium stir casting emerges as a pivotal process in the fabrication of advanced materials, offering a cost-effective and scalable solution for the production of aluminium matrix composites with tailored properties, positioning itself as a vital player in the domain of modern material engineering.</p>
+
+
+
+      `
+     ,
       table1_th : 'Substrate Size',
       table1_th2 : '25 mm',
       table1_td : 'Speed',
@@ -1363,28 +1336,30 @@ export class ServicesComponent {
       industries : '₹6000 - Industries',
       para1 :"",
       para2 : `
-      <p>Stir casting is one of the most popular and widely used methods in which material formation, mainly Metal Alloys and Metal Matrix Composites, is done by melting metals and casting them into suitable shapes and sizes by pouring them into cavities. It is also called as liquid metallurgy.</p>
+          <p>Stir casting is one of the most popular and widely used methods in which material formation (mainly Metal Alloys and Metal Matrix Composites) is done by melting metals and casting them into suitable shapes and sizes by pouring them into cavities. It is also called liquid metallurgy.</p>
 
-      <h2>Magnesium Stir Casting:</h2>
-      <p>Magnesium stir casting emerges as a leading method in material formation, particularly for crafting Metal Alloys and Metal Matrix Composites (MMCs). Often referred to as liquid metallurgy, this widely adopted process involves the meticulous melting of metals and their subsequent casting into specifically designed shapes and sizes by carefully pouring the molten alloy into dedicated cavities.</p>
+          <h4>Magnesium Stir Casting:</h4>
+          <p>Magnesium stir casting emerges as a leading method in material formation, particularly for crafting Metal Alloys and Metal Matrix Composites (MMCs). Often referred to as liquid metallurgy, this widely adopted process involves the meticulous melting of metals and their subsequent casting into specifically designed shapes and sizes by carefully pouring the molten alloy into dedicated cavities.</p>
 
-      <p>This versatile method finds extensive application in the casting of magnesium alloy and magnesium alloy composites. The incorporation of reinforcing particles into the magnesium matrix is achieved through proprietary methods, with the mixing process facilitated by a stirrer within the fully automatic stir casting model.</p>
+          <p>This versatile method finds extensive application in the casting of magnesium alloy and magnesium alloy composites. The incorporation of reinforcing particles into the magnesium matrix is achieved through proprietary methods, with the mixing process facilitated by a stirrer within the fully automatic stir casting model.</p>
 
-      <p>The equipment used for magnesium stir casting is designed for efficiency and precision. The model operates fully automatically, ensuring consistency and repeatability in the manufacturing process. The weight capacity ranges from 500 grams to 2 kilograms, providing flexibility for different production requirements. The mold size, at 30 mm diameter and 200 mm length, allows for the creation of diverse shapes and sizes.</p>
+          <p>The equipment used for magnesium stir casting is designed for efficiency and precision. The model operates fully automatically, ensuring consistency and repeatability in the manufacturing process. The weight capacity ranges from 500 grams to 2 kilograms, providing flexibility for different production requirements. The mold size, at 30 mm diameter and 200 mm length, allows for the creation of diverse shapes and sizes.</p>
 
-      <h3>Use Cases:</h3>
-      <p>Magnesium stir casting finds invaluable application in industries where lightweight materials with enhanced mechanical properties are imperative. In the automotive sector, this process is instrumental in crafting magnesium alloy components that contribute to reduced vehicle weight, improving fuel efficiency without compromising on strength. The aerospace industry also benefits from magnesium stir casting, creating components that meet stringent weight and performance criteria.</p>
+          <h4>Use Cases:</h4>
+          <p>Magnesium stir casting finds invaluable application in industries where lightweight materials with enhanced mechanical properties are imperative. In the automotive sector, this process is instrumental in crafting magnesium alloy components that contribute to reduced vehicle weight, improving fuel efficiency without compromising on strength. The aerospace industry also benefits from magnesium stir casting, creating components that meet stringent weight and performance criteria.</p>
 
-      <h3>Benefits:</h3>
-      <ul>
-          <li><strong>Lightweight and High-Strength:</strong> Magnesium, known for its low density and high strength-to-weight ratio, ensures that components produced through stir casting exhibit superior strength while being lightweight.</li>
-          <li><strong>Versatility in Shape and Size:</strong> The stir casting model's adaptability in terms of mold size and weight capacity allows for the creation of a wide range of components tailored to specific applications.</li>
-          <li><strong>Fully Automatic Operation:</strong> The fully automatic nature of the stir casting model enhances efficiency, repeatability, and ease of operation, contributing to streamlined production processes.</li>
-          <li><strong>Material Efficiency:</strong> The method's ability to incorporate reinforcing particles into the magnesium matrix enhances material properties, resulting in materials with improved performance characteristics.</li>
-      </ul>
+          <h4>Benefits:</h4>
+          <ul>
+              <li><strong>Lightweight and High-Strength:</strong> Magnesium, known for its low density and high strength-to-weight ratio, ensures that components produced through stir casting exhibit superior strength while being lightweight.</li>
+              <li><strong>Versatility in Shape and Size:</strong> The stir casting model's adaptability in terms of mold size and weight capacity allows for the creation of a wide range of components tailored to specific applications.</li>
+              <li><strong>Fully Automatic Operation:</strong> The fully automatic nature of the stir casting model enhances efficiency, repeatability, and ease of operation, contributing to streamlined production processes.</li>
+              <li><strong>Material Efficiency:</strong> The method's ability to incorporate reinforcing particles into the magnesium matrix enhances material properties, resulting in materials with improved performance characteristics.</li>
+          </ul>
 
-      <p>In summary, magnesium stir casting represents a cutting-edge technique with widespread applications in industries demanding lightweight, high-performance materials. Its versatility, efficiency, and ability to produce components with superior properties position it as a key player in advancing material engineering and manufacturing processes.</p>
-      `,
+          <p>In summary, magnesium stir casting represents a cutting-edge technique with widespread applications in industries demanding lightweight, high-performance materials. Its versatility, efficiency, and ability to produce components with superior properties position it as a key player in advancing material engineering and manufacturing processes.</p>
+
+      `
+    ,
       table1_th : 'Stir casting model',
       table1_th2 : 'fully automatic',
       table1_td : 'Material',
@@ -1410,32 +1385,35 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-      <p>An extruder serves as a screw reactor, driving the process of extrusion, which involves a sequence of operations including mixing, forming, puffing, and drying. This versatile tool finds applications across various industries, most notably in ceramics and metalworking.</p>
 
-      <h2>How It Works:</h2>
-      <ul>
-          <li><strong>Continuous Process:</strong> Extrusion is a continuous process where materials are forced through a series of dies, shaping them into desired forms.</li>
-          <li><strong>Screw-Type Mechanism:</strong> In commercial screw-type extruders, a screw auger consistently propels materials through a die, resulting in various shapes like cylindrical rods, pipes, bars, and plates.</li>
-          <li><strong>Metal Extrusion:</strong> In metalworking, extrusion transforms a metal billet into a uniform cross-sectional length by pressing it through a die, with aluminum being a particularly amenable material for this process.</li>
-      </ul>
+    <p>An extruder serves as a screw reactor, driving the process of extrusion, which involves a sequence of operations including mixing, forming, puffing, and drying. This versatile tool finds applications across various industries, most notably in ceramics and metalworking.</p>
 
-      <h2>Use Cases:</h2>
-      <ul>
-          <li><strong>Ceramic Manufacturing:</strong> Extrusion is widely employed in ceramics manufacturing for its efficiency in continuous production, producing shapes like rods, pipes, bars, and plates.</li>
-          <li><strong>Plastic Production:</strong> Plastic feed materials are molded into specific shapes using extruders, facilitating the production of diverse plastic products.</li>
-          <li><strong>Metal Extrusion:</strong> Aluminum, among other metals, undergoes extrusion for creating uniform cross-sectional lengths for various applications.</li>
-          <li><strong>Binder-Assisted Forming:</strong> Both clay and non-clay materials are formed into cylindrical or square shapes with the aid of binders, demonstrating the versatility of extruders.</li>
-      </ul>
+    <h4>How It Works:</h4>
+    <ul>
+        <li>Continuous Process: Extrusion is a continuous process where materials are forced through a series of dies, shaping them into desired forms.</li>
+        <li>Screw-Type Mechanism: In commercial screw-type extruders, a screw auger consistently propels materials through a die, resulting in various shapes like cylindrical rods, pipes, bars, and plates.</li>
+        <li>Metal Extrusion: In metalworking, extrusion transforms a metal billet into a uniform cross-sectional length by pressing it through a die, with aluminum being a particularly amenable material for this process.</li>
+    </ul>
 
-      <h2>Benefits:</h2>
-      <ul>
-          <li><strong>Continuous Production:</strong> Enables continuous and efficient production processes, reducing downtime and increasing output.</li>
-          <li><strong>Shape Versatility:</strong> Capable of forming a variety of shapes, from simple cylinders and pipes to complex bars and plates.</li>
-          <li><strong>Efficient Material Processing:</strong> Ensures efficient mixing, forming, and shaping of materials, contributing to overall manufacturing efficiency.</li>
-          <li><strong>Binder-Assisted Forming:</strong> Facilitates the use of binders to shape materials, offering flexibility in the manufacturing of diverse products.</li>
-      </ul>
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Ceramic Manufacturing: Extrusion is widely employed in ceramics manufacturing for its efficiency in continuous production, producing shapes like rods, pipes, bars, and plates.</li>
+        <li>Plastic Production: Plastic feed materials are molded into specific shapes using extruders, facilitating the production of diverse plastic products.</li>
+        <li>Metal Extrusion: Aluminum, among other metals, undergoes extrusion for creating uniform cross-sectional lengths for various applications.</li>
+        <li>Binder-Assisted Forming: Both clay and non-clay materials are formed into cylindrical or square shapes with the aid of binders, demonstrating the versatility of extruders.</li>
+    </ul>
 
-      <p>The extruder stands as a key player in manufacturing, driving continuous processes across ceramics, plastics, and metalworking. Its versatility, efficiency, and ability to shape materials make it an indispensable tool in modern industrial production.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Continuous Production: Enables continuous and efficient production processes, reducing downtime and increasing output.</li>
+        <li>Shape Versatility: Capable of forming a variety of shapes, from simple cylinders and pipes to complex bars and plates.</li>
+        <li>Efficient Material Processing: Ensures efficient mixing, forming, and shaping of materials, contributing to overall manufacturing efficiency.</li>
+        <li>Binder-Assisted Forming: Facilitates the use of binders to shape materials, offering flexibility in the manufacturing of diverse products.</li>
+    </ul>
+
+    <p>The extruder stands as a key player in manufacturing, driving continuous processes across ceramics, plastics, and metalworking. Its versatility, efficiency, and ability to shape materials make it an indispensable tool in modern industrial production.</p>
+
+
       `,
       para3 : "",
       routing : "extruder"
@@ -1451,33 +1429,36 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-      <p>Chemical Vapour Deposition (CVD) is a sophisticated coating process that relies on thermally induced chemical reactions occurring at the surface of a heated substrate. In this technique, reagents are supplied in gaseous form, leading to the formation of coatings with diverse properties.</p>
 
-      <h2>How It Works:</h2>
-      <ul>
-          <li><strong>Gaseous Reagent Supply:</strong> Reagents are introduced in gaseous form to the surface of a heated substrate.</li>
-          <li><strong>Thermally Induced Reactions:</strong> Chemical reactions are thermally induced, promoting the deposition of coating materials on the substrate.</li>
-          <li><strong>Nanostructure Development:</strong> CVD is prominently employed in nanotechnology for the precise development of nano materials with varied structures and dimensions.</li>
-      </ul>
+    <p>Chemical Vapour Deposition (CVD) is a sophisticated coating process that relies on thermally induced chemical reactions occurring at the surface of a heated substrate. In this technique, reagents are supplied in gaseous form, leading to the formation of coatings with diverse properties.</p>
 
-      <h2>Use Cases:</h2>
-      <ul>
-          <li><strong>Carbon Nano Tubes (CNTs):</strong> CVD is extensively utilized in the preparation of Carbon Nano Tubes, offering a method for controlled synthesis.</li>
-          <li><strong>Nano Thin Film Coatings:</strong> Applied in the development of diverse Nano Thin Film Coatings with tailored properties.</li>
-      </ul>
+    <h4>How It Works:</h4>
+    <ul>
+        <li>Gaseous Reagent Supply: Reagents are introduced in gaseous form to the surface of a heated substrate.</li>
+        <li>Thermally Induced Reactions: Chemical reactions are thermally induced, promoting the deposition of coating materials on the substrate.</li>
+        <li>Nanostructure Development: CVD is prominently employed in nanotechnology for the precise development of nano materials with varied structures and dimensions.</li>
+    </ul>
 
-      <h2>Benefits:</h2>
-      <ul>
-          <li><strong>Nanotechnology Advancements:</strong> Plays a pivotal role in nanotechnology, contributing to the creation of nano materials with specific structures.</li>
-          <li><strong>Versatile Applications:</strong> Widely employed for the preparation of Carbon Nano Tubes and Nano Thin Film Coatings, showcasing versatility.</li>
-          <li><strong>Precise Nanostructure Control:</strong> Allows precise control over the dimensions and structures of nano materials, crucial for tailored applications.</li>
-          <li><strong>Uniform Coating:</strong> Results in the deposition of coatings with uniform thickness, ensuring consistency in material properties.</li>
-      </ul>
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Carbon Nano Tubes (CNTs): CVD is extensively utilized in the preparation of Carbon Nano Tubes, offering a method for controlled synthesis.</li>
+        <li>Nano Thin Film Coatings: Applied in the development of diverse Nano Thin Film Coatings with tailored properties.</li>
+    </ul>
 
-      <h2>Technological Impact:</h2>
-      <p>Chemical Vapour Deposition stands at the forefront of technological advancements, particularly in nanotechnology. Its ability to facilitate controlled nanostructure development and diverse coating applications underscores its significance in materials science and engineering.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Nanotechnology Advancements: Plays a pivotal role in nanotechnology, contributing to the creation of nano materials with specific structures.</li>
+        <li>Versatile Applications: Widely employed for the preparation of Carbon Nano Tubes and Nano Thin Film Coatings, showcasing versatility.</li>
+        <li>Precise Nanostructure Control: Allows precise control over the dimensions and structures of nano materials, crucial for tailored applications.</li>
+        <li>Uniform Coating: Results in the deposition of coatings with uniform thickness, ensuring consistency in material properties.</li>
+    </ul>
 
-      <p>CVD plays a pivotal role in advancing nanotechnology and materials science, offering a powerful method for the controlled synthesis of nano materials and the development of specialized coatings.</p>
+    <h4>Technological Impact:</h4>
+    <p>Chemical Vapour Deposition stands at the forefront of technological advancements, particularly in nanotechnology. Its ability to facilitate controlled nanostructure development and diverse coating applications underscores its significance in materials science and engineering.</p>
+
+    <p>CVD plays a pivotal role in advancing nanotechnology and materials science, offering a powerful method for the controlled synthesis of nano materials and the development of specialized coatings.</p>
+
+
       `,
       lists : [],
       routing : "chemical-vapour-deposition-cvd"
@@ -1493,18 +1474,20 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-      <p>Slip casting is a technique most widely used in the field of geopolymers. It is used for the production of complex shapes from a suspension poured into a mold. The suspension is made of raw materials in powder form, dispersed in a liquid which, in the case of geopolymers, is water.</p>
+          <p>Slip casting is a technique most widely used in the field of geopolymers. It is used for the production of complex shapes from a suspension poured into a mold. The suspension is made of raw materials in powder form, dispersed in a liquid which, in the case of geopolymers, is water.</p>
 
-      <p>Slip casting is a meticulous technique employed in ceramics to produce intricate and precise forms. The process begins with a slip—a liquid mixture of clay and water, possessing a consistency similar to cream. The slip is poured into a plaster mold, and as the plaster absorbs water from the slip, a clay layer forms against the mold surface.</p>
+          <p>Slip casting is a meticulous technique employed in ceramics to produce intricate and precise forms. The process begins with a slip—a liquid mixture of clay and water, possessing a consistency similar to cream. The slip is poured into a plaster mold, and as the plaster absorbs water from the slip, a clay layer forms against the mold surface.</p>
 
-      <p>To ensure a successful slip casting process, several crucial steps should be followed. First and foremost, the plaster mold must be meticulously prepared, ensuring it is free of imperfections that could affect the final product. Proper drying time is vital, allowing the clay to set and attain the desired thickness against the mold walls.</p>
+          <p>To ensure a successful slip casting process, several crucial steps should be followed. First and foremost, the plaster mold must be meticulously prepared, ensuring it is free of imperfections that could affect the final product. Proper drying time is vital, allowing the clay to set and attain the desired thickness against the mold walls.</p>
 
-      <p>Controlling the casting time is essential, as it influences the thickness of the final product. The removal of excess slip, known as "draining," demands precision. After draining, the slip must be allowed to set further to achieve the desired thickness for the finished ceramic piece.</p>
+          <p>Controlling the casting time is essential, as it influences the thickness of the final product. The removal of excess slip, known as "draining," demands precision. After draining, the slip must be allowed to set further to achieve the desired thickness for the finished ceramic piece.</p>
 
-      <p>Attention to ambient conditions, including humidity and temperature, is crucial throughout the slip casting process. Proper drying and firing schedules are imperative for preventing defects and ensuring the final product's structural integrity.</p>
+          <p>Attention to ambient conditions, including humidity and temperature, is crucial throughout the slip casting process. Proper drying and firing schedules are imperative for preventing defects and ensuring the final product's structural integrity.</p>
 
-      <p>In essence, slip casting is an artful and meticulous process demanding attention to detail at every stage, from mold preparation to the final firing, resulting in intricately crafted ceramic pieces with precision and finesse.</p>
-      `,
+          <p>In essence, slip casting is an artful and meticulous process demanding attention to detail at every stage, from mold preparation to the final firing, resulting in intricately crafted ceramic pieces with precision and finesse.</p>
+
+      `
+      ,
       routing : "slip-casting"
     },
     {
@@ -1519,31 +1502,33 @@ export class ServicesComponent {
       para1 :"",
 
       para2 :`
-          <p>A Hot Air Oven is a laboratory appliance that is used to dry, sterilize, or heat materials. It works by circulating hot air inside the oven chamber to evenly distribute heat to the materials being processed. Hot air ovens are often used in a variety of settings, including research laboratories, industrial settings, and educational institutions.</p>
+          <p>The Sol-Gel process, a sophisticated wet chemical method, orchestrates the synthesis of diverse nanostructures, primarily focusing on metal oxide nanoparticles. This intricate dance of molecules involves dissolving a molecular precursor, typically a metal alkoxide, in water or alcohol. The subsequent transformation into a gel, achieved through controlled heating and stirring via hydrolysis/alcoholysis, sets the stage for crafting nano wonders.</p>
 
-          <h2>Features:</h2>
-          <ul>
-              <li><strong>Temperature Range:</strong> Hot air ovens provide a temperature range from ambient temperature to 250°C or higher, ensuring flexibility for various thermal processing applications.</li>
-              <li><strong>Thermostat Control:</strong> Equipped with a thermostat for precise temperature control, maintaining a consistent and accurate environment within the oven chamber.</li>
-              <li><strong>Even Heat Distribution:</strong> Some models feature a fan for efficient circulation of hot air, ensuring uniform heat distribution and optimal processing of materials.</li>
-              <li><strong>Hot Zone Size:</strong> 450mm x 450mm x 450mm, providing ample space for accommodating a variety of materials and equipment.</li>
-              <li><strong>Tray Configuration:</strong> Includes 3 stainless steel trays, facilitating organized placement of materials for effective thermal treatment.</li>
-              <li><strong>Max Temperature:</strong> Capable of reaching a maximum temperature of 250°C, meeting the requirements for sterilization, drying, and other thermal processes.</li>
-          </ul>
+          <h4>Key Components (provided):</h4>
+          <p>Chemicals for Sol-Gel Method:</p>
+          <p>Tailored to the specific needs of the customer, these chemicals form the foundation for precision in nanostructure synthesis.</p>
+          <p>Magnetic Stirrer cum Heater (2 Numbers):</p>
+          <p>Essential tools in the Sol-Gel symphony, providing controlled agitation and heat for meticulous reactions.</p>
+          <p>Hot Air Oven:</p>
+          <p>A vital element in the process, the hot air oven plays a crucial role in facilitating the transformation of gels into functional nanostructures.</p>
 
-          <h2>Use Cases:</h2>
-          <p>Hot Air Ovens find extensive application across diverse settings, offering versatile thermal processing capabilities:</p>
-          <ul>
-              <li><strong>Sterilization:</strong> Widely employed for sterilizing laboratory equipment and materials by exposing them to high temperatures, eliminating microorganisms effectively.</li>
-              <li><strong>Drying Applications:</strong> Ideal for drying a range of materials, including chemicals, biological specimens, and glassware, ensuring complete moisture removal.</li>
-              <li><strong>Chemical Activation:</strong> Used to heat materials for activating chemicals, a critical step in various scientific and industrial processes.</li>
-              <li><strong>Material Heating for Testing:</strong> Provides a controlled environment for heating materials to specific temperatures, crucial for accurate testing and experimentation.</li>
-              <li><strong>Biological Research:</strong> Supports the sterilization of biological specimens, maintaining a contaminant-free environment for research and experimentation.</li>
-              <li><strong>Educational Institutions:</strong> Valuable in educational settings for practical demonstrations and experiments, offering a safe and controlled environment for students.</li>
-          </ul>
+          <h4>Versatility in Nano Material Synthesis:</h4>
+          <p>Ceramic Nano Materials:</p>
+          <p>Sol-Gel stands as the method of choice for preparing a wide array of ceramic nano materials. Its wet chemical route enables the synthesis of colloidal dispersions of oxides, paving the way for the creation of powders, fibers, thin films, and monoliths.</p>
 
-          <p>Hot Air Ovens stand as indispensable tools in laboratories, research facilities, and educational institutions, contributing to a wide range of thermal processing applications. With precise temperature control and efficient heat distribution, these ovens play a crucial role in maintaining the integrity of materials and ensuring reliable experimental outcomes.</p>
-      `,
+          <h4>Crystallization and Beyond:</h4>
+          <p>Gel Medium Transformation:</p>
+          <p>The magic unfolds as crystals emerge from the gel medium. This transformation is orchestrated by inducing a state of super saturation through techniques like evaporation or cooling.</p>
+
+          <h4>Applications:</h4>
+          <p>Diverse Nanostructures:</p>
+          <p>Sol-Gel's prowess extends to diverse nanostructures, with applications spanning powders, fibers, thin films, and monoliths. Its adaptability fuels advancements in materials science and nanotechnology.</p>
+
+          <p>In the realm of nanostructure synthesis, the Sol-Gel Route emerges not just as a method but as a choreographed performance, delicately crafting the future of materials science. From tailored chemical compositions to controlled transformations, every step in the Sol-Gel dance contributes to the creation of nano wonders with real-world applications.</p>
+
+
+      `
+     ,
       lists : ['Chemicals for Sol- Gel Method (As required by the customer)', 'Magnetic Stirrer cum Heater - 2 Numbers', 'Hot Air Oven'],
       routing : "sol-gel-route"
     },
@@ -1556,9 +1541,42 @@ export class ServicesComponent {
       heading: 'Planetary Ball Mill with Alumina Jar(500ml)',
       description : "Planetary ball mills are mainly used in laboratories for grinding sample material down to very small sizes.",
       industries : '₹ - Enquire for Estimate',
-      para1 : 'Planetary Ball Mill is designed for mixing, fine grinding, and preparing small volume high-tech material production, which features with small volume, high efficiency, low noise.',
-      para2 : 'VBCRC Planetary ball mill which is used for milling and mixing of different materials is primarily used for Advanced Ceramics. Mainly it is suitable for nanotechnology applications and the particle size is reduced from Micron (10-6µm) to Nano Size (10-9nm) within a short time of 30 to 60 minutes.',
-      para3 : 'The Equipment is completely automatic with Time setting and Variable speed adjustments. Its features are:',
+      para1 : "",
+      para2 : `
+          <p>Planetary Ball Mill is designed for mixing, fine grinding, and preparing small volume high-tech material production, which features with small volume, high efficiency, low noise.</p>
+
+          <h4>Planetary Ball Mill with Alumina Jar:</h4>
+          <p><strong>Overview:</strong> The Planetary Ball Mill with Alumina Jar stands as a sophisticated instrument designed for the meticulous mixing, fine grinding, and preparation of small volumes of high-tech materials. This cutting-edge equipment combines efficiency, compact design, and minimal noise, catering to the exacting demands of advanced ceramics and nanotechnology applications.</p>
+
+          <h4>Key Features:</h4>
+          <ul>
+              <li><strong>Automatic Operation:</strong> The equipment operates seamlessly with automated functions, ensuring precision and ease of use.</li>
+              <li><strong>Time Setting:</strong> Users can precisely control the milling duration with adjustable time settings, facilitating optimized results.</li>
+              <li><strong>Variable Speed Adjustments:</strong> Variable speed adjustments provide flexibility to meet diverse milling requirements with efficiency.</li>
+          </ul>
+
+          <h4>Specifications:</h4>
+          <ul>
+              <li><strong>Vial Material:</strong> Crafted from high-quality alumina, the vial ensures compatibility with a range of materials and durability.</li>
+              <li><strong>Vial Capacity:</strong> The 500 ml capacity allows for small-volume, yet efficient, material production.</li>
+              <li><strong>Grinding Media:</strong> Alumina Balls (10 mm dia - 30 Nos) contribute to effective and uniform grinding.</li>
+              <li><strong>Loading Capacity:</strong> With a loading capacity ranging from 5g to 100g (depending on material density), the mill accommodates varying sample sizes.</li>
+              <li><strong>Material Loss:</strong> The minimal material loss of 2% ensures efficient utilization and reproducibility.</li>
+          </ul>
+
+          <h4>Use Cases:</h4>
+          <ul>
+              <li><strong>Nanomaterial Production:</strong> Ideal for nanotechnology applications, the mill achieves particle size reduction from Micron to Nano within a short timeframe.</li>
+              <li><strong>Advanced Ceramics:</strong> Specifically tailored for advanced ceramics, the mill addresses the precision requirements of ceramic material preparation.</li>
+              <li><strong>Laboratory Research:</strong> Widely used in laboratories, the Planetary Ball Mill facilitates diverse research endeavors with its versatile capabilities.</li>
+          </ul>
+
+          <p>The Planetary Ball Mill with Alumina Jar emerges as a reliable and advanced tool for laboratories and industries engaged in high-tech material production. Its features and capabilities position it as a cornerstone in the pursuit of precision and efficiency in materials processing.</p>
+
+
+      `,
+
+      para3 :"",
       table1_th : 'Vial Material',
       table1_th2 : 'Alumina',
       table1_td : 'Vial Capacity',
@@ -1588,34 +1606,34 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-      <p>Jar Mills are used for wet or dry grinding, mixing, and blending for a wide variety of materials like ores, chemicals, paints, ceramics, glass, etc. Different size jars are available for different grinding conditions. A bench or floor model Jar Mills from Gilson have capacities from one to six jars.</p>
+          <p>Jar Mills are used for wet or dry grinding, mixing, and blending for a wide variety of materials like ores, chemicals, paints, ceramics, glass, etc. Different size jars are available for different grinding conditions. A bench or floor model Jar Mills from Gilson have capacities from one to six jars.</p>
 
-      <h2>Overview</h2>
-      <p>Jar Mills stand as versatile workhorses in laboratories and industrial settings, facilitating both wet and dry grinding, mixing, and blending of diverse materials. From ores and chemicals to paints, ceramics, and glass, Jar Mills from Gilson offer a flexible solution for materials processing.</p>
+          <h4>Overview:</h4>
+          <p>Jar Mills stand as versatile workhorses in laboratories and industrial settings, facilitating both wet and dry grinding, mixing, and blending of diverse materials. From ores and chemicals to paints, ceramics, and glass, Jar Mills from Gilson offer a flexible solution for materials processing.</p>
 
-      <h2>Key Features</h2>
-      <ul>
-          <li><strong>Automatic Operation:</strong> The Jar Mill operates seamlessly with automatic functions, streamlining the grinding and mixing processes.</li>
-          <li><strong>Time Setting:</strong> Users can precisely control the duration of operations with adjustable time settings, ensuring optimal results.</li>
-          <li><strong>Variable Speed Adjustments:</strong> The flexibility of variable speed adjustments accommodates different grinding conditions, providing adaptability for various materials.</li>
-      </ul>
+          <h4>Key Features:</h4>
+          <ul>
+              <li>Automatic Operation: The Jar Mill operates seamlessly with automatic functions, streamlining the grinding and mixing processes.</li>
+              <li>Time Setting: Users can precisely control the duration of operations with adjustable time settings, ensuring optimal results.</li>
+              <li>Variable Speed Adjustments: The flexibility of variable speed adjustments accommodates different grinding conditions, providing adaptability for various materials.</li>
+          </ul>
 
-      <h2>Specifications</h2>
-      <ul>
-          <li><strong>Jar Material:</strong> Crafted from durable stainless steel, the jars ensure longevity and resistance to corrosion.</li>
-          <li><strong>Grinding Media:</strong> High Purity alumina grinding media enhances the efficiency of the grinding and mixing processes.</li>
-          <li><strong>Jar Capacity:</strong> With a substantial 5-liter capacity, the Jar Mill accommodates sizable quantities for efficient batch processing.</li>
-      </ul>
+          <h4>Specifications:</h4>
+          <ul>
+              <li>Jar Material: Crafted from durable stainless steel, the jars ensure longevity and resistance to corrosion.</li>
+              <li>Grinding Media: High Purity alumina grinding media enhances the efficiency of the grinding and mixing processes.</li>
+              <li>Jar Capacity: With a substantial 5-liter capacity, the Jar Mill accommodates sizable quantities for efficient batch processing.</li>
+          </ul>
 
-      <h2>Use Cases</h2>
-      <ul>
-          <li><strong>Laboratory Applications:</strong> Ideal for laboratories, Jar Mills are employed in research and experimentation across diverse fields.</li>
-          <li><strong>Industrial Grinding:</strong> In industrial settings, Jar Mills find applications in large-scale grinding, mixing, and blending operations.</li>
-          <li><strong>Materials Processing:</strong> From ores to ceramics, the Jar Mill caters to the processing needs of a broad spectrum of materials.</li>
-      </ul>
+          <h4>Use Cases:</h4>
+          <ul>
+              <li>Laboratory Applications: Ideal for laboratories, Jar Mills are employed in research and experimentation across diverse fields.</li>
+              <li>Industrial Grinding: In industrial settings, Jar Mills find applications in large-scale grinding, mixing, and blending operations.</li>
+              <li>Materials Processing: From ores to ceramics, the Jar Mill caters to the processing needs of a broad spectrum of materials.</li>
+          </ul>
 
-      <h2>Versatility in Grinding</h2>
-      <p>Jar Mills, available in bench or floor models, offer versatility with capacities ranging from one to six jars. This adaptability makes them indispensable for laboratories exploring varied materials and industrial operations requiring efficient materials processing. Whether wet or dry grinding, Jar Mills deliver consistent and reliable results across a spectrum of applications.</p>
+          <h4>Versatility in Grinding:</h4>
+          <p>Jar Mills, available in bench or floor models, offer versatility with capacities ranging from one to six jars. This adaptability makes them indispensable for laboratories exploring varied materials and industrial operations requiring efficient materials processing. Whether wet or dry grinding, Jar Mills deliver consistent and reliable results across a spectrum of applications.</p>
 
 
       `,
@@ -1637,33 +1655,31 @@ export class ServicesComponent {
       description : "A glovebox is a sealed container that is designed to allow one to manipulate objects where a separate atmosphere is desired.",
       industries : '₹ - Enquire for Estimate',
       para1 : "",
-      para2 :
-      `
+      para2 :`
           <p>A Glove Box, or glovebox, stands as a sealed container designed for manipulating objects in controlled environments, safeguarding workers during the handling of hazardous materials or substances requiring a specific atmosphere. Various types, including inflatable glove bags, basic glove boxes, controlled atmosphere glove boxes, and those designed for biohazard or multi-hazard situations, cater to diverse applications.</p>
 
-          <h2>Use Cases:</h2>
-
+          <h4>Use Cases:</h4>
           <ul>
-              <li><h3>Chemical Synthesis:</h3> <p>Inert atmosphere glove boxes find extensive use in chemical synthesis processes, ensuring a controlled environment for precise reactions.</p></li>
-              <li><h3>Organic Electronics:</h3> <p>Glove boxes contribute to the development and manipulation of materials in organic electronics, where a controlled atmosphere is crucial for optimal performance.</p></li>
-              <li><h3>Additive Manufacturing:</h3> <p>Applications in additive manufacturing benefit from glove boxes, preventing contamination and maintaining the purity of materials.</p></li>
-              <li><h3>Battery Technology Development:</h3> <p>The controlled environment provided by glove boxes proves essential in the research and development of advanced battery technologies.</p></li>
-              <li><h3>Materials Handling and Storage:</h3> <p>Glove boxes facilitate the safe handling and storage of sensitive materials, shielding them from external contaminants.</p></li>
-              <li><h3>Perovskite Electronics:</h3> <p>Precise control of atmospheric conditions within glove boxes is vital for the delicate processes involved in perovskite electronics.</p></li>
+              <li>Chemical Synthesis: Inert atmosphere glove boxes find extensive use in chemical synthesis processes, ensuring a controlled environment for precise reactions.</li>
+              <li>Organic Electronics: Glove boxes contribute to the development and manipulation of materials in organic electronics, where a controlled atmosphere is crucial for optimal performance.</li>
+              <li>Additive Manufacturing: Applications in additive manufacturing benefit from glove boxes, preventing contamination and maintaining the purity of materials.</li>
+              <li>Battery Technology Development: The controlled environment provided by glove boxes proves essential in the research and development of advanced battery technologies.</li>
+              <li>Materials Handling and Storage: Glove boxes facilitate the safe handling and storage of sensitive materials, shielding them from external contaminants.</li>
+              <li>Perovskite Electronics: Precise control of atmospheric conditions within glove boxes is vital for the delicate processes involved in perovskite electronics.</li>
           </ul>
 
-          <h2>Benefits:</h2>
-
+          <h4>Benefits:</h4>
           <ul>
-              <li><h3>Worker Safety:</h3> <p>Protects workers from exposure to hazardous materials, ensuring a secure environment for intricate tasks.</p></li>
-              <li><h3>Contamination Prevention:</h3> <p>Safeguards materials and processes from external contaminants, maintaining the integrity of sensitive substances.</p></li>
-              <li><h3>Controlled Atmosphere:</h3> <p>Provides a precisely regulated environment, crucial for applications where atmospheric conditions significantly impact outcomes.</p></li>
-              <li><h3>Versatility:</h3> <p>Various glove box types cater to specific needs, offering versatility for different industries and applications.</p></li>
-              <li><h3>Moisture and Oxygen Exclusion:</h3> <p>Mitigates the risk of compromised atmospheres by minimizing physical leaks and preventing ingression of moisture and oxygen.</p></li>
+              <li>Worker Safety: Protects workers from exposure to hazardous materials, ensuring a secure environment for intricate tasks.</li>
+              <li>Contamination Prevention: Safeguards materials and processes from external contaminants, maintaining the integrity of sensitive substances.</li>
+              <li>Controlled Atmosphere: Provides a precisely regulated environment, crucial for applications where atmospheric conditions significantly impact outcomes.</li>
+              <li>Versatility: Various glove box types cater to specific needs, offering versatility for different industries and applications.</li>
+              <li>Moisture and Oxygen Exclusion: Mitigates the risk of compromised atmospheres by minimizing physical leaks and preventing ingression of moisture and oxygen.</li>
           </ul>
 
-          <p><strong>In conclusion, Glove Boxes play a pivotal role in ensuring safety, precision, and controlled environments across a spectrum of industries, making them indispensable for processes ranging from chemical synthesis to advanced electronics and materials research.</strong></p>
-      `,
+          <p>In conclusion, Glove Boxes play a pivotal role in ensuring safety, precision, and controlled environments across a spectrum of industries, making them indispensable for processes ranging from chemical synthesis to advanced electronics and materials research.</p>
+      `
+    ,
       para3 : "",
       routing : "glove-box"
     },
@@ -1678,34 +1694,38 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-<p><strong>Overview:</strong> The VBCRC Planetary Ball Mill, equipped with a Porcelain Jar, stands as a versatile instrument essential for the milling and mixing of various materials, specifically tailored for Traditional Ceramics applications. This state-of-the-art equipment is designed to reduce particle sizes from millimeters (10-3mm) to micron dimensions (10-6µm) with utmost precision.</p>
+    <p>Planetary Ball Mill is designed for mixing, fine grinding, and preparing small volume high-tech material production, which features with small volume, high efficiency, low noise.</p>
 
-<h2>Key Features:</h2>
-<ul>
-    <li><strong>Automatic Operation:</strong> The equipment operates in a fully automatic mode, ensuring user-friendly and efficient performance.</li>
-    <li><strong>Time Setting:</strong> Users benefit from precise control over the milling duration, enhancing reproducibility and customization.</li>
-    <li><strong>Variable Speed Adjustments:</strong> Variable speed adjustments provide flexibility, accommodating diverse milling requirements with optimal efficiency.</li>
-</ul>
+    <h4>Planetary Ball Mill with Porcelain Jar (500ml):</h4>
 
-<h2>Specifications:</h2>
-<ul>
-    <li><strong>Vial Material:</strong> Crafted from high-quality Porcelain, the vial ensures compatibility with Traditional Ceramics and durability.</li>
-    <li><strong>Vial Capacity:</strong> The 500 ml capacity supports efficient processing of medium-sized batches.</li>
-    <li><strong>Grinding Media:</strong> Options of Alumina and Steatite grinding media in 10mm and 20mm diameters offer versatility for different materials.</li>
-    <li><strong>Loading Capacity:</strong> With a loading capacity ranging from 50g to 300g (depending on material density), the mill caters to varying sample sizes.</li>
-</ul>
+    <h4>Overview:</h4>
+    <p>The VBCRC Planetary Ball Mill, equipped with a Porcelain Jar, stands as a versatile instrument essential for the milling and mixing of various materials, specifically tailored for Traditional Ceramics applications. This state-of-the-art equipment is designed to reduce particle sizes from millimeters (10-3mm) to micron dimensions (10-6µm) with utmost precision.</p>
 
-<h2>Use Cases:</h2>
-<ul>
-    <li><strong>Traditional Ceramics:</strong> Tailored for Traditional Ceramics, the mill excels in applications such as casting, providing precision in material preparation.</li>
-    <li><strong>Particle Size Reduction:</strong> Efficiently reduces particle sizes from millimeters to microns, catering to a broad range of milling needs.</li>
-    <li><strong>Laboratory and Industrial Applications:</strong> Suitable for both laboratory research and industrial applications, offering versatility in material processing.</li>
-</ul>
+    <h4>Key Features:</h4>
+    <ul>
+        <li>Automatic Operation: The equipment operates in a fully automatic mode, ensuring user-friendly and efficient performance.</li>
+        <li>Time Setting: Users benefit from precise control over the milling duration, enhancing reproducibility and customization.</li>
+        <li>Variable Speed Adjustments: Variable speed adjustments provide flexibility, accommodating diverse milling requirements with optimal efficiency.</li>
+    </ul>
 
-<p>The Planetary Ball Mill with Porcelain Jar emerges as a reliable and advanced tool for applications in Traditional Ceramics. Its automatic operation, variable speed adjustments, and robust design make it a valuable asset for achieving precision and efficiency in materials processing.</p>
+    <h4>Specifications:</h4>
+    <ul>
+        <li>Vial Material: Crafted from high-quality Porcelain, the vial ensures compatibility with Traditional Ceramics and durability.</li>
+        <li>Vial Capacity: The 500 ml capacity supports efficient processing of medium-sized batches.</li>
+        <li>Grinding Media: Options of Alumina and Steatite grinding media in 10mm and 20mm diameters offer versatility for different materials.</li>
+        <li>Loading Capacity: With a loading capacity ranging from 50g to 300g (depending on material density), the mill caters to varying sample sizes.</li>
+    </ul>
 
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Traditional Ceramics: Tailored for Traditional Ceramics, the mill excels in applications such as casting, providing precision in material preparation.</li>
+        <li>Particle Size Reduction: Efficiently reduces particle sizes from millimeters to microns, catering to a broad range of milling needs.</li>
+        <li>Laboratory and Industrial Applications: Suitable for both laboratory research and industrial applications, offering versatility in material processing.</li>
+    </ul>
 
-      `,
+    <p>The Planetary Ball Mill with Porcelain Jar emerges as a reliable and advanced tool for applications in Traditional Ceramics. Its automatic operation, variable speed adjustments, and robust design make it a valuable asset for achieving precision and efficiency in materials processing.</p>
+      `
+      ,
       table1_th : 'Vial Material',
       table1_th2 : 'Porcelain Jar',
       table1_td : 'Vial Capacity',
@@ -1731,37 +1751,51 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-          <p>In the realm of materials science, understanding the intrinsic properties of materials is paramount for ensuring their suitability for diverse applications. Among these properties, bulk density, porosity, water absorption, and fired shrinkage stand out as key parameters that dictate the performance and behavior of materials, particularly in the ceramics and refractory industries.</p>
+    <h4>Evaluating Material Properties</h4>
 
-          <h2>Examining Bulk Density: A Measure of Material Compactness</h2>
+    <h4>Bulk Density:</h4>
+    <p>Calculation: Determined by measuring the volume of 100 g of powder after compaction.</p>
+    <p>Bulk Density = Sintered Weight / (Soaked Wt - Suspended Wt) g/cc.</p>
+    <p>Significance: Indicates the mass of a material per unit volume. Essential for understanding the compactness of powders and sintered materials.</p>
 
-          <p>Bulk density, defined as the mass of a material per unit volume, provides insights into the compactness of powders and sintered materials. It is determined by measuring the volume of a known mass of powder after compaction using a standardized method. This property plays a crucial role in various aspects of material processing and application.</p>
+    <br>
 
-          <h2>Delving into Porosity: Unveiling Void Spaces</h2>
+    <h4>Porosity:</h4>
+    <p>Calculation: Measured as a fraction of void spaces over the total volume or as a percentage.</p>
+    <p>Porosity = (Soaked Wt - Sintered Wt) / (Soaked Wt - Suspended Wt) x 100%.</p>
+    <p>Significance: Reflects the void fraction in a material. Crucial for assessing the material's structure and potential applications.</p>
 
-          <p>Porosity, representing the fraction of void spaces within a material, is a critical parameter that influences material properties such as permeability, thermal conductivity, and mechanical strength. It is calculated by measuring the difference between the soaked weight and suspended weight of a material sample. This property provides valuable insights into the material's structure and potential applications.</p>
+    <br>
 
-          <h2>Water Absorption: Understanding Material-Water Interactions</h2>
+    <h4>Water Absorption:</h4>
+    <p>Calculation: Defined as the ratio of water absorbed to the weight of the dry material.</p>
+    <p>Water Absorption = (Soaked Wt - Sintered Wt) / Sintered Weight x 100%.</p>
+    <p>Significance: Measures a material's capacity to absorb water. Essential for understanding material behavior in various environments.</p>
 
-          <p>Water absorption, measured as the ratio of absorbed water to the weight of the dry material, reflects a material's capacity to absorb and retain water. It is determined by measuring the difference between the soaked weight and sintered weight of a material sample. Understanding water absorption is essential for predicting material behavior in various environments, particularly in applications where moisture exposure is a concern.</p>
+    <br>
 
-          <h2>Fired Shrinkage: A Tale of Vitrification and Dimensional Changes</h2>
+    <h4>Fired Shrinkage:</h4>
+    <p>Calculation: Comparative indicator of the degree of vitrification during firing.</p>
+    <p>Fired Shrinkage = (Dia of After Drying - Dia of After Firing) / Dia of After Drying.</p>
+    <p>Significance: Reflects the extent of shrinkage during the firing process. Crucial for controlling the dimensional changes in ceramics.</p>
 
-          <p>Fired shrinkage, a critical parameter in ceramics processing, indicates the degree of vitrification during the firing process. It is calculated by comparing the diameter of a material sample after drying and after firing. This property is crucial for controlling dimensional changes in ceramics and ensuring the desired shape and size of the final product.</p>
+    <br>
 
-          <h2>Diverse Applications and Enduring Benefits</h2>
+    <h4>Use Cases:</h4>
+    <p>Quality Control: Essential metrics for quality control in ceramics and refractory production.</p>
+    <p>Material Characterization: Provides insights into the physical properties of sintered materials.</p>
+    <p>Process Optimization: Enables optimization of firing processes for desired shrinkage and properties.</p>
 
-          <p>The evaluation of bulk density, porosity, water absorption, and fired shrinkage is not only essential for quality control in ceramics and refractory production but also serves as a valuable tool for material characterization and process optimization.</p>
+    <br>
 
-          <p><strong>Quality Control:</strong> These metrics provide essential data for ensuring consistency and quality in material production, preventing defects and maintaining product integrity.</p>
+    <h4>Benefits:</h4>
+    <p>Quality Assurance: Ensures consistency and quality in material production.</p>
+    <p>Process Efficiency: Guides process adjustments for optimal results.</p>
+    <p>Material Performance: Aids in predicting material behavior in various conditions.</p>
 
-          <p><strong>Material Characterization:</strong> By understanding these properties, researchers and engineers gain insights into the physical characteristics of sintered materials, allowing for tailored material selection and property optimization.</p>
+    <br>
 
-          <p><strong>Process Optimization:</strong> Evaluating these parameters enables the optimization of firing processes to achieve the desired shrinkage and properties, leading to improved material performance and cost-effectiveness.</p>
-
-          <h2>Conclusion</h2>
-
-          <p>In summary, the evaluation of bulk density, porosity, water absorption, and fired shrinkage is fundamental for ensuring the quality, performance, and application-specific suitability of materials, particularly in the ceramics and refractory industries. By understanding these intrinsic properties, researchers, engineers, and manufacturers can make informed decisions that lead to the development and production of high-quality materials for diverse applications.</p>
+    <p>Understanding bulk density, porosity, water absorption, and fired shrinkage is fundamental for ensuring the quality, performance, and application-specific suitability of materials, particularly in the ceramics and refractory industries.</p>
       `,
       para3 : "",
       para4 :"",
@@ -1778,42 +1812,41 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-          <p>In the realm of materials science, particle size distribution stands as a critical parameter that governs the behavior and properties of materials. Particle size distribution, defined as the percentage of particles within specified size intervals in a material, provides invaluable insights into the physical characteristics of materials and their performance in diverse applications.</p>
+    <h4>Definition:</h4>
+    <p>Particle size distribution denotes the percentage of particles within specified size intervals in a material.</p>
 
-          <h2>Unveiling Particle Size Distribution: Methods and Techniques</h2>
+    <h4>Methods:</h4>
+    <p><strong>Laser Light Scattering:</strong></p>
+    <p>Utilized for nano particles, measuring sizes from 0.3 nm up to 5 mm.</p>
+    <p>Suitable for a wide range of particle sizes, including those up to 30 mm.</p>
 
-          <p>Measuring and analyzing particle size distribution is essential for understanding and controlling material properties. Two primary methods are commonly employed:</p>
+    <br>
 
-          <ul>
-              <li><strong>Granulometry:</strong> This traditional technique involves separating particles based on size using sieves or sedimentation. While effective for larger particles, it has limitations for analyzing smaller particles, particularly in the nano range.</li>
-              <li><strong>Laser Light Scattering:</strong> This advanced technique utilizes the scattering of laser light by particles to determine their size distribution. It is particularly well-suited for measuring particles ranging from 0.3 nanometers to 5 millimeters, making it versatile for a wide range of applications.</li>
-          </ul>
+    <h4>How it Works:</h4>
+    <p><strong>Granulometry:</strong></p>
+    <p>Involves determining the relative amount of particles based on size, often expressed as a mathematical function or values.</p>
+    <p>Laser light scattering measures particle sizes by analyzing light scattering patterns.</p>
 
-          <h2>A World of Applications: Where Particle Size Distribution Matters</h2>
+    <br>
 
-          <p>Particle size distribution analysis finds widespread application across diverse industries, each with unique requirements and benefits:</p>
+    <h4>Use Cases:</h4>
+    <p><strong>Quality Control:</strong> Crucial in industries to ensure product consistency and quality.</p>
+    <p><strong>Pharmaceuticals:</strong> Particle size influences drug delivery and bioavailability.</p>
+    <p><strong>Chemical Processes:</strong> Affects reaction rates, surface area, and material properties.</p>
+    <p><strong>Nanotechnology:</strong> Essential for controlling nanomaterial properties and behaviors.</p>
 
-          <ul>
-              <li><strong>Quality Control:</strong> In industries such as pharmaceuticals and cosmetics, particle size distribution is crucial for ensuring product consistency, quality, and consumer safety.</li>
-              <li><strong>Pharmaceuticals:</strong> Particle size directly influences drug delivery, bioavailability, and therapeutic efficacy, making particle size distribution analysis essential for optimizing drug formulations.</li>
-              <li><strong>Chemical Processes:</strong> Particle size significantly impacts reaction rates, surface area, and material properties, making particle size distribution analysis a critical factor in optimizing chemical processes.</li>
-              <li><strong>Nanotechnology:</strong> Controlling particle size is paramount in nanotechnology, as it dictates the physical, chemical, and optical properties of nanomaterials. Understanding particle size distribution is essential for developing nanomaterials with tailored properties for various applications.</li>
-          </ul>
+    <br>
 
-          <h2>Reaping the Benefits: Why Particle Size Distribution Analysis Matters</h2>
+    <h4>Benefits:</h4>
+    <p><strong>Optimized Processes:</strong> Guides adjustments in manufacturing processes for desired particle characteristics.</p>
+    <p><strong>Product Quality:</strong> Ensures uniformity and quality in the final product.</p>
+    <p><strong>Performance Prediction:</strong> Helps predict material behavior in various applications.</p>
+    <p><strong>Research and Development:</strong> Informs material design and development strategies.</p>
 
-          <p>Particle size distribution analysis offers a multitude of benefits that extend beyond simply measuring particle dimensions:</p>
+    <br>
 
-          <ul>
-              <li><strong>Optimized Processes:</strong> By understanding particle size distribution, manufacturers can make informed adjustments in their production processes to achieve desired particle characteristics and optimize material performance.</li>
-              <li><strong>Enhanced Product Quality:</strong> Particle size distribution analysis ensures uniformity, consistency, and quality in the final product, meeting industry standards and consumer expectations.</li>
-              <li><strong>Performance Prediction:</strong> Understanding particle size distribution helps predict how materials will behave in various applications, allowing for informed material selection and formulation optimization.</li>
-              <li><strong>Research and Development:</strong> Particle size distribution analysis provides valuable data for material design and development, guiding the creation of novel materials with tailored properties for specific applications.</li>
-          </ul>
+    <p>Particle size distribution analysis is a fundamental tool across industries, offering insights into material properties crucial for product quality, performance, and the success of various processes. Whether in pharmaceuticals, chemicals, or nanotechnology, understanding and controlling particle size is central to achieving desired outcomes.</p>
 
-          <h2>Conclusion</h2>
-
-          <p>In summary, particle size distribution analysis stands as a fundamental tool across industries, offering insights into material properties that are crucial for product quality, performance, and the success of various processes. Whether in pharmaceuticals, chemicals, or nanotechnology, understanding and controlling particle size is central to achieving desired outcomes and driving innovation in diverse fields.</p>
       `,
       routing :  'particle-size-distribution'
     },
@@ -1828,42 +1861,66 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-          <p>Cold Crushing Strength (CCS) is a compressive test measuring a material's ability to withstand a given load, usually assessed at room temperature after firing to specific temperatures.</p>
+    <p>Cold Crushing Strength (CCS) is a compressive test measuring a material's ability to withstand a given load, usually assessed at room temperature after firing to specific temperatures.</p>
 
-          <h2>Measurement Standards:</h2>
-          <p>Measured by ASTM C133.</p>
-          <p>Provides an indication of abrasion resistance.</p>
+    <h4>Measurement Standards:</h4>
+    <p>Measured by ASTM C133.</p>
+    <p>Provides an indication of abrasion resistance.</p>
 
-          <h2>Importance in Refractories:</h2>
-          <p>Particle Distribution and Packing:</p>
-          <p>Essential for developing good CCS.</p>
-          <p>Relevance to Refractory Performance:</p>
-          <p>Indirectly linked, serves as an indicator of abrasion resistance.</p>
-          <p>High CCS correlates with higher resistance to slag attack.</p>
+    <h4>Importance in Refractories:</h4>
+    <ul>
+        <li>Particle Distribution and Packing:</li>
+        <ul>
+            <li>Essential for developing good CCS.</li>
+        </ul>
+        <li>Relevance to Refractory Performance:</li>
+        <ul>
+            <li>Indirectly linked, serves as an indicator of abrasion resistance.</li>
+            <li>High CCS correlates with higher resistance to slag attack.</li>
+        </ul>
+    </ul>
 
-          <h2>Use Cases:</h2>
-          <p>Quality Assessment:</p>
-          <p>Determines the strength of refractory materials.</p>
-          <p>Material Selection:</p>
-          <p>Influences choices in refractory linings based on anticipated mechanical stresses.</p>
-          <p>Insulating Bricks:</p>
-          <p>Critical for porous yet strong refractory insulating bricks.</p>
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Quality Assessment:</li>
+        <ul>
+            <li>Determines the strength of refractory materials.</li>
+        </ul>
+        <li>Material Selection:</li>
+        <ul>
+            <li>Influences choices in refractory linings based on anticipated mechanical stresses.</li>
+        </ul>
+        <li>Insulating Bricks:</li>
+        <ul>
+            <li>Critical for porous yet strong refractory insulating bricks.</li>
+        </ul>
+    </ul>
 
-          <h2>How it Works:</h2>
-          <p>Compressive Test:</p>
-          <p>Subjects a specimen to a compressive force to assess its strength.</p>
-          <p>Typically measured at room temperature post-firing.</p>
+    <h4>How it Works:</h4>
+    <p>Compressive Test:</p>
+    <ul>
+        <li>Subjects a specimen to a compressive force to assess its strength.</li>
+        <li>Typically measured at room temperature post-firing.</li>
+    </ul>
 
-          <h2>Benefits:</h2>
-          <p>Abrasion Resistance:</p>
-          <p>Higher CCS indicates greater resistance to abrasion.</p>
-          <p>Performance Prediction:</p>
-          <p>Provides insights into the ability of refractories to withstand mechanical stresses.</p>
-          <p>Material Development:</p>
-          <p>Guides the development of refractory materials with desired strength characteristics.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Abrasion Resistance:</li>
+        <ul>
+            <li>Higher CCS indicates greater resistance to abrasion.</li>
+        </ul>
+        <li>Performance Prediction:</li>
+        <ul>
+            <li>Provides insights into the ability of refractories to withstand mechanical stresses.</li>
+        </ul>
+        <li>Material Development:</li>
+        <ul>
+            <li>Guides the development of refractory materials with desired strength characteristics.</li>
+        </ul>
+    </ul>
 
-          <p>Cold Crushing Strength is a pivotal parameter in refractory assessments, influencing material selection, quality evaluation, and performance predictions. Its application spans various industries where refractory materials play a crucial role in withstanding mechanical stresses and environmental conditions.</p>
-      `,
+    <p>Cold Crushing Strength is a pivotal parameter in refractory assessments, influencing material selection, quality evaluation, and performance predictions. Its application spans various industries where refractory materials play a crucial role in withstanding mechanical stresses and environmental conditions.</p>
+         `,
       routing :  'cold-crushing-strength-css'
     },
     {
@@ -1877,45 +1934,77 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-          <p>Impact resistance, or impact strength, refers to a material's or product's capability to absorb shock or impact energy without undergoing fracture or breakage.</p>
+    <p>Impact resistance, or impact strength, refers to a material's or product's capability to absorb shock or impact energy without undergoing fracture or breakage.</p>
 
-          <h2>Characteristics:</h2>
-          <p>Shock Absorption:</p>
-          <p>Ability to absorb and dissipate energy from sudden impacts.</p>
-          <p>Material Integrity:</p>
-          <p>Maintains structural integrity when subjected to impact forces.</p>
-          <p>Notched Specimen Test:</p>
-          <p>Involves striking a notched or V-notch specimen with a pendulum hammer.</p>
-          <p>Measures energy absorbed during fracture.</p>
+    <h4>Characteristics:</h4>
+    <ul>
+        <li>Shock Absorption:</li>
+        <ul>
+            <li>Ability to absorb and dissipate energy from sudden impacts.</li>
+        </ul>
+        <li>Material Integrity:</li>
+        <ul>
+            <li>Maintains structural integrity when subjected to impact forces.</li>
+        </ul>
+        <li>Notched Specimen Test:</li>
+        <ul>
+            <li>Involves striking a notched or V-notch specimen with a pendulum hammer.</li>
+            <li>Measures energy absorbed during fracture.</li>
+        </ul>
+    </ul>
 
-          <h2>Use Cases:</h2>
-          <p>Consumer Products:</p>
-          <p>Mobile devices, protective cases, and eyewear.</p>
-          <p>Automotive Components:</p>
-          <p>Bumpers, safety features, and body panels.</p>
-          <p>Construction Materials:</p>
-          <p>Building components and impact-resistant glass.</p>
-          <p>Sporting Equipment:</p>
-          <p>Helmets, pads, and sports gear.</p>
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Consumer Products:</li>
+        <ul>
+            <li>Mobile devices, protective cases, and eyewear.</li>
+        </ul>
+        <li>Automotive Components:</li>
+        <ul>
+            <li>Bumpers, safety features, and body panels.</li>
+        </ul>
+        <li>Construction Materials:</li>
+        <ul>
+            <li>Building components and impact-resistant glass.</li>
+        </ul>
+        <li>Sporting Equipment:</li>
+        <ul>
+            <li>Helmets, pads, and sports gear.</li>
+        </ul>
+    </ul>
 
-          <h2>How it Works:</h2>
-          <p>Notched Specimen Test:</p>
-          <p>Utilizes a pendulum hammer to strike a notched or V-notch specimen.</p>
-          <p>Measures the energy absorbed by the material during fracture.</p>
-          <p>Indicates the material's ability to resist breakage under impact.</p>
+    <h4>How it Works:</h4>
+    <ul>
+        <li>Notched Specimen Test:</li>
+        <ul>
+            <li>Utilizes a pendulum hammer to strike a notched or V-notch specimen.</li>
+            <li>Measures the energy absorbed by the material during fracture.</li>
+            <li>Indicates the material's ability to resist breakage under impact.</li>
+        </ul>
+    </ul>
 
-          <h2>Benefits:</h2>
-          <p>Durability Enhancement:</p>
-          <p>Increases the ability of materials to withstand sudden forces.</p>
-          <p>Safety Assurance:</p>
-          <p>Crucial for products designed to protect users from impacts.</p>
-          <p>Product Longevity:</p>
-          <p>Reduces the risk of damage and breakage during use.</p>
-          <p>Optimized Designs:</p>
-          <p>Enables the design of components for specific impact or shock loads.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Durability Enhancement:</li>
+        <ul>
+            <li>Increases the ability of materials to withstand sudden forces.</li>
+        </ul>
+        <li>Safety Assurance:</li>
+        <ul>
+            <li>Crucial for products designed to protect users from impacts.</li>
+        </ul>
+        <li>Product Longevity:</li>
+        <ul>
+            <li>Reduces the risk of damage and breakage during use.</li>
+        </ul>
+        <li>Optimized Designs:</li>
+        <ul>
+            <li>Enables the design of components for specific impact or shock loads.</li>
+        </ul>
+    </ul>
 
-          <p>Impact resistance is a pivotal property ensuring materials and products can endure sudden forces without compromising their integrity. Testing methodologies, such as the notched specimen test, provide valuable insights into a material's ability to absorb impact energy, guiding the design of durable and resilient products across diverse industries.</p>
-      `,
+    <p>Impact resistance is a pivotal property ensuring materials and products can endure sudden forces without compromising their integrity. Testing methodologies, such as the notched specimen test, provide valuable insights into a material's ability to absorb impact energy, guiding the design of durable and resilient products across diverse industries.</p>
+         `,
       para3 : "",
       routing :  'impact-resistance'
     },
@@ -1930,45 +2019,76 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-          <p>Impact resistance, or impact strength, refers to a material's or product's capability to absorb shock or impact energy without undergoing fracture or breakage.</p>
+    <p>Abrasion resistance is the capacity of materials and structures to endure wear and tear caused by friction, preventing deterioration and maintaining their original structure.</p>
 
-          <h2>Characteristics:</h2>
-          <p>Shock Absorption:</p>
-          <p>Ability to absorb and dissipate energy from sudden impacts.</p>
-          <p>Material Integrity:</p>
-          <p>Maintains structural integrity when subjected to impact forces.</p>
-          <p>Notched Specimen Test:</p>
-          <p>Involves striking a notched or V-notch specimen with a pendulum hammer.</p>
-          <p>Measures energy absorbed during fracture.</p>
+    <h4>Characteristics:</h4>
+    <ul>
+        <li>Mechanical Wear:</li>
+        <ul>
+            <li>Resistance to wearing down or rubbing away through friction.</li>
+        </ul>
+        <li>Hardness:</li>
+        <ul>
+            <li>The harder the material, the higher its resistance to abrasion.</li>
+        </ul>
+        <li>Abrasion Test:</li>
+        <ul>
+            <li>Measures material loss using abrasive paper over a specified time.</li>
+        </ul>
+    </ul>
 
-          <h2>Use Cases:</h2>
-          <p>Consumer Products:</p>
-          <p>Mobile devices, protective cases, and eyewear.</p>
-          <p>Automotive Components:</p>
-          <p>Bumpers, safety features, and body panels.</p>
-          <p>Construction Materials:</p>
-          <p>Building components and impact-resistant glass.</p>
-          <p>Sporting Equipment:</p>
-          <p>Helmets, pads, and sports gear.</p>
+    <h4>Use Cases:</h4>
+    <ul>
+        <li>Industrial Machinery:</li>
+        <ul>
+            <li>Components exposed to continuous friction.</li>
+        </ul>
+        <li>Automotive Applications:</li>
+        <ul>
+            <li>Tires, brake systems, and other parts.</li>
+        </ul>
+        <li>Construction Materials:</li>
+        <ul>
+            <li>Flooring, concrete surfaces, and coatings.</li>
+        </ul>
+        <li>Mining Equipment:</li>
+        <ul>
+            <li>Tools, conveyor belts, and drilling components.</li>
+        </ul>
+    </ul>
 
-          <h2>How it Works:</h2>
-          <p>Notched Specimen Test:</p>
-          <p>Utilizes a pendulum hammer to strike a notched or V-notch specimen.</p>
-          <p>Measures the energy absorbed by the material during fracture.</p>
-          <p>Indicates the material's ability to resist breakage under impact.</p>
+    <h4>How it Works:</h4>
+    <ul>
+        <li>Abrasion Test:</li>
+        <ul>
+            <li>Employs abrasive paper to simulate frictional wear.</li>
+            <li>Measures material loss over a defined period.</li>
+            <li>Indicates the material's ability to maintain integrity under abrasive conditions.</li>
+        </ul>
+    </ul>
 
-          <h2>Benefits:</h2>
-          <p>Durability Enhancement:</p>
-          <p>Increases the ability of materials to withstand sudden forces.</p>
-          <p>Safety Assurance:</p>
-          <p>Crucial for products designed to protect users from impacts.</p>
-          <p>Product Longevity:</p>
-          <p>Reduces the risk of damage and breakage during use.</p>
-          <p>Optimized Designs:</p>
-          <p>Enables the design of components for specific impact or shock loads.</p>
+    <h4>Benefits:</h4>
+    <ul>
+        <li>Material Longevity:</li>
+        <ul>
+            <li>Enhances the lifespan of materials exposed to abrasive forces.</li>
+        </ul>
+        <li>Cost Savings:</li>
+        <ul>
+            <li>Reduces the frequency of replacements and maintenance.</li>
+        </ul>
+        <li>Performance Assurance:</li>
+        <ul>
+            <li>Ensures materials can withstand mechanical wear in diverse applications.</li>
+        </ul>
+        <li>Quality Assessment:</li>
+        <ul>
+            <li>Key parameter in material selection for specific use cases.</li>
+        </ul>
+    </ul>
 
-          <p>Impact resistance is a pivotal property ensuring materials and products can endure sudden forces without compromising their integrity. Testing methodologies, such as the notched specimen test, provide valuable insights into a material's ability to absorb impact energy, guiding the design of durable and resilient products across diverse industries.</p>
-      `,
+    <p>Abrasion resistance is a critical property ensuring the durability and longevity of materials in various applications. Its measurement through abrasion tests provides valuable insights into a material's ability to withstand mechanical wear, aiding in material selection, quality assessment, and overall performance assurance.</p>
+        `,
       routing :  'abrasion-resistance'
     },
     {
@@ -1984,23 +2104,23 @@ export class ServicesComponent {
       para2 : `
           <p>Creep resistance is a material property that gauges its ability to withstand deformation when exposed to sustained compressive loads and elevated temperatures over an extended duration. This phenomenon commonly occurs in materials under mechanical stress at high operating conditions.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Digital Shrinkage Measurement:</p>
           <p>The equipment utilizes a high-resolution linear variable differential transformer (LVDT) measuring system (1-micrometer precision) for digitally measuring the percentage of shrinkage in a test piece under a constant load and elevated temperature.</p>
           <p>Computer Integration:</p>
           <p>LVDT values are transmitted to a computer through a dedicated cable, and Labview software is employed for real-time plotting of an online graph illustrating the relationship between temperature and the percentage of total expansion.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Refractory Testing:</p>
           <p>Creep in compression is particularly measured to assess the shrinkage of refractory materials under constant loads and high temperatures.</p>
 
-          <h2>Key Features:</h2>
+          <h4>Key Features:</h4>
           <p>High-Temperature Capability:</p>
           <p>The equipment is designed to operate at a maximum temperature of 1600°C, simulating harsh operating conditions.</p>
           <p>Sample Size Standardization:</p>
           <p>Standardized sample sizes with an outer diameter (OD) of 50mm and a length of 50mm ensure consistency in testing.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Material Stability Assessment:</p>
           <p>Enables the assessment of a material's stability and resistance to deformation under prolonged compressive loads and elevated temperatures.</p>
           <p>Digital Precision:</p>
@@ -2033,23 +2153,23 @@ export class ServicesComponent {
       para2 :`
           <p>Hot Modulus Of Rupture (HMOR), also referred to as hot bend strength or fracture strength at a specific temperature, is a crucial mechanical parameter used to evaluate the ability of brittle materials to resist deformation under a constant load at elevated temperatures. This parameter holds significant importance in the characterization of refractory materials.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>High-Temperature Load Test:</p>
           <p>The equipment performs a high-temperature load test to determine the material's ability to withstand deformation under load at a constant temperature.</p>
           <p>Maximum Temperature Capability:</p>
           <p>The HMOR equipment is designed to operate at extreme temperatures, with a maximum capability of 1700°C.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Quality Control in Refractory Materials:</p>
           <p>HMOR is employed to assess the maximum load at high temperatures, providing essential data for quality control in the production and development of furnace linings.</p>
 
-          <h2>Key Features:</h2>
+          <h4>Key Features:</h4>
           <p>Sample Standardization:</p>
           <p>Standardized sample sizes of 25mm x 25mm x 150mm ensure consistency in testing, allowing for accurate comparisons.</p>
           <p>High-Temperature Assessment:</p>
           <p>Capable of evaluating material strength under extreme conditions, making it particularly suitable for refractory materials used in high-temperature environments.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Quality Assurance:</p>
           <p>HMOR testing serves as a reliable parameter for quality assurance, ensuring that refractory materials can withstand the demanding conditions of furnace linings.</p>
           <p>Performance Prediction:</p>
@@ -2083,23 +2203,23 @@ export class ServicesComponent {
       para2 : `
           <p>Thermal conductivity (k, λ, or κ) is a crucial metric defining a material's ability to conduct heat. It plays a pivotal role in determining the rate of heat transfer, with lower thermal conductivity indicating slower heat transfer and vice versa.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Temperature-Dependent Assessment:</p>
           <p>The equipment evaluates thermal conductivity values from room temperature up to 1400°C or the maximum service limit of the refractory material.</p>
           <p>Material Characterization:</p>
           <p>Conducts tests on non-carbonaceous dielectric refractories to assess their thermal conductivity under varying temperature conditions.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Refractory Material Optimization:</p>
           <p>Essential for optimizing the composition of refractory materials, ensuring they meet thermal performance requirements in high-temperature applications.</p>
 
-          <h2>Key Features:</h2>
+          <h4>Key Features:</h4>
           <p>Wide Temperature Range:</p>
           <p>Capable of determining thermal conductivity across a broad temperature spectrum, allowing for comprehensive material characterization.</p>
           <p>Dielectric Refractories Testing:</p>
           <p>Specifically designed for non-carbonaceous dielectric refractories, providing insights into their thermal behavior.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Performance Prediction:</p>
           <p>Enables the prediction of material performance in real-world applications by understanding how it conducts heat at various temperatures.</p>
           <p>Material Selection Criteria:</p>
@@ -2134,16 +2254,16 @@ export class ServicesComponent {
       para2 : `
           <p>Permanent Linear Change (PLC) serves as a crucial factor for assessing the suitability of refractory materials under diverse temperature conditions. It gauges the permanent alteration in dimensions that refractories may undergo due to processes like mineral formation, phase transformation, or shrinkage when exposed to heat.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Experimental Measurement:</p>
           <p>Refractories are heated to predetermined temperatures, held for specific durations, and then cooled to room temperature.</p>
           <p>The measuring temperature and time align with technical standards tailored to each product.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Temperature Suitability Assessment:</p>
           <p>PLC is utilized to determine how refractory materials respond to temperature variations, ensuring they meet the requirements of specific applications.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Performance Prediction:</p>
           <p>Allows for predicting how refractories will change dimensionally under various temperature scenarios, aiding in material selection for specific operational conditions.</p>
           <p>Quality Control:</p>
@@ -2168,17 +2288,17 @@ export class ServicesComponent {
       para2: `
           <p>Refractoriness Under Load (RUL) is a critical measure defined by ISO 1893, evaluating the deformation behavior of refractory ceramic products under a constant load with increasing temperature. It provides insights into the product's ability to withstand high temperatures without significant deformation.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Constant Load and Temperature Increase:</p>
           <p>Refractory samples are subjected to a constant load.</p>
           <p>The temperature is systematically increased to observe the onset of softening and deformation.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>High-Temperature Applications:</p>
           <p>RUL is employed to assess refractory products' suitability for applications exposed to elevated temperatures.</p>
           <p>Commonly used in industries such as metallurgy, cement, and glass manufacturing.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Performance Evaluation:</p>
           <p>RUL aids in understanding how refractory materials respond to high temperatures under load, ensuring they maintain structural integrity.</p>
           <p>Quality Assurance:</p>
@@ -2201,14 +2321,14 @@ export class ServicesComponent {
       para2 : `
           <p>PCE, or Pyrometric Cone Equivalent, is a crucial metric in the ceramics industry, providing insights into the firing process by determining the cone equivalent of raw materials. This method involves placing various PCE cones alongside an unknown material, allowing for the assessment of heat-work, time, and temperature.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Comparative Analysis:</p>
           <p>Involves placing PCE cones alongside an unknown raw material pressed into a cone shape.</p>
           <p>The cones deform based on the heat-work, time, and temperature, providing a comparative analysis.</p>
           <p>Indication of Firing Conditions:</p>
           <p>The deformation of cones indicates the firing conditions and whether the desired heat-work has been achieved.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Industrial Kilns:</p>
           <p>Widely used in industrial kilns for consistent monitoring of ceramic firings.</p>
           <p>Ensures that the firing conditions meet the required standards for quality production.</p>
@@ -2219,7 +2339,7 @@ export class ServicesComponent {
           <p>Used in small hobby kilns for quality assurance in artisanal ceramic production.</p>
           <p>Provides a simple yet effective method for hobbyists to achieve desired firing outcomes.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Precision in Firing:</p>
           <p>Offers a precise indication of the heat-work and temperature achieved during firing.</p>
           <p>Allows for adjustments to firing conditions to meet specific requirements.</p>
@@ -2247,12 +2367,12 @@ export class ServicesComponent {
       para2 : `
           <p>Thermal cycling, also known as temperature cycling, is a recurring thermal test involving the regular alteration of temperatures, oscillating between high and low temperature peaks. This testing method is employed to evaluate the resilience of materials against exposure to alternating extremes of temperature.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Temperature Alteration:</p>
           <p>Materials or components undergo repetitive cycles of exposure to high-temperature peaks and low-temperature troughs.</p>
           <p>The goal is to simulate real-world conditions where temperature variations are encountered.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Performance Verification:</p>
           <p>Thermal cycling is crucial for assessing the performance of components and materials in environments characterized by temperature fluctuations.</p>
           <p>Commonly applied in the testing of electronic components, materials for aerospace applications, and other temperature-sensitive devices.</p>
@@ -2260,13 +2380,13 @@ export class ServicesComponent {
           <p>Detects workmanship or material defects that may arise under the stress of thermal cycling.</p>
           <p>Helps in quality control and ensuring reliability in diverse applications.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Quality Assurance:</p>
           <p>Assures the integrity and reliability of materials by subjecting them to conditions replicating real-world temperature variations.</p>
           <p>Durability Testing:</p>
           <p>Provides insights into the durability and longevity of materials and components under cyclic thermal stress.</p>
 
-          <h2>Duration:</h2>
+          <h4>Duration:</h4>
           <p>Varied Timeframe:</p>
           <p>The duration of thermal cycling varies based on sample volume and specific equipment, typically lasting between one and four hours.</p>
 
@@ -2289,7 +2409,7 @@ export class ServicesComponent {
       para2 : `
           <p>Slag testing is a critical evaluation method employed to assess the resilience of refractory materials when exposed to molten slag, a glass-like residue formed during the smelting process. This testing primarily distinguishes between two modes of attack: corrosion, signifying static chemical wear, and erosion, indicating mechanical wear caused by molten slag.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Corrosion Assessment:</p>
           <p>Static Chemical Attack:</p>
           <p>Involves examining refractories for wear and tear caused by the chemical composition of slag.</p>
@@ -2299,7 +2419,7 @@ export class ServicesComponent {
           <p>Evaluates the breaking and washing away of refractory materials due to the mechanical action of molten slag.</p>
           <p>Assesses the refractory's ability to withstand physical erosion.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Steel Industry:</p>
           <p>Crucial for assessing refractory performance in steelmaking furnaces exposed to aggressive slag.</p>
           <p>Ensures the durability and longevity of refractory linings in these high-temperature environments.</p>
@@ -2307,7 +2427,7 @@ export class ServicesComponent {
           <p>Employed to evaluate refractory materials in foundry applications where molten metal and slag interactions are common.</p>
           <p>Facilitates the selection of refractories with optimal resistance to slag-induced wear.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Performance Validation:</p>
           <p>Validates the performance of refractories under conditions mimicking real-world industrial processes.</p>
           <p>Ensures refractory materials can endure prolonged exposure to molten slag.</p>
@@ -2335,7 +2455,7 @@ export class ServicesComponent {
       para2 :`
           <p>Sieve analysis is a fundamental method employed to determine the distribution of grain sizes in soils with particles greater than 0.075 mm in diameter. Typically used for sand and gravel, this method is invaluable for understanding the composition of soil.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Particle Size Distribution:</p>
           <p>Involves determining the quantity of powder retained on a series of sieves with varying aperture sizes.</p>
           <p>A sample is introduced at the top of a stack of sieves arranged in decreasing size order.</p>
@@ -2343,7 +2463,7 @@ export class ServicesComponent {
           <p>Utilizes a formula to calculate the percentage retained on and passing through each sieve.</p>
           <p>Masses for each sieve (individual/cumulative) are divided by the total dry mass before washing and multiplied by 100.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Soil Composition Analysis:</p>
           <p>Essential for analyzing and understanding the grain size distribution of soils.</p>
           <p>Particularly useful for sand and gravel but not exclusive to these materials.</p>
@@ -2351,7 +2471,7 @@ export class ServicesComponent {
           <p>Critical in geotechnical engineering for designing foundations, slopes, and other structures.</p>
           <p>Guides construction decisions based on soil composition.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Accurate Classification:</p>
           <p>Provides accurate information about the distribution of particle sizes within a soil sample.</p>
           <p>Foundation for Decisions:</p>
@@ -2379,7 +2499,7 @@ export class ServicesComponent {
       para2 : `
           <p>Thermal shock resistance is a critical property characterizing a material's ability to endure sudden and extreme changes in temperature, whether during rapid heating or cooling. This resilience is particularly crucial in applications where materials are subjected to alternating high and low-temperature environments.</p>
 
-          <h2>How It Works:</h2>
+          <h4>How It Works:</h4>
           <p>Simulation Methods:</p>
           <p>Laboratory Simulation:</p>
           <p>Conditions akin to thermal shock are replicated in the lab using water or air after exposure to furnace environments.</p>
@@ -2394,7 +2514,7 @@ export class ServicesComponent {
           <p>Linear Coefficient of Thermal Expansion (αL):</p>
           <p>Defines how the material's dimensions change with temperature.</p>
 
-          <h2>Use Cases:</h2>
+          <h4>Use Cases:</h4>
           <p>Manufacturing Industries:</p>
           <p>Crucial for materials used in manufacturing processes involving rapid temperature changes, such as glass production.</p>
           <p>Ensures the durability and reliability of materials in challenging thermal environments.</p>
@@ -2402,7 +2522,7 @@ export class ServicesComponent {
           <p>Essential in electronic components to withstand fluctuations in operating temperatures.</p>
           <p>Safeguards against thermal stress-induced failures in electronic devices.</p>
 
-          <h2>Benefits:</h2>
+          <h4>Benefits:</h4>
           <p>Durability Assurance:</p>
           <p>Identifies materials capable of withstanding abrupt temperature variations.</p>
           <p>Ensures longevity and performance stability in diverse applications.</p>
@@ -2428,60 +2548,63 @@ export class ServicesComponent {
       description : "Ball clays are fine-grained, highly plastic clays.",
       industries : '₹ - Enquire for Estimate',
       para1 : "",
-      para2 : `
-      <div class="ball-clays">
-      <p>Ball Clays: Fine-grained, highly plastic clays, primarily composed of kaolinite, mica, and quartz, appreciated for their plasticity, unfired strength, and light color upon firing.</p>
+      para2 :`
 
-      <ul class="composition">
-        <h3>Composition</h3>
-        <li>Typically contain:</li>
-        <ul class="circle">
-          <li>20-80% Kaolinite</li>
-          <li>10-25% Mica</li>
-          <li>6-65% Quartz</li>
-          <li>Small amounts of organic matter (e.g., lignite)</li>
-          <li>Trace minerals like pyrite and siderite</li>
-        </ul>
-      </ul>
+          <p>Ball Clay: Fine-grained, highly plastic clays, primarily composed of kaolinite, mica, and quartz, appreciated for their plasticity, unfired strength, and light color upon firing.</p>
 
-      <ul class="use-cases">
-        <h3>Use Cases</h3>
-        <li>Ceramic Whiteware Production:</li>
-        <ul>
-          <li>Principal raw material for manufacturing ceramic whiteware (tableware, tiles, etc.)</li>
-          <li>Adds plasticity, aiding in the molding and shaping of products</li>
-        </ul>
-        <li>Sanitaryware Manufacturing:</li>
-        <ul>
-          <li>Widely used in the production of sanitaryware items (sinks, toilets) due to its desirable properties</li>
-        </ul>
-      </ul>
+          <h4>Composition:</h4>
+          <li>Typically contain:</li>
+          <ul>
+              <li>20–80% Kaolinite.</li>
+              <li>10–25% Mica.</li>
+              <li>6–65% Quartz.</li>
+              <li>Small amounts of organic matter (e.g., lignite).</li>
+              <li>Trace minerals like pyrite and siderite.</li>
+          </ul>
 
-      <ul class="benefits">
-        <h3>Benefits</h3>
-        <li>Plasticity:</li>
-        <ul>
-          <li>Ensures ease of shaping during ceramic product formation</li>
-          <li>Allows intricate designs and detailed molding</li>
-        </ul>
-        <li>Unfired Strength:</li>
-        <ul>
-          <li>Contributes to the structural integrity of products before firing</li>
-        </ul>
-        <li>Color Consistency:</li>
-        <ul>
-          <li>Yields a light color upon firing, contributing to the desired aesthetic of ceramic items</li>
-        </ul>
-        <li>Versatility:</li>
-        <ul>
-          <li>Adaptable for various ceramic applications, providing versatility in manufacturing</li>
-        </ul>
-      </ul>
+          <h4>Use Cases:</h4>
+          <p>1. Ceramic Whiteware Production:</p>
+          <ul>
+              <li>Principal raw material for manufacturing ceramic whiteware (tableware, tiles, etc.).</li>
+              <li>Adds plasticity, aiding in the molding and shaping of products.</li>
+          </ul>
 
-      <p>Ball clay, characterized by its unique composition and plasticity, stands as a crucial component in the ceramics industry. Its use spans from shaping everyday tableware to forming sanitaryware, showcasing its significance in the creation of high-quality ceramic products.</p>
-    </div>
+          <p>2. Sanitaryware Manufacturing:</p>
+          <ul>
+              <li>Widely used in the production of sanitaryware items (sinks, toilets) due to its desirable properties.</li>
+          </ul>
 
-      `,
+          <p>How It Works:</p>
+          <li>Plasticity Enhancement:</li>
+          <ul>
+              <li>Ball clays exhibit high plasticity, making them easy to shape and mold.</li>
+              <li>Enhance workability in the forming process of ceramic products.</li>
+          </ul>
+
+          <h4>Benefits:</h4>
+          <p>1. Plasticity:</p>
+          <ul>
+              <li>Ensures ease of shaping during ceramic product formation.</li>
+              <li> Allows intricate designs and detailed molding..</li>
+          </ul>
+          <p>2. Unfired Strength:</p>
+          <ul>
+              <li>Contributes to the structural integrity of products before firing.</li>
+          </ul>
+          <p>3. Color Consistency:</p>
+          <ul>
+              <li> Yields a light color upon firing, contributing to the desired aesthetic of ceramic items.</li>
+          </ul>
+          <p>4. Versatility:</p>
+          <ul>
+              <li>Adaptable for various ceramic applications, providing versatility in manufacturing.</li>
+          </ul>
+          <p>Ball clay, characterized by its unique composition and plasticity, stands as a crucial component in the ceramics industry. Its use spans from shaping everyday tableware to forming sanitaryware, showcasing its significance in the creation of high-quality ceramic products.</p>
+
+
+
+      `
+      ,
 
       routing :  'ball-clay'
     },
@@ -2496,59 +2619,74 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-      <div class="china-clay">
-      <p>China Clay: China clay, also known as kaolin, is a soft white clay that is primarily composed of the mineral kaolinite. It is formed by the weathering of feldspar-rich rocks, such as granite and pegmatite. China clay is found in many parts of the world, but the largest deposits are in China, Brazil, and the United States.</p>
 
-      <ul class="composition">
-        <h3>Composition</h3>
-        <li>Typically contains:</li>
-        <ul>
-          <li>80-90% Kaolinite</li>
-          <li>10-20% Quartz</li>
-          <li>Small amounts of other minerals, such as mica and iron oxides</li>
-        </ul>
-      </ul>
+          <p>China Clay (Kaolin): Soft, white clay essential in the production of China and porcelain, with versatile applications in paper, rubber, paint, and various industries.</p>
 
-      <ul class="use-cases">
-        <h3>Use Cases</h3>
-        <li>Paper Manufacturing:</li>
-        <ul>
-          <li>Used to coat paper, giving it a smooth finish and whiteness</li>
-          <li>Also used to fill paper, making it stronger and more opaque</li>
-        </ul>
-        <li>Ceramic Production:</li>
-        <ul>
-          <li>Essential ingredient in the production of porcelain and other high-quality ceramics</li>
-          <li>Gives ceramics their white color and smooth texture</li>
-        </ul>
-        <li>Other Applications:</li>
-        <ul>
-          <li>Used in the production of rubber, paint, and cosmetics</li>
-          <li>Also used as a food additive and in medical applications</li>
-        </ul>
-      </ul>
+          <h4>Composition:</h4>
+          <li>Primarily composed of the mineral kaolinite.</li>
+          <li>Natural state:  White, soft powder.</li>
+          <br>
+          <h4>Characteristics:</h4>
+          <li>Kaolinite manifests as hexagonal, platy crystals.</li>
+          <li>Crystal size: Ranges from about 0.1 micrometers to 10 micrometers or larger.</li>
+          <br>
+          <h4>Formation:</h4>
+          <li>Originates from the decomposition of minerals, notably Feldspar.</li>
+          <li>Feldspar decomposition occurs in rocks like Granite.</li>
+          <li>Geological process occurred millions of years ago during the late Cretaceous and early Paleogene periods.</li>
+          <br>
+          <h4>Use Cases:</h4>
+          <p>1. Porcelain and China Production:</p>
+          <ul>
+              <li>Integral ingredient for crafting high-quality porcelain and China.</li>
+          </ul>
+          <p>2. Paper Manufacturing:</p>
+          <ul>
+              <li>Enhances paper quality and texture.</li>
+          </ul>
+          <p>3. Rubber Industry:</p>
+          <ul>
+              <li> Used as a reinforcing agent in rubber products.</li>
+          </ul>
+          <p>4. Paint Production:</p>
+          <ul>
+              <li> Serves as a pigment and filler in paint formulations.</li>
+          </ul>
+          <p>5. Versatile Industrial Applications:</p>
+          <ul>
+              <li> Employed in the creation of diverse products due to its unique properties.</li>
+          </ul>
+          <br>
+          <h4>How It Works:</h4>
+          <li>Porcelain Formation:</li>
+          <ul>
+          <li>Kaolin contributes to the plasticity and workability of porcelain clay.</li>
+          <li>During firing, kaolin transforms into a durable and white ceramic material.</li>
+          </ul>
+          <br>
+          <h4>Benefits:</h4>
+          <p>1. Porcelain Craftsmanship:</p>
+          <ul>
+              <li> Essential for producing fine porcelain items with distinctive characteristics.</li>
+          </ul>
+          <p>2. Textural Enhancements:</p>
+          <ul>
+              <li>Improves the texture and printability of paper.</li>
+          </ul>
+          <p>3. Reinforcement in Rubber:</p>
+          <ul>
+              <li> Enhances the strength and resilience of rubber products.</li>
+          </ul>
+          <p>4. Pigment and Filler:</p>
+          <ul>
+              <li> Acts as a pigment and filler in paint, contributing to color and consistency.</li>
+          </ul>
+          <p>5. Broad Applicability:</p>
+          <ul>
+              <li> Versatility allows its incorporation into a wide range of industrial products.</li>
+          </ul>
+          <p>China clay, with its origins dating back millions of years, continues to be a cornerstone in various industries, particularly in the art of crafting porcelain and the manufacturing of diverse products where its unique properties bring value and distinction.</p>
 
-      <ul class="benefits">
-        <h3>Benefits</h3>
-        <li>Whiteness:</li>
-        <ul>
-          <li>China clay is a very white mineral, which gives it its name</li>
-          <li>This whiteness is desirable for many of its applications, such as in paper and ceramic production</li>
-        </ul>
-        <li>Brightness:</li>
-        <ul>
-          <li>China clay has a high brightness rating, which means that it reflects a lot of light</li>
-          <li>This brightness is also desirable for many of its applications, such as in paper and ceramic production</li>
-        </ul>
-        <li>Chemical Inertness:</li>
-        <ul>
-          <li>China clay is a very chemically inert mineral, which means that it does not react easily with other substances</li>
-          <li>This inertness makes it ideal for use in a variety of applications, such as food additives and cosmetics</li>
-        </ul>
-      </ul>
-
-      <p>China clay is a versatile and valuable mineral with a wide range of applications. It is essential for the production of many essential products, such as paper, ceramics, and rubber. China clay is also used in a variety of other applications, such as food additives and cosmetics.</p>
-    </div>
 
       `,
 
@@ -2566,96 +2704,77 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 :"",
       para2 : `
-      <p>
-      A range of refractory clays utilized in ceramics manufacturing, particularly in crafting fire bricks.
-    </p>
-
-
-    <p>
-    <h3>  Composition: </h3>
-      <ul>
-        <li>Defined by the Elk as a mineral aggregate composed of hydrous silicates of aluminilum (A1203-28 02-2H2O) with or without free allica</li>
-        <li>A208: 28-3-4</li>
-        <li>6:02:60-60%</li>
-        <li>Loss on ignition: 6-276</li>
-        <li>May contain Fe2O3, CaO, MgO, K2O, Na2O, T:02, along with fine-grained micas and quartz.</li>
-      </ul>
-    </p>
-
-    <p>
-    <h3> Temperature Resistance: </h3>
-      <ul>
-        <li>High-grade fire clays withstand temperatures up to 1776℃</li>
-        <li>To be classified as "fire clay it must endure a minimum temperature of 1,515 °C (2.760 °F).</li>
-      </ul>
-    </p>
-
-    <p>
-    <h3> Types of Fire Clays:</h3>
-      <ul>
-        <li>Range from flint clays to plastic fire clays.</li>
-        <li>Include semi-flint and semi-plastic fire clays.</li>
-      </ul>
-    </p>
-
-    <p>
-     <h3> Use Cases:</h3>
-      <ul>
-        <li>Ceramic Manufacturing:
+          <p>A range of refractory clays utilized in ceramics manufacturing, particularly in crafting fire bricks.</p>
+          <h4>Composition:</h4>
           <ul>
-            <li>Primary material for crafting fire bricks.</li>
-            <li>Used in the production of refractory ceramics.</li>
+          <li>Defined by the EPA as a "mineral aggregate composed of hydrous silicates of aluminium (Al2O3·2SiO2·2H2O) with or without free silica."</li>
           </ul>
-        </li>
-        <li>High-Temperature Applications:
-          <ul>
-            <li>Ideal for applications requiring resilience at elevated temperatures.</li>
-          </ul>
-        </li>
-        <li>Refractory Products:
-          <ul>
-            <li>Essential in creating products that resint heat and maintain structural integrity</li>
-          </ul>
-        </li>
-      </ul>
-    </p>
+          <br>
 
-    <p>
-    <h3> How It Works: </h3>
-      <ul>
-        <li>Refractory Properties:
+          <h4>Temperature Resistance:</h4>
           <ul>
-            <li>Retains strength and structure at high temperatures, crucial for refractory applications</li>
+          <li>High-grade fire clays withstand temperatures up to 1,775 °C (3,227 °F).</li>
+          <li>To be classified as "fire clay," it must endure a minimum temperature of 1,515 °C (2,759 °F).</li>
           </ul>
-        </li>
-      </ul>
-    </p>
+          <br>
 
-    <p>
-    <h3>Benefits: </h3>
-      <ul>
-        <li>Temperature Endurance:
+          <h4>Types of Fire Clays:</h4>
           <ul>
-            <li>Withstands extreme temperatures, ensuring reliability in high-hest environments</li>
+          <li>Range from flint clays to plastic fire clays.</li>
+          <li>Include semi-flint and semi-plastic fire clays.</li>
           </ul>
-        </li>
-        <li>Versatile Applications:
-          <ul>
-            <li>Suitable for various refractory and ceramic manufacturing needs.</li>
-          </ul>
-        </li>
-        <li>Structural Integrity:
-          <ul>
-            <li>Contributes to the curability and longevity of refractory products.</li>
-          </ul>
-        </li>
-      </ul>
-    </p>
+          <br>
 
-    <p>
-      Fire clay, known for its resilience and heat-resistant properties, stands as a fundamental component in the creation of refractory ceramics, especially fire bricks, contributing to the robustness of structures in demanding high-temperature conditions.
-    </p>
+          <h4>Composition (Typical):</h4>
+          <ul>
+              <li>Al2O3: 23-34%</li>
+              <li>SiO2: 50-60%</li>
+              <li>Loss on ignition: 6-27%</li>
+              <li>May contain Fe2O3, CaO, MgO, K2O, Na2O, TiO2, along with fine-grained micas and quartz.</li>
+          </ul>
+          <br>
 
+          <h4>Chemical Analyses (19th Century):</h4>
+          <ul>
+          <li>Alumina content historically lower in 19th-century sources.</li>
+          <li>Contemporary analyses provide values closer to the defined composition.</li>
+          </ul>
+          <br>
+
+          <h4>Use Cases:</h4>
+          <p>1. Ceramic Manufacturing:</p>
+          <ul>
+              <li>Primary material for crafting fire bricks. Used in the production of refractory ceramics.</li>
+          </ul>
+          <p>2. High-Temperature Applications:</p>
+          <ul>
+              <li> Ideal for applications requiring resilience at elevated temperatures.</li>
+          </ul>
+          <p>3. Refractory Products:</p>
+          <ul>
+              <li> Retains strength and structure at high temperatures, crucial for refractory applications.</li>
+          </ul>
+
+          <h4>How It Works:</h4>
+          <li>Refractory Properties:</li>
+          <ul>
+          <li> Retains strength and structure at high temperatures, crucial for refractory applications.</li>
+</ul>
+          <h4>Benefits:</h4>
+          <p>1. Temperature Endurance:</p>
+          <ul>
+              <li>Withstands extreme temperatures, ensuring reliability in high-heat environments.</li>
+          </ul>
+          <p>2. Versatile Applications:</p>
+          <ul>
+              <li>Suitable for various refractory and ceramic manufacturing needs.</li>
+          </ul>
+          <p>3. Structural Integrity:</p>
+          <ul>
+              <li> Contributes to the durability and longevity of refractory products.</li>
+          </ul>
+
+          <p>Fire clay, known for its resilience and heat-resistant properties, stands as a fundamental component in the creation of refractory ceramics, especially fire bricks, contributing to the robustness of structures in demanding high-temperature conditions.</p>
       `,
       para3 : "",
       routing :  'than-clay'
@@ -2671,53 +2790,78 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
+
           <p>A group of rock-forming aluminium tectosilicate minerals, featuring sodium, calcium, potassium, or barium as additional cations.</p>
-          <h2>Types of Feldspar</h2>
+
+          <h4>Types of Feldspar:</h4>
+              <li>Plagioclase Feldspars:</li>
+                  <ul>
+                      <li>Contain sodium-calcium components.</li>
+                  </ul>
+
+              <li>Alkali Feldspars:</li>
+                  <ul>
+                      <li>Feature potassium-sodium constituents.</li>
+                  </ul>
+                  <br>
+              <p>Industrial Significance:</p>
+              <li>An essential source of alumina in glassmaking and ceramics industries.</li>
+          <br>
+
+
+          <br>
+
+          <h4>Applications:</h4>
+          <p>1. Ceramics Industry:</p>
           <ul>
-              <li>
-                  <p>Plagioclase Feldspars: Contain sodium-calcium components.</p>
-              </li>
-              <li>
-                  <p>Alkali Feldspars: Feature potassium-sodium constituents.</p>
-              </li>
+              <li>Acts as a flux in ceramics, enhancing vitreous lustre in chinaware and ceramic tiles.</li>
           </ul>
-          <h2>Industrial Significance</h2>
-          <p>An essential source of alumina in glassmaking and ceramics industries.</p>
-          <h2>Applications</h2>
+          <p>2. Glazes and Enamels:</p>
           <ul>
-              <li>
-                  <p>Ceramics Industry: Acts as a flux in ceramics, enhancing vitreous lustre in chinaware and ceramic tiles.</p>
-              </li>
-              <li>
-                  <p>Glaces and Enamels: Utilized in glazes and enamels for enhancing surface characteristics.</p>
-              </li>
-              <li>
-                  <p>Paints, Plastics, Sealants, and Adhesives: Serves as a crucial mineral filler in various industrial products.</p>
-              </li>
+              <li>Utilized in glazes and enamels for enhancing surface characteristics.</li>
           </ul>
-          <h2>Composition</h2>
-          <p>Aluminosilicate minerals with the general formula ATO.</p>
+          <p>3. Paints, Plastics, Sealants, and Adhesives:</p>
           <ul>
+              <li>Serves as a crucial mineral filler in various industrial products.</li>
+          </ul>
+          <br>
+
+          <h4>Composition:</h4>
+          <ul>
+          <li>Aluminosilicate minerals with the general formula AT₄O₈.</li>
+
               <li>A: Potassium, sodium, or calcium.</li>
               <li>T: Silicon and aluminium, with a Si:Al ratio ranging from 3:1 to 1:1.</li>
           </ul>
-          <h2>How It Works</h2>
-          <p>Flux in Ceramics: Enhances melting and vitrification in ceramics production.</p>
-          <h2>Benefits</h2>
+          <br>
+
+          <h4>How It Works:</h4>
+          <li>Flux in Ceramics:</li>
           <ul>
-              <li>
-                  <p>Glass and Ceramic Enhancement: Improves the properties of glass and ceramic products.</p>
-              </li>
-              <li>
-                  <p>Surface Characteristics: Enhances lustre and surface quality in chinaware and tiles.</p>
-              </li>
-              <li>
-                  <p>Versatile Industrial Applications: Valuable in a range of industries, including paints, plastics, sealants, and adhesives.</p>
-              </li>
+              <li>Enhances melting and vitrification in ceramics production.</li>
           </ul>
+          <br>
+
+          <h4>Benefits:</h4>
+          <p>1. Glass and Ceramic Enhancement:</p>
+          <ul>
+              <li>Improves the properties of glass and ceramic products.</li>
+          </ul>
+          <p>2. Surface Characteristics:</p>
+          <ul>
+              <li>Enhances lustre and surface quality in chinaware and tiles.</li>
+          </ul>
+          <p>3. Versatile Industrial Applications:</p>
+          <ul>
+              <li>Valuable in a range of industries, including paints, plastics, sealants, and adhesives.</li>
+          </ul>
+          <br>
+
           <p>Feldspar, with its versatile applications in glassmaking, ceramics, and various industrial products, stands as a foundational mineral that contributes to the enhancement of material properties and surface characteristics across multiple sectors.</p>
 
-      `,
+
+      `
+      ,
       para3 : "",
       routing :  'feldspar'
     },
@@ -2732,45 +2876,62 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-    <p>
-        Quartz is a hard, crystalline mineral composed of silicon dioxide (SiO2), forming a continuous framework of SiO4 silicon-oxygen tetrahedra. It is the most abundant mineral in the Earth's continental crust, and is found in a wide variety of geological environments.
-    </p>
-    <h2>Forms</h2>
+
+    <p>Quartz is a hard, crystalline mineral composed of silicon dioxide (SiO2), forming a continuous framework of SiO4 silicon–oxygen tetrahedra.</p>
+
+    <h4>Forms:</h4>
+    <p>1. α-Quartz:</p>
     <ul>
-        <li>
-            <p>α-Quartz (normal form)</p>
-        </li>
-        <li>
-            <p>β-Quartz (high-temperature form, transforming abruptly at 573 °C)</p>
-        </li>
+        <li> Normal form.</li>
+
     </ul>
-    <h2>Chirality</h2>
-    <p>Both α- and β-quartz are chiral, meaning that they have two non-superimposable mirror image forms.</p>
-    <h2>Transformation</h2>
-    <p>The transformation from α-quartz to β-quartz at 573 °C is accompanied by a significant change in volume, inducing microfracturing in ceramics or rocks.</p>
-    <h2>Use Cases</h2>
+    <p>2. β-Quartz:</p>
     <ul>
-        <li>
-            <p>Construction materials (raw material for glass, concrete, and mortar)</p>
-        </li>
-        <li>
-            <p>Silicon production (refined to yield silicon critical for computers and high-tech applications)</p>
-        </li>
+    <li> High-temperature form, transforming abruptly at 573 °C.</li>
     </ul>
-    <h2>Working Mechanism</h2>
-    <p>The continuous SiO4 silicon-oxygen tetrahedral framework provides hardness and stability to quartz.</p>
-    <h2>Benefits</h2>
+    <br>
+
+    <h4>Chirality:</h4>
     <ul>
-        <li>
-            <p>Diverse construction applications (essential in the production of glass, concrete, and mortar for construction)</p>
-        </li>
-        <li>
-            <p>Critical silicon source (serves as a crucial raw material for silicon production, vital in modern technology)</p>
-        </li>
+        <li>Both α- and β-quartz are chiral.</li>
     </ul>
-    <p>
-        Quartz, with its distinctive crystalline structure and transformative properties, plays a foundational role in construction materials and as a source for silicon, contributing significantly to the realms of construction and high-tech applications.
-    </p>
+    <br>
+
+    <h4>Transformation:</h4>
+    <ul>
+        <li>The transformation from α-quartz to β-quartz at 573 °C is accompanied by a significant change in volume, inducing micro fracturing in ceramics or rocks.</li>
+    </ul>
+    <br>
+
+    <h4>Use Cases:</h4>
+    <p>1. Construction Materials:</p>
+    <ul>
+        <li>Raw material for glass, concrete, and mortar.</li>
+    </ul>
+    <p>2. Silicon Production:</p>
+    <ul>
+        <li>Refined to yield silicon critical for computers and high-tech applications.</li>
+    </ul>
+    <br>
+
+    <h4>Working Mechanism:</h4>
+    <ul>
+        <li>The continuous SiO4 silicon–oxygen tetrahedral framework provides hardness and stability to quartz.</li>
+    </ul>
+    <br>
+
+    <h4>Benefits:</h4>
+    <p>1. Diverse Construction Applications:</p>
+    <ul>
+        <li>Essential in the production of glass, concrete, and mortar for construction.</li>
+    </ul>
+    <p>2. Critical Silicon Source:</p>
+    <ul>
+        <li>Serves as a crucial raw material for silicon production, vital in modern technology.</li>
+    </ul>
+    <br>
+
+    <p>Quartz, with its distinctive crystalline structure and transformative properties, plays a foundational role in construction materials and as a source for silicon, contributing significantly to the realms of construction and high-tech applications.</p>
 
 
       `,
@@ -2788,47 +2949,53 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 :"",
       para2 : `
-    <p>
-        Alumina, also known as aluminium oxide (Al2O3), is a chemical compound of aluminium and oxygen. It is a white, odourless, and tasteless powder that is insoluble in water. Alumina is the most abundant oxide of aluminium and is found in many minerals, including bauxite, corundum, and ruby.
-    </p>
-    <h2>Composition</h2>
-    <p>Alumina is composed of aluminium and oxygen in a 2:3 ratio. It has a chemical formula of Al2O3.</p>
-    <h2>Properties</h2>
-    <ul>
-        <li>
-            <p>Alumina is a hard and durable material.</p>
-        </li>
-        <li>
-            <p>Alumina is a good insulator of heat and electricity.</p>
-        </li>
-        <li>
-            <p>Alumina is chemically inert and resistant to corrosion.</p>
-        </li>
-    </ul>
-    <h2>Production</h2>
-    <p>Alumina is produced by refining bauxite, an ore that contains aluminium oxide. The bauxite is first crushed and ground into a powder. The powder is then treated with a hot alkali solution to dissolve the aluminium oxide. The aluminium oxide is then precipitated from the solution and dried to produce alumina.</p>
-    <h2>Uses</h2>
-    <ul>
-        <li>
-            <p>Alumina is used in the production of aluminium metal.</p>
-        </li>
-        <li>
-            <p>Alumina is used in the production of ceramics and refractories.</p>
-        </li>
-        <li>
-            <p>Alumina is used as an abrasive in grinding and polishing compounds.</p>
-        </li>
-        <li>
-            <p>Alumina is used as a catalyst in many chemical reactions.</p>
-        </li>
-        <li>
-            <p>Alumina is used as a filler in paints, plastics, and other materials.</p>
-        </li>
-    </ul>
-    <p>
-        Alumina is a versatile and important material that is used in a wide variety of applications. It is a key component in the production of aluminium metal, ceramics, and refractories. Alumina is also used as an abrasive, catalyst, and filler in a variety of other materials.
-    </p>
+          <p>Alumina, derived from aluminium oxide, stands out as a versatile material widely employed for its hardness, strength, and protective characteristics in diverse industrial applications.</p>
 
+          <h4>Composition:</h4>
+          <ul>
+              <li>Aluminium oxide, or alumina (Al2O3), occurs naturally as corundum.</li>
+          </ul>
+          <br>
+
+          <h4>Production:</h4>
+          <ul>
+              <li>Obtained by burning aluminium in oxygen or by heating hydroxide, nitrate, or sulphate of the metal.</li>
+              <li>Industrially separated from bauxite, an ore containing 30–54% alumina, iron (III) oxide (Fe2O3), and silica (SiO2).</li>
+          </ul>
+          <br>
+
+          <h4>Use Cases:</h4>
+          <p>1. Abrasive Materials:</p>
+          <ul>
+              <li>Alumina is widely utilized in industrial abrasive materials.</li>
+              <li>Superior hardness and strength make it effective for various abrasive applications.</li>
+          </ul>
+          <p>2. Protective Coating:</p>
+          <ul>
+              <li>Used as a coating to protect surfaces against abrasion.</li>
+              <li>Provides a durable shield, enhancing the lifespan of materials.</li>
+          </ul>
+          <p>3. Industrial Applications:</p>
+          <ul>
+              <li>Found in diverse industrial applications due to its versatility.</li>
+              <li>Used in manufacturing processes requiring robust and wear-resistant materials.</li>
+          </ul>
+          <br>
+
+          <h4>Benefits:</h4>
+          <p>1. Superior Hardness:</p>
+          <ul>
+              <li> Alumina exhibits exceptional hardness, contributing to its effectiveness in abrasive materials.</li>
+          </ul>
+          <p>2. Strength:</p>
+          <ul>
+          <li>The strength of alumina enhances its durability in applications subjected to wear and tear.</li>
+          </ul>
+          <p>3. Protective Qualities:</p>
+          <ul>
+          <li>As a coating, alumina offers protective qualities, reducing the impact of abrasion on surfaces.</li>
+          </ul>
+          <p>Alumina, derived from aluminium oxide, stands out as a versatile material widely employed for its hardness, strength, and protective characteristics in diverse industrial applications.</p>
 
       `,
       routing :  'alumina'
@@ -2844,79 +3011,58 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 : `
-          <h2>Characteristics</h2>
+      <h4>Characteristics:</h4>
+      <li>Zirconia is a white solid ceramic glaze with properties that combine the strength of metal with the aesthetic appeal of porcelain.</li>
+<br>
+      <h4>Use Cases:</h4>
+      <p>1. Dental Applications:</p>
+      <ul>
+          <li>Zirconia crowns and dental implants are continually developed for improved performance.</li>
+          <li>Commonly used in dentistry due to its superior strength, hardness, wear resistance, and biocompatibility.</li>
+      </ul>
 
-          <p>Zirconia, a white solid ceramic glaze, possesses remarkable properties that combine the strength of metal with the aesthetic appeal of porcelain. This unique combination of properties makes it a versatile material with a wide range of applications.</p>
+      <p>2. Refractory Products:</p>
+      <ul>
+          <li>Ideal for a range of refractory products requiring stability at high temperatures.</li>
+          <li>Exhibits strong thermal and corrosion resistance.</li>
+      </ul>
 
-          <h2>Use Cases</h2>
+      <p>3. Ceramic Colors and Pigments:</p>
+      <ul>
+          <li>Used in the production of ceramic colors and pigments.</li>
+          <li>Offers consistent quality and chemical inertness.</li>
+      </ul>
 
-          <p>Zirconia's versatility extends to a variety of applications, including:</p>
+      <p>4. Electronic Applications:</p>
+      <ul>
+          <li>Applied in electronic applications, showcasing good mechanical properties.</li>
+      </ul>
 
-          <h3>Dental Applications</h3>
+      <p>5. Biocompatible Prosthetics:</p>
+      <ul>
+          <li>Utilized in prosthesis devices such as hip joints and femoral ball heads.</li>
+          <li>Known for excellent biocompatibility with the human body.</li>
+      </ul>
 
-          <p>Zirconia is widely used in dentistry due to its superior strength, hardness, wear resistance, and biocompatibility. These properties make it an ideal material for:</p>
+      <h4>Benefits:</h4>
+      <p>1. Mechanical Properties:</p>
+      <ul>
+          <li>Zirconia products demonstrate good mechanical properties.</li>
+          <li>Suitable for applications requiring strength and stability.</li>
+      </ul>
 
-          <ul>
-              <li>Zirconia crowns: Strong, durable, and aesthetically pleasing restorations for damaged or decayed teeth.</li>
-              <li>Dental implants: Biocompatible and stable implants that replace tooth roots.</li>
-          </ul>
+      <p>2. Thermal and Corrosion Resistance:</p>
+      <ul>
+          <li>Exhibits strong thermal and corrosion resistance, ensuring durability in various conditions.</li>
+      </ul>
 
-          <h3>Refractory Products</h3>
+      <p>3. Biocompatibility:</p>
+      <ul>
+          <li>Superior biocompatibility makes it a preferred material for medical implants.</li>
+          <li>Particularly favored in dental applications for its compatibility with the human body.</li>
+      </ul>
 
-          <p>Zirconia's exceptional thermal and corrosion resistance make it suitable for high-temperature applications, such as:</p>
-
-          <ul>
-              <li>Refractory bricks: Lining furnaces and kilns to withstand extreme heat.</li>
-              <li>Crucibles: Melting and refining metals.</li>
-          </ul>
-
-          <h3>Ceramic Colors and Pigments</h3>
-
-          <p>Zirconia's consistent quality and chemical inertness make it a valuable component in ceramic colors and pigments, ensuring:</p>
-
-          <ul>
-              <li>Vivid and colorfast pigments.</li>
-              <li>Stable and durable ceramic glazes.</li>
-          </ul>
-
-          <h3>Electronic Applications</h3>
-
-          <p>Zirconia's good mechanical properties find applications in electronics, such as:</p>
-
-          <ul>
-              <li>Substrates for electronic components.</li>
-              <li>Insulators in high-temperature environments.</li>
-          </ul>
-
-          <h3>Biocompatible Prosthetics</h3>
-
-          <p>Zirconia's excellent biocompatibility with the human body makes it an ideal material for prosthetics, including:</p>
-
-          <ul>
-              <li>Hip joints: Strong and durable replacements for damaged hip joints.</li>
-              <li>Femoral ball heads: Smooth and wear-resistant components in hip prostheses.</li>
-          </ul>
-
-          <h2>Benefits</h2>
-
-          <p>Zirconia's unique properties offer a range of benefits:</p>
-
-          <h3>Mechanical Properties</h3>
-
-          <p>Zirconia products demonstrate excellent mechanical properties, making them suitable for applications requiring strength and stability.</p>
-
-          <h3>Thermal and Corrosion Resistance</h3>
-
-          <p>Zirconia's strong thermal and corrosion resistance ensure durability in various conditions, including high temperatures and harsh environments.</p>
-
-          <h3>Biocompatibility</h3>
-
-          <p>Zirconia's superior biocompatibility makes it a preferred material for medical implants, particularly in dentistry, due to its compatibility with the human body.</p>
-
-          <h2>Conclusion</h2>
-
-          <p>Zirconia, with its unique combination of strength, stability, and biocompatibility, finds versatile applications in dentistry, refractory products, ceramic manufacturing, electronics, and medical prosthetics. Its continual development makes it a material of choice in various cutting-edge applications.</p>
-
+      <p>Zirconia, with its unique combination of strength, stability, and biocompatibility, finds versatile applications in dentistry, refractory products, ceramic manufacturing, electronics, and medical prosthetics. Its continual development makes it a material of choice in various cutting-edge applications.</p>
 
       `,
       para3 :"",
@@ -2933,74 +3079,68 @@ export class ServicesComponent {
       industries : '₹ - Enquire for Estimate',
       para1 : "",
       para2 :`
-          <p>Silicon carbide (SiC), also known as carborundum, is a hard chemical compound composed of silicon and carbon. It is a versatile material with a wide range of applications, including abrasives, semiconductors, and gem-quality diamond simulants.</p>
+          <p>Silicon carbide (SiC), also known as carborundum, is a hard chemical compound composed of silicon and carbon.</p>
 
-          <h2>Occurrence and Forms</h2>
+          <h4>Occurrence:</h4>
+          <ul>
+              <li>Naturally occurs as the rare mineral moissanite; however, it is mass-produced in powder and crystal forms.</li>
+          </ul>
+          <br>
 
-          <h3>Occurrence</h3>
+          <h4>Forms:</h4>
+          <p>1. Grains:</p>
+          <ul>
+              <li>Can be bonded by sintering to form hard ceramics.</li>
+              <li>Widely used in applications requiring high endurance, such as car brakes, clutches, and bulletproof vests.</li>
+          </ul>
+          <p>2. Single Crystals:</p>
+          <ul>
+              <li>Grown by the Lely method.</li>
+              <li>Cut into gems known as synthetic moissanite.</li>
+          </ul>
+          <br>
 
-          <p>Silicon carbide occurs naturally as the rare mineral moissanite. However, it is also mass-produced in powder and crystal forms.</p>
+          <h4>Applications:</h4>
+          <p>1. Abrasive:</p>
+          <ul>
+              <li>Used for its abrasive properties.</li>
+          </ul>
+          <p>2. Semiconductor:</p>
+          <ul>
+              <li>Functions as a semiconductor.</li>
+          </ul>
+          <p>3. Gem Quality Diamond Simulant:</p>
+          <ul>
+              <li>Used as a diamond simulant, especially in gem-quality synthetic moissanite.</li>
+          </ul>
+          <br>
 
-          <h3>Forms</h3>
+          <h4>Manufacturing Process:</h4>
+          <ul>
+              <li>Silicon carbide is manufactured by combining silica sand and carbon in an Acheson graphite electric resistance furnace at high temperatures (1,600–2,500 °C).</li>
+          </ul>
+          <br>
 
-          <p>Silicon carbide exists in two main forms:</p>
+          <h4>Benefits:</h4>
+          <p>1. High Endurance:</p>
 
           <ul>
-              <li>
-                  <h4>Grains</h4>
-                  <p>Silicon carbide grains can be bonded by sintering to form hard ceramics. They are widely used in applications requiring high endurance, such as car brakes, clutches, and bulletproof vests.</p>
-              </li>
-              <li>
-                  <h4>Single Crystals</h4>
-                  <p>Silicon carbide single crystals are grown by the Lely method. They are cut into gems known as synthetic moissanite.</p>
-              </li>
+              <li>Ideal for applications requiring durability, such as car brakes and bulletproof vests.</li>
           </ul>
-
-          <h2>Applications</h2>
-
-          <p>Silicon carbide has a wide range of applications due to its unique properties:</p>
+          <p> 2. Versatility:</p>
 
           <ul>
-              <li>
-                  <h3>Abrasive</h3>
-                  <p>Silicon carbide is used for its abrasive properties, making it an effective material for grinding and polishing.</p>
-              </li>
-              <li>
-                  <h3>Semiconductor</h3>
-                  <p>Silicon carbide is a semiconductor, meaning it can conduct electricity under certain conditions. This property makes it suitable for use in electronic devices.</p>
-              </li>
-              <li>
-                  <h3>Gem Quality Diamond Simulant</h3>
-                  <p>Synthetic moissanite, a type of silicon carbide, is used as a diamond simulant due to its similar appearance and high refractive index.</p>
-              </li>
+              <li>Functions as an abrasive, semiconductor, and gem-quality diamond simulant.</li>
           </ul>
-
-          <h2>Manufacturing Process</h2>
-
-          <p>Silicon carbide is manufactured by combining silica sand and carbon in an Acheson graphite electric resistance furnace at high temperatures (1,600–2,500 °C).</p>
-
-          <h2>Benefits</h2>
-
-          <p>Silicon carbide offers several advantages:</p>
+          <p> 2. Manufacturing Simplicity:</p>
 
           <ul>
-              <li>
-                  <h3>High Endurance</h3>
-                  <p>Silicon carbide is extremely hard and durable, making it ideal for applications requiring high endurance, such as car brakes and bulletproof vests.</p>
-              </li>
-              <li>
-                  <h3>Versatility</h3>
-                  <p>Silicon carbide's versatility allows it to be used as an abrasive, semiconductor, and gem-quality diamond simulant.</p>
-              </li>
-              <li>
-                  <h3>Manufacturing Simplicity</h3>
-                  <p>Silicon carbide is produced through a straightforward process involving common materials, making it relatively inexpensive to manufacture.</p>
-              </li>
+              <li> Produced through a straightforward process involving common materials.</li>
           </ul>
+          <br>
 
-          <h2>Conclusion</h2>
+          <p>Silicon carbide, with its remarkable hardness and versatility, finds applications ranging from abrasives to semiconductors, showcasing its significance in various industries.</p>
 
-          <p>Silicon carbide, with its remarkable hardness, versatility, and relatively simple manufacturing process, has established itself as a valuable material with a wide range of applications. Its ability to function as an abrasive, semiconductor, and gem-quality diamond simulant highlights its versatility and significance in various industries.</p>
 
 
       `,
