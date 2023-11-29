@@ -1,14 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,  } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { DomSanitizer } from '@angular/platform-browser'
-import { PipeTransform, Pipe } from "@angular/core";
-@Pipe({ name: 'para2'})
-export class SafeHtmlPipe implements PipeTransform  {
-  constructor(private sanitized: DomSanitizer) {}
-  transform(value) {
-    return this.sanitized.bypassSecurityTrustHtml(value);
-  }
-}
+
 @Component({
   selector: 'app-services',
   templateUrl: './services.component.html',
@@ -53,6 +45,7 @@ export class ServicesComponent {
   para3: any;
   para4: any;
   showMenu1: boolean = false;
+
 
   ngOnInit(): void {
     this.filterMethod();

@@ -129,7 +129,7 @@
           <div *ngIf="lists !== undefined">
             <div *ngFor="let list of lists"><li class="list">{{list}}</li></div>
           </div>
-          <div class="para2"  *ngIf="para2 !== undefined">{{para2}}</div>
+          <div class="para2" [innerHTML]="para2" *ngIf="para2 !== undefined"></div>
           <div class="para3" *ngIf="para3 !== undefined">{{para3}}</div>
           <div class="para4" *ngIf="para4 !== undefined">{{para4}}</div>
         </div>
@@ -178,7 +178,7 @@
       <div class="sec2_right" *ngIf="(header=='Physical properties' && heading=='Bulk Density, Porosity, Water Absorption, Fired Shrinkage')">
         <div class="instruments_div">
           <p>{{para1}}<span style="display: block; font-style: italic;">Bulk Density = Sintered Weight / (Soaked Wt - Suspended Wt) g/cc</span></p>
-          <p>{{para2}}<span style="display: block; font-style: italic;">Porosity = (Soaked Wt - Sintered Wt) / (Soaked Wt - Suspended Wt) x 100%</span></p>
+          <p [innerHTML]="para2"><span style="display: block; font-style: italic;">Porosity = (Soaked Wt - Sintered Wt) / (Soaked Wt - Suspended Wt) x 100%</span></p>
           <p>{{para3}}<span style="display: block; font-style: italic;">Water Absorption = (Soaked Wt - Sintered Wt) / Sintered Weight x 100%</span></p>
           <p>{{para4}}<span style="display: block; font-style: italic;">Fired Shrinkage = (Dia of After Drying - Dia of After Firing) / Dia of After Drying</span></p>
         </div>
