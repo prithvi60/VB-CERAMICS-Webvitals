@@ -1142,7 +1142,7 @@ h4 {
   width: 50%;
   z-index: 1030;
 }
-.fixed-top > h4 {
+.fixed-top > h4,.fixed-top > h3 {
   color: #fff;
   text-align: right;
   font-variant-numeric: lining-nums tabular-nums;
