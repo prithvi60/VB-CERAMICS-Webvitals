@@ -14,8 +14,9 @@ import { TooltipsModule } from '@progress/kendo-angular-tooltip';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import 'hammerjs';
 import { LibraryOneComponent } from './sub-library/library-one/library-one.component';
-import { ServicesComponent } from './sub-service/services/services.component'; 
+import { ServicesComponent } from './sub-service/services/services.component';
 import { FormsModule } from '@angular/forms';
+import { ResearchComponent } from './research/research.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,14 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ContactComponent,
     HomeServiceComponent,
+    ResearchComponent,
     AboutComponent,
     ServiceComponent,
     GalleryComponent,
     LibraryComponent,
     LibraryOneComponent,
     ServicesComponent,
-    
+
   ],
   imports: [
     BrowserModule,
