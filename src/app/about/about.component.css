@@ -1102,9 +1102,6 @@ line-height: 30px; /* 187.5% */
   .menu_cnt {
     justify-content: center !important;
   }
-  .menu .menu_navbar-nav {
-
-  }
 }
 
 @media (max-width: 360px) {
