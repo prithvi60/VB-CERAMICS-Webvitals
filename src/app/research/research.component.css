@@ -1004,7 +1004,7 @@ line-height: 30px; /* 187.5% */
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
-  background: url('../../assets/About_research.png'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
+  background: url('../../assets/About_research.webp'), lightgray -17.891px -372.703px / 108.596% 265.53% no-repeat;
 }
 
 .main_section6_cnt .research_papers .research_papers_list .list {
