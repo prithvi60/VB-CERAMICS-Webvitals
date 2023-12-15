@@ -338,7 +338,7 @@ export class ServiceComponent {
     },
     {
       service_id: 29,
-      img: '../../assets/gloveBox.png',
+      img: '../../assets/glovebox.webp',
       header : 'Material preparation',
       heading : 'Glove Box',
       description : 'A glovebox is a sealed container that is designed to allow one to manipulate objects where a separate atmosphere is desired.',

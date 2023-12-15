@@ -8,8 +8,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 
 export class LibraryOneComponent {
-  
-  
+
+
   currentImageIndex15 = 0;
   imagesNav=[
     './assets/images/menu_own.svg',
@@ -60,7 +60,7 @@ export class LibraryOneComponent {
   ngOnInit(): void {
     this.contentParams = this.activatedRoute.snapshot.params['routing'];
     console.log(this.contentParams)
-    this.filterMethod(); 
+    this.filterMethod();
   }
 
   filterMethod(){
@@ -133,7 +133,7 @@ export class LibraryOneComponent {
       point11:"Architectural Elements : Agate's entrancing appearance extends to architectural contexts. It is harnessed in premium interior and exterior designs, introducing an element of opulence to spaces through applications like wall panels, countertops, and decorative accents.",
       summary:"In summary, agate's flexibility and innate allure position it as an indispensable asset across diverse industries. From adorning jewelry to enriching interior aesthetics, agate's presence infuses elegance, individuality, and a connection to the natural world. Its significance in industrial contexts not only highlights its aesthetic magnetism but also underscores its pragmatic value as a substance that augments functionality, beauty, and ingenuity."
     },
-    { 
+    {
       id : 2,
       routing : "quartz-interesting-facts",
       heading: 'Quartz - Interesting Facts',
@@ -199,7 +199,7 @@ export class LibraryOneComponent {
       id : 5,
       routing : 'glove-boxes-for-scientific-advancement',
       heading: 'Glove Boxes for Scientific Advancement',
-      img: '../../assets/gloveBox.webp',
+      img: '../../assets/glovebox.webp',
       subHeading :"Glove Box : Creating Controlled Environments for Scientific Advancement",
       desc1:"A crucial tool stands at the forefront of scientific exploration - the glove box. This innovative device empowers researchers to conduct experiments and handle materials in controlled environments, shielded from external contaminants. Let's delve into the world of glove boxes, understanding their significance, operation, and their indispensable role in various research endeavours.",
       subHeading2:"The Essence of Controlled Environments :",

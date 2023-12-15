@@ -104,7 +104,7 @@ export class ResearchComponent implements OnInit{
       routing : "thermal-dynamic-with-precision"
     },
     {
-      img1: '../../assets/gloveBox.webp',
+      img1: '../../assets/glovebox.webp',
       topic:'Material Preparation',
       content: 'Glove Boxes for Scientific Advancement',
       library_id:5,

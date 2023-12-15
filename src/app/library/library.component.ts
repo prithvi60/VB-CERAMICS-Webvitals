@@ -17,7 +17,7 @@ export class LibraryComponent implements OnInit{
   changeImage15() {
     this.currentImageIndex15 = (this.currentImageIndex15 + 1) % this.imagesNav.length;
   }
-  
+
   isChildRoute = false;
   constructor(private router: Router, private route: ActivatedRoute, private location: Location) {}
   public childActive : any;
@@ -79,7 +79,7 @@ export class LibraryComponent implements OnInit{
       routing : "thermal-dynamic-with-precision"
     },
     {
-      img1: '../../assets/gloveBox.webp',
+      img1: '../../assets/glovebox.webp',
       topic:'Material Preparation',
       content: 'Glove Boxes for Scientific Advancement',
       library_id:5,
@@ -92,6 +92,6 @@ export class LibraryComponent implements OnInit{
       library_id:6,
       routing : "working-principle-of-hot-air-oven"
     },
-   
+
   ];
 }

@@ -77,7 +77,7 @@
       <owl-carousel-o [options]="customOptions_main">
         <ng-template carouselSlide>
           <div class="slide heroImg">
-            <img class="hero-image" src="../../assets/gallery-page-img/main1.webp" alt="image">
+            <img  src="../../assets/gallery-page-img/main1.webp" class="hero-image d-block w-100"  fetchpriority="high" alt="image">
           </div>
         </ng-template>
         <ng-template carouselSlide>
@@ -107,7 +107,9 @@
             <owl-carousel-o [options]="customOptions1_left">
               <ng-template carouselSlide>
                 <div class="slide">
-                  <img class="container_image" src="../../assets/gallery-page-img/ACCOLADES1.webp" alt="image">
+                  <img  src="../../assets/gallery-page-img/ACCOLADES1.webp"
+                  class="container_image d-block w-100"  fetchpriority="high"
+                  alt="image">
                 </div>
               </ng-template>
               <ng-template carouselSlide>

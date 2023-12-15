@@ -1648,7 +1648,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
     {
       id : 29,
       title : 'Material Preparation',
-      image_1 : '../../../assets/gloveBox.png',
+      image_1 : '../../../assets/glovebox.webp',
       image_2 : '../../../assets/service29-sec-2.jpg',
       header : 'Material Preparation',
       heading: 'Glove Box',
