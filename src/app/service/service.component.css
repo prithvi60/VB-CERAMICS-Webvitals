@@ -30,7 +30,7 @@
 .navbar-toggler {
   border: unset;
   box-shadow: unset;
-} 
+}
 .navbar-toggler img {
   width: 30px;
   height: 30px;
@@ -482,7 +482,8 @@ box-shadow: 1px 7px 20px 0px rgba(0, 0, 0, 0.15);
 
 .card10 li {
   font-size: 16px;
-  background: url(/assets/images/arrowright.svg) left no-repeat;
+  background: url(
+https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
   list-style-type: none;
   padding-left: 20px;
   cursor: pointer;

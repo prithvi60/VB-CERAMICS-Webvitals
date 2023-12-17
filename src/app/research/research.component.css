@@ -118,7 +118,8 @@
 
   .card10 li {
     font-size: 16px;
-    background: url(/assets/images/arrowright.svg) left no-repeat;
+    background: url(
+https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
     list-style-type: none;
     padding-left: 20px;
 
@@ -305,7 +306,9 @@
 
   .flex8{
     background-position: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.60) 0%, rgba(0,0,0, 0.60) 0%), url(/assets/images/bg_con.webp);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.60) 0%, rgba(0,0,0, 0.60) 0%), url(
+
+https://ik.imagekit.io/webibee/VBRC/bg_con.webp);
     background-color: #99ABD8;
     background-size: cover;
     background-repeat: no-repeat, no-repeat;

@@ -35,9 +35,9 @@
 }
 
 @media only screen and (max-width: 1250px){
-  
+
   .owl-theme .owl-nav [class*=owl-] {
-    
+
     margin: 5px 5px 5px 10px !important;
   }
   }
@@ -88,7 +88,7 @@
 @media only screen and (max-width: 425px){
   #customer{padding-left: 0px !important;}
   .owl-theme .owl-nav [class*=owl-] {
-    
+
     margin: 5px 5px 5px 5px !important;
   }
   }
@@ -116,22 +116,25 @@
   }
   .owl-prev:hover{
     box-shadow: inset 100px 0 0px 0px white;
-    content: url(/assets/images/Vectorb.svg) !important;
+    content: url(
+https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg) !important;
 
   }
   .owl-next:hover{
     box-shadow: inset 100px 0 0 0 white;
-    content: url(/assets/images/Vectorbr.svg) !important;
+    content: url(
+https://ik.imagekit.io/webibee/VBRC/images/Vectorbr.svg) !important;
   }
   .owl-theme .owl-nav [class*=owl-]:hover{
     border: 1px solid #132249 ;
   }
   .owl-prev > img:hover{
     /* box-shadow: inset 0 0 100px 0px white; */
-    content: url(/assets/images/Vectorb.svg) !important;
+    content: url(
+https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg) !important;
   }
   .owl-next> img:hover{
     /* box-shadow: inset 100px 0 0 0 white; */
-    content: url(/assets/images/Vectorbr.svg) !important;
+    content: url(
+https://ik.imagekit.io/webibee/VBRC/images/Vectorbr.svg) !important;
   }
-  

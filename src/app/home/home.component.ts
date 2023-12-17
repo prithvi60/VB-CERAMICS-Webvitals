@@ -140,7 +140,7 @@ export class HomeComponent {
   currentImageIndex14 = 0;
   currentImageIndex15 = 0;
   images = [
-    'https://ik.imagekit.io/webibee/VBRC/images/double arrow_.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/double_arrow_.svg',
     'https://ik.imagekit.io/webibee/VBRC/images/double_arrow.svg',
   ];
   imagesNav = [
