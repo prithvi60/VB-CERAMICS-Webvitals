@@ -69,7 +69,7 @@ export class GalleryComponent {
       1200:{
         items: 5
       },
-    
+
     }
   };
 
@@ -107,7 +107,7 @@ export class GalleryComponent {
   toggleMenu(): void {
     let menuBtn =
       document.querySelector(".menu-btn");
-    if (!this.showMenu1) { 
+    if (!this.showMenu1) {
       menuBtn.classList.add("close");
       // Reset the menu state
       this.showMenu1 = true;
@@ -137,8 +137,8 @@ export class GalleryComponent {
   }
 
   imagesNav=[
-    './assets/images/menu_own.svg',
-    './assets/images/icons8-close.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
   ];
   currentImageIndex15 = 0;
   changeImage15() {

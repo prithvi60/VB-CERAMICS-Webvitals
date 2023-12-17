@@ -83,8 +83,8 @@ export class HomeComponent {
     nav: true,
     // stagePadding: 0,
     navText: [
-      "<img src='./assets/images/arrow_cc.svg' width='40px' height='20px' alt='leftArrow1'>",
-      "<img src='./assets/images/arrow_c.svg' width='40px' height='20px' alt='leftArrow2'>",
+      "<img src='https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg' width='40px' height='20px' alt='leftArrow1'>",
+      "<img src='https://ik.imagekit.io/webibee/VBRC/images/arrow_c.svg' width='40px' height='20px' alt='leftArrow2'>",
     ],
 
     responsive: {
@@ -140,12 +140,12 @@ export class HomeComponent {
   currentImageIndex14 = 0;
   currentImageIndex15 = 0;
   images = [
-    './assets/images/double arrow_.svg',
-    './assets/images/double_arrow.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/double arrow_.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/double_arrow.svg',
   ];
   imagesNav = [
-    './assets/images/menu_own.svg',
-    './assets/images/icons8-close.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
   ];
   changeImage() {
     this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
@@ -199,7 +199,7 @@ export class HomeComponent {
       (this.currentImageIndex15 + 1) % this.imagesNav.length;
   }
 
-  arrowimages = ['./assets/images/arrow_cc.svg', './assets/images/Vectorb.svg'];
+  arrowimages = ['https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg', 'https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg'];
 
   currentImageIndex7 = 0;
   changeImage7() {
@@ -232,8 +232,8 @@ export class HomeComponent {
   }
 
   arrowimages2 = [
-    './assets/images/arrow_c.svg',
-    './assets/images/Vectorbr.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/arrow_c.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/Vectorbr.svg',
   ];
 
   currentImageIndex8 = 0;

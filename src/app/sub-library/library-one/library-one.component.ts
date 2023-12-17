@@ -12,8 +12,8 @@ export class LibraryOneComponent {
 
   currentImageIndex15 = 0;
   imagesNav=[
-    './assets/images/menu_own.svg',
-    './assets/images/icons8-close.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
   ]
   changeImage15() {
     this.currentImageIndex15 = (this.currentImageIndex15 + 1) % this.imagesNav.length;
@@ -118,7 +118,7 @@ export class LibraryOneComponent {
       id : 1,
       routing : "agate-importance",
       heading: 'Agate and It’s Importance',
-      img: './assets/images/article2.webp',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
       subHeading : 'Agate: Unveiling Its Industrial Significance and Versatile Applications',
       desc1:"Agate, a captivating gemstone valued for its colorful bands and distinct patterns, goes beyond just its visual charm to play a vital part in numerous industries. With its exceptional traits and adaptable features, agate has secured its place in various industrial applications, contributing to innovation and practicality in a range of sectors. Let's dive into the intriguing realm of agate and explore its significance in diverse industries.",
       point1:"Jewellery and Accessories : The captivating patterns and vibrant shades of agate have led to its desirability in the world of jewellery. When shaped into beads, cabochons, and pendants, agate takes on a central role in creating exquisite necklaces, earrings, and bracelets. The inherent beauty and versatile color palette provide endless design opportunities to cater to the preferences of discerning customers.",
@@ -137,7 +137,7 @@ export class LibraryOneComponent {
       id : 2,
       routing : "quartz-interesting-facts",
       heading: 'Quartz - Interesting Facts',
-      img: './assets/images/article1.webp',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
       subHeading : "Unveiling the Enigmatic Beauty : Exploring Fascinating Facts about Quartz",
       desc1:"Quartz, a gem of the Earth's treasury, is a mineral that has captivated humans for centuries with its mesmerizing appearance, diverse forms, and intriguing properties. Let's embark on a journey to discover some lesser-known and enthralling facts about this extraordinary mineral.",
       point1:"Abundance in Diversity : Quartz reigns as one of the most abundant minerals on the planet, composing a significant portion of the Earth's crust. Its diverse forms and breath taking colours, ranging from the transparent purity of rock crystal to the soothing lavender shades of amethyst, showcase nature's artistic flair.",
@@ -156,7 +156,7 @@ export class LibraryOneComponent {
       id : 3,
       routing : 'graphite-impact-in-industries',
       heading: "Graphite’s Impact in Industries",
-      img: './assets/images/article3.jpeg',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article3.jpeg',
       subHeading : "Graphite : A Catalyst for Transformation Across Varied Industries",
       desc1:"Graphite, an unassuming yet highly potent form of carbon, emerges as a mineral that has dynamically reformed multiple industries through its remarkable attributes and diverse applications. From its pivotal contributions to technological advancements to its role in energy storage and beyond, graphite wields a profound and pervasive influence. Let's embark on a journey into the realm of graphite, uncovering how it shapes and propels innovation across a spectrum of sectors.",
       point1:"Industrial Metallurgy : Graphite's elevated melting point, outstanding thermal conductivity, and resistance to chemical reactions render it an indispensable asset in metallurgical processes. Its utility as a crucible material for melting and casting metals such as steel, iron, and non-ferrous alloys bolsters essential manufacturing procedures. Its capacity to endure extreme temperatures assures the efficacy and excellence of these pivotal production processes.",
@@ -174,7 +174,7 @@ export class LibraryOneComponent {
     { id : 4,
       routing : "thermal-dynamic-with-precision",
       heading: 'Thermal Dynamics with Precision (Dilatometer)',
-      img: './assets/images/article4.webp',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
       subHeading : "Dilatometer : Thermal Dynamics with Exquisite Precision",
       desc1:"Within the complex realm of material science and thermal investigation, the dilatometer assumes a paramount role, serving as a conduit to comprehend how substances respond to alterations in temperature. This intricately designed instrument stands as a cornerstone of research, affording scientists and engineers a unique vantage point to explore the thermal properties and conduct of materials. Let's embark on an enlightening journey, unravelling the significance, operational mechanics, and diverse applications of the dilatometer.",
       subHeading2 :"Deciphering Thermal Expansion :",
@@ -199,7 +199,7 @@ export class LibraryOneComponent {
       id : 5,
       routing : 'glove-boxes-for-scientific-advancement',
       heading: 'Glove Boxes for Scientific Advancement',
-      img: '../../assets/glovebox.webp',
+      img: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
       subHeading :"Glove Box : Creating Controlled Environments for Scientific Advancement",
       desc1:"A crucial tool stands at the forefront of scientific exploration - the glove box. This innovative device empowers researchers to conduct experiments and handle materials in controlled environments, shielded from external contaminants. Let's delve into the world of glove boxes, understanding their significance, operation, and their indispensable role in various research endeavours.",
       subHeading2:"The Essence of Controlled Environments :",
@@ -224,7 +224,7 @@ export class LibraryOneComponent {
       id : 6,
       routing : "working-principle-of-hot-air-oven",
       heading: 'Working Principle of Hot Air Oven',
-      img: './assets/images/article4.webp',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
       desc1:"The hot air oven, an essential apparatus in laboratories, industries, and research facilities, operates on a fundamental principle that facilitates uniform heating and sterilization of various materials. This versatile tool finds applications in diverse fields, including microbiology, material testing, and food industries. Let's delve into the core of its working principle, exploring how it achieves precise temperature control and its significance in modern-day applications.",
       subHeading2:"The Essence of Hot Air Oven :",
       desc2:"At its core, a hot air oven is designed to provide controlled heating through the circulation of hot air within an enclosed chamber. This uniform distribution of heat ensures that the items placed within the oven experience consistent temperature conditions. The oven's mechanism is based on the principles of convection, making it a reliable tool for drying, curing, and sterilizing purposes.",

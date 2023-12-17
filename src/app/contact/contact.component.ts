@@ -11,11 +11,11 @@ export class ContactComponent {
     email: '',
     message: ''
   };
-  
+
   currentImageIndex15 = 0;
   imagesNav=[
-    './assets/images/menu_own.svg',
-    './assets/images/icons8-close.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
   ];
   changeImage15() {
     this.currentImageIndex15 = (this.currentImageIndex15 + 1) % this.imagesNav.length;
@@ -68,7 +68,7 @@ export class ContactComponent {
   }
 
   ngOnInit(): void {
-   
+
   }
 
 }
