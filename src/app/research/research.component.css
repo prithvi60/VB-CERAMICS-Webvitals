@@ -545,19 +545,23 @@ line-height: 16px; /* 100% */
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 30px;
+  /* gap: 30px; */
 }
-
 .gallery-text {
   color: #132249;
   width: 50%;
   font-family: Unbounded;
-  font-size: clamp(1rem, 8vw, 8rem);
+  font-size: clamp(1rem, 6vw, 6rem);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
-
+.main-section .hr_tag {
+  border-bottom: 1px solid #000;
+  margin: 0px 40px;
+  text-align: center;
+  opacity: 1;
+}
 .stretch {
   display: flex;
   justify-content: center;
@@ -715,7 +719,7 @@ line-height: 150%; /* 24px */
   grid-template-columns: minmax(200px, 800px);
   grid-row-gap: 20px;
   grid-column-gap: 1.5%;
-  background: #132249;
+  /* background: #132249; */
   padding: 40px;
 }
 #head1,#head2,#head3{
@@ -921,22 +925,6 @@ line-height: 30px; /* 187.5% */
   line-height: 30px; /* 187.5% */
 }
 
-.menu,
-.main_section1,
-.main_section2,
-.main_section3,
-.main_section4,
-.main_section5,
-.main_section6,
-.main_section7,
-.main_section8{
-  width: 100%;
-  border-radius: 20px;
-  border: 1px solid rgba(24, 25, 119, 0.10);
-  background: #EDF1FD;
-}
-
-
 .main_section1_header,
 .main_section2_header,
 .main_section3_header,
@@ -946,7 +934,7 @@ line-height: 30px; /* 187.5% */
 .main_section7_header,
 .main_section8_header {
   display: flex;
-  padding: 20px 0px 0px 20px;
+  padding: 40px 0px 0px 40px;
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
@@ -977,14 +965,19 @@ line-height: 30px; /* 187.5% */
 .main_section8_content {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-top: 32px;
+  padding-bottom: 20px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
   align-self: stretch;
 }
 
-
+h2{
+  margin-bottom: 0 !important;
+}
 
 .main_section1_cnt,
 .main_section2_cnt,
@@ -1073,6 +1066,8 @@ line-height: 30px; /* 187.5% */
 .research_projects_div {
   display: flex;
   padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
   justify-content: center;
   align-items: center;
   gap: 8px;
