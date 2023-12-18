@@ -939,7 +939,13 @@ line-height: 30px; /* 187.5% */
   gap: 8px;
   align-self: stretch;
 }
-
+.bordertop{
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+.borderbottom{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+  padding-bottom:40px !important;
+}
 .main_section1_head,
 .main_section2_head,
 .main_section3_head,
@@ -950,7 +956,7 @@ line-height: 30px; /* 187.5% */
 .main_section8_head {
   color: #132249;
   font-family: Unbounded;
-  font-size: 20px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%;
@@ -1066,19 +1072,17 @@ h2{
 .research_projects_div {
   display: flex;
   padding: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
   justify-content: center;
   align-items: center;
   gap: 8px;
   align-self: stretch;
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.10);
-  background: #FFF;
+  background: #FCFCFC;
 }
 
 .research_projects_cnt {
-  color: #333;
+  color: #333333;
 
   /* Para 1 Medium */
   font-family: Schibsted Grotesk;
@@ -1175,7 +1179,17 @@ h2{
   .research_projects_cnt {
     font-size: 14px !important;
   }
-
+.gallery-text{
+  text-align: center;
+  font-size: 50px !important;
+}
+.main_section7_head,.main_section6_head{
+  font-size: 20px !important;
+}
+.main_section7_header{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 }
 
 
