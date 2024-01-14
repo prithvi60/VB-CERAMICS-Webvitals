@@ -111,7 +111,7 @@ export class ServicesComponent {
     // window.location.href = mailtoLink;
     const { name, email, message } = this.formData;
     let description  = `\nName : ${name}\nEmail: ${email}\nMessage: ${message}`
-    let mail = 'drvbcrc@gmail.com'
+    let mail = 'drVBCC@gmail.com'
     // You can construct the Gmail URL with the entered data and open it in a new tab.
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${mail}&su=${encodeURIComponent(`Message from ${name}`)}&body=${encodeURIComponent(description)}`;
     // window.open(gmailUrl, '_blank');
@@ -585,7 +585,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
           </ul>
 
           <h4>Use Cases:</h4>
-          <p>The VBCRC Planetary Ball Mill, equipped with TC balls and vial, finds its application in the realm of Advanced Ceramics, catering to nanotechnology applications with precision and efficiency:</p>
+          <p>The VBCC Planetary Ball Mill, equipped with TC balls and vial, finds its application in the realm of Advanced Ceramics, catering to nanotechnology applications with precision and efficiency:</p>
           <ul>
               <li>Advanced Ceramics Processing: Specifically designed for milling and mixing tasks related to Advanced Ceramics, ensuring uniform and controlled processing of ceramic materials.</li>
               <li>Particle Size Reduction: Facilitates the reduction of particle sizes from Micron (10-6µm) to Nano Size (10-9nm) within a short timeframe of 30 to 60 minutes, crucial for nanotechnology applications.</li>
@@ -629,7 +629,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2 : `
     <p>Pellet mill is a kind of machine that is used for producing pellets from powdered biomass material. It is also known as pellet press. It works very effectively and you can always rely on for the production of very fine pellets. To produce the small substances, it works by putting together smaller particles into larger and homogenous mass. It therefore implies that it doesn’t break the large materials into smaller substances.</p>
 
-    <h4>VBCRC Press is used to compact the different kinds of Ceramic and Metal Powders into Pellet shape for variety of Applications and Characterization.</h4>
+    <h4>VBCC Press is used to compact the different kinds of Ceramic and Metal Powders into Pellet shape for variety of Applications and Characterization.</h4>
 
     <h4>10-Ton Hydraulic Pellet Press - Manual Operation</h4>
     <p>The 10-ton hydraulic pellet press, designed for manual operation, ensures precise and reliable pellet compaction for diverse applications.</p>
@@ -1728,7 +1728,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
     <h4>Planetary Ball Mill with Porcelain Jar (500ml):</h4>
 
     <h4>Overview:</h4>
-    <p>The VBCRC Planetary Ball Mill, equipped with a Porcelain Jar, stands as a versatile instrument essential for the milling and mixing of various materials, specifically tailored for Traditional Ceramics applications. This state-of-the-art equipment is designed to reduce particle sizes from millimeters (10-3mm) to micron dimensions (10-6µm) with utmost precision.</p>
+    <p>The VBCC Planetary Ball Mill, equipped with a Porcelain Jar, stands as a versatile instrument essential for the milling and mixing of various materials, specifically tailored for Traditional Ceramics applications. This state-of-the-art equipment is designed to reduce particle sizes from millimeters (10-3mm) to micron dimensions (10-6µm) with utmost precision.</p>
 
     <h4>Key Features:</h4>
     <ul>

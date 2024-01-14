@@ -57,7 +57,7 @@ export class ContactComponent {
     // window.location.href = mailtoLink;
     const { name, email, message } = this.formData;
     let description  = `\nName : ${name}\nEmail: ${email}\nMessage: ${message}`
-    let mail = 'drvbcrc@gmail.com'
+    let mail = 'drVBCC@gmail.com'
     // You can construct the Gmail URL with the entered data and open it in a new tab.
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${mail}&su=${encodeURIComponent(`Message from ${name}`)}&body=${encodeURIComponent(description)}`;
     // window.open(gmailUrl, '_blank');
