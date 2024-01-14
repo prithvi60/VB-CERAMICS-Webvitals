@@ -88,6 +88,9 @@ body {
   letter-spacing: 1.5px;
   font-size: clamp(1rem, 3vw, 8rem);
   transform: scale(1.2, 1.5);
+  .mainhead {
+    font-size: 80px !important;
+  }
 }
 h2 {
   color: #000;
@@ -205,7 +208,7 @@ h2 {
 .responsive h1 {
   font-size: 10px !important;
 }
-.container-fluid1 img{
+.container-fluid1 img {
   aspect-ratio: 16/9;
 }
 /* span{color: #333;text-align: center;font-family: Unbounded;font-size: 20px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.1px;} */
@@ -333,7 +336,8 @@ h2 {
 
 .card10 li {
   font-size: 16px;
-  background: url(https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
+  background: url(https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg)
+    left no-repeat;
   list-style-type: none;
   padding-left: 20px;
 }
@@ -827,7 +831,10 @@ h4 {
 .card-header {
   padding: 10px !important;
 }
-#car_explore_1,#car_explore_2,#car_explore_3,#car_explore_4 {
+#car_explore_1,
+#car_explore_2,
+#car_explore_3,
+#car_explore_4 {
   border-radius: 20px;
   border: 1px solid #fff;
   background-color: #132249;
@@ -845,7 +852,11 @@ h4 {
   overflow: hidden;
   background-image: none !important;
 }
-#car_button_1,#car_button_2,#car_button_3,#car_button_4,#car_button_5 {
+#car_button_1,
+#car_button_2,
+#car_button_3,
+#car_button_4,
+#car_button_5 {
   border-radius: 20px;
   border: 1px solid #fff;
   background: #132249;
@@ -1142,7 +1153,7 @@ h4 {
   width: 50%;
   z-index: 1030;
 }
-.fixed-top > h4{
+.fixed-top > h4 {
   color: #fff;
   text-align: right;
   font-variant-numeric: lining-nums tabular-nums;
@@ -1245,7 +1256,11 @@ h4 {
 #car_button_1:hover svg path {
   stroke: black;
 }
-#car_button_1,#car_button_2,#car_button_3,#car_button_4,#car_button_5  {
+#car_button_1,
+#car_button_2,
+#car_button_3,
+#car_button_4,
+#car_button_5 {
   color: #fff;
   cursor: pointer;
   box-shadow: inset 0 100 0 0 white;
@@ -1325,7 +1340,11 @@ Left Slide Button
   color: #fff;
 }
 
-#car_button_1:hover,#car_button_2:hover,#car_button_3:hover,#car_button_4:hover,#car_button_5:hover  {
+#car_button_1:hover,
+#car_button_2:hover,
+#car_button_3:hover,
+#car_button_4:hover,
+#car_button_5:hover {
   color: #000;
 }
 .right-slide::after {
@@ -1351,8 +1370,11 @@ Left Slide Button
   border-radius: 40px;
   transition: all 0.35s;
 }
-#car_button_1::after
-,#car_button_2::after,#car_button_3::after,#car_button_4::after,#car_button_5::after  {
+#car_button_1::after,
+#car_button_2::after,
+#car_button_3::after,
+#car_button_4::after,
+#car_button_5::after {
   /* Adds the overlay for creating slide effect */
   content: "";
   position: absolute;
@@ -1381,7 +1403,11 @@ Left Slide Button
   transition: all 0.35s;
 }
 
-#car_button_1:hover::after,#car_button_2:hover::after,#car_button_3:hover::after,#car_button_4:hover::after,#car_button_5:hover::after  {
+#car_button_1:hover::after,
+#car_button_2:hover::after,
+#car_button_3:hover::after,
+#car_button_4:hover::after,
+#car_button_5:hover::after {
   /* Hover effect for the overlay slide effect */
   top: 0;
   left: 0;
@@ -1407,8 +1433,7 @@ Left Slide Button
 #car_button_2::after,
 #car_button_3::after,
 #car_button_4::after,
-#car_button_5::after
-{
+#car_button_5::after {
   left: 0;
   right: 0;
   top: -100%;
@@ -1741,8 +1766,7 @@ tfoot > tr > td {
   #car_button_2,
   #car_button_3,
   #car_button_4,
-  #car_button_5
-  {
+  #car_button_5 {
     padding: 8px 24px 8px 24px !important;
     width: max-content;
   }
@@ -2286,7 +2310,7 @@ tfoot > tr > td {
   }
   #arrimg {
     width: 50%;
-    aspect-ratio:auto 3/4;
+    aspect-ratio: auto 3/4;
   }
 
   #para {
@@ -2434,7 +2458,10 @@ tfoot > tr > td {
     bottom: 10px; /* Adjust this value for smaller screens */
     right: 10px; /* Adjust this value for smaller screens */
   }
-  #car_explore_1, #car_explore_2, #car_explore_3, #car_explore_4{
+  #car_explore_1,
+  #car_explore_2,
+  #car_explore_3,
+  #car_explore_4 {
     display: none;
   }
 }

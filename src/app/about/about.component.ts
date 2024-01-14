@@ -116,7 +116,7 @@ export class AboutComponent {
   public visionContentLi7: string = `To offer INPLANT training to the students and the workers who can be deputed by various industries to have hands on experience with the instruments in order to improve their quality of work and to update their knowledge with the latest techniques in the respective fields .`;
   public visionContentLi8: string = `To conduct periodical lectures and organize to National and International conferences.`;
   public visionContentLi9: string = `VBCC will work in MISSION MODE, The Facilities will be available for the students and researchers on all days throughout the year at all times (24X7 HRS) so as to cater to the needs of the student community to complete their high quality projects in record time .`;
-  public fellowship: string = `VBCC has signed an MOU with Annamalai University for doing joint research in ceramics and related areas.`;
+  public fellowship: string = `VBCC Research has signed an MOU with Annamalai University for doing joint research in ceramics and related areas.`;
   public fellowship1: string = `Under this MOU, VBCC is offering a research fellowship to a Ph.D student for doing his Ph.D in Manufacturing Engineering.`;
   public fellowship2: string = `Student Name: Mr. V. Sivamaran`;
   public fellowship3: string = `Project Title: Synthesis of Carbon Nano Tubes (CNTs) by Chemical Vapour Deposition (CVD) Process`;
@@ -133,7 +133,7 @@ export class AboutComponent {
   // public research_papers10: string = `In situ synthesis of multi-walled carbon nanorings by catalytic chemical vapor deposition process`;
   // public research_papers11: string = `Optimizing Chemical Vapor Deposition Parameters to Attain Minimum Diameter Carbon Nano Tubes by Response Surface Methodology`;
   // public research_papers12: string = `Developing Empirical Relationship to Predict the Diameter of Multiwall Carbon Nano Tubes (MWCNTs) Synthesized by Chemical Vapor Deposition (CVD) Process. Manufacturing Technology Today`;
-  // public research_Projects: string = `Our centre is offering projects for B.E/M.E/M.Sc./M.Phil. students as well as for the research scholars to develop new methodologies to be adopted in the manufacture of more sophisticated equipment's and to promote research in the country in Materials Science and in particular in ceramics. VBCC is an Industrial partner with the following institutions which obtained combined projects.`;
+  // public research_Projects: string = `Our centre is offering projects for B.E/M.E/M.Sc./M.Phil. students as well as for the research scholars to develop new methodologies to be adopted in the manufacture of more sophisticated equipment's and to promote research in the country in Materials Science and in particular in ceramics. VBCC Research is an Industrial partner with the following institutions which obtained combined projects.`;
   // public research_project_ul1: string = `"Development of Reactive Thermal Plasma Reactor to Synthesis SiAlON and Silicon Nitride Based Ceramics from Fly Ash"`;
   // public research_project_cnt1: string = `Dr. V. BALASUBRAMANIAN, M.E., Ph.D. (IITM).,Professor & Coordinator, Department of Manufacturing Engineering, Annamalai University, Annamalai nagar - 608 002, Tamil Nadu.`;
   // public research_project_ul2: string = `"Pilot Studies on Microwave Conversion of Eggshell into Nanostructure Hydroxyapatite for Biomedical applications and to design and fabricate continuous flow microwave reactor for scaling up the process"`;
@@ -142,9 +142,9 @@ export class AboutComponent {
   // public research_project_cnt3: string = `Dr. E. K. GIRIJA Assistant Professor, Department of Physics, Periyar University, Salem- 636 011, Tamil Nadu. Dr. Vivekanand Kattimani, Professor, Department of Oral and Maxillofacial surgery, Department of Physics, Sibar Institute of Dental Sciences, Guntur -09 Andhra Pradesh.`;
   // public research_project_ul4: string = `High energy density Batteries from M/S Omega Energy Systems`;
   public academic_activity: string = `VB Ceramics has jointly organized and supported more than 100 National / International Conferences so far. Few of them which have been recently held are mentioned below:`;
-  public academic_activity_li1: string = `VBCC jointly Organized a TWO DAY UGC SPONSORED NATIONAL CONFERENCE ON NANOSCIENCE - A Multidisciplinary Approach on 10th & 11th FEBRUARY, 2016 at the Department of Electronics at the Mount Carmel College (Autonomous) Bengaluru.`;
-  public academic_activity_li2: string = `VBCC jointly conducted a THIRD INTERNATIONAL WORKSHOP ON ADVANCED FUNCTIONAL NANOMATERIALS (TIWAN-2015) during 16th to 18th December, 2015 at Centre for Nanoscience & Technology, Anna University, Chennai.`;
-  public academic_activity_li3: string = `VBCC jointly organized a Three Day International Conference on Advances in Materials, Manufacturing and Applications (AMMA 2015) during April 9th-11th April 2015 at the Department of Metallurgical and Materials Engineering, National Institute of Technology, Tiruchirappalli.`;
+  public academic_activity_li1: string = `VBCC Research jointly Organized a TWO DAY UGC SPONSORED NATIONAL CONFERENCE ON NANOSCIENCE - A Multidisciplinary Approach on 10th & 11th FEBRUARY, 2016 at the Department of Electronics at the Mount Carmel College (Autonomous) Bengaluru.`;
+  public academic_activity_li2: string = `VBCC Research jointly conducted a THIRD INTERNATIONAL WORKSHOP ON ADVANCED FUNCTIONAL NANOMATERIALS (TIWAN-2015) during 16th to 18th December, 2015 at Centre for Nanoscience & Technology, Anna University, Chennai.`;
+  public academic_activity_li3: string = `VBCC Research jointly organized a Three Day International Conference on Advances in Materials, Manufacturing and Applications (AMMA 2015) during April 9th-11th April 2015 at the Department of Metallurgical and Materials Engineering, National Institute of Technology, Tiruchirappalli.`;
 
   ngOnInit(): void {
   }
