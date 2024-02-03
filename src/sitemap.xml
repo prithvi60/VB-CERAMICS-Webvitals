@@ -4,13 +4,27 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://vbccresearch.com/</loc>
-  <lastmod>2024-02-03T03:51:09+00:00</lastmod>
 </url>
-
-
+    <url>
+        <loc>https://vbccresearch.com/research</loc>
+    </url>
+        <url>
+        <loc>https://vbccresearch.com/service</loc>
+    </url>
+           <url>
+        <loc>https://vbccresearch.com/about</loc>
+    </url>
+         <url>
+        <loc>https://vbccresearch.com/library</loc>
+    </url>
+            <url>
+        <loc>https://vbccresearch.com/gallery</loc>
+    </url>
+           <url>
+        <loc>https://vbccresearch.com/contact</loc>
+    </url>
 </urlset>
