@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LibraryOneComponent } from './sub-library/library-one/library-one.component';
 import { ServicesComponent } from './sub-service/services/services.component';
 import { ResearchComponent } from './research/research.component';
+import { ErrorComponent } from './error/error.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -20,6 +21,8 @@ const appRoutes: Routes = [
   { path: 'service', component: ServiceComponent },
   { path: 'service/:routing', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
+  { path: '**', component: ErrorComponent },
+
 ];
 
 @NgModule({

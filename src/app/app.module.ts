@@ -17,6 +17,7 @@ import { LibraryOneComponent } from './sub-library/library-one/library-one.compo
 import { ServicesComponent } from './sub-service/services/services.component';
 import { FormsModule } from '@angular/forms';
 import { ResearchComponent } from './research/research.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ResearchComponent } from './research/research.component';
     LibraryComponent,
     LibraryOneComponent,
     ServicesComponent,
+    ErrorComponent,
 
   ],
   imports: [
