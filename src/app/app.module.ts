@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { PathLocationStrategy, LocationStrategy } from '@angular/common';
+import { PathLocationStrategy, LocationStrategy, NgOptimizedImage } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
@@ -40,7 +40,8 @@ import { ErrorComponent } from './error/error.component';
     AppRoutingModule,
     TooltipsModule,
     CarouselModule,
-    FormsModule
+    FormsModule,
+    NgOptimizedImage
   ],
   providers: [{provide: LocationStrategy, useClass: PathLocationStrategy }],
   bootstrap: [AppComponent]

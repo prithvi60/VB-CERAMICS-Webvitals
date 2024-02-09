@@ -1,6 +1,5 @@
 import {
   Component,
-  AfterViewInit,
   ElementRef,
   ViewChildren,
   QueryList,
@@ -9,7 +8,6 @@ import {
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
 import { trigger, transition, style, animate } from '@angular/animations';
-import * as $ from 'jquery';
 
 @Component({
   selector: 'app-home',
@@ -199,7 +197,10 @@ export class HomeComponent {
       (this.currentImageIndex15 + 1) % this.imagesNav.length;
   }
 
-  arrowimages = ['https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg', 'https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg'];
+  arrowimages = [
+    'https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg',
+  ];
 
   currentImageIndex7 = 0;
   changeImage7() {
@@ -213,7 +214,7 @@ export class HomeComponent {
 
   ourGroups(param: any) {
     if (param == 'vbcc') {
-      window.location.href = 'https://www.vbceramics.com/home.php';
+      window.location.href = 'https://vbccinstruments.com';
     } else {
       window.location.href = 'https://www.hitechceramics.in/';
     }

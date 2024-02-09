@@ -77,7 +77,7 @@ export class AboutComponent {
 
   ourGroups(param : any){
     if(param == 'vbcc'){
-      window.location.href = 'https://www.vbceramics.com/home.php'
+      window.location.href = 'https://vbccinstruments.com'
     } else {
       window.location.href = 'https://www.hitechceramics.in/'
     }
