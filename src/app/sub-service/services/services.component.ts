@@ -369,7 +369,7 @@ export class ServicesComponent {
     },
     {
       id: 5,
-      mainHeader: "Laser aPrticle Size Diffraction Analyzer",
+      mainHeader: "Laser Particle Size Diffraction Analyzer",
       titleHead: 'Laser Particle Size Analyzer Test at Best Price for Students | VBCC Research',
       metaDesc: "Elevate your research with our advanced laser particle size analyzers for tests with unbeatable quality and affordability, tailored for student budgets.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service5-sec-1.png',

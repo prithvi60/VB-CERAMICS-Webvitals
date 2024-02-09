@@ -104,12 +104,12 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this.title.setTitle(
-      'Ceramics Blogs & Articles Latest Insights and Updates | VBCC Research'
+      'Trusted Ceramic Centre and Research Consultants | VBCC Research'
     );
     this.meta.updateTag({
       name: 'description',
       content:
-        'Explore a world of expertise with Ceramics Blogs & Articles. Stay informed on the latest trends and insights in ceramic technology and industry advancements.',
+        'Explore excellence at VB Ceramics - Trusted ceramic center and research hub. Expert ceramic consultants driving innovation and quality in every project.',
     });
     AOS.init({
       debounceDelay: 500, // the delay on debounce used while resizing window (advanced)
