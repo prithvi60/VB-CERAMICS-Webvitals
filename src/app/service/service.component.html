@@ -1,270 +1,512 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Ceramic Equipment Services Experts | VBCC Research</title> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <meta name="description" content="Trusted partner for innovative ceramic equipment solutions. Discover our comprehensive services designed to enhance your industrial operations." /> -->
+    <meta
+      name="keywords"
+      content="Dr. V.B. Ceramics, VBCC Research , Hitech Ceramics, Ceramic Tiles, Tiles Manufacturer, Dr. Viswa Baskaran, Dr. V.B. Ceramcis Research Centre"
+    />
+    <meta name="author" content="VBCC Research " />
+    <meta name="og:title" content="VBCC RESEARCH" />
+    <meta
+      name="og:description"
+      content="Access ceramic research papers, projects, and consult with expert professionals for innovative solutions."
+    />
+    <meta
+      name="og:image"
+      content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+    />
+    <meta name="og:url" content="https://www.drvbceramicresearch.com/service" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VBCC</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <meta name="description" content="VBCC RESEARCH Servicepage">
-  <meta name="keywords" content="Dr. V.B. Ceramics, VBCC Research , Hitech Ceramics, Ceramic Tiles, Tiles Manufacturer, Dr. Viswa Baskaran, Dr. V.B. Ceramcis Research Centre">
-  <meta name="author" content="VBCC Research ">
-  <meta name="og:title" content="VBCC RESEARCH">
-  <meta name="og:description" content="Empowering Progress where Research, Education and Industries Unite.">
-  <meta name="og:image" content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg">
-  <meta name="og:url" content="https://www.drvbceramicresearch.com/service">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
+  <div style="overflow: hidden">
+    <div class="container-fluid1">
+      <div class="row">
+        <div class="col-md-12">
+          <nav
+            id="head_nav"
+            class="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <img
+              id="head_img"
+              src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+              alt="img1"
+              [routerLink]="['/']"
+            />
+            <button
+              (click)="changeImage15()"
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <img [src]="imagesNav[currentImageIndex15]" alt="img2" />
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/research']">Research </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/service']">Services</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/about']">About Us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/library']">Library</a>
+                </li>
 
-<div style="overflow: hidden;">
-  <div class="container-fluid1">
-    <div class="row">
-    <div  class="col-md-12 ">
-    <nav id="head_nav" class="navbar navbar-expand-lg navbar-light bg-light">
-    <img id='head_img' src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="img1" [routerLink]='["/"]'>
-    <button (click)="changeImage15()"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <img [src]="imagesNav[currentImageIndex15]" alt="img2">
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink] ='["/research"]'>Research </a>
-        </li>       <li class="nav-item">
-          <a class="nav-link" [routerLink] ='["/service"]'>Services</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink] ='["/about"]'>About Us </a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink] ='["/library"]'>Library</a>
-          </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/gallery']">Gallery</a>
+                </li>
 
-        <li class="nav-item">
-          <a class="nav-link" [routerLink] ='["/gallery"]'>Gallery</a>
-        </li>
-
-        <li class="nav-item nav-item-contact">
-          <a id='nav_contact' class="" style='background-color:white !important; color:#132249 ;border-radius: 50px;' [routerLink]='["/contact"]'>Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
-</div>
-</div>
-  <div class="service-section">
-    <div class="hero">
-      <h1 class="gallery-text">SERVICES</h1>
-      <div class="gall-para">
-        <p>Our services are transparently priced for optimal customer satisfaction. Check out our selection of
-          high-quality services at affordable rates.</p>
+                <li class="nav-item nav-item-contact">
+                  <a
+                    id="nav_contact"
+                    class=""
+                    style="
+                      background-color: white !important;
+                      color: #132249;
+                      border-radius: 50px;
+                    "
+                    [routerLink]="['/contact']"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
-    <hr class="hr_tag"/>
-  </div>
-  <div class="main-section">
-    <div class="section1">
-      <div class="sec1_container">
-        <p class="sec1_p">What are you looking for?</p>
-        <div class="filter_icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M10.3636 3C8.90722 3 7.48354 3.43187 6.2726 4.24099C5.06167 5.05011 4.11786 6.20015 3.56052 7.54567C3.00319 8.89119 2.85737 10.3718 3.14149 11.8002C3.42562 13.2286 4.12693 14.5406 5.15675 15.5704C6.18657 16.6003 7.49863 17.3016 8.92703 17.5857C10.3554 17.8698 11.836 17.724 13.1815 17.1667C14.527 16.6093 15.6771 15.6655 16.4862 14.4546C17.2953 13.2437 17.7272 11.82 17.7272 10.3636C17.7271 8.41069 16.9512 6.5378 15.5703 5.15688C14.1894 3.77597 12.3165 3.00012 10.3636 3Z" stroke="#666666" stroke-miterlimit="10"/>
-            <path d="M15.8594 15.8574L21.002 21.0001" stroke="#666666" stroke-miterlimit="10" stroke-linecap="round"/>
-          </svg>
-          <input type="text" id="myInput" (keyup)="onKeyUp($event)" autocomplete="off" placeholder="Search.." title="Type in a name">
+    <div class="service-section">
+      <div class="hero">
+        <h1 class="gallery-text">VB Ceramics Services: Ceramic Equipment Experts</h1>
+        <div class="gall-para">
+          <p>
+            Our services are transparently priced for optimal customer
+            satisfaction. Check out our selection of high-quality services at
+            affordable rates.
+          </p>
         </div>
-        <div class="filter_div">
+      </div>
+      <hr class="hr_tag" />
+    </div>
+    <div class="main-section">
+      <div class="section1">
+        <div class="sec1_container">
+          <p class="sec1_p">What are you looking for?</p>
           <div class="filter_icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <path d="M9 15.75C9 15.5511 9.07902 15.3603 9.21967 15.2197C9.36032 15.079 9.55109 15 9.75 15H14.25C14.4489 15 14.6397 15.079 14.7803 15.2197C14.921 15.3603 15 15.5511 15 15.75C15 15.9489 14.921 16.1397 14.7803 16.2803C14.6397 16.421 14.4489 16.5 14.25 16.5H9.75C9.55109 16.5 9.36032 16.421 9.21967 16.2803C9.07902 16.1397 9 15.9489 9 15.75ZM6 11.25C6 11.0511 6.07902 10.8603 6.21967 10.7197C6.36032 10.579 6.55109 10.5 6.75 10.5H17.25C17.4489 10.5 17.6397 10.579 17.7803 10.7197C17.921 10.8603 18 11.0511 18 11.25C18 11.4489 17.921 11.6397 17.7803 11.7803C17.6397 11.921 17.4489 12 17.25 12H6.75C6.55109 12 6.36032 11.921 6.21967 11.7803C6.07902 11.6397 6 11.4489 6 11.25ZM3 6.75C3 6.55109 3.07902 6.36032 3.21967 6.21967C3.36032 6.07902 3.55109 6 3.75 6H20.25C20.4489 6 20.6397 6.07902 20.7803 6.21967C20.921 6.36032 21 6.55109 21 6.75C21 6.94891 20.921 7.13968 20.7803 7.28033C20.6397 7.42098 20.4489 7.5 20.25 7.5H3.75C3.55109 7.5 3.36032 7.42098 3.21967 7.28033C3.07902 7.13968 3 6.94891 3 6.75Z" fill="#666666"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M10.3636 3C8.90722 3 7.48354 3.43187 6.2726 4.24099C5.06167 5.05011 4.11786 6.20015 3.56052 7.54567C3.00319 8.89119 2.85737 10.3718 3.14149 11.8002C3.42562 13.2286 4.12693 14.5406 5.15675 15.5704C6.18657 16.6003 7.49863 17.3016 8.92703 17.5857C10.3554 17.8698 11.836 17.724 13.1815 17.1667C14.527 16.6093 15.6771 15.6655 16.4862 14.4546C17.2953 13.2437 17.7272 11.82 17.7272 10.3636C17.7271 8.41069 16.9512 6.5378 15.5703 5.15688C14.1894 3.77597 12.3165 3.00012 10.3636 3Z"
+                stroke="#666666"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M15.8594 15.8574L21.002 21.0001"
+                stroke="#666666"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+              />
+            </svg>
+            <input
+              type="text"
+              id="myInput"
+              (keyup)="onKeyUp($event)"
+              autocomplete="off"
+              placeholder="Search.."
+              title="Type in a name"
+            />
+          </div>
+          <div class="filter_div">
+            <div class="filter_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M9 15.75C9 15.5511 9.07902 15.3603 9.21967 15.2197C9.36032 15.079 9.55109 15 9.75 15H14.25C14.4489 15 14.6397 15.079 14.7803 15.2197C14.921 15.3603 15 15.5511 15 15.75C15 15.9489 14.921 16.1397 14.7803 16.2803C14.6397 16.421 14.4489 16.5 14.25 16.5H9.75C9.55109 16.5 9.36032 16.421 9.21967 16.2803C9.07902 16.1397 9 15.9489 9 15.75ZM6 11.25C6 11.0511 6.07902 10.8603 6.21967 10.7197C6.36032 10.579 6.55109 10.5 6.75 10.5H17.25C17.4489 10.5 17.6397 10.579 17.7803 10.7197C17.921 10.8603 18 11.0511 18 11.25C18 11.4489 17.921 11.6397 17.7803 11.7803C17.6397 11.921 17.4489 12 17.25 12H6.75C6.55109 12 6.36032 11.921 6.21967 11.7803C6.07902 11.6397 6 11.4489 6 11.25ZM3 6.75C3 6.55109 3.07902 6.36032 3.21967 6.21967C3.36032 6.07902 3.55109 6 3.75 6H20.25C20.4489 6 20.6397 6.07902 20.7803 6.21967C20.921 6.36032 21 6.55109 21 6.75C21 6.94891 20.921 7.13968 20.7803 7.28033C20.6397 7.42098 20.4489 7.5 20.25 7.5H3.75C3.55109 7.5 3.36032 7.42098 3.21967 7.28033C3.07902 7.13968 3 6.94891 3 6.75Z"
+                  fill="#666666"
+                />
               </svg>
-            <input type="text" id="myFilter" placeholder="Filter items" title="Type in a name">
-          </div>
-          <div class="filter_dropdown" (click)="changeImage()">
-            <img [src]="images[currentImageIndex]" alt="img3" class="svgFilter"/>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="menu">
-      <div id="filter_items">
-        <div class="filter_items_div" id="all" (click)="filter('All',$event)" (click)="all()">
-          <div class="filter_items_p" id="allText">All Services</div>
-        </div>
-        <div class="filter_items_div" id="rawMaterial" (click)="filter('Raw materials',$event)" (click)="rawMaterial()">
-          <div class="filter_items_p" id="rawMaterialText">Raw Materials</div>
-        </div>
-        <div class="filter_items_div" id="Sophisticated" (click)="filter('Sophisticated Instruments',$event)"(click)="Sophisticated()">
-          <div class="filter_items_p" id="SophisticatedText">Sophisticated Instruments</div>
-        </div>
-        <div class="filter_items_div" id="physical" (click)="filter('Physical properties',$event)" (click)="physical()">
-          <div class="filter_items_p" id="physicalText">Physical Properties</div>
-        </div>
-        <div class="filter_items_div" id="thermal" (click)="filter('Thermal testing',$event)" (click)="thermal()">
-          <div class="filter_items_p" id="thermalText">Thermal Testing</div>
-        </div>
-        <div class="filter_items_div" id="heat" (click)="filter('heat treatment facility',$event)" (click)="heat()">
-          <div class="filter_items_p" id="heatText">Heat Treatment Facility</div>
-        </div>
-        <div class="filter_items_div" id="material" (click)="filter('Material preparation',$event)"(click)="material()">
-          <div class="filter_items_p" id="materialText">Material Preparation</div>
-        </div>
-        <div class="filter_items_div" id="shaping" (click)="filter('Shaping',$event)"(click)="shaping()">
-          <div class="filter_items_p" id="shapingText">Shaping</div>
-        </div>
-        <div class="filter_items_div" id="nano" (click)="filter('Nano coating techniques',$event)" (click)="nano()">
-          <div class="filter_items_p" id="nanoText">Nano Coating Techniques</div>
-        </div>
-        <div class="filter_items_div" id="casting" (click)="filter('Casting',$event)"(click)="casting()">
-          <div class="filter_items_p" id="castingText">Casting</div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div *ngIf="!isFilter || mainArray.length === 0" class="containers-section">
-        <div class="container_1 container" *ngFor="let service of filteredList.filteredData" [routerLink] ='["/service",service.routing]'>
-          <div class="service_img">
-            <img src={{service.img}} alt="img4" class="d-block w-100" />
-          </div>
-          <div class="service_container">
-            <div class="service_top">
-              <div class="service_header">
-                {{service.header}}
-              </div>
-              <div class="service_heading">
-                {{service.heading}}
-              </div>
-              <div class="service_description">
-                {{service.description}}
-              </div>
+              <input
+                type="text"
+                id="myFilter"
+                placeholder="Filter items"
+                title="Type in a name"
+              />
             </div>
-            <div class="service_bottom">
-              <div class="service_bottom_cnt">
-                <div class="service_students">
-                  {{service.students}}
-                </div>
-                <div class="service_industries">
-                  {{service.industries}}
-                </div>
-              </div>
-              <div class="service_btn">
-                <button class="btn1" [routerLink] ='["/service",service.routing]'><span>Read More</span></button>
-                <button class="btn2" [routerLink]='["/contact"]'><span>Contact Us</span></button>
-              </div>
+            <div class="filter_dropdown" (click)="changeImage()">
+              <img
+                [src]="images[currentImageIndex]"
+                alt="img3"
+                class="svgFilter"
+              />
             </div>
           </div>
         </div>
       </div>
-      <div *ngIf="isFilter" >
+      <div class="menu">
+        <div id="filter_items">
+          <div
+            class="filter_items_div"
+            id="all"
+            (click)="filter('All', $event)"
+            (click)="all()"
+          >
+            <div class="filter_items_p" id="allText">All Services</div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="rawMaterial"
+            (click)="filter('Raw materials', $event)"
+            (click)="rawMaterial()"
+          >
+            <div class="filter_items_p" id="rawMaterialText">Raw Materials</div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="Sophisticated"
+            (click)="filter('Sophisticated Instruments', $event)"
+            (click)="Sophisticated()"
+          >
+            <div class="filter_items_p" id="SophisticatedText">
+              Sophisticated Instruments
+            </div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="physical"
+            (click)="filter('Physical properties', $event)"
+            (click)="physical()"
+          >
+            <div class="filter_items_p" id="physicalText">
+              Physical Properties
+            </div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="thermal"
+            (click)="filter('Thermal testing', $event)"
+            (click)="thermal()"
+          >
+            <div class="filter_items_p" id="thermalText">Thermal Testing</div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="heat"
+            (click)="filter('heat treatment facility', $event)"
+            (click)="heat()"
+          >
+            <div class="filter_items_p" id="heatText">
+              Heat Treatment Facility
+            </div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="material"
+            (click)="filter('Material preparation', $event)"
+            (click)="material()"
+          >
+            <div class="filter_items_p" id="materialText">
+              Material Preparation
+            </div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="shaping"
+            (click)="filter('Shaping', $event)"
+            (click)="shaping()"
+          >
+            <div class="filter_items_p" id="shapingText">Shaping</div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="nano"
+            (click)="filter('Nano coating techniques', $event)"
+            (click)="nano()"
+          >
+            <div class="filter_items_p" id="nanoText">
+              Nano Coating Techniques
+            </div>
+          </div>
+          <div
+            class="filter_items_div"
+            id="casting"
+            (click)="filter('Casting', $event)"
+            (click)="casting()"
+          >
+            <div class="filter_items_p" id="castingText">Casting</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          *ngIf="!isFilter || mainArray.length === 0"
+          class="containers-section"
+        >
+          <div
+            class="container_1 container"
+            *ngFor="let service of filteredList.filteredData"
+            [routerLink]="['/service', service.routing]"
+          >
+            <div class="service_img">
+              <img src="{{ service.img }}" alt="img4" class="d-block w-100" />
+            </div>
+            <div class="service_container">
+              <div class="service_top">
+                <div class="service_header">
+                  {{ service.header }}
+                </div>
+                <div class="service_heading">
+                  {{ service.heading }}
+                </div>
+                <div class="service_description">
+                  {{ service.description }}
+                </div>
+              </div>
+              <div class="service_bottom">
+                <div class="service_bottom_cnt">
+                  <div class="service_students">
+                    {{ service.students }}
+                  </div>
+                  <div class="service_industries">
+                    {{ service.industries }}
+                  </div>
+                </div>
+                <div class="service_btn">
+                  <button
+                    class="btn1"
+                    [routerLink]="['/service', service.routing]"
+                  >
+                    <span>Read More</span>
+                  </button>
+                  <button class="btn2" [routerLink]="['/contact']">
+                    <span>Contact Us</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="isFilter">
+          <div>
+            <div
+              class="containers-section"
+              [routerLink]="['/service', service.service_id]"
+              *ngFor="let service of mainArray"
+            >
+              <div
+                *ngFor="let service of service"
+                class="container_1 container"
+                [routerLink]="['/service', service.routing]"
+              >
+                <div class="service_img">
+                  <img src="{{ service.img }}" alt="img4" />
+                </div>
+                <div class="service_container">
+                  <div class="service_top">
+                    <div class="service_header">
+                      {{ service.header }}
+                    </div>
+                    <div class="service_heading">
+                      {{ service.heading }}
+                    </div>
+                    <div class="service_description">
+                      {{ service.description }}
+                    </div>
+                  </div>
+                  <div class="service_bottom">
+                    <div class="service_bottom_cnt">
+                      <div class="service_students">
+                        {{ service.students }}
+                      </div>
+                      <div class="service_industries">
+                        {{ service.industries }}
+                      </div>
+                    </div>
+                    <div class="service_btn">
+                      <button class="btn1"><span>Read More</span></button>
+                      <button class="btn2" [routerLink]="['/contact']">
+                        <span>Contact Us</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex10">
+      <div class="card10">
+        <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
+        <img
+          id="card1img"
+          src="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
+          loading="lazy"
+          alt="footerimg"
+          width="80"
+          height="60"
+          [routerLink]="['/']"
+          style="cursor: pointer"
+        />
+
+        <br />
+        <p style="font-size: 16px !important">
+          3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate,
+          Kottivakkam, Chennai - 600 041
+        </p>
+      </div>
+      <div class="card10">
+        <p style="font-weight: 500; margin-bottom: 10px">SITEMAP</p>
+        <ul style="display: flex; flex-direction: column; gap: 8px">
+          <li [routerLink]="['/']">Home</li>
+          <li [routerLink]="['/research']">Research</li>
+          <li [routerLink]="['/about']">About Us</li>
+          <li [routerLink]="['/service']">Services</li>
+          <li [routerLink]="['/gallery']">Gallery</li>
+          <li [routerLink]="['/contact']">Contact Us</li>
+        </ul>
+      </div>
+      <div class="card10">
         <div>
-          <div class="containers-section" [routerLink] ='["/service",service.service_id]' *ngFor="let service of mainArray">
-            <div *ngFor="let service of service" class="container_1 container" [routerLink] ='["/service",service.routing]'>
-              <div class="service_img">
-                <img src={{service.img}} alt="img4" />
-              </div>
-              <div class="service_container">
-                <div class="service_top">
-                  <div class="service_header">
-                    {{service.header}}
-                  </div>
-                  <div class="service_heading">
-                    {{service.heading}}
-                  </div>
-                  <div class="service_description">
-                    {{service.description}}
-                  </div>
-                </div>
-                <div class="service_bottom">
-                  <div class="service_bottom_cnt">
-                    <div class="service_students">
-                      {{service.students}}
-                    </div>
-                    <div class="service_industries">
-                      {{service.industries}}
-                    </div>
-                  </div>
-                  <div class="service_btn">
-                    <button class="btn1"><span>Read More</span></button>
-                    <button class="btn2" [routerLink]='["/contact"]'><span>Contact Us</span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <p style="font-weight: 500; margin-bottom: 10px">SERVICES</p>
+          <ul style="display: flex; flex-direction: column; gap: 8px">
+            <li [routerLink]="['/service']">All Services</li>
+            <li [routerLink]="['/service/x-ray-diffraction-xrd']">
+              X-Ray Diffraction
+            </li>
+            <li [routerLink]="['/service/scanning-electron-microscope-sem']">
+              SEM (3 Images)
+            </li>
+            <li [routerLink]="['/service/x-ray-fluorescence-xrf']">
+              X-Ray Fluorescence
+            </li>
+          </ul>
+        </div>
+        <div style="margin-top: 20px">
+          <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
+          <div style="display: flex; flex-direction: row; gap: 20px">
+            <img
+              alt="img32"
+              src="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+              alt=""
+              class="footer_img"
+              (click)="socials('linkedIn')"
+            />
+            <img
+              alt="img31"
+              src="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
+              alt=""
+              class="footer_img"
+              (click)="socials('youtube')"
+            />
+            <img
+              alt="img33"
+              src="https://ik.imagekit.io/webibee/VBRC/images/Facebook .svg"
+              alt=""
+              class="footer_img"
+              (click)="socials('facebook')"
+            />
           </div>
         </div>
-
       </div>
-    </div>
-  </div>
-  <div class='flex10'>
-    <div class='card10'>
-      <p style="font-weight:500; margin-bottom: 10px;">COMPANY</p>
-        <img id="card1img" src="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg" loading="lazy" alt="footerimg"  width="80" height="60" [routerLink]='["/"]' style="cursor: pointer;">
-
-      <br>
-      <p style='font-size:16px !important;'>3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate, Kottivakkam,
-        Chennai - 600 041</p>
-    </div>
-    <div class='card10'>
-      <p style="font-weight:500; margin-bottom: 10px;">SITEMAP</p>
-      <ul style="display: flex; flex-direction: column; gap: 8px;">
-        <li [routerLink]='["/"]'>Home</li>
-        <li [routerLink] ='["/research"]'>Research</li>
-        <li [routerLink] ='["/about"]'>About Us</li>
-        <li  [routerLink] ='["/service"]'>Services</li>
-        <li [routerLink] ='["/gallery"]'>Gallery</li>
-        <li [routerLink]='["/contact"]'>Contact Us</li>
-      </ul>
-    </div>
-    <div class='card10'>
-      <div>
-        <p style="font-weight:500; margin-bottom: 10px;">SERVICES</p>
-        <ul style="display: flex; flex-direction: column; gap: 8px;">
-          <li [routerLink] ='["/service"]'>All Services</li>
-          <li [routerLink] ='["/service/x-ray-diffraction-xrd"]'>X-Ray Diffraction</li>
-          <li [routerLink] ='["/service/scanning-electron-microscope-sem"]'>SEM (3 Images)</li>
-          <li [routerLink] ='["/service/x-ray-fluorescence-xrf"]'>X-Ray Fluorescence</li>
-        </ul>
-      </div>
-      <div style="margin-top: 20px;">
-        <p style="font-weight:500; margin-bottom: 10px;">SOCIALS</p>
-        <div style='display: flex;flex-direction:row;gap:20px'>
-          <img alt="img32" src="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg" alt="" class="footer_img" (click)="socials('linkedIn')">
-          <img alt="img31" src="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg" alt="" class="footer_img" (click)="socials('youtube')">
-          <img alt="img33" src="https://ik.imagekit.io/webibee/VBRC/images/Facebook .svg" alt="" class="footer_img" (click)="socials('facebook')">
+      <div class="card10">
+        <div>
+          <p style="font-weight: 500; margin-bottom: 10px">SUPPORT</p>
+          <ul style="display: flex; flex-direction: column; gap: 8px">
+            <li [routerLink]="['/contact']">Contact Us</li>
+            <li [routerLink]="['/contact']">Help centre</li>
+          </ul>
+        </div>
+        <div style="margin-top: 20px">
+          <p style="font-weight: 500; margin-bottom: 10px">OUR GROUPS</p>
+          <div style="display: flex; gap: 20px">
+            <img
+              loading="lazy"
+              src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
+              alt="footericon"
+              width="80"
+              height="60"
+              (click)="ourGroups('vbcc')"
+            />
+            <img
+              loading="lazy"
+              src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
+              alt="footericon2"
+              width="80"
+              height="60"
+              (click)="ourGroups('hiTemp')"
+            />
+          </div>
         </div>
       </div>
     </div>
-    <div class='card10'>
-      <div>
-        <p style="font-weight:500; margin-bottom: 10px;">SUPPORT</p>
-        <ul style="display: flex; flex-direction: column; gap: 8px;">
-          <li [routerLink]='["/contact"]'>Contact Us</li>
-          <li [routerLink]='["/contact"]'>Help centre</li>
-        </ul>
+    <footer>
+      <div class="footer">
+        <p style="padding: 20px 20px 0px 20px">
+          ©VBCC Research. All Rights Reserved.
+        </p>
+        <div class="cardfooter">
+          <p>
+            English
+            <span
+              ><img
+                src="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
+                alt="img59"
+            /></span>
+          </p>
+          <div class="separator"></div>
+          <p>
+            INR
+            <span
+              ><img
+                alt="ikj"
+                src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
+                alt=""
+            /></span>
+          </p>
+          <div class="separator"></div>
+          <p>
+            Asia (India)
+            <span
+              ><img
+                src="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
+                alt="imghk"
+            /></span>
+          </p>
+        </div>
       </div>
-      <div style="margin-top: 20px;">
-        <p style="font-weight:500; margin-bottom: 10px;">OUR GROUPS</p>
-             <div style="display: flex; gap: 20px">
-                  <img  loading="lazy" src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg" alt="footericon"  width="80" height="60" (click)="ourGroups('vbcc')">
-                  <img  loading="lazy" src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg" alt="footericon2"  width="80" height="60" (click)="ourGroups('hiTemp')">
-                </div>
-              </div>
-    </div>
+    </footer>
   </div>
-  <footer>
-    <div class='footer'>
-      <p style='padding: 20px 20px 0px 20px;'>©VBCC Research. All Rights Reserved.</p>
-      <div class='cardfooter'>
-        <p>English <span><img src="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg" alt="img59"></span></p>
-        <div class="separator"></div>
-        <p>INR <span><img alt="ikj" src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg" alt=""></span></p>
-        <div class="separator"></div>
-        <p>Asia (India) <span><img src="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg" alt="imghk"></span></p>
-      </div>
-    </div>
-  </footer>
-</div>
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</html>

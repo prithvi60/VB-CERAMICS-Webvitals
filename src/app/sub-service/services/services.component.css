@@ -126,10 +126,21 @@ h2 {
   color: #132249;
   width: 50%;
   font-family: Unbounded;
-  font-size: clamp(1rem, 7vw, 8rem);
+  font-size: clamp(1rem, 3vw, 3rem);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+#list-heading{
+  /* font-size: 14px !important;
+  font-weight: 400 !important; */
+  color: #000;
+  font-family: Unbounded;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 30px;
 }
 
 .stretch {
@@ -577,7 +588,7 @@ table > tfoot:not(:last-child) {
   .gallery-text {
     width: 100%;
     text-align: center;
-    font-size: clamp(1rem, 12vw, 10rem) !important;
+    font-size: clamp(1rem, 10vw, 3rem) !important;
   }
   .gall-para {
     width: 100%;

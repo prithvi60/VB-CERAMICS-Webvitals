@@ -1,304 +1,520 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <meta name="description" content="VBCC RESEARCH Librarypage">
-  <meta name="keywords" content="Dr. V.B. Ceramics, VBCC Research , Hitech Ceramics, Ceramic Tiles, Tiles Manufacturer, Dr. Viswa Baskaran, Dr. V.B. Ceramcis Research Centre">
-  <meta name="author" content="VBCC Research ">
-  <meta name="og:title" content="VBCC RESEARCH">
-  <meta name="og:description" content="Empowering Progress where Research, Education and Industries Unite.">
-  <meta name="og:image" content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg">
-  <meta name="og:url" content="https://www.drvbceramicresearch.com/library">
-</head>
-<body>
-  <div>
-    <div id='form-section' style='overflow: hidden;'>
-      <div class="container-fluid1">
-        <div class="row">
-        <div  class="col-md-12 ">
-        <nav id="head_nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <img id='head_img' src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]'>
-        <button (click)="changeImage15()"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <img [src]="imagesNav[currentImageIndex15]" alt="">
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" [routerLink] ='["/research"]'>Research </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink] ='["/service"]'>Services</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" [routerLink] ='["/about"]'>About Us </a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link" [routerLink] ='["/library"]'>Library</a>
-              </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Ceramic Research Papers, Projects | VBCC Research</title>
+    <meta name="description" content="VBCC RESEARCH Librarypage" /> -->
+    <meta
+      name="keywords"
+      content="Dr. V.B. Ceramics, VBCC Research , Hitech Ceramics, Ceramic Tiles, Tiles Manufacturer, Dr. Viswa Baskaran, Dr. V.B. Ceramcis Research Centre"
+    />
+    <meta name="author" content="VBCC Research " />
+    <meta name="og:title" content="VBCC RESEARCH" />
+    <meta
+      name="og:description"
+      content="Empowering Progress where Research, Education and Industries Unite."
+    />
+    <meta
+      name="og:image"
+      content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+    />
+    <meta name="og:url" content="https://www.drvbceramicresearch.com/library" />
+  </head>
+  <body>
+    <div>
+      <div id="form-section" style="overflow: hidden">
+        <div class="container-fluid1">
+          <div class="row">
+            <div class="col-md-12">
+              <nav
+                id="head_nav"
+                class="navbar navbar-expand-lg navbar-light bg-light"
+              >
+                <img
+                  id="head_img"
+                  src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+                  alt=""
+                  [routerLink]="['/']"
+                />
+                <button
+                  (click)="changeImage15()"
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <img [src]="imagesNav[currentImageIndex15]" alt="" />
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" [routerLink]="['/research']"
+                        >Research
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" [routerLink]="['/service']"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" [routerLink]="['/about']"
+                        >About Us
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" [routerLink]="['/library']"
+                        >Library</a
+                      >
+                    </li>
 
-            <li class="nav-item">
-              <a class="nav-link" [routerLink] ='["/gallery"]'>Gallery</a>
-            </li>
+                    <li class="nav-item">
+                      <a class="nav-link" [routerLink]="['/gallery']"
+                        >Gallery</a
+                      >
+                    </li>
 
-            <li class="nav-item nav-item-contact">
-              <a id='nav_contact' class="" style='background-color:white !important; color:#132249 ;border-radius: 50px;' [routerLink]='["/contact"]'>Contact Us</a>
-            </li>
-          </ul>
+                    <li class="nav-item nav-item-contact">
+                      <a
+                        id="nav_contact"
+                        class=""
+                        style="
+                          background-color: white !important;
+                          color: #132249;
+                          border-radius: 50px;
+                        "
+                        [routerLink]="['/contact']"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
-    </div>
-    </div>
 
-
-    <div class="main-section">
-      <!-- <div class="flex1">
+        <div class="main-section">
+          <!-- <div class="flex1">
         <div class="flex_of_1">
           <h1 id="header_article" class="flex-items1 ">LIBRARY</h1>
           <p class="flex-items1" id="article_para">Welcome to our world of mind-blowing research findings. Be prepared to embark on an exhilarating adventure through the realm of our Research!</p>
         </div>
       </div> -->
-      <div class="hero">
-        <h1 class="gallery-text">RESEARCH</h1>
-        <div class="gall-para">
-          <p>
-            A blend of insightful research papers and ongoing projects that reflect our dedication to exploration and a passion for pushing intellectual boundaries.
-          </p>
-        </div>
-
-      </div>
-      <hr class="hr_tag"/>
-     </div>
-
-     <section class="main_section6" id="Research_Papers">
-      <div class="main_section6_header">
-        <h2 class="main_section6_head">Research Papers</h2>
-      </div>
-      <div class="main_section6_content">
-        <div class="main_section6_img">
-          <img src="https://ik.imagekit.io/webibee/VBRC/About_research.webp" class="d-block w-100"  alt="image24"/>
-        </div>
-        <div class="main_section6_cnt">
-          <ul class="research_papers">
-            <li target="_blank" class="research_papers_list" kendoTooltip filter="strong" tooltipClass="tooltip-class"><a
-               class="list"
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/nano-technology-synthesis-and%20-fabrication%20-via-chemical-vapor-deposition.pdf"
-                href="https://ik.imagekit.io/webibee/VBRC/pdf/nano-technology-synthesis-and%20-fabrication%20-via-chemical-vapor-deposition.pdf">{{research_papers}}</a>
-            <li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/Ceramics%20International.pdf"
-                href="https://ik.imagekit.io/webibee/VBRC/pdf/Ceramics%20International.pdf"
-               target="_blank"
-                class="list">{{research_papers1}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/news1.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/news1.pdf"
-                 class="list">{{research_papers2}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/news2.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/news2.pdf"
-                 class="list">{{research_papers3}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/news3.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/news3.pdf"
-                 class="list">{{research_papers4}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/news4.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/news4.pdf"
-                 class="list">{{research_papers5}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_CERI.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_CERI.pdf"
-                 class="list">{{research_papers6}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_JMAD.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_JMAD.pdf"
-                 class="list">{{research_papers7}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/RRST_UMA.pdf"
-                target="_blank" href="https://ik.imagekit.io/webibee/VBRC/pdf/RRST_UMA.pdf"
-                 class="list">{{research_papers8}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/Effect-of-chemical-vapor-deposition.pdf"
-                href="https://ik.imagekit.io/webibee/VBRC/pdf/Effect-of-chemical-vapor-deposition.pdf"
-               target="_blank"
-                class="list">{{research_papers9}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/catalytic-chemical-vapor-deposition.pdf"
-                href="https://ik.imagekit.io/webibee/VBRC/pdf/catalytic-chemical-vapor-deposition.pdf"
-               target="_blank"
-                class="list">{{research_papers10}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/optimation-chemical.pdf"
-                href="https://ik.imagekit.io/webibee/VBRC/pdf/optimation-chemical.pdf"
-               target="_blank"
-                class="list">{{research_papers11}}</a></li>
-            <li class="research_papers_list" kendoTooltip filter="strong"><a
-                title="https://ik.imagekit.io/webibee/VBRC/pdf/Manufacturing%20-Technology-Today.pdf"
-                href="https://ik.imagekit.io/webibee/VBRC/pdf/Manufacturing%20-Technology-Today.pdf"
-               target="_blank"
-                class="list">{{research_papers12}}</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="main_section7" id="Research_Projects">
-      <div class="main_section7_header">
-        <h2 class="main_section7_head">Research Projects</h2>
-      </div>
-      <div class="main_section7_content">
-        <div class="main_section7_img">
-          <img src="https://ik.imagekit.io/webibee/VBRC/About_projects.webp" alt="image25" />
-        </div>
-        <div class="main_section7_cnt">
-          <div class="main_section7_top_cnt">
-            {{research_Projects}}
+          <div class="hero">
+            <h1 class="gallery-text">VBCC Research Papers, Projects</h1>
+            <div class="gall-para">
+              <p>
+                A blend of insightful research papers and ongoing projects that
+                reflect our dedication to exploration and a passion for pushing
+                intellectual boundaries.
+              </p>
+            </div>
           </div>
-          <div class="section7_projects">
-            <ul class="research_projects">
-              <li>
-                <span style="font-weight: 500;">DST project obtained by Annamalai University entitled,
-                </span><span>{{research_project_ul1}}</span>
-              </li>
-            </ul>
-            <div class="research_projects_div">
-              <div class="research_projects_cnt">
-                <div>Principal Investigator:</div>
-                {{research_project_cnt1}}
+          <hr class="hr_tag" />
+        </div>
+
+        <section class="main_section6" id="Research_Papers">
+          <div class="main_section6_header">
+            <h2 class="main_section6_head">Research Papers</h2>
+          </div>
+          <div class="main_section6_content">
+            <div class="main_section6_img">
+              <img
+                src="https://ik.imagekit.io/webibee/VBRC/About_research.webp"
+                class="d-block w-100"
+                alt="image24"
+              />
+            </div>
+            <div class="main_section6_cnt">
+              <ul class="research_papers">
+                <li
+                  target="_blank"
+                  class="research_papers_list"
+                  kendoTooltip
+                  filter="strong"
+                  tooltipClass="tooltip-class"
+                >
+                  <a
+                    class="list"
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/nano-technology-synthesis-and%20-fabrication%20-via-chemical-vapor-deposition.pdf"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/nano-technology-synthesis-and%20-fabrication%20-via-chemical-vapor-deposition.pdf"
+                    ><h3 style="font-size: medium">{{ research_papers }}</h3></a
+                  >
+                </li>
+
+                <li></li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/Ceramics%20International.pdf"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/Ceramics%20International.pdf"
+                    target="_blank"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers1 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/news1.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/news1.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers2 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/news2.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/news2.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers3 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/news3.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/news3.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers4 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/news4.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/news4.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers5 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_CERI.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_CERI.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers6 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_JMAD.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/CSR_JMAD.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers7 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/RRST_UMA.pdf"
+                    target="_blank"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/RRST_UMA.pdf"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers8 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/Effect-of-chemical-vapor-deposition.pdf"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/Effect-of-chemical-vapor-deposition.pdf"
+                    target="_blank"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers9 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/catalytic-chemical-vapor-deposition.pdf"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/catalytic-chemical-vapor-deposition.pdf"
+                    target="_blank"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers10 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/optimation-chemical.pdf"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/optimation-chemical.pdf"
+                    target="_blank"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers11 }}
+                    </h3></a
+                  >
+                </li>
+                <li class="research_papers_list" kendoTooltip filter="strong">
+                  <a
+                    title="https://ik.imagekit.io/webibee/VBRC/pdf/Manufacturing%20-Technology-Today.pdf"
+                    href="https://ik.imagekit.io/webibee/VBRC/pdf/Manufacturing%20-Technology-Today.pdf"
+                    target="_blank"
+                    class="list"
+                    ><h3 style="font-size: medium">
+                      {{ research_papers12 }}
+                    </h3></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="main_section7" id="Research_Projects">
+          <div class="main_section7_header">
+            <h2 class="main_section7_head">Research Projects</h2>
+          </div>
+          <div class="main_section7_content">
+            <div class="main_section7_img">
+              <img
+                src="https://ik.imagekit.io/webibee/VBRC/About_projects.webp"
+                alt="image25"
+              />
+            </div>
+            <div class="main_section7_cnt">
+              <div class="main_section7_top_cnt">
+                {{ research_Projects }}
+              </div>
+              <div class="section7_projects">
+                <ul class="research_projects">
+                  <li>
+                    <span style="font-weight: 500"
+                      >DST project obtained by Annamalai University entitled, </span
+                    ><span>{{ research_project_ul1 }}</span>
+                  </li>
+                </ul>
+                <div class="research_projects_div">
+                  <div class="research_projects_cnt">
+                    <div>Principal Investigator:</div>
+                    {{ research_project_cnt1 }}
+                  </div>
+                </div>
+              </div>
+              <div class="section7_projects">
+                <ul class="research_projects">
+                  <li>
+                    <span style="font-weight: 500"
+                      >DST project obtained by Periyar University entitled, </span
+                    ><span>{{ research_project_ul2 }}</span>
+                  </li>
+                </ul>
+                <div class="research_projects_div">
+                  <div class="research_projects_cnt">
+                    <div>Principal Investigator:</div>
+                    {{ research_project_cnt2 }}
+                  </div>
+                </div>
+              </div>
+              <div class="section7_projects">
+                <ul class="research_projects">
+                  <li>
+                    <span style="font-weight: 500"
+                      >DST project obtained by Periyar University entitled, </span
+                    ><span>{{ research_project_ul3 }}</span
+                    ><span style="font-weight: 500">- Ongoing</span>
+                  </li>
+                </ul>
+                <div class="research_projects_div">
+                  <div class="research_projects_cnt">
+                    <div>Principal Investigator:</div>
+                    {{ research_project_cnt3 }}
+                  </div>
+                </div>
+              </div>
+              <div class="section7_projects">
+                <ul class="research_projects">
+                  <li>
+                    <span>{{ research_project_ul4 }}</span
+                    ><span style="font-weight: 500">- Ongoing</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="section7_projects">
-            <ul class="research_projects">
-              <li>
-                <span style="font-weight: 500;">DST project obtained by Periyar University entitled,
-                </span><span>{{research_project_ul2}}</span>
-              </li>
+        </section>
+
+        <section class="main_section7" id="Research_Projects">
+          <div class="main_section7_header bordertop">
+            <h2 class="main_section7_head">
+              Want to Collaborate with us for Research?
+            </h2>
+          </div>
+          <div class="main_section7_content borderbottom">
+            <div class="main_section7_img">
+              <img
+                src="https://ik.imagekit.io/webibee/VBRC/Research_collab.webp"
+                alt="image25"
+              />
+            </div>
+            <p>
+              Explore innovative possibilities by collaborating with VB Ceramic
+              Consultants in our Research Section. Join us in pushing the
+              boundaries of ceramic technology through strategic partnerships
+              and shared expertise for groundbreaking research and development.
+            </p>
+            <button class="btn2" [routerLink]="['/contact']">
+              <span>Contact Us</span>
+            </button>
+          </div>
+        </section>
+        <br />
+
+        <div class="flex10">
+          <div class="card10">
+            <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
+            <img
+              src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+              alt=""
+              [routerLink]="['/']"
+              style="cursor: pointer"
+            />
+            <br />
+            <br />
+            <p style="font-size: 16px !important">
+              3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate,
+              Kottivakkam, Chennai - 600 041
+            </p>
+          </div>
+          <div class="card10">
+            <p style="font-weight: 500; margin-bottom: 10px">SITEMAP</p>
+            <ul style="display: flex; flex-direction: column; gap: 8px">
+              <li [routerLink]="['/']">Home</li>
+              <li [routerLink]="['/research']">Research</li>
+              <li [routerLink]="['/service']">Services</li>
+              <li [routerLink]="['/about']">About Us</li>
+              <li [routerLink]="['/gallery']">Gallery</li>
+              <li [routerLink]="['/contact']">Contact Us</li>
             </ul>
-            <div class="research_projects_div">
-              <div class="research_projects_cnt">
-                <div>Principal Investigator:</div>
-                {{research_project_cnt2}}
+          </div>
+          <div class="card10">
+            <div>
+              <p style="font-weight: 500; margin-bottom: 10px">SERVICES</p>
+              <ul style="display: flex; flex-direction: column; gap: 8px">
+                <li [routerLink]="['/service']">All Services</li>
+                <li [routerLink]="['/service/x-ray-diffraction-xrd']">
+                  X-Ray Diffraction
+                </li>
+                <li
+                  [routerLink]="['/service/scanning-electron-microscope-sem']"
+                >
+                  SEM (3 Images)
+                </li>
+                <li [routerLink]="['/service/x-ray-fluorescence-xrf']">
+                  X-Ray Fluorescence
+                </li>
+              </ul>
+            </div>
+            <div style="margin-top: 20px">
+              <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
+              <div style="display: flex; flex-direction: row; gap: 20px">
+                <img
+                  src="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+                  alt=""
+                  (click)="socials('linkedIn')"
+                />
+                <img
+                  src="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
+                  alt=""
+                  (click)="socials('youtube')"
+                />
+                <img
+                  src="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
+                  alt=""
+                  (click)="socials('facebook')"
+                />
               </div>
             </div>
           </div>
-          <div class="section7_projects">
-            <ul class="research_projects">
-              <li>
-                <span style="font-weight: 500;">DST project obtained by Periyar University entitled,
-                </span><span>{{research_project_ul3}}</span><span style="font-weight: 500;">- Ongoing</span>
-              </li>
-            </ul>
-            <div class="research_projects_div">
-              <div class="research_projects_cnt">
-                <div>Principal Investigator:</div>
-                {{research_project_cnt3}}
+          <div class="card10">
+            <div>
+              <p style="font-weight: 500; margin-bottom: 10px">SUPPORT</p>
+              <ul style="display: flex; flex-direction: column; gap: 8px">
+                <li [routerLink]="['/contact']">Contact Us</li>
+                <li [routerLink]="['/contact']">Help centre</li>
+              </ul>
+            </div>
+            <div style="margin-top: 20px">
+              <p style="font-weight: 500; margin-bottom: 10px">OUR GROUPS</p>
+              <div style="display: flex; gap: 20px">
+                <img
+                  src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
+                  alt=""
+                  (click)="ourGroups('vbcc')"
+                />
+                <img
+                  src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
+                  alt=""
+                  (click)="ourGroups('hiTemp')"
+                />
               </div>
             </div>
           </div>
-          <div class="section7_projects">
-            <ul class="research_projects">
-              <li>
-                <span>{{research_project_ul4}}</span><span style="font-weight: 500;">- Ongoing</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="main_section7" id="Research_Projects">
-      <div class="main_section7_header bordertop">
-        <h2 class="main_section7_head">Want to Collaborate with us for Research?</h2>
-      </div>
-      <div class="main_section7_content borderbottom">
-        <div class="main_section7_img">
-          <img src="https://ik.imagekit.io/webibee/VBRC/Research_collab.webp" alt="image25" />
-        </div>
-<p>
-  Explore innovative possibilities by collaborating with VB Ceramic Consultants in our Research Section. Join us in pushing the boundaries of ceramic technology through strategic partnerships and shared expertise for groundbreaking research and development.
-</p>
-<button class="btn2" [routerLink]='["/contact"]'><span>Contact Us</span></button>
-      </div>
-    </section>
-   <br>
-
-
-    <div class='flex10'>
-      <div class='card10'>
-        <p style="font-weight:500; margin-bottom: 10px;">COMPANY</p>
-        <img src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]' style="cursor: pointer;">
-        <br>
-        <br>
-        <p style='font-size:16px !important;'>3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate, Kottivakkam,
-          Chennai - 600 041</p>
-    </div>
-      <div class='card10'>
-        <p style="font-weight:500; margin-bottom: 10px;">SITEMAP</p>
-        <ul style="display: flex; flex-direction: column; gap: 8px;">
-          <li [routerLink]='["/"]'>Home</li>
-          <li [routerLink] ='["/research"]'>Research</li>
-          <li [routerLink] ='["/service"]'>Services</li>
-          <li [routerLink] ='["/about"]'>About Us</li>
-          <li [routerLink] ='["/gallery"]'>Gallery</li>
-          <li [routerLink]='["/contact"]'>Contact Us</li>
-        </ul>
-      </div>
-      <div class='card10'>
-        <div>
-          <p style="font-weight:500; margin-bottom: 10px;">SERVICES</p>
-          <ul style="display: flex; flex-direction: column; gap: 8px;">
-            <li [routerLink] ='["/service"]'>All Services</li>
-          <li [routerLink] ='["/service/x-ray-diffraction-xrd"]'>X-Ray Diffraction</li>
-          <li [routerLink] ='["/service/scanning-electron-microscope-sem"]'>SEM (3 Images)</li>
-          <li [routerLink] ='["/service/x-ray-fluorescence-xrf"]'>X-Ray Fluorescence</li>
-
-          </ul>
-        </div>
-        <div style="margin-top: 20px;">
-          <p style="font-weight:500; margin-bottom: 10px;">SOCIALS</p>
-          <div style='display: flex;flex-direction:row;gap:20px'>
-            <img src="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg" alt="" (click)="socials('linkedIn')">
-            <img src="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg" alt="" (click)="socials('youtube')">
-            <img src="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg" alt="" (click)="socials('facebook')">
-          </div>
-        </div>
-      </div>
-      <div class='card10'>
-        <div>
-          <p style="font-weight:500; margin-bottom: 10px;">SUPPORT</p>
-          <ul style="display: flex; flex-direction: column; gap: 8px;">
-            <li [routerLink]='["/contact"]'>Contact Us</li>
-            <li [routerLink]='["/contact"]'>Help centre</li>
-          </ul>
-        </div>
-        <div style="margin-top: 20px;">
-          <p style="font-weight:500; margin-bottom: 10px;">OUR GROUPS</p>
-          <div style="display: flex; gap: 20px">
-            <img src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg" alt="" (click)="ourGroups('vbcc')">
-            <img src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg" alt="" (click)="ourGroups('hiTemp')">
-          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-</body>
+  </body>
 
-<router-outlet></router-outlet>
-<footer>
-  <div class='footer'>
-    <p  id='footer_p' style='padding: 20px 30px 0px 20px;'>©VBCC Research. All Rights Reserved.</p>
-    <div class='cardfooter'>
-      <p>English <span><img src="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg" alt=""></span></p><div class="separator"></div>
-      <p>INR <span><img src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg" alt=""></span></p><div class="separator"></div>
-      <p>Asia (India) <span><img src="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg" alt=""></span></p>
+  <router-outlet></router-outlet>
+  <footer>
+    <div class="footer">
+      <p id="footer_p" style="padding: 20px 30px 0px 20px">
+        ©VBCC Research. All Rights Reserved.
+      </p>
+      <div class="cardfooter">
+        <p>
+          English
+          <span
+            ><img
+              src="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
+              alt=""
+          /></span>
+        </p>
+        <div class="separator"></div>
+        <p>
+          INR
+          <span
+            ><img
+              src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
+              alt=""
+          /></span>
+        </p>
+        <div class="separator"></div>
+        <p>
+          Asia (India)
+          <span
+            ><img
+              src="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
+              alt=""
+          /></span>
+        </p>
+      </div>
     </div>
-  </div>
-</footer>
-
+  </footer>
 </html>
 <!-- *ngIf="!childActive" -->
-
-

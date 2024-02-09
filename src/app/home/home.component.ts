@@ -10,6 +10,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
 import { trigger, transition, style, animate } from '@angular/animations';
 import * as $ from 'jquery';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -27,7 +28,7 @@ import * as $ from 'jquery';
 export class HomeComponent {
   screenHeight: number;
   screenWidth: number;
-  constructor() {
+  constructor(private title: Title, private meta: Meta) {
     this.getScreenSize();
   }
 
@@ -100,7 +101,16 @@ export class HomeComponent {
     },
   };
   private worker!: Worker;
+
   ngOnInit(): void {
+    this.title.setTitle(
+      'Ceramics Blogs & Articles Latest Insights and Updates | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Explore a world of expertise with Ceramics Blogs & Articles. Stay informed on the latest trends and insights in ceramic technology and industry advancements.',
+    });
     AOS.init({
       debounceDelay: 500, // the delay on debounce used while resizing window (advanced)
       once: false, // whether animation should happen only once - while scrolling down
@@ -199,7 +209,10 @@ export class HomeComponent {
       (this.currentImageIndex15 + 1) % this.imagesNav.length;
   }
 
-  arrowimages = ['https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg', 'https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg'];
+  arrowimages = [
+    'https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg',
+    'https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg',
+  ];
 
   currentImageIndex7 = 0;
   changeImage7() {

@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <title>agate-importance</title> -->
 </head>
 <body>
     <div id='form-section' style='overflow: hidden;'>
@@ -44,7 +44,7 @@
     </div>
     </div>
       <div class="hero">
-        <h1 class="gallery-text">LIBRARY</h1>
+        <h2 class="gallery-text">{{mainHeader}}</h2>
         <div class="gall-para">
           <p>Welcome to our world of mind-blowing research findings. Be prepared to embark on an exhilarating adventure through the realm of our Research!</p>
         </div>
@@ -54,24 +54,24 @@
         <div>
           <div *ngIf="id==1 || id==2 || id==3" class="flex_article">
             <div class='dateflex'>
-              <h1 class='top_heading_1'>{{heading}}</h1>
+              <h2 class='top_heading_1'>{{heading}}</h2>
               <p class='datetext'>Dec 15,2022</p>
             </div>
             <img  src={{img}} alt="hero-1"  class="articleimg d-block w-100" >
             <div>
-              <h1 class='top_heading_2'>{{subHeading}}</h1>
+              <h2 class='top_heading_2'>{{subHeading}}</h2>
             <p class='top_para indent'>{{desc1}}</p>
             <ul class='headul'>
-                <li>{{point1}}</li>
-                <li>{{point2}}</li>
-                <li>{{point3}}</li>
-                <li>{{point4}}</li>
-                <li>{{point5}}</li>
-                <li>{{point6}}</li>
-                <li>{{point7}}</li>
-                <li>{{point8}}</li>
-                <li>{{point9}}</li>
-                <li>{{point11}}</li>
+                <li [innerHTML]="point1">{{point1}}</li>
+                <li [innerHTML]="point2">{{point2}}</li>
+                <li [innerHTML]="point3">{{point3}}</li>
+                <li [innerHTML]="point4">{{point4}}</li>
+                <li [innerHTML]="point5">{{point5}}</li>
+                <li [innerHTML]="point6">{{point6}}</li>
+                <li [innerHTML]="point7">{{point7}}</li>
+                <li [innerHTML]="point8">{{point8}}</li>
+                <li [innerHTML]="point9">{{point9}}</li>
+                <li [innerHTML]="point11">{{point11}}</li>
             </ul>
             <p class='summary'>{{summary}}</p>
             </div>
@@ -79,12 +79,12 @@
 
             <div *ngIf="id==4" class="flex_article">
               <div class='dateflex'>
-                <h1 class='top_heading_1'>{{heading}}</h1>
+                <h2 class='top_heading_1'>{{heading}}</h2>
                 <p class='datetext'>Dec 15,2022</p>
               </div>
                 <img class='articleimg' src={{img}} alt="">
                 <div>
-                  <h1 class='top_heading_2'>{{subHeading}}</h1>
+                  <h2 class='top_heading_2'>{{subHeading}}</h2>
                 <p class='top_para'>{{desc1}}</p>
                 <h1 class='top_heading_3'>{{subHeading2}}</h1>
                 <p class='top_para'>{{desc2}}</p>
@@ -93,13 +93,13 @@
                 <h1 class='top_heading_3'>{{subHeading4}}</h1>
                 <p class='top_para'>{{desc4}}</p>
                 <ul class='headul'>
-                    <li>{{point1}}</li>
-                    <li>{{point2}}</li>
-                    <li>{{point3}}</li>
-                    <li>{{point4}}</li>
-                    <li>{{point5}}</li>
-                    <li>{{point6}}</li>
-                    <li>{{point7}}</li>
+                <li [innerHTML]="point1">{{point1}}</li>
+                <li [innerHTML]="point2">{{point2}}</li>
+                <li [innerHTML]="point3">{{point3}}</li>
+                <li [innerHTML]="point4">{{point4}}</li>
+                <li [innerHTML]="point5">{{point5}}</li>
+                <li [innerHTML]="point6">{{point6}}</li>
+                <li [innerHTML]="point7">{{point7}}</li>
                 </ul>
                 <p class='top_para'>{{subHeading5}} : {{desc5}}</p>
                 <p class='summary'>{{summary}}</p>
@@ -113,21 +113,21 @@
               </div>
                 <img class='articleimg' src={{img}} alt="">
                 <div>
-                  <h1 class='top_heading_2'>{{subHeading}}</h1>
+                  <h2 class='top_heading_2'>{{subHeading}}</h2>
                 <p class='top_para indent'>{{desc1}}</p>
-                <h1 class='top_heading_3'>{{subHeading2}}</h1>
+                <h2 class='top_heading_3'>{{subHeading2}}</h2>
                 <p class='top_para'>{{desc2}}</p>
-                <h1 class='top_heading_3'>{{subHeading3}}</h1>
+                <h2 class='top_heading_3'>{{subHeading3}}</h2>
                 <p class='top_para'>{{desc3}}</p>
-                <h1 class='top_heading_3'>{{subHeading4}}</h1>
+                <h2 class='top_heading_3'>{{subHeading4}}</h2>
                 <p class='top_para'>{{desc4}}</p>
                 <ul class='headul'>
-                    <li>{{point1}}</li>
-                    <li>{{point2}}</li>
-                    <li>{{point3}}</li>
-                    <li>{{point4}}</li>
-                    <li>{{point5}}</li>
-                    <li>{{point6}}</li>
+                  <li [innerHTML]="point1">{{point1}}</li>
+                  <li [innerHTML]="point2">{{point2}}</li>
+                  <li [innerHTML]="point3">{{point3}}</li>
+                  <li [innerHTML]="point4">{{point4}}</li>
+                  <li [innerHTML]="point5">{{point5}}</li>
+                  <li [innerHTML]="point6">{{point6}}</li>
                 </ul>
                 <p class='top_para'>{{subHeading5}} : {{desc5}}</p>
                 <p class='top_para'>{{subHeading6}} : {{desc6}}</p>
@@ -143,32 +143,32 @@
                 <img class='articleimg' src={{img}} alt="">
                 <div>
                   <p class='top_para'>{{desc1}}</p>
-                <h1 class='top_heading_3'>{{subHeading2}}</h1>
+                <h2 class='top_heading_3'>{{subHeading2}}</h2>
                 <p class='top_para'>{{desc2}}</p>
-                <h1 class='top_heading_3'>{{subHeading3}}</h1>
+                <h2 class='top_heading_3'>{{subHeading3}}</h2>
                 <p class='top_para'>{{desc3}}</p>
                 <ul class='headul'>
-                    <li>{{point1}}</li>
-                    <li>{{point2}}</li>
-                    <li>{{point3}}</li>
-                    <li>{{point4}}</li>
+                  <li [innerHTML]="point1">{{point1}}</li>
+                  <li [innerHTML]="point2">{{point2}}</li>
+                  <li [innerHTML]="point3">{{point3}}</li>
+                  <li [innerHTML]="point4">{{point4}}</li>
                 </ul>
-                <h1 class='top_heading_3'>{{subHeading4}}</h1>
+                <h2 class='top_heading_3'>{{subHeading4}}</h2>
                 <p class='top_para'>{{desc4}}</p>
                 <ul class='headul'>
-                    <li>{{point5}}</li>
-                    <li>{{point6}}</li>
-                    <li>{{point7}}</li>
-                    <li>{{point8}}</li>
+                <li [innerHTML]="point5">{{point5}}</li>
+                <li [innerHTML]="point6">{{point6}}</li>
+                <li [innerHTML]="point7">{{point7}}</li>
+                <li [innerHTML]="point8">{{point8}}</li>
                 </ul>
-                <h1 class='top_heading_3'>{{subHeading5}}</h1>
+                <h2 class='top_heading_3'>{{subHeading5}}</h2>
                 <p class='top_para'>{{desc5}}</p>
                 <ul class='headul'>
-                    <li>{{point9}}</li>
-                    <li>{{point11}}</li>
-                    <li>{{point12}}</li>
-                    <li>{{point13}}</li>
-                    <li>{{point14}}</li>
+                <li [innerHTML]="point9">{{point9}}</li>
+                <li [innerHTML]="point11">{{point11}}</li>
+                <li [innerHTML]="point12">{{point12}}</li>
+                <li [innerHTML]="point13">{{point13}}</li>
+                <li [innerHTML]="point14">{{point14}}</li>
                 </ul>
                 <p class='summary'>{{summary}}</p>
                 </div>
@@ -178,7 +178,7 @@
 
       <div class="flex_e">
         <div class="flex_of_e">
-          <h1 id="header_article2"  class="flex-items1">Explore Articles</h1>
+          <h2 id="header_article2"  class="flex-items1">Explore Articles</h2>
         </div>
         <hr id="hr_tag1">
       </div>
@@ -211,8 +211,8 @@
       <div class="flex8" id="ContactUs">
         <div id='flex_con'>
          <div id='top_con'>
-           <h1 id='head_con'>VBCC</h1>
-           <h1 id='head_con'>Newsletter</h1>
+           <h2 id='head_con'>VBCC</h2>
+           <h2 id='head_con'>Newsletter</h2>
          </div>
          <div id='sign_con'>
            <p id='con_p'>Sign up and get </p>

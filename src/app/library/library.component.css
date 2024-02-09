@@ -552,7 +552,7 @@ line-height: 16px; /* 100% */
   color: #132249;
   width: 50%;
   font-family: Unbounded;
-  font-size: clamp(1rem, 8vw, 8rem);
+  font-size: clamp(1rem, 3vw, 3rem);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -692,7 +692,7 @@ line-height: 150%; /* 24px */
 .gallery-text {
   width: 100%;
   text-align: center;
-  font-size: clamp(1rem, 14vw, 10rem) !important;
+  font-size: clamp(1rem, 10vw, 3rem) !important;
 }
 
 .gall-para {

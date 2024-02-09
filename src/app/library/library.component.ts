@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { Title, Meta } from '@angular/platform-browser';
 import { Location } from '@angular/common';
 
 @Component({
@@ -19,7 +20,7 @@ export class LibraryComponent implements OnInit{
   }
 
   isChildRoute = false;
-  constructor(private router: Router, private route: ActivatedRoute, private location: Location) {}
+  constructor(private router: Router, private route: ActivatedRoute, private location: Location,private title: Title, private meta: Meta) {}
   public childActive : any;
 
   ngOnInit() {
@@ -30,6 +31,14 @@ export class LibraryComponent implements OnInit{
     //   this.childActive = !!this.route.firstChild;
     //   console.log(this.childActive);
     // });
+    this.title.setTitle(
+      'Ceramics Blogs & Articles Latest Insights and Updates | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Explore a world of expertise with Ceramics Blogs & Articles. Stay informed on the latest trends and insights in ceramic technology and industry advancements.',
+    });
   }
   ourGroups(param : any){
     if(param == 'vbcc'){

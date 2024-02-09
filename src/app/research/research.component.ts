@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { Title, Meta } from '@angular/platform-browser';
 import { Location } from '@angular/common';
 
 @Component({
@@ -19,7 +20,7 @@ export class ResearchComponent implements OnInit{
   }
 
   isChildRoute = false;
-  constructor(private router: Router, private route: ActivatedRoute, private location: Location) {}
+  constructor(private router: Router, private route: ActivatedRoute, private location: Location,private title: Title, private meta: Meta) {}
   public childActive : any;
 
   ngOnInit() {
@@ -30,6 +31,14 @@ export class ResearchComponent implements OnInit{
     //   this.childActive = !!this.route.firstChild;
     //   console.log(this.childActive);
     // });
+    this.title.setTitle(
+      'Ceramic Research Papers, Projects | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Access ceramic research papers, projects, and consult with expert professionals for innovative solutions.',
+    });
   }
   ourGroups(param : any){
     if(param == 'vbcc'){
