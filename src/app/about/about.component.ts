@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, HostListener, Inject } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about',
@@ -12,7 +13,7 @@ export class AboutComponent {
   public lastSectionID: string;
 
   windowScrolled: boolean;
-  constructor(@Inject(DOCUMENT) private document: Document) {}
+  constructor(@Inject(DOCUMENT) private document: Document,private title: Title, private meta: Meta) {}
   @HostListener("window:scroll", [ `{ passive: true }`])
   onWindowScroll() {
       if (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop > 100) {
@@ -147,6 +148,14 @@ export class AboutComponent {
   public academic_activity_li3: string = `VBCC Research jointly organized a Three Day International Conference on Advances in Materials, Manufacturing and Applications (AMMA 2015) during April 9th-11th April 2015 at the Department of Metallurgical and Materials Engineering, National Institute of Technology, Tiruchirappalli.`;
 
   ngOnInit(): void {
+    this.title.setTitle(
+      'Leading Ceramic Machine Manufacturers | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Discover expertise at VBCC Research, a trusted name in the ceramics industry. As premier machine manufacturers, we offer comprehensive R&D solutions.',
+    });
   }
 
 }

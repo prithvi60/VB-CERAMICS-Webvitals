@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VBCC</title>
+  <!-- <title>VBCC</title> -->
+  <!-- <meta name="description" content="Explore a world of expertise with Ceramics Blogs & Articles. Stay informed on the latest trends and insights in ceramic technology and industry advancements."> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -49,7 +50,7 @@ ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]=
 </div>
   <div class="service-section">
     <div class="hero">
-      <h1 class="gallery-text">SERVICES</h1>
+      <h1 class="gallery-text">{{mainHeader}}</h1>
       <div class="gall-para">
         <p>Our services are transparently priced for optimal customer satisfaction. Check out our selection of
           high-quality services at affordable rates.</p>
@@ -95,7 +96,7 @@ ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]=
                 </div> -->
                 </div>
                 <form (submit)="submitForm()">
-                  <h4 class="contact-text">Contact Us</h4>
+                  <h2 class="contact-text">Contact Us</h2>
                   <div class="form-row col-md-12" style='margin-bottom: 5px;'>
                     <div class="form-group col-md-6" >
                       <input id="name" type="text" class="form-control" placeholder="Name" [(ngModel)]="formData.name" name="name">

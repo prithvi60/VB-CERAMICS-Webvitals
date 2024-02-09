@@ -1,3 +1,4 @@
+import { Title, Meta } from '@angular/platform-browser';
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,7 +12,7 @@ export class ContactComponent {
     email: '',
     message: ''
   };
-
+  constructor(private title: Title, private meta: Meta) {}
   currentImageIndex15 = 0;
   imagesNav=[
     'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
@@ -68,7 +69,14 @@ export class ContactComponent {
   }
 
   ngOnInit(): void {
-
+    this.title.setTitle(
+      'Contact | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'VBCC RESEARCH contactpage',
+    });
   }
 
 }

@@ -1,5 +1,6 @@
 //import { Component } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { Title, Meta } from '@angular/platform-browser';
 import { Component, Renderer2, ElementRef } from '@angular/core';
 
 @Component({
@@ -9,7 +10,7 @@ import { Component, Renderer2, ElementRef } from '@angular/core';
 })
 export class ServiceComponent {
 
-  constructor(private renderer: Renderer2, private el: ElementRef) {}
+  constructor(private renderer: Renderer2, private el: ElementRef,private title: Title, private meta: Meta) {}
   filteredList = new MatTableDataSource([]);
   filteredSelector = new MatTableDataSource([]);
   showMenu1: boolean = false;
@@ -31,6 +32,14 @@ export class ServiceComponent {
   ngOnInit(){
     this.filteredList =new MatTableDataSource(this.service);
     this.filteredSelector =new MatTableDataSource(this.service);
+    this.title.setTitle(
+      'Ceramic Equipment Services Experts | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Trusted partner for innovative ceramic equipment solutions. Discover our comprehensive services designed to enhance your industrial operations.',
+    });
   }
 
   service = [

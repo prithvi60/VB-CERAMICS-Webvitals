@@ -1,4 +1,5 @@
 import { Component, HostListener, SimpleChanges } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
@@ -8,7 +9,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class GalleryComponent {
 
-  constructor(){
+  constructor(private title: Title, private meta: Meta){
   }
   showMenu1: boolean = false;
   box_2_content : string[] = ['Home','About Us','Services','Gallery','Contact Us'];
@@ -146,5 +147,13 @@ export class GalleryComponent {
   }
 
   ngOnInit(): void {
+    this.title.setTitle(
+      'Explore Ceramics Gallery & Certifications | VBCC Research'
+    );
+    this.meta.updateTag({
+      name: 'description',
+      content:
+        'Embark on a visual journey through Ceramics Gallery and explore our certifications, reflecting our unwavering pursuit of excellence in the ceramic industry.',
+    });
   }
 }

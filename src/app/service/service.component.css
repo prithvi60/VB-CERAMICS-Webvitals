@@ -126,7 +126,7 @@ h2 {
   color: #132249;
   width: 50%;
   font-family: Unbounded;
-  font-size: clamp(1rem, 7vw, 8rem);
+  font-size: clamp(0.5rem, 4vw, 4rem);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -603,7 +603,7 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
   .gallery-text {
     width: 100%;
     text-align: center;
-    font-size: clamp(1rem, 12vw, 10rem) !important;
+    font-size: clamp(0.5rem, 8vw, 7rem) !important;
   }
 
   .gall-para {
@@ -689,5 +689,9 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
 
   .main-section {
     padding: 20px;
+  }
+  .gallery-text{
+    text-align: center;
+    font-size: 40px !important;
   }
 }
