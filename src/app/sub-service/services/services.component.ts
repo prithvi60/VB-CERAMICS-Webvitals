@@ -137,9 +137,15 @@ export class ServicesComponent {
     (document.getElementById('message') as any).value = '';
   }
 
+<<<<<<< HEAD
+  ourGroups(param : any){
+    if(param == 'vbcc'){
+      window.location.href = 'https://vbccinstruments.com'
+=======
   ourGroups(param: any) {
     if (param == 'vbcc') {
       window.location.href = 'https://www.vbceramics.com/home.php';
+>>>>>>> 5dece178001b193619d121ae5b9fb4259641af91
     } else {
       window.location.href = 'https://www.hitechceramics.in/';
     }

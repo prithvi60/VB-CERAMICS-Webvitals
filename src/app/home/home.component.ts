@@ -1,6 +1,5 @@
 import {
   Component,
-  AfterViewInit,
   ElementRef,
   ViewChildren,
   QueryList,
@@ -9,7 +8,6 @@ import {
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
 import { trigger, transition, style, animate } from '@angular/animations';
-import * as $ from 'jquery';
 import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
@@ -226,7 +224,7 @@ export class HomeComponent {
 
   ourGroups(param: any) {
     if (param == 'vbcc') {
-      window.location.href = 'https://www.vbceramics.com/home.php';
+      window.location.href = 'https://vbccinstruments.com';
     } else {
       window.location.href = 'https://www.hitechceramics.in/';
     }
