@@ -16,16 +16,9 @@
             "outputPath": "dist/client",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": [
-              "src/zone-flags.ts",
-              "zone.js"
-            ],
+            "polyfills": ["src/zone-flags.ts", "zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/sitemap.xml",
-      "src/robots.txt"
-            ],
+            "assets": ["src/favicon.ico", "src/sitemap.xml", "src/robots.txt"],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
@@ -34,7 +27,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js" ,
+              "node_modules/jquery/dist/jquery.min.js",
               "node_modules/owl.carousel/dist/owl.carousel.min.js"
             ]
           },
@@ -86,20 +79,11 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
-            ]
+            "assets": ["src/assets"],
+            "styles": ["src/styles.css"],
+            "scripts": ["node_modules/jquery/dist/jquery.min.js"]
           }
         }
       }
