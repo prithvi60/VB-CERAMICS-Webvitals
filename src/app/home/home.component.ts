@@ -109,7 +109,7 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this.html = this.getSafeHTML(orgLD);
-    // this.addScriptToHead(this.html);
+    this.addScriptToHead(this.html);
     this.title.setTitle(
       'Trusted Ceramic Centre and Research Consultants | VBCC Research'
     );
@@ -127,8 +127,11 @@ export class HomeComponent {
   getSafeHTML(jsonLD: { [key: string]: any }): SafeHtml {
     const json = jsonLD ? JSON.stringify(jsonLD, null, 2) : '';
     // escape / to prevent script tag in JSON
-    const html = `<script type="application/ld+json">${json.replace(/<\/script>/g, '<\\/script>')}</script>`;
-    console.log("test json",json,html)
+    const html = `<script type="application/ld+json">${json.replace(
+      /<\/script>/g,
+      '<\\/script>'
+    )}</script>`;
+    console.log('test json', json, html);
     return this.sanitizer.bypassSecurityTrustHtml(html);
   }
   private addScriptToHead(scriptHtml: SafeHtml) {
