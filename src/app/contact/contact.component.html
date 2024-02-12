@@ -1,207 +1,407 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>Contact</title> -->
-  <!-- <meta name="description" content="VBCC RESEARCH contactpage"> -->
-  <meta name="keywords" content="Dr. V.B. Ceramics, VBCC Research , Hitech Ceramics, Ceramic Tiles, Tiles Manufacturer, Dr. Viswa Baskaran, Dr. V.B. Ceramcis Research Centre">
-  <meta name="author" content="VBCC Research ">
-  <meta name="og:title" content="VBCC RESEARCH">
-  <meta name="og:description" content="Empowering Progress where Research, Education and Industries Unite.">
-  <meta name="og:image" content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg">
-  <meta name="og:url" content="https://www.drvbceramicresearch.com/contact">
-  <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Schibsted Grotesk' rel='stylesheet'>
-</head>
-<div style="overflow: hidden;">
-<body>
-  <div class="container-fluid1">
-    <div class="row">
-    <div  class="col-md-12 ">
-    <nav id="head_nav" class="navbar navbar-expand-lg navbar-light bg-light">
-    <img id='head_img' fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]'>
-    <button (click)="changeImage15()"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <img [src]="imagesNav[currentImageIndex15]" alt="">
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink] ='["/research"]'>Research </a>
-        </li>       <li class="nav-item">
-          <a class="nav-link" [routerLink] ='["/service"]'>Services</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink] ='["/about"]'>About Us </a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink] ='["/library"]'>Library</a>
-          </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Contact</title> -->
+    <!-- <meta name="description" content="VBCC RESEARCH contactpage"> -->
+    <meta
+      name="keywords"
+      content="Dr. V.B. Ceramics, VBCC Research , Hitech Ceramics, Ceramic Tiles, Tiles Manufacturer, Dr. Viswa Baskaran, Dr. V.B. Ceramcis Research Centre"
+    />
+    <meta name="author" content="VBCC Research " />
+    <meta name="og:title" content="VBCC RESEARCH" />
+    <meta
+      name="og:description"
+      content="Empowering Progress where Research, Education and Industries Unite."
+    />
+    <meta
+      name="og:image"
+      content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+    />
+    <meta name="og:url" content="https://www.drvbceramicresearch.com/contact" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Unbounded"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Schibsted Grotesk"
+      rel="stylesheet"
+    />
+  </head>
+  <div style="overflow: hidden">
+    <body>
+      <div class="container-fluid1">
+        <div class="row">
+          <div class="col-md-12">
+            <nav
+              id="head_nav"
+              class="navbar navbar-expand-lg navbar-light bg-light"
+            >
+              <img
+                id="head_img"
+                src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+                alt="logo"
+                [routerLink]="['/']"
+              />
+              <button
+                (click)="changeImage15()"
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img [src]="imagesNav[currentImageIndex15]" alt="" />
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/research']"
+                      >Research
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/service']">Services</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/about']">About Us </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/library']">Library</a>
+                  </li>
 
-        <li class="nav-item">
-          <a class="nav-link" [routerLink] ='["/gallery"]'>Gallery</a>
-        </li>
+                  <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/gallery']">Gallery</a>
+                  </li>
 
-        <li class="nav-item nav-item-contact">
-          <a id='nav_contact' class="" style='background-color:white !important; color:#132249 ;border-radius: 50px;' [routerLink]='["/contact"]'>Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
-</div>
-</div>
+                  <li class="nav-item nav-item-contact">
+                    <a
+                      id="nav_contact"
+                      class=""
+                      style="
+                        background-color: white !important;
+                        color: #132249;
+                        border-radius: 50px;
+                      "
+                      [routerLink]="['/contact']"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
 
-  <!-- <div class="flex_of_5">
+      <!-- <div class="flex_of_5">
       <h1 id="header_services" class="flex-items5">CONTACT US</h1>
       <p class="flex-items5" id="contact_para">Craving a conversation about pottery? Immerse yourself in a vibrant world of hues and surfaces with our amazing ceramic offerings!</p>
     </div> -->
 
-    <div class="hero">
-      <h1 class="gallery-text">CONTACT US</h1>
-      <div class="gall-para">
-        <p id="contact_para">Cultivating Curiosity : Connect with Us to Illuminate the Path of Knowledge and Ignite Solutions for Your Projects, No Matter Their Complexity.</p>
+      <div class="hero">
+        <h1 class="gallery-text">CONTACT US</h1>
+        <div class="gall-para">
+          <p id="contact_para">
+            Cultivating Curiosity : Connect with Us to Illuminate the Path of
+            Knowledge and Ignite Solutions for Your Projects, No Matter Their
+            Complexity.
+          </p>
+        </div>
       </div>
-    </div>
-    <hr>
-    <div id='contact_flex' style='display:flex;flex-direction:row;gap:40px;flex-wrap: wrap;padding:20px 40px;'>
-      <div style='flex:66%'>
-        <form (submit)="submitForm()">
-          <div class="form-row col-md-12" style='margin-bottom: 5px;'>
-            <div class="form-group col-md-6" >
-              <input id="name" type="text" class="form-control" placeholder="Name" [(ngModel)]="formData.name" name="name">
+      <hr />
+      <div
+        id="contact_flex"
+        style="
+          display: flex;
+          flex-direction: row;
+          gap: 40px;
+          flex-wrap: wrap;
+          padding: 20px 40px;
+        "
+      >
+        <div style="flex: 66%">
+          <form (submit)="submitForm()">
+            <div class="form-row col-md-12" style="margin-bottom: 5px">
+              <div class="form-group col-md-6">
+                <input
+                  id="name"
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  [(ngModel)]="formData.name"
+                  name="name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  style="margin-left: 10px"
+                  id="email"
+                  type="email"
+                  [(ngModel)]="formData.email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Email"
+                />
+              </div>
             </div>
-            <div class="form-group col-md-6" >
-              <input style='margin-left:10px;' id="email" type="email" [(ngModel)]="formData.email" name="email" class="form-control"  placeholder="Email">
+            <div class="form-group col-md-12" style="margin-bottom: 20px">
+              <textarea
+                name=""
+                id="message"
+                placeholder="Message"
+                [(ngModel)]="formData.message"
+                name="message"
+              ></textarea>
             </div>
+            <div class="form-group col-md-12">
+              <button id="message_button" type="submit" class="btn btn-primary">
+                Contact
+              </button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="links"
+          style="flex: 30%; transform: scaleY(1.1); margin-top: 10px"
+        >
+          <div
+            class="link1"
+            style="display: flex; flex-direction: row"
+            (click)="socials('linkedIn')"
+          >
+            <p class="con_text1" style="font-size: 26px">Linkedin</p>
+            <img
+              class="con_p1"
+              style="margin-left: auto"
+              src="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+              alt=""
+            />
           </div>
-          <div class="form-group col-md-12 " style='margin-bottom: 20px;'>
-            <textarea name="" id="message" placeholder="Message" [(ngModel)]="formData.message" name="message"></textarea>
+          <hr style="margin: 0px" />
+          <div
+            class="link2"
+            style="display: flex; flex-direction: row"
+            (click)="socials('google')"
+          >
+            <p class="con_text2" style="font-size: 26px">Google</p>
+            <img
+              class="con_p2"
+              style="margin-left: auto"
+              src="https://ik.imagekit.io/webibee/VBRC/images/ri_google-fill.svg"
+              alt=""
+            />
           </div>
-          <div class="form-group col-md-12">
-            <button id="message_button" type="submit" class="btn btn-primary">Contact</button>
+          <hr style="margin: 0px" />
+          <div
+            class="link3"
+            style="display: flex; flex-direction: row"
+            (click)="socials('whatsapp')"
+          >
+            <p class="con_text3" style="font-size: 26px">Whatsapp</p>
+            <img
+              class="con_p3"
+              style="margin-left: auto"
+              src="https://ik.imagekit.io/webibee/VBRC/images/ic_baseline-whatsapp.svg"
+              alt=""
+            />
           </div>
-        </form>
+          <hr style="margin: 0px" />
+          <div class="link4" style="display: flex; flex-direction: row">
+            <p class="con_text4" style="font-size: 26px">9445025461</p>
+            <img
+              class="con_p4"
+              style="margin-left: auto"
+              src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_call.svg"
+              alt=""
+            />
+          </div>
+          <hr style="margin: 0px" />
+          <div class="link5" style="display: flex; flex-direction: row">
+            <p class="con_text5" style="font-size: 26px">7338825555</p>
+            <img
+              class="con_p5"
+              style="margin-left: auto"
+              src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_call.svg"
+              alt=""
+            />
+          </div>
+          <hr style="margin: 0px" />
+        </div>
       </div>
-      <div class='links' style='flex:30%;transform:scaleY(1.1) ;margin-top: 10px;'>
-        <div class='link1' style=display:flex;flex-direction:row (click)="socials('linkedIn')">
-          <p  class ='con_text1' style="font-size:26px">Linkedin</p>
-          <img class ='con_p1' style="margin-left: auto;" fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg" alt="">
-        </div>
-        <hr style='margin: 0px;'>
-        <div class='link2' style=display:flex;flex-direction:row (click)="socials('google')">
-          <p  class ='con_text2' style="font-size:26px">Google</p>
-          <img class ='con_p2' style="margin-left: auto;" fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/ri_google-fill.svg" alt="">
-        </div>
-        <hr style='margin: 0px;'>
-        <div class='link3' style=display:flex;flex-direction:row (click)="socials('whatsapp')">
-          <p class ='con_text3' style="font-size:26px">Whatsapp </p>
-          <img class ='con_p3' style="margin-left: auto;" fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/ic_baseline-whatsapp.svg" alt="">
-        </div>
-        <hr style='margin: 0px;'>
-        <div class='link4' style=display:flex;flex-direction:row>
-          <p  class ='con_text4' style="font-size:26px">9445025461 </p>
-          <img class ='con_p4' style="margin-left: auto;" fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_call.svg" alt="">
-        </div>
-        <hr style='margin: 0px;'>
-        <div class='link5' style=display:flex;flex-direction:row>
-          <p class ='con_text5' style="font-size:26px">7338825555 </p>
-          <img class ='con_p5' style="margin-left: auto;" fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_call.svg" alt="">
-        </div>
-        <hr style='margin: 0px;'>
-      </div>
-    </div>
 
-    <div>
-      <div id='map' style='text-align: center;background-color:#132249;'>
-          <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9772636108155!2d80.24563577478861!3d12.973305987342215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6ea985eaf3%3A0xca75a4d4faa8d709!2sDr.VB&#39;s%20Ceramic%20Research%20Centre!5e0!3m2!1sen!2sin!4v1692024575895!5m2!1sen!2sin" text-align='center' width="90%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapIframe" >
+      <div>
+        <div id="map" style="text-align: center; background-color: #132249">
+          <iframe
+            title="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9772636108155!2d80.24563577478861!3d12.973305987342215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6ea985eaf3%3A0xca75a4d4faa8d709!2sDr.VB&#39;s%20Ceramic%20Research%20Centre!5e0!3m2!1sen!2sin!4v1692024575895!5m2!1sen!2sin"
+            text-align="center"
+            width="90%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="mapIframe"
+          >
           </iframe>
+        </div>
       </div>
-    </div>
 
-    <div class='flex10'>
-      <div class='card10'>
-        <p style="font-weight:500; margin-bottom: 10px;">COMPANY</p>
-          <img id="card1img" fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg" loading="lazy" alt="footerimg"  width="80" height="60" [routerLink]='["/"]' style="cursor: pointer;">
-        <br>
-        <p style='font-size:16px !important;'>3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate, Kottivakkam,
-          Chennai - 600 041</p>
-      </div>
-      <div class='card10'>
-        <p style="font-weight:500; margin-bottom: 10px;">SITEMAP</p>
-        <ul style="display: flex; flex-direction: column; gap: 8px;">
-          <li [routerLink]='["/"]'>Home</li>
-          <li [routerLink] ='["/research"]'>Research</li>
-          <li [routerLink] ='["/service"]'>Services</li>
-          <li [routerLink] ='["/about"]'>About Us</li>
-          <li [routerLink] ='["/gallery"]'>Gallery</li>
-          <li [routerLink]='["/contact"]'>Contact Us</li>
-        </ul>
-      </div>
-      <div class='card10'>
-        <div>
-          <p style="font-weight:500; margin-bottom: 10px;">SERVICES</p>
-          <ul style="display: flex; flex-direction: column; gap: 8px;">
-            <li [routerLink] ='["/service"]'>All Services</li>
-            <li [routerLink] ='["/service/x-ray-diffraction-xrd"]'>X-Ray Diffraction</li>
-            <li [routerLink] ='["/service/scanning-electron-microscope-sem"]'>SEM (3 Images)</li>
-            <li [routerLink] ='["/service/x-ray-fluorescence-xrf"]'>X-Ray Fluorescence</li>
-
+      <div class="flex10">
+        <div class="card10">
+          <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
+          <img
+            id="card1img"
+            fill
+            src="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
+            loading="lazy"
+            alt="footerimg"
+            width="80"
+            height="60"
+            [routerLink]="['/']"
+            style="cursor: pointer"
+          />
+          <br />
+          <p style="font-size: 16px !important">
+            3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate,
+            Kottivakkam, Chennai - 600 041
+          </p>
+        </div>
+        <div class="card10">
+          <p style="font-weight: 500; margin-bottom: 10px">SITEMAP</p>
+          <ul style="display: flex; flex-direction: column; gap: 8px">
+            <li [routerLink]="['/']">Home</li>
+            <li [routerLink]="['/research']">Research</li>
+            <li [routerLink]="['/service']">Services</li>
+            <li [routerLink]="['/about']">About Us</li>
+            <li [routerLink]="['/gallery']">Gallery</li>
+            <li [routerLink]="['/contact']">Contact Us</li>
           </ul>
         </div>
-        <div style="margin-top: 20px;">
-          <p style="font-weight:500; margin-bottom: 10px;">SOCIALS</p>
-          <div style='display: flex;flex-direction:row;gap:20px'>
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg" alt="" (click)="socials('linkedIn')">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg" alt="" (click)="socials('youtube')">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook .svg" alt="" (click)="socials('facebook')">
+        <div class="card10">
+          <div>
+            <p style="font-weight: 500; margin-bottom: 10px">SERVICES</p>
+            <ul style="display: flex; flex-direction: column; gap: 8px">
+              <li [routerLink]="['/service']">All Services</li>
+              <li [routerLink]="['/service/x-ray-diffraction-xrd']">
+                X-Ray Diffraction
+              </li>
+              <li [routerLink]="['/service/scanning-electron-microscope-sem']">
+                SEM (3 Images)
+              </li>
+              <li [routerLink]="['/service/x-ray-fluorescence-xrf']">
+                X-Ray Fluorescence
+              </li>
+            </ul>
+          </div>
+          <div style="margin-top: 20px">
+            <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
+            <div style="display: flex; flex-direction: row; gap: 20px">
+              <img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+                alt="social1"
+                width="40"
+                height="40"
+                (click)="socials('linkedIn')"
+              />
+              <img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
+                alt="social2"
+                width="45"
+                height="35"
+                (click)="socials('youtube')"
+              />
+              <img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
+                alt="social3"
+                width="35"
+                height="35"
+                (click)="socials('facebook')"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="card10">
+          <div>
+            <p style="font-weight: 500; margin-bottom: 10px">SUPPORT</p>
+            <ul style="display: flex; flex-direction: column; gap: 8px">
+              <li [routerLink]="['/contact']">Contact Us</li>
+              <li [routerLink]="['/contact']">Help centre</li>
+            </ul>
+          </div>
+          <div style="margin-top: 20px">
+            <p style="font-weight: 500; margin-bottom: 10px">OUR GROUPS</p>
+            <div style="display: flex; gap: 20px">
+              <img
+                loading="lazy"
+                src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
+                alt="footericon"
+                width="80px"
+                height="60px"
+                (click)="ourGroups('vbcc')"
+              />
+              <img
+                loading="lazy"
+                src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
+                alt="footericon2"
+                width="80px"
+                height="60px"
+                (click)="ourGroups('hiTemp')"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div class='card10'>
-        <div>
-          <p style="font-weight:500; margin-bottom: 10px;">SUPPORT</p>
-          <ul style="display: flex; flex-direction: column; gap: 8px;">
-            <li [routerLink]='["/contact"]'>Contact Us</li>
-            <li [routerLink]='["/contact"]'>Help centre</li>
-          </ul>
-        </div>
-        <div style="margin-top: 20px;">
-          <p style="font-weight:500; margin-bottom: 10px;">OUR GROUPS</p>
-          <div style="display: flex; gap: 20px">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg" alt="" (click)="ourGroups('vbcc')">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg" alt="" (click)="ourGroups('hiTemp')">
-          </div>
+    </body>
+    <footer>
+      <div class="footer">
+        <p style="padding: 20px 30px 0px 20px">
+          ©VBCC Research. All Rights Reserved.
+        </p>
+        <div class="cardfooter">
+          <p>
+            English
+            <span
+              ><img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
+                alt="link1"
+                width="25"
+                height="25"
+            /></span>
+          </p>
+          <div class="separator"></div>
+          <p>
+            INR
+            <span
+              ><img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
+                alt="link2"
+                width="25"
+                height="25"
+            /></span>
+          </p>
+          <div class="separator"></div>
+          <p>
+            Asia (India)
+            <span
+              ><img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
+                alt="link3"
+                width="25"
+                height="25"
+            /></span>
+          </p>
         </div>
       </div>
-    </div>
-
-  </body>
-  <footer>
-    <div class='footer'>
-      <p style='padding: 20px 30px 0px 20px;'>©VBCC Research. All Rights Reserved.</p>
-      <div class='cardfooter'>
-        <p>English <span><img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg" alt=""></span></p><div class="separator"></div>
-        <p>INR <span><img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg" alt=""></span></p><div class="separator"></div>
-        <p>Asia (India) <span><img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg" alt=""></span></p>
-      </div>
-    </div>
-  </footer>
-</div>
+    </footer>
+  </div>
 </html>
-
-

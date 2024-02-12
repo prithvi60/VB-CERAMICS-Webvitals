@@ -98,7 +98,9 @@
     </div>
     <div class="service-section">
       <div class="hero">
-        <h1 class="gallery-text">VB Ceramics Services: Ceramic Equipment Experts</h1>
+        <h1 class="gallery-text">
+          VB Ceramics Services: Ceramic Equipment Experts
+        </h1>
         <div class="gall-para">
           <p>
             Our services are transparently priced for optimal customer
@@ -366,12 +368,13 @@
         </div>
       </div>
     </div>
+    <!-- footer -->
     <div class="flex10">
       <div class="card10">
         <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
         <img
           id="card1img"
-          src="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
+          ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
           loading="lazy"
           alt="footerimg"
           width="80"
@@ -391,8 +394,8 @@
         <ul style="display: flex; flex-direction: column; gap: 8px">
           <li [routerLink]="['/']">Home</li>
           <li [routerLink]="['/research']">Research</li>
-          <li [routerLink]="['/about']">About Us</li>
           <li [routerLink]="['/service']">Services</li>
+          <li [routerLink]="['/about']">About Us</li>
           <li [routerLink]="['/gallery']">Gallery</li>
           <li [routerLink]="['/contact']">Contact Us</li>
         </ul>
@@ -417,24 +420,27 @@
           <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
           <div style="display: flex; flex-direction: row; gap: 20px">
             <img
-              alt="img32"
-              src="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
-              alt=""
-              class="footer_img"
+              loading="lazy"
+              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+              alt="social1"
+              width="40"
+              height="40"
               (click)="socials('linkedIn')"
             />
             <img
-              alt="img31"
-              src="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
-              alt=""
-              class="footer_img"
+              loading="lazy"
+              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
+              alt="social2"
+              width="45"
+              height="35"
               (click)="socials('youtube')"
             />
             <img
-              alt="img33"
-              src="https://ik.imagekit.io/webibee/VBRC/images/Facebook .svg"
-              alt=""
-              class="footer_img"
+              loading="lazy"
+              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
+              alt="social3"
+              width="35"
+              height="35"
               (click)="socials('facebook')"
             />
           </div>
@@ -455,25 +461,26 @@
               loading="lazy"
               src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
               alt="footericon"
-              width="80"
-              height="60"
+              width="80px"
+              height="60px"
               (click)="ourGroups('vbcc')"
             />
             <img
               loading="lazy"
               src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
               alt="footericon2"
-              width="80"
-              height="60"
+              width="80px"
+              height="60px"
               (click)="ourGroups('hiTemp')"
             />
           </div>
         </div>
       </div>
     </div>
+
     <footer>
       <div class="footer">
-        <p style="padding: 20px 20px 0px 20px">
+        <p id="footer_p" style="padding: 20px 30px 0px 20px">
           ©VBCC Research. All Rights Reserved.
         </p>
         <div class="cardfooter">
@@ -481,8 +488,11 @@
             English
             <span
               ><img
-                src="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
-                alt="img59"
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
+                alt="link1"
+                width="25"
+                height="25"
             /></span>
           </p>
           <div class="separator"></div>
@@ -490,9 +500,11 @@
             INR
             <span
               ><img
-                alt="ikj"
-                src="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
-                alt=""
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
+                alt="link2"
+                width="25"
+                height="25"
             /></span>
           </p>
           <div class="separator"></div>
@@ -500,8 +512,11 @@
             Asia (India)
             <span
               ><img
-                src="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
-                alt="imghk"
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
+                alt="link3"
+                width="25"
+                height="25"
             /></span>
           </p>
         </div>

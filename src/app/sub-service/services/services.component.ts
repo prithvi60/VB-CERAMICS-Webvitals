@@ -65,7 +65,7 @@ export class ServicesComponent {
         this.metaDesc,
     });
   }
-
+i
   ngDoCheck() {
     this.contentParams = this.activatedRoute.snapshot.params['routing'];
     this.filterMethod();
@@ -161,8 +161,8 @@ export class ServicesComponent {
     {
       id: 1,
       mainHeader: "X-Ray Diffraction (XRD) Equipment with Powder Diffraction",
-      titleHead: 'X-Ray Diffraction Equipment with Powder Diffraction for Test  | VBCC Research',
-      metaDesc: "Unlock the power of X-ray Diffraction (XRD). Explore our benchtop diffractometer for precise powder diffraction analysis test.",
+      titleHead: 'A Comprehensive Guide on X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism | VBCC Research',
+      metaDesc: "Discover X-ray Powder Diffraction in this comprehensive guide. Learn about XRD applications, principles, and versatile X ray diffractometer types.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-2.png',
       header: 'Sophisticated Instruments',
@@ -172,28 +172,92 @@ export class ServicesComponent {
       students: '₹750 - Students',
       industries: '₹1500 - Industries',
       para1: '',
-      para2: `
-          <p>X-ray diffraction (XRD) is a non-destructive method for analyzing matters ranging from liquids to crystals. This characterization method provides statistical information on interlayer multiple orientations of carbon nanomaterials. The parameters examined by this technique are structural strain, diameter, chirality distribution, and impurities in CNMs.</p>
-         <br>
-          <h3>Benchtop X-ray Diffractometer for Phase Analysis</h3>
-          <p>New sixth generation MiniFlex benchtop X-ray diffractometer is a multipurpose powder diffraction analytical instrument that can determine: crystalline phase identification (phase ID) and quantification, percent (%) crystallinity, crystallite size and strain, lattice parameter refinement, Rietveld refinement, and molecular structure. It is widely used in research, especially in material science and chemistry, as well as in industry for research and quality control. It is the newest addition to the MiniFlex series of benchtop X-ray diffraction analyzers from Rigaku, which began with the introduction of the original MiniFlex XRD system decades ago.</p>
+      // para2: `
+      //     <p>X-ray diffraction (XRD) is a non-destructive method for analyzing matters ranging from liquids to crystals. This characterization method provides statistical information on interlayer multiple orientations of carbon nanomaterials. The parameters examined by this technique are structural strain, diameter, chirality distribution, and impurities in CNMs.</p>
+      //    <br>
+      //     <h3>Benchtop X-ray Diffractometer for Phase Analysis</h3>
+      //     <p>New sixth generation MiniFlex benchtop X-ray diffractometer is a multipurpose powder diffraction analytical instrument that can determine: crystalline phase identification (phase ID) and quantification, percent (%) crystallinity, crystallite size and strain, lattice parameter refinement, Rietveld refinement, and molecular structure. It is widely used in research, especially in material science and chemistry, as well as in industry for research and quality control. It is the newest addition to the MiniFlex series of benchtop X-ray diffraction analyzers from Rigaku, which began with the introduction of the original MiniFlex XRD system decades ago.</p>
 
+      //    <br>
+      //     <h3>X-ray Powder Diffraction with HPAD Detector</h3>
+      //     <p>MiniFlex XRD system delivers speed and sensitivity through innovative technology advances, including the HyPix-400 MF 2D hybrid pixel array detector (HPAD) together with an available 600 W X-ray source and new 8-position automatic sample changer.</p>
+      //     <br>
+      //     <h3>Hybrid Pixel Array Detector (HPAD)</h3>
+      //     <p>This new direct photon counting detector enables high-speed, low-noise data collection and may be operated in 0D and 1D modes for conventional XRD analysis and 2D mode for samples with coarse grain size and/or preferred orientation.</p>
+      //     <br>
+      //     <h3>XRD Accessories Enhance Your MiniFlex</h3>
+      //     <p>A variety of X-ray tube anodes – along with a range of sample rotation and positioning accessories, together with a variety of temperature attachments – are offered to ensure that the MiniFlex X-ray diffraction (XRD) system is versatile enough to perform challenging qualitative and quantitative analyses of a broad range of samples, whether performing research or routine quality control. The new (Gen 6) MiniFlex X-ray diffractometer system embodies the Rigaku philosophy of “Leading with Innovation” by offering the world’s most advanced benchtop system for powder diffractometry.</p>
+      //     <br>
+      //     <h3   >Advanced Powder Diffraction Software</h3>
+      //     <p>Each MiniFlex comes standard with the latest version of SmartLab Studio-II, Rigaku's full-function powder diffraction analysis package. The latest version offers important new functionality; including a fundamental parameter method (FP) for more accurate peak calculation, phase identification using the Crystallography Open Database (COD), and a wizard for ab inito crystal structure analysis.</p>
+
+
+      // `,
+      para2: `
+          <h3>A Comprehensive Guide on X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism</h3>
+          <p>X-ray diffraction (XRD) is a powerful analytical technique used in materials science, chemistry, geology, and various other scientific disciplines. This technique provides valuable insights into the crystallographic structure of materials. It allows researchers to understand their composition, phase purity, and even the presence of defects. Let’s understand the mechanisms of XRD instrumentation, and explore its components, principles, and applications.</p>
+         <br>
+          <h3>Basics of X-Ray Diffraction:</h3>
+          <div><h4>X-Ray Source:</h4> When the high-energy electrons are bombarded on a metal target either copper or cobalt, an X-ray is emitted from a sealed X-ray tube.  The resulting X-rays have a wavelength on the order of angstroms, making them suitable for diffraction experiments.</div>
+          <br/>
+          <div><h4>Monochromator:</h4> The X-ray beam produced by the source is polychromatic, containing a range of wavelengths. A monochromator isolates specific wavelengths from the range of wavelengths. Single crystals or diffraction gratings are used to select a narrow range of X-ray wavelengths.</div>
+          <br/>
+          <div><h4>Sample Holder: </h4> The sample holder is a flat plate or a rotating cylinder to hold a sample of finely ground powder for XRD analysis. The sample holder is used to evenly disperse the powder to ensure a representative and homogeneous sample.</div>
+          <br/>
+          <div><h4>Goniometer: </h4>The goniometer is a critical component that allows precise control of the orientation of the sample concerning the incident X-ray beam. It facilitates the measurement of diffraction angles, crucial for determining crystallographic information.</div>
+          <br/>
+          <div><h4>Detector: </h4> The detector captures the diffracted X-rays, converting them into electrical signals. Modern detectors, such as scintillation or semiconductor detectors, offer high sensitivity and resolution.</div>
          <br>
           <h3>X-ray Powder Diffraction with HPAD Detector</h3>
           <p>MiniFlex XRD system delivers speed and sensitivity through innovative technology advances, including the HyPix-400 MF 2D hybrid pixel array detector (HPAD) together with an available 600 W X-ray source and new 8-position automatic sample changer.</p>
           <br>
-          <h3>Hybrid Pixel Array Detector (HPAD)</h3>
-          <p>This new direct photon counting detector enables high-speed, low-noise data collection and may be operated in 0D and 1D modes for conventional XRD analysis and 2D mode for samples with coarse grain size and/or preferred orientation.</p>
+          <h3>Principles of XRD:</h3>
+          <p>Bragg's Law was formulated by Sir William Bragg and his son Lawrence Bragg in 1913. XRD is based on the principles of Bragg's Law. It describes the relationship between the angle of incidence, wavelength of X-rays, and crystal lattice spacing in X-ray diffraction (XRD). The law is expressed as 2d sin θ = nλ, where 'd' is the crystal lattice spacing, 'θ' is the angle of incidence, 'n' is an integer representing the diffraction order, where 'λ' represents X-ray wavelength.</p>
+          <p>The diffraction pattern obtained from a sample provides information about the crystal lattice and allows for the determination of key parameters such as lattice constants, crystal symmetry, and phase identification.</p>
           <br>
-          <h3>XRD Accessories Enhance Your MiniFlex</h3>
-          <p>A variety of X-ray tube anodes – along with a range of sample rotation and positioning accessories, together with a variety of temperature attachments – are offered to ensure that the MiniFlex X-ray diffraction (XRD) system is versatile enough to perform challenging qualitative and quantitative analyses of a broad range of samples, whether performing research or routine quality control. The new (Gen 6) MiniFlex X-ray diffractometer system embodies the Rigaku philosophy of “Leading with Innovation” by offering the world’s most advanced benchtop system for powder diffractometry.</p>
+          <h3>XRD Applications:</h3>
+          <div> <h4>Phase Identification:</h4>
+          XRD is used for discerning distinct phases within a sample, as each crystalline phase exhibits a distinctive diffraction pattern. This characteristic allows researchers to analyze complex materials and ascertain their composition by identifying the unique fingerprints reflected in the diffraction patterns.</div>
+          <br/>
+          <div> <h4>Quantitative Analysis:</h4>
+          The intensity of diffracted peaks determines the relative amounts of different phases within a sample.</div>
+          <br/>
+          <div> <h4>Crystal Structure Determination:</h4>
+          By analysing the positions and intensities of diffraction peaks, researchers can unveil the three-dimensional arrangement of atoms within a crystal lattice.</div>
+          <br/>
+          <div> <h4>Stress and Strain Analysis:</h4>
+          XRD is used to analyse the stress and strain within a crystalline material. It provides insights into its mechanical properties.</div>
           <br>
-          <h3   >Advanced Powder Diffraction Software</h3>
-          <p>Each MiniFlex comes standard with the latest version of SmartLab Studio-II, Rigaku's full-function powder diffraction analysis package. The latest version offers important new functionality; including a fundamental parameter method (FP) for more accurate peak calculation, phase identification using the Crystallography Open Database (COD), and a wizard for ab inito crystal structure analysis.</p>
+          <h3>Examples of XRD usage:</h3>
+          <p>X-ray diffraction (XRD) finds practical applications in various fields.</p>
+          <ul>
+              <li>In materials science, it helps to determine crystal structures and aids the study of polymers, metals, and ceramics. </li>
+              <li>In pharmaceuticals, XRD identifies drug compositions. It helps to ensure the purity and stability of pharmaceutical products by verifying their crystalline structure. It is used in quality control in industries such as electronics and construction.</li>
+              <li>Geological applications involve analyzing minerals in rocks and soil samples as different minerals exhibit unique diffraction patterns. It is used to identify phases in rocks.</li>
+              <li>In archaeology, it assists in dating artifacts by examining crystalline structures. </li>
+              <li>In nanotechnology, XRD is used to characterize nanomaterials. It provides valuable information about particle size, crystallinity, and phase composition.</li>
+          </ul>
 
+          <h3>Types of X-Ray Diffractometers:</h3>
+          <p>Each type of X-ray Powder Diffraction instrument caters to specific industry needs to provide precise analytical capabilities for a range of applications. The choice depends on factors such as the nature of the sample, required resolution, portability, and the specific goals of the analysis. Let us see a few types of XRD:</p>
+          <ul>
+              <li>Benchtop X-ray Diffractometers are used for academic research, small laboratories, and routine analysis in industries like pharmaceuticals and materials science. </li>
+              <li>Floor-Standing X-ray Diffractometers are used in materials science, pharmaceuticals, geology, and quality control in manufacturing.</li>
+              <li>Portable X-ray Diffractometers are best for geological exploration, field studies, and on-site quality control in industries like mining and construction.</li>
+              <li>Synchrotron-based X-ray Diffractometers help in advanced research in materials science, pharmaceuticals, and any field requiring high-intensity, tunable X-ray beams.</li>
+              <li>Texture and Residual Stress X-ray Diffractometers for use in metallurgy, aerospace, automotive, and any field concerned with understanding material properties and structural integrity.</li>
+          </ul>
+
+          <h3>Conclusion:</h3>
+          <p>X-ray powder Diffraction instrument is a versatile and indispensable tool in scientific research and industry due to its ability to detect the characteristics of crystalline.
+          <br/>
+          <br/>
+          VBCC Research is a prominent ceramic Equipment and Instrument manufacturer in India. They address the research and quality control needs in Glass, Ceramics, Nano Science, and Material Science. They provide a centralized hub for students, researchers, and engineers.
+          <br/>
+          <br/>
+          VBCC offers year-round access to a spectrum of experimental facilities and their services include comprehensive testing of mechanical, physical, chemical, and thermal properties from raw materials to final products. The facility supports synthesis and fabrication from laboratory to industrial scale, ensuring quality through final testing and characterizations. VBCC offers a wide range of X-ray diffractometers at affordable rates. Connect with us to know more. </p>
 
       `,
-
       routing: 'x-ray-diffraction-xrd',
     },
     {
@@ -423,7 +487,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 6,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Thermal Expansion Linear Variable Dilatometer upto  1000°C",
+      titleHead: 'High Precision Thermal Expansion Dilatometers 1000°C | VBCC Research',
+      metaDesc: "Explore High Precision Thermal Expansion Dilatometers up to 1000°C. Discover accurate measurements with linear variable differential transformer technology.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service6-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service6-sec-2.png',
       header: 'Thermal Testing',
@@ -436,32 +502,32 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>A Dilatometer, a sophisticated thermo-analytical instrument, serves as a crucial tool for measuring the thermal expansion or contraction of various materials under specific controlled temperature-time programs. Equipped with a high-resolution linear variable differential transformer (LVDT) measuring system, it ensures precise digital measurements.</p>
 
-          <h4>How It Works:</h4>
-          <p>Digital Measurement:</p>
+          <h3>How It Works:</h3>
+          <h4>Digital Measurement:</h4>
           <p>The Dilatometer employs a high-resolution LVDT measuring system (1-micrometer accuracy) to digitally measure thermal expansion or contraction.</p>
-          <p>Computer Integration:</p>
+          <h4>Computer Integration:</h4>
           <p>Measurements are transmitted to a computer through a connected LVDT, enabling real-time data acquisition.</p>
-          <p>Online Graph Plotting:</p>
+          <h4>Online Graph Plotting:</h4>
           <p>Labview software is utilized to plot an online graph illustrating the relationship between temperature and the percentage of total expansion.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Diverse Material Testing:</p>
+          <h3>Use Cases:</h3>
+          <h4>Diverse Material Testing:</h4>
           <p>Dilatometry finds application in testing a diverse range of materials, including traditional and advanced ceramics, glasses, metals, and polymers.</p>
 
-          <h4>Key Features:</h4>
-          <p>Maximum Temperature Capability:</p>
+          <h3>Key Features:</h3>
+          <h4>Maximum Temperature Capability:</h4>
           <p>The Dilatometer is designed to operate at temperatures up to 1000°C, allowing for testing under high-temperature conditions.</p>
-          <p>Sample Size Flexibility:</p>
+          <h4>Sample Size Flexibility:</h4>
           <p>Accommodates sample sizes with outer diameters (OD) or widths ranging from 5 to 10mm and lengths from 25 to 50mm.</p>
           <p>Thermal Expansion Insights:</p>
           <p>Provides critical insights into the thermal expansion behavior of materials, aiding in material characterization and performance prediction.</p>
 
-          <h4>Benefits:</h4>
-          <p>Precision in Measurements:</p>
+          <h3>Benefits:</h3>
+          <h4>Precision in Measurements:</h4>
           <p>The LVDT measuring system ensures high precision, with a resolution of 1 micrometer, leading to accurate thermal expansion measurements.</p>
-          <p>Real-time Graphical Representation:</p>
+          <h4>Real-time Graphical Representation:</h4>
           <p>Labview software facilitates the online plotting of graphs, allowing researchers to visualize the relationship between temperature and material expansion in real time.</p>
-          <p>Material Characterization:</p>
+          <h4>Material Characterization:</h4>
           <p>Enables comprehensive material testing, contributing to a deeper understanding of thermal behaviors crucial for various industries.</p>
 
           <p>Technological Significance: The Dilatometer up to 1000°C stands as an invaluable instrument in materials science and engineering, offering a precise and digitally monitored approach to studying thermal expansion. Its diverse applications and flexibility in handling different sample sizes contribute to its technological significance in advancing material insights.</p>
@@ -478,7 +544,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 7,
-      titleHead: 'Sophisticated Instruments',
+      tmainHeader: "BET Analysis: Brunauer Emmett Teller Instrument",
+      titleHead: 'Accurate BET Analysis with Brunauer Emmett Teller Instrument | VBCC Research',
+      metaDesc: "Discover excellence in Brunauer Emmett Teller analysis. Our advanced instrument ensures precision in BET analysis, setting new standards in material characterization.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service7-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service7-sec-2.png',
       header: 'Sophisticated Instruments',
@@ -528,14 +596,16 @@ Laser diffraction measures particle size distributions by measuring the angular 
     <p>In summary, BET analysis is a versatile and indispensable tool, providing crucial data for researchers and industries involved in material development, catalysis, and various applications where surface characteristics and porosity play a vital role. Its ability to deliver quantitative and insightful results makes it an essential technique in the field of materials science.</p>
     <br>
     <h4>Analyzing BET Data:</h4>
-    <p>The technique assesses the amount of gas adsorbed, considering factors such as exposed surface area, temperature, gas pressure, and the strength of interaction between the gas and solid. Nitrogen is commonly used in BET surface area analysis due to its high purity and strong interaction with most solids, making it a versatile and widely applicable method for material characterization. The obtained data aids in optimizing processes and enhancing the performance of various materials across multiple industries.</p>
+    <p>The technique assesses the amount of gas adsorbed, considering factors such as exposed surface area, temperature, gas pressure, and the strength of interaction between the gas and solid. Nitrogen is commonly used in BET surface area analysis due to its high purity and h4 interaction with most solids, making it a versatile and widely applicable method for material characterization. The obtained data aids in optimizing processes and enhancing the performance of various materials across multiple industries.</p>
 
         `,
       routing: 'bet-analysis',
     },
     {
       id: 8,
-      titleHead: 'Sophisticated Instruments',
+      mainHeader: "Pin on Disc Tribometer Wear Test solutions",
+      titleHead: 'Pin on Disc Tribometer for Wear Test | VBCC Research',
+      metaDesc: "Explore precision and durability with our Pin on Disc Tribometer & Wear Test solutions with unmatched quality. Discover excellence today.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service8-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service8-sec-2.gif',
       header: 'Sophisticated Instruments',
@@ -550,39 +620,39 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
     <p>The ball, or pin on disk, wear testing machine presses stationary pin or ball against the rotating disk. Measure coefficient of friction (COF), friction force, wear rate, wear volume, temperature, and several other tribology parameters.</p>
 <br>
-    <h4>A Pin-On-Disc Tribometer</h4>
+    <h3>A Pin-On-Disc Tribometer</h3>
     <p>is a specialized instrument designed to assess and quantify the wear and friction characteristics of materials under controlled sliding conditions. This tribological testing device consists of a stationary pin in contact with a rotating disc, simulating the frictional conditions encountered in real-world applications.</p>
     <br>
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <p>The Pin-On-Disc Tribometer finds extensive application in various industries for evaluating the wear resistance and frictional behavior of materials. It is commonly used in the automotive sector to study the wear performance of brake materials, helping optimize brake pad formulations for enhanced durability and safety. In the field of manufacturing, the tribometer is employed to assess the wear resistance of cutting tools, providing insights into tool material selection and coating effectiveness. Additionally, it plays a crucial role in the development of bearings, gears, and other components in machinery, where minimizing wear and friction is paramount for efficient operation.</p>
     <br>
-    <h4>Benefits:</h4>
-    <p>1. Wear Analysis:</p>
+    <h3>Benefits:</h3>
+    <h4>1. Wear Analysis:</h4>
     <ul>
         <li>Pin-On-Disc Tribometers enable precise quantification of wear rates, aiding researchers and engineers in evaluating the durability and longevity of materials.</li>
     </ul>
 
-    <p>2. Frictional Behavior:</p>
+    <h4>2. Frictional Behavior:</h4>
     <ul>
         <li>The tribometer allows for the measurement of friction coefficients under different conditions, contributing to the understanding of material interactions and the optimization of lubrication strategies.</li>
     </ul>
 
-    <p>3. Material Selection:</p>
+    <h4>3. Material Selection:</h4>
     <ul>
         <li>Industries involved in material development and selection benefit from tribometer testing by identifying materials that exhibit superior wear resistance, leading to the creation of more robust and reliable products.</li>
     </ul>
 
-    <p>4. Coating Evaluation:</p>
+    <h4>4. Coating Evaluation:</h4>
     <ul>
         <li>Researchers use the tribometer to assess the effectiveness of coatings in reducing wear and friction, guiding the development of advanced surface treatments for various applications.</li>
     </ul>
 
-    <p>5. Quality Control:</p>
+    <h4>5. Quality Control:</h4>
     <ul>
         <li>The tribometer serves as a valuable tool in quality control processes, ensuring that materials and components meet specified wear and friction criteria before reaching the market.</li>
     </ul>
 
-    <p>6. Optimization of Design:</p>
+    <h4>6. Optimization of Design:</h4>
     <ul>
         <li>Tribometer data aids in the optimization of designs for various mechanical components, allowing engineers to make informed decisions that enhance the overall performance and reliability of systems.</li>
     </ul>
@@ -595,7 +665,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 9,
-      titleHead: 'Material Preparation',
+      mainHeader: "Planetary Mill with Tungsten Carbide Balls & Vial per hour",
+      titleHead: 'High-Efficiency Planetary Mill with Tungsten Carbide Balls & Vial per hour | VBCC Research',
+      metaDesc: "Maximize productivity with our High-Efficiency Planetary Mill, designed for processing Tungsten Carbide Balls & Vials per hour with precision.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service9-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service9-sec-2.jpg',
       header: 'Material Preparation',
@@ -608,25 +680,25 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Planetary ball mills are smaller than common ball mills and mainly used in laboratories for grinding sample material down to very small sizes. A planetary ball mill consists of at least one grinding jar which is arranged eccentrically on a so-called sun wheel.</p>
 
-          <h4>Planetary Mill with TC Balls & Vial:</h4>
-          <p>Features:</p>
+          <34>Planetary Mill with TC Balls & Vial:</34>
+          <h3>Features:</h3>
           <ul>
-              <li>Automatic Operation: The equipment operates entirely automatically, offering convenient time settings and variable speed adjustments for precise control over the milling process.</li>
-              <li>Vial Material: Crafted with durable Tungsten Carbide, ensuring longevity and resistance to wear during milling and mixing operations.</li>
-              <li>Vial Capacity: Boasting a generous 250 ml capacity, providing ample space for milling and mixing various materials with ease.</li>
-              <li>Grinding Media: Utilizes high-quality Tungsten Carbide Balls (10 mm diameter - 30 Nos) as efficient grinding media, ensuring effective particle size reduction.</li>
-              <li>Loading Capacity: Accommodates a maximum loading capacity of 100g, dependent on the material density, and a minimum loading capacity of 5g for versatility in experimental setups.</li>
-              <li>Material Loss: Minimal material loss of only 2%, preserving the integrity of the processed materials.</li>
+              <li><h4>Automatic Operation: The equipment operates entirely automatically, offering convenient time settings and variable speed adjustments for precise control over the milling process.</h4></li>
+              <li><h4>Vial Material: Crafted with durable Tungsten Carbide, ensuring longevity and resistance to wear during milling and mixing operations.</h4></li>
+              <li><h4>Vial Capacity: Boasting a generous 250 ml capacity, providing ample space for milling and mixing various materials with ease.</h4></li>
+              <li><h4>Grinding Media: Utilizes high-quality Tungsten Carbide Balls (10 mm diameter - 30 Nos) as efficient grinding media, ensuring effective particle size reduction.</h4></li>
+              <li><h4>Loading Capacity: Accommodates a maximum loading capacity of 100g, dependent on the material density, and a minimum loading capacity of 5g for versatility in experimental setups.</h4></li>
+              <li><h4>Material Loss: Minimal material loss of only 2%, preserving the integrity of the processed materials.</h4></li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The VBCC Planetary Ball Mill, equipped with TC balls and vial, finds its application in the realm of Advanced Ceramics, catering to nanotechnology applications with precision and efficiency:</p>
           <ul>
-              <li>Advanced Ceramics Processing: Specifically designed for milling and mixing tasks related to Advanced Ceramics, ensuring uniform and controlled processing of ceramic materials.</li>
-              <li>Particle Size Reduction: Facilitates the reduction of particle sizes from Micron (10-6µm) to Nano Size (10-9nm) within a short timeframe of 30 to 60 minutes, crucial for nanotechnology applications.</li>
-              <li>Nanotechnology Research: Ideal for nanotechnology research where achieving nano-sized particles is essential for enhanced material properties and performance.</li>
-              <li>Time-Efficient Operation: The automatic operation with time settings allows for efficient milling within specified durations, promoting productivity in laboratory settings.</li>
-              <li>Variable Speed Control: Variable speed adjustments provide flexibility in controlling the milling process, accommodating diverse materials and experimental requirements.</li>
+              <li><h4>Advanced Ceramics Processing: Specifically designed for milling and mixing tasks related to Advanced Ceramics, ensuring uniform and controlled processing of ceramic materials.</h4></li>
+              <li><h4>Particle Size Reduction: Facilitates the reduction of particle sizes from Micron (10-6µm) to Nano Size (10-9nm) within a short timeframe of 30 to 60 minutes, crucial for nanotechnology applications.</h4></li>
+              <li><h4>Nanotechnology Research: Ideal for nanotechnology research where achieving nano-sized particles is essential for enhanced material properties and performance.</h4></li>
+              <li><h4>Time-Efficient Operation: The automatic operation with time settings allows for efficient milling within specified durations, promoting productivity in laboratory settings.</h4></li>
+              <li><h4>Variable Speed Control: Variable speed adjustments provide flexibility in controlling the milling process, accommodating diverse materials and experimental requirements.</h4></li>
           </ul>
 
           <p>The Planetary Mill with TC Balls & Vial stands as a reliable tool in materials research and nanotechnology, offering precision, efficiency, and versatility in the milling and mixing of Advanced Ceramics. Its automated features and robust design make it an essential instrument for laboratories engaged in cutting-edge research and development.</p>
@@ -652,7 +724,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 10,
-      titleHead: 'Shaping',
+      mainHeader: "Pellet Press Machines 10 Tone",
+      titleHead: 'High-Quality Pellet Press Machines with 10 Ton Capacity | VBCC Research',
+      metaDesc: "Unleash productivity with our top-notch pellet press machine. Achieve precision and power with our 10-ton pellet press for quality pellets every time.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service10-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service10-sec-2.jpg',
       header: 'Shaping',
@@ -665,38 +739,38 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Pellet mill is a kind of machine that is used for producing pellets from powdered biomass material. It is also known as pellet press. It works very effectively and you can always rely on for the production of very fine pellets. To produce the small substances, it works by putting together smaller particles into larger and homogenous mass. It therefore implies that it doesn’t break the large materials into smaller substances.</p>
 
-    <h4>VBCC Press is used to compact the different kinds of Ceramic and Metal Powders into Pellet shape for variety of Applications and Characterization.</h4>
+    <h3>VBCC Press is used to compact the different kinds of Ceramic and Metal Powders into Pellet shape for variety of Applications and Characterization.</h3>
 
-    <h4>10-Ton Hydraulic Pellet Press - Manual Operation</h4>
+    <h3>10-Ton Hydraulic Pellet Press - Manual Operation</h3>
     <p>The 10-ton hydraulic pellet press, designed for manual operation, ensures precise and reliable pellet compaction for diverse applications.</p>
 
-    <h4>Capacity:</h4>
+    <h3>Capacity:</h3>
     <ul>
         <li>Press Capacity: 10 tons</li>
         <li>Cylinder Capacity: 10 tons (Max) - Driven by a robust hydraulic power unit.</li>
     </ul>
 
-    <h4>Design Features:</h4>
+    <h3>Design Features:</h3>
     <ul>
         <li>Piston Stroke: Maximum 50mm stroke for controlled pellet compaction.</li>
         <li>Ram Configuration: Stationary upper ram ensures stability during operation.</li>
         <li>Loading Type: Vertical up loading simplifies the process for user convenience.</li>
     </ul>
 
-    <h4>Dimensions and Construction:</h4>
+    <h3>Dimensions and Construction:</h3>
     <ul>
         <li>Daylight: Ample 120mm distance between punch and die for flexibility.</li>
         <li>Platen Size: 100mm diameter provides a uniform surface for pellet compression.</li>
         <li>Press Frame: Sturdy 2-pillar type construction ensures durability and stability.</li>
     </ul>
 
-    <h4>Pressure Control:</h4>
+    <h3>Pressure Control:</h3>
     <ul>
         <li>Pressure Gauge: Equipped with a precise digital pressure gauge for effective monitoring.</li>
         <li>Max Pressure: Capable of exerting a maximum pressure of 300 bars (30Mpa).</li>
     </ul>
 
-    <h4>Model and Dies:</h4>
+    <h3>Model and Dies:</h3>
     <ul>
         <li>Model: Designed as a Table Top model for easy placement and operation.</li>
         <li>Pellet Dies: Includes 12mm (2 nos) and 15mm (2 nos) pellet dies for versatile pellet size options.</li>
@@ -726,7 +800,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 11,
-      titleHead: 'Heat Treatment Facility',
+      mainHeader: "Box Furnace - up to 1200°C",
+      titleHead: 'High-Quality Industrial Box Furnace 1200°C  | VBCC Research',
+      metaDesc: "Elevate your industrial processes with our high-quality box furnace, designed to reach 1200°C. Experience efficiency and reliability like never before.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service11-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service11-sec-2.png',
       header: 'Heat Treatment Facility',
@@ -739,39 +815,39 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>A Box Furnace features a vertical lift or swing out door allowing the various sized product(s) to be placed in the furnace. Box Furnaces are utilized for heat-treating, calcining, curing, annealing, stress relieving, preheating, tempering, and other high temperature thermal processes.</p>
 
-          <h4>Box Furnace - up to 1200°C (5°C Ramp & 3hrs Dwell):</h4>
+          <h3>Box Furnace - up to 1200°C (5°C Ramp & 3hrs Dwell):</h3>
 
-          <h4>Features:</h4>
+          <h3>Features:</h3>
           <ul>
-              <li><strong>Vertical Lift or Swing Out Door:</strong> Allows convenient placement of various-sized products, ensuring flexibility in the heat-treating process.</li>
-              <li><strong>Working Temperature up to RT of 1200°C:</strong> Capable of accommodating high-temperature thermal processes such as annealing, stress relieving, and tempering.</li>
-              <li><strong>Tailor-Made Box Size:</strong> Customizable box dimensions tailored to meet specific customer requirements.</li>
-              <li><strong>Kanthal Heating Element:</strong> Utilizes high-quality heating elements from Sweden, ensuring durability and efficiency.</li>
-              <li><strong>1°C Accuracy at Dwell Temp:</strong> Precision control with a high level of accuracy, crucial for maintaining specific temperature conditions.</li>
-              <li><strong>Rapid Heating Rate (1 to 20°C/min) Programmable:</strong> Offers programmable heating rates for flexibility in different thermal applications.</li>
-              <li><strong>Suitable for Nanotechnology Applications:</strong> Designed to meet the specialized requirements of nanotechnology processes.</li>
-              <li><strong>Imported/Indigenized Insulation:</strong> Utilizes insulation materials sourced internationally or locally to ensure optimal thermal efficiency.</li>
-              <li><strong>Indigenous VBCC Make Phase Control Thyristor Controller:</strong> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
-              <li><strong>TAIE PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control for precise temperature regulation.</li>
+              <li><h4>Vertical Lift or Swing Out Door:</h4> Allows convenient placement of various-sized products, ensuring flexibility in the heat-treating process.</li>
+              <li><h4>Working Temperature up to RT of 1200°C:</h4> Capable of accommodating high-temperature thermal processes such as annealing, stress relieving, and tempering.</li>
+              <li><h4>Tailor-Made Box Size:</h4> Customizable box dimensions tailored to meet specific customer requirements.</li>
+              <li><h4>Kanthal Heating Element:</h4> Utilizes high-quality heating elements from Sweden, ensuring durability and efficiency.</li>
+              <li><h4>1°C Accuracy at Dwell Temp:</h4> Precision control with a high level of accuracy, crucial for maintaining specific temperature conditions.</li>
+              <li><h4>Rapid Heating Rate (1 to 20°C/min) Programmable:</h4> Offers programmable heating rates for flexibility in different thermal applications.</li>
+              <li><h4>Suitable for Nanotechnology Applications:</h4> Designed to meet the specialized requirements of nanotechnology processes.</li>
+              <li><h4>Imported/Indigenized Insulation:</h4> Utilizes insulation materials sourced internationally or locally to ensure optimal thermal efficiency.</li>
+              <li><h4>Indigenous VBCC Make Phase Control Thyristor Controller:</h4> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
+              <li><h4>TAIE PID Programmable Digital Temperature Indicator cum Controller:</h4> Features advanced PID control for precise temperature regulation.</li>
           </ul>
 
-          <h4>Operating Specifications:</h4>
+          <h3>Operating Specifications:</h3>
           <ul>
-              <li><strong>Available Space:</strong> 150 x 150 x 200 mm (lxbxh)</li>
-              <li><strong>Rate of Heating:</strong> 5°C/Min</li>
-              <li><strong>Equipment:</strong> Box Furnace - up to 1200°C</li>
-              <li><strong>Quantity/Time:</strong> 2 Hrs</li>
-              <li><strong>Working Zone:</strong> 150 x 150 x 200 mm</li>
+              <li><h4>Available Space:</h4> 150 x 150 x 200 mm (lxbxh)</li>
+              <li><h4>Rate of Heating:</h4> 5°C/Min</li>
+              <li><h4>Equipment:</h4> Box Furnace - up to 1200°C</li>
+              <li><h4>Quantity/Time:</h4> 2 Hrs</li>
+              <li><h4>Working Zone:</h4> 150 x 150 x 200 mm</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The Box Furnace operating at temperatures up to 1200°C with a 5°C ramp and 3hrs dwell finds extensive application in various thermal processes, including:</p>
           <ul>
-              <li><strong>Heat Treatment:</strong> Ideal for subjecting materials to controlled high temperatures for heat treatment.</li>
-              <li><strong>Sintering:</strong> Used for the sintering of oxides and clay materials to achieve desired properties.</li>
-              <li><strong>Annealing:</strong> Precision annealing processes to enhance material properties.</li>
-              <li><strong>Thermal Processing in Nanotechnology:</strong> Tailored for nanotechnology applications requiring specific temperature profiles.</li>
-              <li><strong>Calcining and Curing:</strong> Versatile for processes such as calcining and curing in different industries.</li>
+              <li><h4>Heat Treatment:</h4> Ideal for subjecting materials to controlled high temperatures for heat treatment.</li>
+              <li><h4>Sintering:</h4> Used for the sintering of oxides and clay materials to achieve desired properties.</li>
+              <li><h4>Annealing:</h4> Precision annealing processes to enhance material properties.</li>
+              <li><h4>Thermal Processing in Nanotechnology:</h4> Tailored for nanotechnology applications requiring specific temperature profiles.</li>
+              <li><h4>Calcining and Curing:</h4> Versatile for processes such as calcining and curing in different industries.</li>
           </ul>
 
           <p>The furnace's customizable features, precise temperature control, and adaptability make it a valuable tool for industries ranging from materials science to nanotechnology, ensuring optimal performance in various high-temperature thermal applications.</p>
@@ -799,7 +875,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 12,
-      titleHead: 'Heat Treatment Facility',
+      mainHeader: " Box Furnace - up to 1600°C ",
+      titleHead: 'High- Quality Box Furnace up to 1600°C  | VBCC Research',
+      metaDesc: "Discover precision with our high-quality box furnace, reaching temperatures up to 1600°C. Achieve unparalleled performance for your industrial needs.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service12-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service12-sec-2.jpg',
       header: 'Heat Treatment Facility',
@@ -812,39 +890,39 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>A Box Furnace features a vertical lift or swing out door allowing the various sized product(s) to be placed in the furnace. Box Furnaces are utilized for heat-treating, calcining, curing, annealing, stress relieving, preheating, tempering, and other high temperature thermal processes.</p>
 
-          <h4>Box Furnace - up to 1400°C (5°C Ramp & 3hrs Dwell):</h4>
+          <h3>Box Furnace - up to 1400°C (5°C Ramp & 3hrs Dwell):</h3>
 
           <h3>Features:</h3>
           <ul>
-              <li><strong>Vertical Lift or Swing Out Door:</strong> Enables convenient placement of various-sized products, ensuring flexibility in heat-treating processes.</li>
-              <li><strong>Working Temperature up to RT to 1400°C:</strong> Capable of accommodating high-temperature thermal processes such as annealing, stress relieving, and tempering, providing a wide temperature range.</li>
-              <li><strong>Tailor-Made Box Size:</strong> Customizable box dimensions tailored to meet specific customer requirements.</li>
-              <li><strong>Silicon Carbide Heating Elements:</strong> Utilizes high-quality heating elements from the USA, ensuring durability and efficiency at elevated temperatures.</li>
-              <li><strong>1°C Accuracy at Dwell Temp:</strong> Precision control with a high level of accuracy, crucial for maintaining specific temperature conditions during extended dwell times.</li>
-              <li><strong>Rapid Heating Rate (1 to 20°C/min) Programmable:</strong> Offers programmable heating rates for flexibility in different thermal applications.</li>
-              <li><strong>Suitable for Nanotechnology Applications:</strong> Designed to meet the specialized requirements of nanotechnology processes with high-temperature demands.</li>
-              <li><strong>Imported/Indigenized Insulation:</strong> Utilizes insulation materials sourced internationally or locally to ensure optimal thermal efficiency.</li>
-              <li><strong>Indigenous VBCC Make Phase Control Thyristor Controller:</strong> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
-              <li><strong>TAIE PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control for precise temperature regulation.</li>
+              <li><h4>Vertical Lift or Swing Out Door:</h4> Enables convenient placement of various-sized products, ensuring flexibility in heat-treating processes.</li>
+              <li><h4>Working Temperature up to RT to 1400°C:</h4> Capable of accommodating high-temperature thermal processes such as annealing, stress relieving, and tempering, providing a wide temperature range.</li>
+              <li><h4>Tailor-Made Box Size:</h4> Customizable box dimensions tailored to meet specific customer requirements.</li>
+              <li><h4>Silicon Carbide Heating Elements:</h4> Utilizes high-quality heating elements from the USA, ensuring durability and efficiency at elevated temperatures.</li>
+              <li><h4>1°C Accuracy at Dwell Temp:</h4> Precision control with a high level of accuracy, crucial for maintaining specific temperature conditions during extended dwell times.</li>
+              <li><h4>Rapid Heating Rate (1 to 20°C/min) Programmable:</h4> Offers programmable heating rates for flexibility in different thermal applications.</li>
+              <li><h4>Suitable for Nanotechnology Applications:</h4> Designed to meet the specialized requirements of nanotechnology processes with high-temperature demands.</li>
+              <li><h4>Imported/Indigenized Insulation:</h4> Utilizes insulation materials sourced internationally or locally to ensure optimal thermal efficiency.</li>
+              <li><h4>Indigenous VBCC Make Phase Control Thyristor Controller:</h4> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
+              <li><h4>TAIE PID Programmable Digital Temperature Indicator cum Controller:</h4> Features advanced PID control for precise temperature regulation.</li>
           </ul>
 
           <h3>Operating Specifications:</h3>
           <ul>
-              <li><strong>Available Space:</strong> 150 x 150 x 200 mm (lxbxh)</li>
-              <li><strong>Rate of Heating:</strong> 5°C/Min</li>
-              <li><strong>Equipment:</strong> Box Furnace - up to 1400°C</li>
-              <li><strong>Quantity/Time:</strong> 2 Hrs</li>
-              <li><strong>Working Zone:</strong> 150 x 150 x 200 mm</li>
+              <li><h4>Available Space:</h4> 150 x 150 x 200 mm (lxbxh)</li>
+              <li><h4>Rate of Heating:</h4> 5°C/Min</li>
+              <li><h4>Equipment:</h4> Box Furnace - up to 1400°C</li>
+              <li><h4>Quantity/Time:</h4> 2 Hrs</li>
+              <li><h4>Working Zone:</h4> 150 x 150 x 200 mm</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The Box Furnace operating at temperatures up to 1400°C with a 5°C ramp and 3hrs dwell is versatile and finds applications in various thermal processes, including:</p>
           <ul>
-              <li><strong>Heat Treatment:</strong> Ideal for subjecting materials to controlled high temperatures for heat treatment.</li>
-              <li><strong>Sintering:</strong> Used for the sintering of oxides and clay materials to achieve desired properties.</li>
-              <li><strong>Annealing:</strong> Precision annealing processes to enhance material properties.</li>
-              <li><strong>Thermal Processing in Nanotechnology:</strong> Tailored for nanotechnology applications requiring specific temperature profiles at elevated ranges.</li>
-              <li><strong>Calcining and Curing:</strong> Versatile for processes such as calcining and curing in different industries.</li>
+              <li><h4>Heat Treatment:</h4> Ideal for subjecting materials to controlled high temperatures for heat treatment.</li>
+              <li><h4>Sintering:</h4> Used for the sintering of oxides and clay materials to achieve desired properties.</li>
+              <li><h4>Annealing:</h4> Precision annealing processes to enhance material properties.</li>
+              <li><h4>Thermal Processing in Nanotechnology:</h4> Tailored for nanotechnology applications requiring specific temperature profiles at elevated ranges.</li>
+              <li><h4>Calcining and Curing:</h4> Versatile for processes such as calcining and curing in different industries.</li>
           </ul>
 
           <p>The furnace's customizable features, precise temperature control, and adaptability make it an indispensable tool for industries ranging from materials science to nanotechnology, ensuring optimal performance in various high-temperature thermal applications.</p>
@@ -889,35 +967,35 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
           <h3>Features:</h3>
           <ul>
-              <li><strong>Vertical Lift or Swing Out Door:</strong> Facilitates easy placement of various-sized products, enhancing flexibility in high-temperature thermal processes.</li>
-              <li><strong>Working Temperature up to RT to 1600°C:</strong> Offers an extensive temperature range, suitable for diverse applications such as annealing, stress relieving, and tempering at extreme temperatures.</li>
-              <li><strong>Tailor-Made Box Size:</strong> Customizable box dimensions to meet specific customer requirements, ensuring adaptability for various production needs.</li>
-              <li><strong>Molybdenum Di Silicide Heating Elements:</strong> Utilizes high-quality heating elements from the USA, specifically molybdenum di silicide, ensuring robustness and efficiency at ultra-high temperatures.</li>
-              <li><strong>1°C Accuracy at Dwell Temp:</strong> Precise temperature control with high accuracy, crucial for maintaining specific temperature conditions during extended dwell times at extreme temperatures.</li>
-              <li><strong>Rapid Heating Rate (1 to 20°C/min) Programmable:</strong> Offers programmable heating rates for flexibility in different thermal applications, ensuring efficient and time-sensitive processing.</li>
-              <li><strong>Suitable for Nanotechnology Applications:</strong> Tailored to meet the demanding requirements of nanotechnology processes that necessitate extreme temperature conditions.</li>
-              <li><strong>Imported/Indigenized Insulation:</strong> Utilizes a combination of insulation materials sourced internationally or locally to ensure optimal thermal efficiency.</li>
-              <li><strong>Indigenous VBCC Make Phase Control Thyristor Controller:</strong> Employs an indigenous thyristor controller for efficient and reliable temperature control at extremely high temperatures.</li>
-              <li><strong>Eurotherm PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control from Eurotherm for precise temperature regulation in extreme thermal environments.</li>
+              <li><h4>Vertical Lift or Swing Out Door:</h4> Facilitates easy placement of various-sized products, enhancing flexibility in high-temperature thermal processes.</li>
+              <li><h4>Working Temperature up to RT to 1600°C:</h4> Offers an extensive temperature range, suitable for diverse applications such as annealing, stress relieving, and tempering at extreme temperatures.</li>
+              <li><h4>Tailor-Made Box Size:</h4> Customizable box dimensions to meet specific customer requirements, ensuring adaptability for various production needs.</li>
+              <li><h4>Molybdenum Di Silicide Heating Elements:</h4> Utilizes high-quality heating elements from the USA, specifically molybdenum di silicide, ensuring robustness and efficiency at ultra-high temperatures.</li>
+              <li><h4>1°C Accuracy at Dwell Temp:</h4> Precise temperature control with high accuracy, crucial for maintaining specific temperature conditions during extended dwell times at extreme temperatures.</li>
+              <li><h4>Rapid Heating Rate (1 to 20°C/min) Programmable:</h4> Offers programmable heating rates for flexibility in different thermal applications, ensuring efficient and time-sensitive processing.</li>
+              <li><h4>Suitable for Nanotechnology Applications:</h4> Tailored to meet the demanding requirements of nanotechnology processes that necessitate extreme temperature conditions.</li>
+              <li><h4>Imported/Indigenized Insulation:</h4> Utilizes a combination of insulation materials sourced internationally or locally to ensure optimal thermal efficiency.</li>
+              <li><h4>Indigenous VBCC Make Phase Control Thyristor Controller:</h4> Employs an indigenous thyristor controller for efficient and reliable temperature control at extremely high temperatures.</li>
+              <li><h4>Eurotherm PID Programmable Digital Temperature Indicator cum Controller:</h4> Features advanced PID control from Eurotherm for precise temperature regulation in extreme thermal environments.</li>
           </ul>
 
           <h3>Operating Specifications:</h3>
           <ul>
-              <li><strong>Available Space:</strong> 150 x 150 x 200 mm (lxbxh)</li>
-              <li><strong>Rate of Heating:</strong> 5°C/Min</li>
-              <li><strong>Equipment:</strong> Box Furnace - up to 1600°C</li>
-              <li><strong>Quantity/Time:</strong> 2 Hrs</li>
-              <li><strong>Working Zone:</strong> 150 x 150 x 200 mm</li>
+              <li><h4>Available Space:</h4> 150 x 150 x 200 mm (lxbxh)</li>
+              <li><h4>Rate of Heating:</h4> 5°C/Min</li>
+              <li><h4>Equipment:</h4> Box Furnace - up to 1600°C</li>
+              <li><h4>Quantity/Time:</h4> 2 Hrs</li>
+              <li><h4>Working Zone:</h4> 150 x 150 x 200 mm</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The Box Furnace operating at temperatures up to 1600°C with a 5°C ramp and 3hrs dwell is designed for various high-temperature thermal processes, including:</p>
           <ul>
-              <li><strong>Heat Treatment at Extreme Temperatures:</strong> Ideal for subjecting materials to controlled high temperatures for heat treatment under extreme conditions.</li>
-              <li><strong>Advanced Sintering:</strong> Utilized for the advanced sintering of oxides and clay materials, achieving specific properties at extreme temperature ranges.</li>
-              <li><strong>Specialized Annealing:</strong> Precision annealing processes at ultra-high temperatures to enhance material properties in unique applications.</li>
-              <li><strong>Extreme Temperature Thermal Processing in Nanotechnology:</strong> Tailored for nanotechnology applications requiring specific temperature profiles at exceptionally high ranges.</li>
-              <li><strong>Innovative Calcining and Curing:</strong> Versatile for innovative processes such as calcining and curing in industries where extreme temperatures are essential.</li>
+              <li><h4>Heat Treatment at Extreme Temperatures:</h4> Ideal for subjecting materials to controlled high temperatures for heat treatment under extreme conditions.</li>
+              <li><h4>Advanced Sintering:</h4> Utilized for the advanced sintering of oxides and clay materials, achieving specific properties at extreme temperature ranges.</li>
+              <li><h4>Specialized Annealing:</h4> Precision annealing processes at ultra-high temperatures to enhance material properties in unique applications.</li>
+              <li><h4>Extreme Temperature Thermal Processing in Nanotechnology:</h4> Tailored for nanotechnology applications requiring specific temperature profiles at exceptionally high ranges.</li>
+              <li><h4>Innovative Calcining and Curing:</h4> Versatile for innovative processes such as calcining and curing in industries where extreme temperatures are essential.</li>
           </ul>
 
           <p>The furnace's customizable features, precise temperature control, and adaptability make it an essential tool for industries pushing the boundaries of material science and nanotechnology, ensuring optimal performance in various extreme high-temperature thermal applications.</p>
@@ -945,7 +1023,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 14,
-      titleHead: 'Heat Treatment Facility',
+      mainHeader: "Tubular Furnace with Controlled atmosphere 1200°C",
+      titleHead: 'Efficient Tubular Furnace 1200°C  | VBCC Research',
+      metaDesc: "Unlock precision with our Efficient Tubular Furnace 1200°C. Explore high-temperature possibilities for advanced applications.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service14-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service14-sec-2.jpg',
       header: 'Heat Treatment Facility',
@@ -959,41 +1039,41 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>A tube furnace is an electric heating device used to conduct syntheses and purifications of inorganic compounds and occasionally in organic synthesis. One possible design consists of a cylindrical cavity surrounded by heating coils that are embedded in a thermally insulating matrix.</p>
 
-          <h4>Tubular Furnace with Controlled Atmosphere 1200°C:</h4>
+          <h3>Tubular Furnace with Controlled Atmosphere 1200°C:</h3>
 
           <h3>Features:</h3>
           <ul>
-              <li><strong>Electric Heating Device:</strong> Specifically designed for syntheses and purifications of inorganic compounds, with occasional use in organic synthesis, using electric heating technology.</li>
-              <li><strong>Working Temperature up to RT to 1200°C:</strong> Offers a broad temperature range suitable for various applications, from ambient conditions to high-temperature processes.</li>
-              <li><strong>Tailor-Made Tubular Size:</strong> Customizable tubular dimensions to meet specific customer requirements, ensuring adaptability for diverse applications.</li>
-              <li><strong>Alumina Tubes (90% to 99.7%):</strong> Utilizes high-purity alumina tubes to withstand high temperatures and harsh chemical environments.</li>
-              <li><strong>Kanthal Heating Element:</strong> Incorporates quality Kanthal heating elements from Sweden, known for their efficiency and durability.</li>
-              <li><strong>1°C Accuracy at Dwell Temp:</strong> Maintains precise temperature control, critical for conducting controlled syntheses and purifications.</li>
-              <li><strong>Controlled Heating Rate (1 to 5°C/min) Programmable:</strong> Allows programmable heating rates for tailored thermal processing, accommodating various synthesis and purification requirements.</li>
-              <li><strong>Suitable for Nanotechnology Applications:</strong> Designed to meet the specialized temperature needs of nanotechnology processes.</li>
-              <li><strong>Imported/Indigenized Insulation:</strong> Combines insulation materials sourced internationally or locally for optimal thermal efficiency.</li>
-              <li><strong>Indigenous VBCC Make Phase Control Thyristor Controller:</strong> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
-              <li><strong>TAIE PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control from TAIE for precise and programmable temperature regulation.</li>
+              <li><h4>Electric Heating Device:</h4> Specifically designed for syntheses and purifications of inorganic compounds, with occasional use in organic synthesis, using electric heating technology.</li>
+              <li><h4>Working Temperature up to RT to 1200°C:</h4> Offers a broad temperature range suitable for various applications, from ambient conditions to high-temperature processes.</li>
+              <li><h4>Tailor-Made Tubular Size:</h4> Customizable tubular dimensions to meet specific customer requirements, ensuring adaptability for diverse applications.</li>
+              <li><h4>Alumina Tubes (90% to 99.7%):</h4> Utilizes high-purity alumina tubes to withstand high temperatures and harsh chemical environments.</li>
+              <li><h4>Kanthal Heating Element:</h4> Incorporates quality Kanthal heating elements from Sweden, known for their efficiency and durability.</li>
+              <li><h4>1°C Accuracy at Dwell Temp:</h4> Maintains precise temperature control, critical for conducting controlled syntheses and purifications.</li>
+              <li><h4>Controlled Heating Rate (1 to 5°C/min) Programmable:</h4> Allows programmable heating rates for tailored thermal processing, accommodating various synthesis and purification requirements.</li>
+              <li><h4>Suitable for Nanotechnology Applications:</h4> Designed to meet the specialized temperature needs of nanotechnology processes.</li>
+              <li><h4>Imported/Indigenized Insulation:</h4> Combines insulation materials sourced internationally or locally for optimal thermal efficiency.</li>
+              <li><h4>Indigenous VBCC Make Phase Control Thyristor Controller:</h4> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
+              <li><h4>TAIE PID Programmable Digital Temperature Indicator cum Controller:</h4> Features advanced PID control from TAIE for precise and programmable temperature regulation.</li>
           </ul>
 
           <h3>Operating Specifications:</h3>
           <ul>
-              <li><strong>Available Space:</strong> 60(ID) x 200(L) mm</li>
-              <li><strong>Rate of Heating:</strong> 1 to 10°C/Min (Normally 10°C/Min)</li>
-              <li><strong>Equipment:</strong> Tubular Furnace with Controlled Atmosphere - 1200°C with Cold Vacuum and Argon Purging</li>
-              <li><strong>Quantity/Time:</strong> 2 Hrs</li>
-              <li><strong>Working Zone:</strong> 50x150 mm</li>
+              <li><h4>Available Space:</h4> 60(ID) x 200(L) mm</li>
+              <li><h4>Rate of Heating:</h4> 1 to 10°C/Min (Normally 10°C/Min)</li>
+              <li><h4>Equipment:</h4> Tubular Furnace with Controlled Atmosphere - 1200°C with Cold Vacuum and Argon Purging</li>
+              <li><h4>Quantity/Time:</h4> 2 Hrs</li>
+              <li><h4>Working Zone:</h4> 50x150 mm</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The Tubular Furnace with Controlled Atmosphere 1200°C, featuring Cold Vacuum and Argon Purging, is highly versatile and finds applications in:</p>
           <ul>
-              <li><strong>Inorganic Compound Synthesis:</strong> Ideal for conducting precise syntheses of inorganic compounds with controlled atmospheric conditions.</li>
-              <li><strong>Purification Processes:</strong> Ensures optimal conditions for purifying materials, especially inorganic substances.</li>
-              <li><strong>Organic Synthesis:</strong> Occasionally utilized in organic synthesis processes that demand controlled high temperatures.</li>
-              <li><strong>Nanotechnology Research:</strong> Tailored for nanotechnology applications requiring specific temperature profiles and controlled atmospheres.</li>
-              <li><strong>Material Purification under Argon or Nitrogen Atmospheres:</strong> Suited for operations under controlled gaseous environments, including Argon and Nitrogen.</li>
-              <li><strong>Ambient to High-Temperature Processes:</strong> Versatile temperature range for a broad spectrum of thermal applications.</li>
+              <li><h4>Inorganic Compound Synthesis:</h4> Ideal for conducting precise syntheses of inorganic compounds with controlled atmospheric conditions.</li>
+              <li><h4>Purification Processes:</h4> Ensures optimal conditions for purifying materials, especially inorganic substances.</li>
+              <li><h4>Organic Synthesis:</h4> Occasionally utilized in organic synthesis processes that demand controlled high temperatures.</li>
+              <li><h4>Nanotechnology Research:</h4> Tailored for nanotechnology applications requiring specific temperature profiles and controlled atmospheres.</li>
+              <li><h4>Material Purification under Argon or Nitrogen Atmospheres:</h4> Suited for operations under controlled gaseous environments, including Argon and Nitrogen.</li>
+              <li><h4>Ambient to High-Temperature Processes:</h4> Versatile temperature range for a broad spectrum of thermal applications.</li>
           </ul>
 
           <p>The tubular furnace's precise temperature control, programmable features, and adaptability make it an essential tool for researchers and industries involved in cutting-edge materials synthesis, purification, and nanotechnology applications.</p>
@@ -1023,7 +1103,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 15,
-      titleHead: 'Heat Treatment Facility',
+      mainHeader: "Tubular Furnace Electric Heating Device with Controlled atmosphere 1600°C",
+      titleHead: 'Tubular Furnace 1600°C Electric Heating Device | VBCC Research',
+      metaDesc: "Explore high-performance 1600°C tubular furnaces – precision heating devices for your experiments. Trust the efficiency of electric tube furnaces.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service15-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service15-sec-2.jpg',
       header: 'Heat Treatment Facility',
@@ -1037,40 +1119,40 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>A tube furnace is an electric heating device used to conduct syntheses and purifications of inorganic compounds and occasionally in organic synthesis. One possible design consists of a cylindrical cavity surrounded by heating coils that are embedded in a thermally insulating matrix.</p>
 
-          <h4>Features:</h4>
+          <h3>Features:</h3>
           <ul>
-              <li><strong>Electric Heating Device:</strong> A tube furnace designed for conducting syntheses and purifications of inorganic compounds, occasionally applied in organic synthesis.</li>
-              <li><strong>Working Temperature up to RT to 1600°C:</strong> Offers an extensive temperature range suitable for a variety of applications, from ambient conditions to high-temperature processes.</li>
-              <li><strong>Tailor-Made Tubular Size:</strong> Customizable tubular dimensions to meet specific customer requirements, ensuring adaptability for diverse applications.</li>
-              <li><strong>Molybdenum Di Silicide Heating Elements (USA):</strong> Utilizes high-quality heating elements known for their efficiency and durability, ensuring consistent performance.</li>
-              <li><strong>Imported RCA Tube from Halden Wanger (Germany):</strong> Incorporates a high-quality RCA tube for enhanced reliability and performance.</li>
-              <li><strong>1°C Accuracy at Dwell Temp:</strong> Maintains precise temperature control, crucial for conducting controlled syntheses and purifications.</li>
-              <li><strong>Rapid Heating Rate (1 to 5°C/min) Programmable:</strong> Allows programmable heating rates for tailored thermal processing, accommodating various synthesis and purification requirements.</li>
-              <li><strong>Suitable for Nanotechnology Applications:</strong> Specifically designed to meet the specialized temperature needs of nanotechnology processes.</li>
-              <li><strong>Indigenously Developed Susceptor:</strong> Ensures reliable heat generation within the furnace, contributing to the overall efficiency of the system.</li>
-              <li><strong>Imported/Indigenized Insulation:</strong> Combines insulation materials sourced internationally or locally for optimal thermal efficiency.</li>
-              <li><strong>Indigenous VBCC Make Phase Control Thyristor Controller:</strong> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
-              <li><strong>Eurotherm PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control from Eurotherm for precise and programmable temperature regulation.</li>
-              <li><strong>Optional Rough Vacuum:</strong> Offers the flexibility of operating under rough vacuum conditions, enhancing the furnace's versatility.</li>
+              <li><h4>Electric Heating Device:</h4> A tube furnace designed for conducting syntheses and purifications of inorganic compounds, occasionally applied in organic synthesis.</li>
+              <li><h4>Working Temperature up to RT to 1600°C:</h4> Offers an extensive temperature range suitable for a variety of applications, from ambient conditions to high-temperature processes.</li>
+              <li><h4>Tailor-Made Tubular Size:</h4> Customizable tubular dimensions to meet specific customer requirements, ensuring adaptability for diverse applications.</li>
+              <li><h4>Molybdenum Di Silicide Heating Elements (USA):</h4> Utilizes high-quality heating elements known for their efficiency and durability, ensuring consistent performance.</li>
+              <li><h4>Imported RCA Tube from Halden Wanger (Germany):</h4> Incorporates a high-quality RCA tube for enhanced reliability and performance.</li>
+              <li><h4>1°C Accuracy at Dwell Temp:</h4> Maintains precise temperature control, crucial for conducting controlled syntheses and purifications.</li>
+              <li><h4>Rapid Heating Rate (1 to 5°C/min) Programmable:</h4> Allows programmable heating rates for tailored thermal processing, accommodating various synthesis and purification requirements.</li>
+              <li><h4>Suitable for Nanotechnology Applications:</h4> Specifically designed to meet the specialized temperature needs of nanotechnology processes.</li>
+              <li><h4>Indigenously Developed Susceptor:</h4> Ensures reliable heat generation within the furnace, contributing to the overall efficiency of the system.</li>
+              <li><h4>Imported/Indigenized Insulation:</h4> Combines insulation materials sourced internationally or locally for optimal thermal efficiency.</li>
+              <li><h4>Indigenous VBCC Make Phase Control Thyristor Controller:</h4> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
+              <li><h4>Eurotherm PID Programmable Digital Temperature Indicator cum Controller:</h4> Features advanced PID control from Eurotherm for precise and programmable temperature regulation.</li>
+              <li><h4>Optional Rough Vacuum:</h4> Offers the flexibility of operating under rough vacuum conditions, enhancing the furnace's versatility.</li>
           </ul>
 
-          <h4>Operating Specifications:</h4>
+          <h3>Operating Specifications:</h3>
           <ul>
-              <li><strong>Available Space:</strong> 60(ID) x 200(L) mm</li>
-              <li><strong>Rate of Heating:</strong> 1 to 10°C/Min (Normally 10°C/Min)</li>
-              <li><strong>Equipment:</strong> Tubular Furnace with Controlled Atmosphere - 1600°C with Argon Purging</li>
-              <li><strong>Quantity/Time:</strong> 3 Hrs</li>
-              <li><strong>Working Zone:</strong> 50x150 mm</li>
+              <li><h4>Available Space:</h4> 60(ID) x 200(L) mm</li>
+              <li><h4>Rate of Heating:</h4> 1 to 10°C/Min (Normally 10°C/Min)</li>
+              <li><h4>Equipment:</h4> Tubular Furnace with Controlled Atmosphere - 1600°C with Argon Purging</li>
+              <li><h4>Quantity/Time:</h4> 3 Hrs</li>
+              <li><h4>Working Zone:</h4> 50x150 mm</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The Tubular Furnace with Controlled Atmosphere 1600°C, featuring Cold Vacuum and Argon Purging, excels in various applications:</p>
           <ul>
-              <li><strong>High-Temperature Syntheses:</strong> Ideal for conducting syntheses requiring extremely high temperatures up to 1600°C.</li>
-              <li><strong>Advanced Materials Research:</strong> Suited for nanotechnology research, providing precise temperature control for material synthesis.</li>
-              <li><strong>Inorganic Compound Purification:</strong> Ensures optimal conditions for purifying inorganic compounds under controlled atmospheres.</li>
-              <li><strong>Temperature-Sensitive Processes:</strong> The precise temperature control makes it suitable for processes where maintaining specific temperature profiles is critical.</li>
-              <li><strong>Rough Vacuum Applications:</strong> Optional rough vacuum capability extends its utility for a broader range of processes.</li>
+              <li><h4>High-Temperature Syntheses:</h4> Ideal for conducting syntheses requiring extremely high temperatures up to 1600°C.</li>
+              <li><h4>Advanced Materials Research:</h4> Suited for nanotechnology research, providing precise temperature control for material synthesis.</li>
+              <li><h4>Inorganic Compound Purification:</h4> Ensures optimal conditions for purifying inorganic compounds under controlled atmospheres.</li>
+              <li><h4>Temperature-Sensitive Processes:</h4> The precise temperature control makes it suitable for processes where maintaining specific temperature profiles is critical.</li>
+              <li><h4>Rough Vacuum Applications:</h4> Optional rough vacuum capability extends its utility for a broader range of processes.</li>
           </ul>
 
           <p>The Tubular Furnace with Controlled Atmosphere 1600°C stands as a versatile and reliable tool for researchers and industries engaged in cutting-edge materials synthesis, purification, and advanced research applications.</p>
@@ -1101,7 +1183,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 16,
-      titleHead: 'Heat Treatment Facility',
+      mainHeader: "Microwave Laboratory Furnace upto 1500°C",
+      titleHead: 'High-Performance Microwave Furnace up to 1500°C | VBCC Research',
+      metaDesc: "Unlock precision with our High-Performance Microwave Furnace up to 1500°C. Explore advanced laboratory furnace for testing.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service16-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service16-sec-2.jpg',
       header: 'Heat Treatment Facility',
@@ -1114,41 +1198,41 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Microwave furnace is another type of laboratory furnace used to carry out thermal research protocols. Microwave furnaces represent a system that combines free radiating heating elements with a microwave field. Traditional heating elements heat material from the outside in, and microwave energy heats volumetrically. Key advantages include greater energy efficiency, faster sample heating, more uniform heating, and improved material properties.</p>
 
-          <h4>Microwave Furnace up to 1500°C:</h4>
+          <h3>Microwave Furnace up to 1500°C:</h3>
 
-          <h3>Features:</h3>
+          <h4>Features:</h4>
           <ul>
-              <li><strong>Innovative Heating Technology:</strong> Utilizes a combination of free radiating heating elements and a microwave field, offering advantages in energy efficiency and sample heating compared to traditional methods.</li>
-              <li><strong>Working Temperature up to RT to 1500°C:</strong> Provides a broad temperature range suitable for various thermal research protocols, accommodating a wide range of material processing needs.</li>
-              <li><strong>Up to 10 KW with 2.45 GHz of Magnetron:</strong> Employs a high-power magnetron for efficient microwave energy generation, ensuring rapid and uniform sample heating.</li>
-              <li><strong>1°C Accuracy at Dwell Temp:</strong> Maintains precise temperature control, crucial for achieving reproducible and accurate results in thermal research.</li>
-              <li><strong>Rapid Heating Rate (100°C/min) Programmable:</strong> Offers programmable heating rates of up to 100°C/min, enabling quick and efficient sample processing.</li>
-              <li><strong>Suitable for Nanotechnology Applications:</strong> Specifically designed for nanotechnology research, providing uniform and controlled heating for material synthesis.</li>
-              <li><strong>Indigenously Developed Susceptor:</strong> Ensures reliable and efficient heat generation within the furnace, contributing to the overall performance of the system.</li>
-              <li><strong>Imported Insulation (Portable Susceptor):</strong> Incorporates high-quality insulation, optimizing energy efficiency and maintaining a portable design.</li>
-              <li><strong>Indigenous VBCC Make Phase Control Thyristor Controller:</strong> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
-              <li><strong>Eurotherm PID Programmable Digital Temperature Indicator cum Controller:</strong> Features advanced PID control from Eurotherm for precise and programmable temperature regulation.</li>
-              <li><strong>Computer Control (Optional):</strong> Offers the flexibility of computer control for enhanced automation and data management.</li>
-              <li><strong>Data Logging (Optional):</strong> Provides an optional data logging feature for recording and analyzing experimental data.</li>
+              <li><h4>Innovative Heating Technology:</h4> Utilizes a combination of free radiating heating elements and a microwave field, offering advantages in energy efficiency and sample heating compared to traditional methods.</li>
+              <li><h4>Working Temperature up to RT to 1500°C:</h4> Provides a broad temperature range suitable for various thermal research protocols, accommodating a wide range of material processing needs.</li>
+              <li><h4>Up to 10 KW with 2.45 GHz of Magnetron:</h4> Employs a high-power magnetron for efficient microwave energy generation, ensuring rapid and uniform sample heating.</li>
+              <li><h4>1°C Accuracy at Dwell Temp:</h4> Maintains precise temperature control, crucial for achieving reproducible and accurate results in thermal research.</li>
+              <li><h4>Rapid Heating Rate (100°C/min) Programmable:</h4> Offers programmable heating rates of up to 100°C/min, enabling quick and efficient sample processing.</li>
+              <li><h4>Suitable for Nanotechnology Applications:</h4> Specifically designed for nanotechnology research, providing uniform and controlled heating for material synthesis.</li>
+              <li><h4>Indigenously Developed Susceptor:</h4> Ensures reliable and efficient heat generation within the furnace, contributing to the overall performance of the system.</li>
+              <li><h4>Imported Insulation (Portable Susceptor):</h4> Incorporates high-quality insulation, optimizing energy efficiency and maintaining a portable design.</li>
+              <li><h4>Indigenous VBCC Make Phase Control Thyristor Controller:</h4> Employs an indigenous thyristor controller for efficient and reliable temperature control.</li>
+              <li><h4>Eurotherm PID Programmable Digital Temperature Indicator cum Controller:</h4> Features advanced PID control from Eurotherm for precise and programmable temperature regulation.</li>
+              <li><h4>Computer Control (Optional):</h4> Offers the flexibility of computer control for enhanced automation and data management.</li>
+              <li><h4>Data Logging (Optional):</h4> Provides an optional data logging feature for recording and analyzing experimental data.</li>
           </ul>
 
           <h3>Operating Specifications:</h3>
           <ul>
-              <li><strong>Available Space:</strong> 75 x 75 x 75 mm</li>
-              <li><strong>Rate of Heating:</strong> 1 to 25°C/Min</li>
-              <li><strong>Equipment:</strong> Microwave Furnace up to 1500°C</li>
-              <li><strong>Quantity/Time:</strong> 30 min</li>
-              <li><strong>Working Zone:</strong> 25x25x50 mm</li>
+              <li><h4>Available Space:</h4> 75 x 75 x 75 mm</li>
+              <li><h4>Rate of Heating:</h4> 1 to 25°C/Min</li>
+              <li><h4>Equipment:</h4> Microwave Furnace up to 1500°C</li>
+              <li><h4>Quantity/Time:</h4> 30 min</li>
+              <li><h4>Working Zone:</h4> 25x25x50 mm</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>The Microwave Furnace up to 1500°C, featuring a 20°C ramp and 30 min dwell, offers versatile applications in thermal research:</p>
           <ul>
-              <li><strong>Material Synthesis:</strong> Enables efficient and uniform heating for synthesizing advanced materials, especially in nanotechnology applications.</li>
-              <li><strong>Heat Treatment Protocols:</strong> Ideal for conducting heat treatment processes with precise temperature control and rapid heating rates.</li>
-              <li><strong>Energy-Efficient Research:</strong> Enhances energy efficiency compared to traditional methods, making it suitable for sustainable research practices.</li>
-              <li><strong>Uniform Sample Heating:</strong> Ensures uniform heating throughout the sample, contributing to more consistent and reliable experimental outcomes.</li>
-              <li><strong>Quick Experimental Turnaround:</strong> The rapid heating rate allows for shortened experimental durations, improving overall research efficiency.</li>
+              <li><h4>Material Synthesis:</h4> Enables efficient and uniform heating for synthesizing advanced materials, especially in nanotechnology applications.</li>
+              <li><h4>Heat Treatment Protocols:</h4> Ideal for conducting heat treatment processes with precise temperature control and rapid heating rates.</li>
+              <li><h4>Energy-Efficient Research:</h4> Enhances energy efficiency compared to traditional methods, making it suitable for sustainable research practices.</li>
+              <li><h4>Uniform Sample Heating:</h4> Ensures uniform heating throughout the sample, contributing to more consistent and reliable experimental outcomes.</li>
+              <li><h4>Quick Experimental Turnaround:</h4> The rapid heating rate allows for shortened experimental durations, improving overall research efficiency.</li>
           </ul>
 
           <p>The Microwave Furnace up to 1500°C stands as a cutting-edge tool for researchers engaged in thermal studies, offering advanced features and performance for a wide range of material processing applications.</p>
@@ -1177,7 +1261,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 17,
-      titleHead: 'Nano coating techniques',
+      mainHeader: "Spin Coating Machine",
+      titleHead: 'Quality Spin Coating Equipment with Technology | VBCC Research',
+      metaDesc: "Achieve Precision in Thin Film Deposition with Our Spin Coating Machines with Quality Equipment in Spin Coating Technology.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service17-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service17-sec-2.jpg',
       header: 'Nano coating techniques',
@@ -1190,27 +1276,27 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Spin coating is a specialized technique used for applying thin films with exceptional uniformity across the surface of a substrate. This process involves coating a rotating substrate with a solution—often referred to as an "ink"—resulting in the creation of a thin, even film of solid material.</p>
 
-    <h4>How It Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Solution Application: A liquid solution, containing the desired material dissolved in a solvent, is cast onto a rotating substrate.</li>
-        <li>Centrifugal Force: High-speed rotation (typically >10 rotations per second) generates centripetal force, combined with surface tension, which uniformly spreads the liquid coating.</li>
-        <li>Evaporation: While spinning, the solvent in the solution evaporates, leaving behind a thin, even layer of the desired material on the substrate.</li>
+        <li><h4>Solution Application: A liquid solution, containing the desired material dissolved in a solvent, is cast onto a rotating substrate.</h4></li>
+        <li><h4>Centrifugal Force: High-speed rotation (typically >10 rotations per second) generates centripetal force, combined with surface tension, which uniformly spreads the liquid coating.</h4></li>
+        <li><h4>Evaporation: While spinning, the solvent in the solution evaporates, leaving behind a thin, even layer of the desired material on the substrate.</h4></li>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ol>
-        <li>Semiconductor Fabrication: Essential in semiconductor manufacturing for applying uniform coatings of photoresists and other materials.</li>
-        <li>Optoelectronic Devices: Used in the production of optoelectronic devices, such as light-emitting diodes (LEDs) and solar cells, to create precise thin films.</li>
-        <li>Organic Electronics: Applied in the fabrication of organic electronic devices like organic light-emitting diodes (OLEDs) and organic photovoltaic cells.</li>
-        <li>Biosensor Development: Utilized for coating biosensors to ensure a consistent and thin layer for accurate sensing.</li>
+        <li><h4>Semiconductor Fabrication: Essential in semiconductor manufacturing for applying uniform coatings of photoresists and other materials.</h4></li>
+        <li><h4>Optoelectronic Devices: Used in the production of optoelectronic devices, such as light-emitting diodes (LEDs) and solar cells, to create precise thin films.</h4></li>
+        <li><h4>Organic Electronics: Applied in the fabrication of organic electronic devices like organic light-emitting diodes (OLEDs) and organic photovoltaic cells.</h4></li>
+        <li><h4>Biosensor Development: Utilized for coating biosensors to ensure a consistent and thin layer for accurate sensing.</h4></li>
     </ol>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ol>
-        <li>Uniformity: Ensures exceptional uniformity in thin film deposition, critical for applications in microelectronics and optics.</li>
-        <li>Precision and Control: Offers precise control over film thickness, crucial in industries requiring accurate and consistent coatings.</li>
-        <li>Versatility: Applicable to a wide range of materials, making it versatile for various industries and applications.</li>
-        <li>High Throughput: Rapid coating process allows for high throughput in manufacturing, contributing to overall efficiency.</li>
+        <li><h4>Uniformity: Ensures exceptional uniformity in thin film deposition, critical for applications in microelectronics and optics.</h4></li>
+        <li><h4>Precision and Control: Offers precise control over film thickness, crucial in industries requiring accurate and consistent coatings.</h4></li>
+        <li><h4>Versatility: Applicable to a wide range of materials, making it versatile for various industries and applications.</h4></li>
+        <li><h4>High Throughput: Rapid coating process allows for high throughput in manufacturing, contributing to overall efficiency.</h4></li>
     </ol>
 
     <p>In summary, spin coating stands as a fundamental technique in thin film deposition, playing a pivotal role in industries ranging from semiconductors to optoelectronics. Its ability to provide uniform and controlled coatings positions it as a valuable tool in the production of advanced electronic and optical devices.</p>
@@ -1228,7 +1314,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 18,
-      titleHead: 'Nano coating techniques',
+      mainHeader: "Spray Pyrolysis Equipment",
+      titleHead: 'Efficient Spray Pyrolysis Equipment | VBCC Research',
+      metaDesc: "Unlock Precision with Spray Pyrolysis Equipment - Explore a range of instruments for nanostructure synthesis and thin film deposition. ",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service18-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service18-sec-2.jpg',
       header: 'Nano coating techniques',
@@ -1241,26 +1329,26 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Spray pyrolysis is a specialized process used for the synthesis of nanostructures, where a precursor solution is sprayed onto a heated substrate. This technique facilitates the controlled decomposition of the precursor, leading to the formation of the desired final material on the substrate.</p>
 
-    <h4>How It Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Precursor Solution: A solution containing the precursor material is sprayed or injected onto a hot substrate using a nano-porous nebulizer.</li>
-        <li>Decomposition and Formation: The precursor decomposes on the hot substrate, forming the final desired material through chemical reactions.</li>
+        <li><h4>Precursor Solution: A solution containing the precursor material is sprayed or injected onto a hot substrate using a nano-porous nebulizer.</h4></li>
+        <li><h4>Decomposition and Formation: The precursor decomposes on the hot substrate, forming the final desired material through chemical reactions.</h4></li>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ol>
-        <li>Thin Film Deposition: Widely used for depositing thin films with controlled thickness on various substrates.</li>
-        <li>Oxide Deposition: Particularly useful for the deposition of oxides, where chemical reactants are selected to ensure volatile by-products at the deposition temperature.</li>
-        <li>Nanostructure Synthesis: Applied in the synthesis of nanostructures, contributing to the development of advanced materials with tailored properties.</li>
-        <li>Photovoltaic Devices: Utilized in the fabrication of thin films for solar cells and other photovoltaic devices.</li>
+        <li><h4>Thin Film Deposition: Widely used for depositing thin films with controlled thickness on various substrates.</h4></li>
+        <li><h4>Oxide Deposition: Particularly useful for the deposition of oxides, where chemical reactants are selected to ensure volatile by-products at the deposition temperature.</h4></li>
+        <li><h4>Nanostructure Synthesis: Applied in the synthesis of nanostructures, contributing to the development of advanced materials with tailored properties.</h4></li>
+        <li><h4>Photovoltaic Devices: Utilized in the fabrication of thin films for solar cells and other photovoltaic devices.</h4></li>
     </ol>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ol>
-        <li>Automated Operation: The equipment is fully automatic, offering convenience in operation with time setting and variable adjustments.</li>
-        <li>Temperature Control: Allows precise control of the substrate temperature, ensuring optimal conditions for the decomposition and formation process.</li>
-        <li>Versatility: Suitable for a range of materials, making it versatile for various applications, especially in the deposition of oxides.</li>
-        <li>High-Quality Films: Facilitates the production of high-quality thin films with uniform thickness, crucial for applications in electronics and materials science.</li>
+        <li><h4>Automated Operation: The equipment is fully automatic, offering convenience in operation with time setting and variable adjustments.</h4></li>
+        <li><h4>Temperature Control: Allows precise control of the substrate temperature, ensuring optimal conditions for the decomposition and formation process.</h4></li>
+        <li><h4>Versatility: Suitable for a range of materials, making it versatile for various applications, especially in the deposition of oxides.</h4></li>
+        <li><h4>High-Quality Films: Facilitates the production of high-quality thin films with uniform thickness, crucial for applications in electronics and materials science.</h4></li>
     </ol>
 
     <p>In summary, spray pyrolysis stands as a valuable technique in the realm of nanostructure synthesis and thin film deposition. Its automated operation, versatility, and ability to produce high-quality films make it a significant contributor to advancements in materials science and technology.</p>
@@ -1284,7 +1372,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 19,
-      titleHead: 'Nano coating techniques',
+      mainHeader: " Ceramic Dip Coating Machine",
+      titleHead: 'High-Quality Ceramic Dip Coating Machines | VBCC Research',
+      metaDesc: "Discover efficiency and uniformity in Ceramic Dip Coating. Explore our high-quality Dip Coater for precise thin film production.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service19-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service19-sec-2.png',
       header: 'Nano coating techniques',
@@ -1298,30 +1388,30 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
     <p>Dip coating is a meticulous process where a substrate material undergoes immersion in conformal coating, followed by controlled drying. The method is widely utilized for the creation of thin film coatings, ensuring uniformity and precision in the application.</p>
 
-    <h4>How It Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Submergence and Coating: Substrate material is fully immersed in a tank containing the desired coating material.</li>
-        <li>The coated substrate is then lifted, allowing excess coating to drip off.</li>
-        <li>Drying Techniques: The coated piece undergoes a drying phase, employing techniques such as force-drying or baking. Drying is critical for achieving the desired coating thickness and properties.</li>
+        <li><h4>Submergence and Coating: Substrate material is fully immersed in a tank containing the desired coating material.</h4></li>
+        <li><h4>The coated substrate is then lifted, allowing excess coating to drip off.</h4></li>
+        <li><h4>Drying Techniques: The coated piece undergoes a drying phase, employing techniques such as force-drying or baking. Drying is critical for achieving the desired coating thickness and properties.</h4></li>
     </ul>
 
-    <h4>Equipment and Automation:</h4>
+    <h3>Equipment and Automation:</h3>
     <ul>
-        <li>Dip Coater: An automatic unit with time settings and variable adjustments. Ensures consistency and repeatability in the coating process.</li>
+        <li><h4>Dip Coater: An automatic unit with time settings and variable adjustments. Ensures consistency and repeatability in the coating process.</h4></li>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ol>
-        <li>Thin Film Production: Ideal for creating thin films with precise thickness and uniformity.</li>
-        <li>Commonly employed in industries requiring controlled coating thickness.</li>
-        <li>Precision Coating: Used in applications where precision in coating thickness is paramount. Ensures even distribution of coating material on complex surfaces.</li>
+        <li><h4>Thin Film Production: Ideal for creating thin films with precise thickness and uniformity.</h4></li>
+        <li><h4>Commonly employed in industries requiring controlled coating thickness.</h4></li>
+        <li><h4>Precision Coating: Used in applications where precision in coating thickness is paramount. Ensures even distribution of coating material on complex surfaces.</h4></li>
     </ol>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Uniform Coating: Facilitates the achievement of uniform coating thickness across the substrate. Enhances the quality and performance of coated materials.</li>
-        <li>Versatility: Adaptable to a variety of substrates and coating materials. Suitable for diverse industries and applications.</li>
-        <li>Efficiency and Automation: Automatic equipment streamlines the coating process, reducing manual intervention. Enhances efficiency and repeatability in thin film production.</li>
+        <li><h4>Uniform Coating: Facilitates the achievement of uniform coating thickness across the substrate. Enhances the quality and performance of coated materials.</h4></li>
+        <li><h4>Versatility: Adaptable to a variety of substrates and coating materials. Suitable for diverse industries and applications.</h4></li>
+        <li><h4>Efficiency and Automation: Automatic equipment streamlines the coating process, reducing manual intervention. Enhances efficiency and repeatability in thin film production.</h4></li>
     </ul>
 
     <p>Dip coating stands as a versatile and precise method for applying conformal coatings, especially in the production of thin films. Its ability to provide uniform and controlled coatings makes it invaluable in industries where precision and consistency are paramount, ensuring optimal performance of coated materials.</p>
@@ -1335,7 +1425,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 20,
-      titleHead: 'Physical properties',
+      mainHeader: "Modulus of Rupture / Flexural & Bend Strength",
+      titleHead: 'Modulus of Rupture & Flexural Strength Boost Bend Strength | VBCC Research',
+      metaDesc: "Strengthen your products with Modulus of Rupture & Flexural Strength Testing. Optimize Construction, Ceramics & Automotive Designs for Bending Forces.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service20-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service20-sec-2.jpg',
       header: 'Physical properties',
@@ -1349,7 +1441,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
       <p>Flexural Strength, also known as the Modulus of Rupture (MOR), Bend Strength, or Fracture Strength is
     It is a mechanical parameter that gauges a material's ability to resist deformation under load, particularly in bending scenarios.</p>
 
-    <h4>Formulas for Calculation:</h4>
+    <h3>Formulas for Calculation:</h3>
     <p>For a rectangular sample under a load in three-point bending:</p>
     <p>FS = 3FL/2bd²</p>
     <ul>
@@ -1359,7 +1451,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
         <li>d is the thickness.</li>
     </ul>
 
-    <h4>Equipment:</h4>
+    <h3>Equipment:</h3>
     <ul>
         <li>Laboratory Scale: Cold / Fired MOR</li>
         <ul>
@@ -1373,23 +1465,23 @@ Laser diffraction measures particle size distributions by measuring the angular 
         </ul>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Construction Materials:</li>
+        <li><h4>Construction Materials:</h4></li>
         <ul>
             <li>Assessing the strength of concrete beams, tiles, and masonry.</li>
         </ul>
-        <li>Ceramic and Glass Products:</li>
+        <li><h4>Ceramic and Glass Products:</h4></li>
         <ul>
             <li>Ensuring tiles and glass components can withstand bending forces.</li>
         </ul>
-        <li>Automotive Components:</li>
+        <li><h4>Automotive Components:</h4></li>
         <ul>
             <li>Evaluating the flexural strength of vehicle parts.</li>
         </ul>
     </ul>
 
-    <h4>How it Works:</h4>
+    <h3>How It Works:</h3>
     <p>Three-Point Bending:</p>
     <ul>
         <li>Applies a load at the center of a sample supported at both ends.</li>
@@ -1397,21 +1489,21 @@ Laser diffraction measures particle size distributions by measuring the angular 
         <li>Calculates flexural strength using the provided formula.</li>
     </ul>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Structural Integrity:</li>
+        <li><h4>Structural Integrity:</h4></li>
         <ul>
             <li>Determines a material's ability to resist bending deformation.</li>
         </ul>
-        <li>Quality Assurance:</li>
+        <li><h4>Quality Assurance:</h4></li>
         <ul>
             <li>Ensures products meet specified strength requirements.</li>
         </ul>
-        <li>Design Optimization:</li>
+        <li<h4>>Design Optimization:</h4></li>
         <ul>
             <li>Guides the design of materials for enhanced flexural performance.</li>
         </ul>
-        <li>Safety Evaluation:</li>
+        <li><h4>Safety Evaluation:</h4></li>
         <ul>
             <li>Crucial for applications where materials are subjected to bending forces.</li>
         </ul>
@@ -1438,7 +1530,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 21,
-      titleHead: 'Casting',
+      mainHeader: "Aluminium Stir Casting Machine ",
+      titleHead: 'Advanced Aluminium Stir Casting Machine | VBCC Research',
+      metaDesc: "Elevate your manufacturing with our Advanced Aluminium Stir Casting Machine. Explore the efficiency of aluminium stir casting for precise material formation.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service21-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service21-sec-2.jpg',
       header: 'Casting',
@@ -1451,7 +1545,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Stir casting is one of the most popular and widely used methods in which material formation (mainly Metal Alloys and Metal Matrix Composites) is done by melting metals and casting them into suitable shapes and sizes by pouring them into cavities. It is also called as liquid metallurgy.</p>
 
-    <h4>Aluminium Stir Casting:</h4>
+    <h3>Aluminium Stir Casting:</h3>
     <p>Aluminium stir casting, a prominent method in material formation, particularly for metal alloys and metal matrix composites (MMCs), stands as a cornerstone in the realm of liquid metallurgy. This widely utilized technique involves melting metals, including aluminium, and casting them into predefined shapes and sizes through controlled pouring into molds or cavities.</p>
 
     <p>The process of stir casting begins with the essential step of melting aluminium, a versatile and widely used metal known for its lightweight and excellent mechanical properties. The molten aluminium undergoes stirring, which is critical for achieving homogeneity and reinforcing the material with various components.</p>
@@ -1477,7 +1571,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 22,
-      titleHead: 'Casting',
+      mainHeader: "Magnesium Stir Casting Equipment",
+      titleHead: 'Quality Magnesium Stir Casting Equipment | VBCC Research',
+      metaDesc: "Experience the future of material engineering with magnesium stir casting. Explore our fully automatic stir-casting equipment for crafting lightweight components.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service22-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service22-sec-2.png',
       header: 'Casting',
@@ -1490,22 +1586,22 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Stir casting is one of the most popular and widely used methods in which material formation (mainly Metal Alloys and Metal Matrix Composites) is done by melting metals and casting them into suitable shapes and sizes by pouring them into cavities. It is also called liquid metallurgy.</p>
 
-          <h4>Magnesium Stir Casting:</h4>
+          <h3>Magnesium Stir Casting:</h3>
           <p>Magnesium stir casting emerges as a leading method in material formation, particularly for crafting Metal Alloys and Metal Matrix Composites (MMCs). Often referred to as liquid metallurgy, this widely adopted process involves the meticulous melting of metals and their subsequent casting into specifically designed shapes and sizes by carefully pouring the molten alloy into dedicated cavities.</p>
 
           <p>This versatile method finds extensive application in the casting of magnesium alloy and magnesium alloy composites. The incorporation of reinforcing particles into the magnesium matrix is achieved through proprietary methods, with the mixing process facilitated by a stirrer within the fully automatic stir casting model.</p>
 
           <p>The equipment used for magnesium stir casting is designed for efficiency and precision. The model operates fully automatically, ensuring consistency and repeatability in the manufacturing process. The weight capacity ranges from 500 grams to 2 kilograms, providing flexibility for different production requirements. The mold size, at 30 mm diameter and 200 mm length, allows for the creation of diverse shapes and sizes.</p>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <p>Magnesium stir casting finds invaluable application in industries where lightweight materials with enhanced mechanical properties are imperative. In the automotive sector, this process is instrumental in crafting magnesium alloy components that contribute to reduced vehicle weight, improving fuel efficiency without compromising on strength. The aerospace industry also benefits from magnesium stir casting, creating components that meet stringent weight and performance criteria.</p>
 
-          <h4>Benefits:</h4>
+          <h3>Benefits:</h3>
           <ul>
-              <li><strong>Lightweight and High-Strength:</strong> Magnesium, known for its low density and high strength-to-weight ratio, ensures that components produced through stir casting exhibit superior strength while being lightweight.</li>
-              <li><strong>Versatility in Shape and Size:</strong> The stir casting model's adaptability in terms of mold size and weight capacity allows for the creation of a wide range of components tailored to specific applications.</li>
-              <li><strong>Fully Automatic Operation:</strong> The fully automatic nature of the stir casting model enhances efficiency, repeatability, and ease of operation, contributing to streamlined production processes.</li>
-              <li><strong>Material Efficiency:</strong> The method's ability to incorporate reinforcing particles into the magnesium matrix enhances material properties, resulting in materials with improved performance characteristics.</li>
+              <li><h4>Lightweight and High-Strength:</h4> Magnesium, known for its low density and high strength-to-weight ratio, ensures that components produced through stir casting exhibit superior strength while being lightweight.</li>
+              <li><h4>Versatility in Shape and Size:</h4> The stir casting model's adaptability in terms of mold size and weight capacity allows for the creation of a wide range of components tailored to specific applications.</li>
+              <li><h4>Fully Automatic Operation:</h4> The fully automatic nature of the stir casting model enhances efficiency, repeatability, and ease of operation, contributing to streamlined production processes.</li>
+              <li><h4>Material Efficiency:</h4> The method's ability to incorporate reinforcing particles into the magnesium matrix enhances material properties, resulting in materials with improved performance characteristics.</li>
           </ul>
 
           <p>In summary, magnesium stir casting represents a cutting-edge technique with widespread applications in industries demanding lightweight, high-performance materials. Its versatility, efficiency, and ability to produce components with superior properties position it as a key player in advancing material engineering and manufacturing processes.</p>
@@ -1527,7 +1623,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 23,
-      titleHead: 'Shaping',
+      mainHeader: "Extruder Machine",
+      titleHead: 'High-Quality Extruder Machine | VBCC Research',
+      metaDesc: "Explore efficient extruder machines for ceramics, plastics, and metals. High-quality and versatile, our extruders offer continuous production.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service23-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service23-sec-2.jpg',
       header: 'Shaping',
@@ -1540,27 +1638,27 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
     <p>An extruder serves as a screw reactor, driving the process of extrusion, which involves a sequence of operations including mixing, forming, puffing, and drying. This versatile tool finds applications across various industries, most notably in ceramics and metalworking.</p>
 
-    <h4>How It Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Continuous Process: Extrusion is a continuous process where materials are forced through a series of dies, shaping them into desired forms.</li>
-        <li>Screw-Type Mechanism: In commercial screw-type extruders, a screw auger consistently propels materials through a die, resulting in various shapes like cylindrical rods, pipes, bars, and plates.</li>
-        <li>Metal Extrusion: In metalworking, extrusion transforms a metal billet into a uniform cross-sectional length by pressing it through a die, with aluminum being a particularly amenable material for this process.</li>
+        <li><h4>Continuous Process: Extrusion is a continuous process where materials are forced through a series of dies, shaping them into desired forms.</h4></li>
+        <li><h4>Screw-Type Mechanism: In commercial screw-type extruders, a screw auger consistently propels materials through a die, resulting in various shapes like cylindrical rods, pipes, bars, and plates.</h4></li>
+        <li><h4>Metal Extrusion: In metalworking, extrusion transforms a metal billet into a uniform cross-sectional length by pressing it through a die, with aluminum being a particularly amenable material for this process.</h4></li>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Ceramic Manufacturing: Extrusion is widely employed in ceramics manufacturing for its efficiency in continuous production, producing shapes like rods, pipes, bars, and plates.</li>
-        <li>Plastic Production: Plastic feed materials are molded into specific shapes using extruders, facilitating the production of diverse plastic products.</li>
-        <li>Metal Extrusion: Aluminum, among other metals, undergoes extrusion for creating uniform cross-sectional lengths for various applications.</li>
-        <li>Binder-Assisted Forming: Both clay and non-clay materials are formed into cylindrical or square shapes with the aid of binders, demonstrating the versatility of extruders.</li>
+        <li><h4>Ceramic Manufacturing: Extrusion is widely employed in ceramics manufacturing for its efficiency in continuous production, producing shapes like rods, pipes, bars, and plates.</h4></li>
+        <li><h4>Plastic Production: Plastic feed materials are molded into specific shapes using extruders, facilitating the production of diverse plastic products.</h4></li>
+        <li><h4>Metal Extrusion: Aluminum, among other metals, undergoes extrusion for creating uniform cross-sectional lengths for various applications.</h4></li>
+        <li><h4>Binder-Assisted Forming: Both clay and non-clay materials are formed into cylindrical or square shapes with the aid of binders, demonstrating the versatility of extruders.</h4></li>
     </ul>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Continuous Production: Enables continuous and efficient production processes, reducing downtime and increasing output.</li>
-        <li>Shape Versatility: Capable of forming a variety of shapes, from simple cylinders and pipes to complex bars and plates.</li>
-        <li>Efficient Material Processing: Ensures efficient mixing, forming, and shaping of materials, contributing to overall manufacturing efficiency.</li>
-        <li>Binder-Assisted Forming: Facilitates the use of binders to shape materials, offering flexibility in the manufacturing of diverse products.</li>
+        <li><h4>Continuous Production: Enables continuous and efficient production processes, reducing downtime and increasing output.</h4></li>
+        <li><h4>Shape Versatility: Capable of forming a variety of shapes, from simple cylinders and pipes to complex bars and plates.</h4></li>
+        <li><h4>Efficient Material Processing: Ensures efficient mixing, forming, and shaping of materials, contributing to overall manufacturing efficiency.</h4></li>
+        <li><h4>Binder-Assisted Forming: Facilitates the use of binders to shape materials, offering flexibility in the manufacturing of diverse products.</h4></li>
     </ul>
 
     <p>The extruder stands as a key player in manufacturing, driving continuous processes across ceramics, plastics, and metalworking. Its versatility, efficiency, and ability to shape materials make it an indispensable tool in modern industrial production.</p>
@@ -1572,7 +1670,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 24,
-      titleHead: 'Nano coating techniques',
+      mainHeader: "Chemical Vapor Deposition Equipment (CVD)",
+      titleHead: 'High-Quality Chemical Vapor Deposition Machine | VBCC Research',
+      metaDesc: "Unlock the potential of Chemical Vapour Deposition (CVD) Machine for precision nanostructure control and diverse coating applications.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service24-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service24-sec-2.jpg',
       header: 'Nano coating techniques',
@@ -1585,28 +1685,28 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
     <p>Chemical Vapour Deposition (CVD) is a sophisticated coating process that relies on thermally induced chemical reactions occurring at the surface of a heated substrate. In this technique, reagents are supplied in gaseous form, leading to the formation of coatings with diverse properties.</p>
 
-    <h4>How It Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Gaseous Reagent Supply: Reagents are introduced in gaseous form to the surface of a heated substrate.</li>
-        <li>Thermally Induced Reactions: Chemical reactions are thermally induced, promoting the deposition of coating materials on the substrate.</li>
-        <li>Nanostructure Development: CVD is prominently employed in nanotechnology for the precise development of nano materials with varied structures and dimensions.</li>
+        <li><h4>Gaseous Reagent Supply: Reagents are introduced in gaseous form to the surface of a heated substrate.</h4></li>
+        <li><h4>Thermally Induced Reactions: Chemical reactions are thermally induced, promoting the deposition of coating materials on the substrate.</h4></li>
+        <li><h4>Nanostructure Development: CVD is prominently employed in nanotechnology for the precise development of nano materials with varied structures and dimensions.</h4></li>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Carbon Nano Tubes (CNTs): CVD is extensively utilized in the preparation of Carbon Nano Tubes, offering a method for controlled synthesis.</li>
-        <li>Nano Thin Film Coatings: Applied in the development of diverse Nano Thin Film Coatings with tailored properties.</li>
+        <li><h4>Carbon Nano Tubes (CNTs): CVD is extensively utilized in the preparation of Carbon Nano Tubes, offering a method for controlled synthesis.</h4></li>
+        <li><h4>Nano Thin Film Coatings: Applied in the development of diverse Nano Thin Film Coatings with tailored properties.</h4></li>
     </ul>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Nanotechnology Advancements: Plays a pivotal role in nanotechnology, contributing to the creation of nano materials with specific structures.</li>
-        <li>Versatile Applications: Widely employed for the preparation of Carbon Nano Tubes and Nano Thin Film Coatings, showcasing versatility.</li>
-        <li>Precise Nanostructure Control: Allows precise control over the dimensions and structures of nano materials, crucial for tailored applications.</li>
-        <li>Uniform Coating: Results in the deposition of coatings with uniform thickness, ensuring consistency in material properties.</li>
+        <li><h4>Nanotechnology Advancements: Plays a pivotal role in nanotechnology, contributing to the creation of nano materials with specific structures.</h4></li>
+        <li><h4>Versatile Applications: Widely employed for the preparation of Carbon Nano Tubes and Nano Thin Film Coatings, showcasing versatility.</h4></li>
+        <li><h4>Precise Nanostructure Control: Allows precise control over the dimensions and structures of nano materials, crucial for tailored applications.</h4></li>
+        <li><h4>Uniform Coating: Results in the deposition of coatings with uniform thickness, ensuring consistency in material properties.</h4></li>
     </ul>
 
-    <h4>Technological Impact:</h4>
+    <h3>Technological Impact:</h3>
     <p>Chemical Vapour Deposition stands at the forefront of technological advancements, particularly in nanotechnology. Its ability to facilitate controlled nanostructure development and diverse coating applications underscores its significance in materials science and engineering.</p>
 
     <p>CVD plays a pivotal role in advancing nanotechnology and materials science, offering a powerful method for the controlled synthesis of nano materials and the development of specialized coatings.</p>
@@ -1618,7 +1718,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 25,
-      titleHead: 'Casting',
+      mainHeader: "Slip Casting for Ceramics",
+      titleHead: 'Premium Slip Casting Ceramics Equipment | VBCC Research',
+      metaDesc: "Crafting precision with slip casting ceramics – explore our premium equipment for flawless creations. Unleash your artistry with the best in slip casting technology",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service25-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service25-sec-2.jpg',
       header: 'Casting',
@@ -1645,7 +1747,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 26,
-      titleHead: 'Material Preparation',
+      mainHeader: "Sol Gel Route",
+      titleHead: 'Sol-Gel Route with advanced Methods & process | VBCC Research',
+      metaDesc: "Unlock the potential of advanced materials through the innovative Sol-Gel Route. Explore the Sol-Gel method and process for cutting-edge applications.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service26-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service26-sec-2.png',
       header: 'Material Preparation',
@@ -1658,7 +1762,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>The Sol-Gel process, a sophisticated wet chemical method, orchestrates the synthesis of diverse nanostructures, primarily focusing on metal oxide nanoparticles. This intricate dance of molecules involves dissolving a molecular precursor, typically a metal alkoxide, in water or alcohol. The subsequent transformation into a gel, achieved through controlled heating and stirring via hydrolysis/alcoholysis, sets the stage for crafting nano wonders.</p>
 
-          <h4>Key Components (provided):</h4>
+          <h3>Key Components (provided):</h3>
           <p>Chemicals for Sol-Gel Method:</p>
           <p>Tailored to the specific needs of the customer, these chemicals form the foundation for precision in nanostructure synthesis.</p>
           <p>Magnetic Stirrer cum Heater (2 Numbers):</p>
@@ -1666,15 +1770,15 @@ Laser diffraction measures particle size distributions by measuring the angular 
           <p>Hot Air Oven:</p>
           <p>A vital element in the process, the hot air oven plays a crucial role in facilitating the transformation of gels into functional nanostructures.</p>
 
-          <h4>Versatility in Nano Material Synthesis:</h4>
+          <h3>Versatility in Nano Material Synthesis:</h3>
           <p>Ceramic Nano Materials:</p>
           <p>Sol-Gel stands as the method of choice for preparing a wide array of ceramic nano materials. Its wet chemical route enables the synthesis of colloidal dispersions of oxides, paving the way for the creation of powders, fibers, thin films, and monoliths.</p>
 
-          <h4>Crystallization and Beyond:</h4>
+          <h3>Crystallization and Beyond:</h3>
           <p>Gel Medium Transformation:</p>
           <p>The magic unfolds as crystals emerge from the gel medium. This transformation is orchestrated by inducing a state of super saturation through techniques like evaporation or cooling.</p>
 
-          <h4>Applications:</h4>
+          <h3>Applications:</h3>
           <p>Diverse Nanostructures:</p>
           <p>Sol-Gel's prowess extends to diverse nanostructures, with applications spanning powders, fibers, thin films, and monoliths. Its adaptability fuels advancements in materials science and nanotechnology.</p>
 
@@ -1691,7 +1795,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 27,
-      titleHead: 'Material Preparation',
+      mainHeader: "Planetary Ball Milling Machine with Alumina Jar",
+      titleHead: 'High-Quality Planetary Ball Mill with Alumina Jar | VBCC Research',
+      metaDesc: "Elevate your processes with our advanced planetary ball milling machine, equipped with an alumina jar. Achieve exceptional outcomes in material refinement.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service27-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service27-sec-2.jpg',
       header: 'Material Preparation',
@@ -1703,30 +1809,30 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Planetary Ball Mill is designed for mixing, fine grinding, and preparing small volume high-tech material production, which features with small volume, high efficiency, low noise.</p>
 
-          <h4>Planetary Ball Mill with Alumina Jar:</h4>
-          <p><strong>Overview:</strong> The Planetary Ball Mill with Alumina Jar stands as a sophisticated instrument designed for the meticulous mixing, fine grinding, and preparation of small volumes of high-tech materials. This cutting-edge equipment combines efficiency, compact design, and minimal noise, catering to the exacting demands of advanced ceramics and nanotechnology applications.</p>
+          <h3>Planetary Ball Mill with Alumina Jar:</h3>
+          <p><h4>Overview:</h4> The Planetary Ball Mill with Alumina Jar stands as a sophisticated instrument designed for the meticulous mixing, fine grinding, and preparation of small volumes of high-tech materials. This cutting-edge equipment combines efficiency, compact design, and minimal noise, catering to the exacting demands of advanced ceramics and nanotechnology applications.</p>
 
-          <h4>Key Features:</h4>
+          <h3>Key Features:</h3>
           <ul>
-              <li><strong>Automatic Operation:</strong> The equipment operates seamlessly with automated functions, ensuring precision and ease of use.</li>
-              <li><strong>Time Setting:</strong> Users can precisely control the milling duration with adjustable time settings, facilitating optimized results.</li>
-              <li><strong>Variable Speed Adjustments:</strong> Variable speed adjustments provide flexibility to meet diverse milling requirements with efficiency.</li>
+              <li><h4>Automatic Operation:</h4> The equipment operates seamlessly with automated functions, ensuring precision and ease of use.</li>
+              <li><h4>Time Setting:</h4> Users can precisely control the milling duration with adjustable time settings, facilitating optimized results.</li>
+              <li><h4>Variable Speed Adjustments:</h4> Variable speed adjustments provide flexibility to meet diverse milling requirements with efficiency.</li>
           </ul>
 
-          <h4>Specifications:</h4>
+          <h3>Specifications:</h3>
           <ul>
-              <li><strong>Vial Material:</strong> Crafted from high-quality alumina, the vial ensures compatibility with a range of materials and durability.</li>
-              <li><strong>Vial Capacity:</strong> The 500 ml capacity allows for small-volume, yet efficient, material production.</li>
-              <li><strong>Grinding Media:</strong> Alumina Balls (10 mm dia - 30 Nos) contribute to effective and uniform grinding.</li>
-              <li><strong>Loading Capacity:</strong> With a loading capacity ranging from 5g to 100g (depending on material density), the mill accommodates varying sample sizes.</li>
-              <li><strong>Material Loss:</strong> The minimal material loss of 2% ensures efficient utilization and reproducibility.</li>
+              <li><h4>Vial Material:</h4> Crafted from high-quality alumina, the vial ensures compatibility with a range of materials and durability.</li>
+              <li><h4>Vial Capacity:</h4> The 500 ml capacity allows for small-volume, yet efficient, material production.</li>
+              <li><h4>Grinding Media:</h4> Alumina Balls (10 mm dia - 30 Nos) contribute to effective and uniform grinding.</li>
+              <li><h4>Loading Capacity:</h4> With a loading capacity ranging from 5g to 100g (depending on material density), the mill accommodates varying sample sizes.</li>
+              <li><h4>Material Loss:</h4> The minimal material loss of 2% ensures efficient utilization and reproducibility.</li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <ul>
-              <li><strong>Nanomaterial Production:</strong> Ideal for nanotechnology applications, the mill achieves particle size reduction from Micron to Nano within a short timeframe.</li>
-              <li><strong>Advanced Ceramics:</strong> Specifically tailored for advanced ceramics, the mill addresses the precision requirements of ceramic material preparation.</li>
-              <li><strong>Laboratory Research:</strong> Widely used in laboratories, the Planetary Ball Mill facilitates diverse research endeavors with its versatile capabilities.</li>
+              <li><h4>Nanomaterial Production:</h4> Ideal for nanotechnology applications, the mill achieves particle size reduction from Micron to Nano within a short timeframe.</li>
+              <li><h4>Advanced Ceramics:</h4> Specifically tailored for advanced ceramics, the mill addresses the precision requirements of ceramic material preparation.</li>
+              <li><h4>Laboratory Research:</h4> Widely used in laboratories, the Planetary Ball Mill facilitates diverse research endeavors with its versatile capabilities.</li>
           </ul>
 
           <p>The Planetary Ball Mill with Alumina Jar emerges as a reliable and advanced tool for laboratories and industries engaged in high-tech material production. Its features and capabilities position it as a cornerstone in the pursuit of precision and efficiency in materials processing.</p>
@@ -1755,7 +1861,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 28,
-      titleHead: 'Material Preparation',
+      mainHeader: "Jar Mill Dry/Wet Industrial Grinding Machine",
+      titleHead: 'Jar Mill & Industrial Grinder for Dry/Wet Grinding | VBCC Research',
+      metaDesc: "Elevate your grinding game with our jar mill - the epitome of excellence in dry/wet grinding. Discover the expertise of leading ball mill manufacturers in India.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service28-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service28-sec-2.jpg',
       header: 'Material Preparation',
@@ -1767,31 +1875,31 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Jar Mills are used for wet or dry grinding, mixing, and blending for a wide variety of materials like ores, chemicals, paints, ceramics, glass, etc. Different size jars are available for different grinding conditions. A bench or floor model Jar Mills from Gilson have capacities from one to six jars.</p>
 
-          <h4>Overview:</h4>
+          <h3>Overview:</h3>
           <p>Jar Mills stand as versatile workhorses in laboratories and industrial settings, facilitating both wet and dry grinding, mixing, and blending of diverse materials. From ores and chemicals to paints, ceramics, and glass, Jar Mills from Gilson offer a flexible solution for materials processing.</p>
 
-          <h4>Key Features:</h4>
+          <h3>Key Features:</h3>
           <ul>
-              <li>Automatic Operation: The Jar Mill operates seamlessly with automatic functions, streamlining the grinding and mixing processes.</li>
-              <li>Time Setting: Users can precisely control the duration of operations with adjustable time settings, ensuring optimal results.</li>
-              <li>Variable Speed Adjustments: The flexibility of variable speed adjustments accommodates different grinding conditions, providing adaptability for various materials.</li>
+              <li><h4>Automatic Operation: The Jar Mill operates seamlessly with automatic functions, streamlining the grinding and mixing processes.</h4></li>
+              <li><h4>Time Setting: Users can precisely control the duration of operations with adjustable time settings, ensuring optimal results.</h4></li>
+              <li><h4>Variable Speed Adjustments: The flexibility of variable speed adjustments accommodates different grinding conditions, providing adaptability for various materials.</h4></li>
           </ul>
 
-          <h4>Specifications:</h4>
+          <h3>Specifications:</h3>
           <ul>
-              <li>Jar Material: Crafted from durable stainless steel, the jars ensure longevity and resistance to corrosion.</li>
-              <li>Grinding Media: High Purity alumina grinding media enhances the efficiency of the grinding and mixing processes.</li>
-              <li>Jar Capacity: With a substantial 5-liter capacity, the Jar Mill accommodates sizable quantities for efficient batch processing.</li>
+              <li><h4>Jar Material: Crafted from durable stainless steel, the jars ensure longevity and resistance to corrosion.</h4></li>
+              <li><h4>Grinding Media: High Purity alumina grinding media enhances the efficiency of the grinding and mixing processes.</h4></li>
+              <li><h4>Jar Capacity: With a substantial 5-liter capacity, the Jar Mill accommodates sizable quantities for efficient batch processing.</h4></li>
           </ul>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <ul>
-              <li>Laboratory Applications: Ideal for laboratories, Jar Mills are employed in research and experimentation across diverse fields.</li>
-              <li>Industrial Grinding: In industrial settings, Jar Mills find applications in large-scale grinding, mixing, and blending operations.</li>
-              <li>Materials Processing: From ores to ceramics, the Jar Mill caters to the processing needs of a broad spectrum of materials.</li>
+              <li><h4>Laboratory Applications: Ideal for laboratories, Jar Mills are employed in research and experimentation across diverse fields.</h4></li>
+              <li><h4>Industrial Grinding: In industrial settings, Jar Mills find applications in large-scale grinding, mixing, and blending operations.</h4></li>
+              <li><h4>Materials Processing: From ores to ceramics, the Jar Mill caters to the processing needs of a broad spectrum of materials.</h4></li>
           </ul>
 
-          <h4>Versatility in Grinding:</h4>
+          <h3>Versatility in Grinding:</h3>
           <p>Jar Mills, available in bench or floor models, offer versatility with capacities ranging from one to six jars. This adaptability makes them indispensable for laboratories exploring varied materials and industrial operations requiring efficient materials processing. Whether wet or dry grinding, Jar Mills deliver consistent and reliable results across a spectrum of applications.</p>
 
 
@@ -1806,7 +1914,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 29,
-      titleHead: 'Material Preparation',
+      mainHeader: "Glove Box",
+      titleHead: 'Top-Quality Glove Box Container | VBCC Research',
+      metaDesc: "Discover top-quality glove box containers for your lab needs. Find the perfect glove box and containers designed for efficiency and durability.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service29-sec-2.jpg',
       header: 'Material Preparation',
@@ -1818,23 +1928,23 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>A Glove Box, or glovebox, stands as a sealed container designed for manipulating objects in controlled environments, safeguarding workers during the handling of hazardous materials or substances requiring a specific atmosphere. Various types, including inflatable glove bags, basic glove boxes, controlled atmosphere glove boxes, and those designed for biohazard or multi-hazard situations, cater to diverse applications.</p>
 
-          <h4>Use Cases:</h4>
+          <h3>Use Cases:</h3>
           <ul>
-              <li>Chemical Synthesis: Inert atmosphere glove boxes find extensive use in chemical synthesis processes, ensuring a controlled environment for precise reactions.</li>
-              <li>Organic Electronics: Glove boxes contribute to the development and manipulation of materials in organic electronics, where a controlled atmosphere is crucial for optimal performance.</li>
-              <li>Additive Manufacturing: Applications in additive manufacturing benefit from glove boxes, preventing contamination and maintaining the purity of materials.</li>
-              <li>Battery Technology Development: The controlled environment provided by glove boxes proves essential in the research and development of advanced battery technologies.</li>
-              <li>Materials Handling and Storage: Glove boxes facilitate the safe handling and storage of sensitive materials, shielding them from external contaminants.</li>
-              <li>Perovskite Electronics: Precise control of atmospheric conditions within glove boxes is vital for the delicate processes involved in perovskite electronics.</li>
+              <li><h4>Chemical Synthesis: Inert atmosphere glove boxes find extensive use in chemical synthesis processes, ensuring a controlled environment for precise reactions.</h4></li>
+              <li><h4>Organic Electronics: Glove boxes contribute to the development and manipulation of materials in organic electronics, where a controlled atmosphere is crucial for optimal performance.</h4></li>
+              <li><h4>Additive Manufacturing: Applications in additive manufacturing benefit from glove boxes, preventing contamination and maintaining the purity of materials.</h4></li>
+              <li><h4>Battery Technology Development: The controlled environment provided by glove boxes proves essential in the research and development of advanced battery technologies.</h4></li>
+              <li><h4>Materials Handling and Storage: Glove boxes facilitate the safe handling and storage of sensitive materials, shielding them from external contaminants.</h4></li>
+              <li><h4>Perovskite Electronics: Precise control of atmospheric conditions within glove boxes is vital for the delicate processes involved in perovskite electronics.</h4></li>
           </ul>
 
-          <h4>Benefits:</h4>
+          <h3>Benefits:</h3>
           <ul>
-              <li>Worker Safety: Protects workers from exposure to hazardous materials, ensuring a secure environment for intricate tasks.</li>
-              <li>Contamination Prevention: Safeguards materials and processes from external contaminants, maintaining the integrity of sensitive substances.</li>
-              <li>Controlled Atmosphere: Provides a precisely regulated environment, crucial for applications where atmospheric conditions significantly impact outcomes.</li>
-              <li>Versatility: Various glove box types cater to specific needs, offering versatility for different industries and applications.</li>
-              <li>Moisture and Oxygen Exclusion: Mitigates the risk of compromised atmospheres by minimizing physical leaks and preventing ingression of moisture and oxygen.</li>
+              <li><h4>Worker Safety: Protects workers from exposure to hazardous materials, ensuring a secure environment for intricate tasks.</h4></li>
+              <li><h4>Contamination Prevention: Safeguards materials and processes from external contaminants, maintaining the integrity of sensitive substances.</h4></li>
+              <li><h4>Controlled Atmosphere: Provides a precisely regulated environment, crucial for applications where atmospheric conditions significantly impact outcomes.</h4></li>
+              <li><h4>Versatility: Various glove box types cater to specific needs, offering versatility for different industries and applications.</h4></li>
+              <li><h4>Moisture and Oxygen Exclusion: Mitigates the risk of compromised atmospheres by minimizing physical leaks and preventing ingression of moisture and oxygen.</h4></li>
           </ul>
 
           <p>In conclusion, Glove Boxes play a pivotal role in ensuring safety, precision, and controlled environments across a spectrum of industries, making them indispensable for processes ranging from chemical synthesis to advanced electronics and materials research.</p>
@@ -1844,7 +1954,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 30,
-      titleHead: 'Material Preparation',
+      mainHeader: "Planetary Ball Mill Machine with Porcelain Jar ",
+      titleHead: 'Planetary Ball Mill with Porcelain Jar Machine | VBCC Research',
+      metaDesc: "Discover precision in every grind with our Planetary Ball Mill, featuring a porcelain jar for superior performance. Explore the excellence.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service30-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service30-sec-2.jpg',
       header: 'Material Preparation',
@@ -1856,31 +1968,31 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Planetary Ball Mill is designed for mixing, fine grinding, and preparing small volume high-tech material production, which features with small volume, high efficiency, low noise.</p>
 
-    <h4>Planetary Ball Mill with Porcelain Jar (500ml):</h4>
+    <h3>Planetary Ball Mill with Porcelain Jar (500ml):</h3>
 
-    <h4>Overview:</h4>
+    <h3>Overview:</h3>
     <p>The VBCC Planetary Ball Mill, equipped with a Porcelain Jar, stands as a versatile instrument essential for the milling and mixing of various materials, specifically tailored for Traditional Ceramics applications. This state-of-the-art equipment is designed to reduce particle sizes from millimeters (10-3mm) to micron dimensions (10-6µm) with utmost precision.</p>
 
-    <h4>Key Features:</h4>
+    <h3>Key Features:</h3>
     <ul>
-        <li>Automatic Operation: The equipment operates in a fully automatic mode, ensuring user-friendly and efficient performance.</li>
-        <li>Time Setting: Users benefit from precise control over the milling duration, enhancing reproducibility and customization.</li>
-        <li>Variable Speed Adjustments: Variable speed adjustments provide flexibility, accommodating diverse milling requirements with optimal efficiency.</li>
+        <li><h4>Automatic Operation: The equipment operates in a fully automatic mode, ensuring user-friendly and efficient performance.</h4></li>
+        <li><h4>Time Setting: Users benefit from precise control over the milling duration, enhancing reproducibility and customization.</h4></li>
+        <li><h4>Variable Speed Adjustments: Variable speed adjustments provide flexibility, accommodating diverse milling requirements with optimal efficiency.</h4></li>
     </ul>
 
-    <h4>Specifications:</h4>
+    <h3>Specifications:</h3>
     <ul>
-        <li>Vial Material: Crafted from high-quality Porcelain, the vial ensures compatibility with Traditional Ceramics and durability.</li>
-        <li>Vial Capacity: The 500 ml capacity supports efficient processing of medium-sized batches.</li>
-        <li>Grinding Media: Options of Alumina and Steatite grinding media in 10mm and 20mm diameters offer versatility for different materials.</li>
-        <li>Loading Capacity: With a loading capacity ranging from 50g to 300g (depending on material density), the mill caters to varying sample sizes.</li>
+        <li><h4>Vial Material: Crafted from high-quality Porcelain, the vial ensures compatibility with Traditional Ceramics and durability.</h4></li>
+        <li><h4>Vial Capacity: The 500 ml capacity supports efficient processing of medium-sized batches.</h4></li>
+        <li><h4>Grinding Media: Options of Alumina and Steatite grinding media in 10mm and 20mm diameters offer versatility for different materials.</h4></li>
+        <li><h4>Loading Capacity: With a loading capacity ranging from 50g to 300g (depending on material density), the mill caters to varying sample sizes.</h4></li>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Traditional Ceramics: Tailored for Traditional Ceramics, the mill excels in applications such as casting, providing precision in material preparation.</li>
-        <li>Particle Size Reduction: Efficiently reduces particle sizes from millimeters to microns, catering to a broad range of milling needs.</li>
-        <li>Laboratory and Industrial Applications: Suitable for both laboratory research and industrial applications, offering versatility in material processing.</li>
+        <li><h4>Traditional Ceramics: Tailored for Traditional Ceramics, the mill excels in applications such as casting, providing precision in material preparation.</h4></li>
+        <li><h4>Particle Size Reduction: Efficiently reduces particle sizes from millimeters to microns, catering to a broad range of milling needs.</h4></li>
+        <li><h4>Laboratory and Industrial Applications: Suitable for both laboratory research and industrial applications, offering versatility in material processing.</h4></li>
     </ul>
 
     <p>The Planetary Ball Mill with Porcelain Jar emerges as a reliable and advanced tool for applications in Traditional Ceramics. Its automatic operation, variable speed adjustments, and robust design make it a valuable asset for achieving precision and efficiency in materials processing.</p>
@@ -1901,7 +2013,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 31,
-      titleHead: 'Physical properties',
+      mainHeader: "Evaluating Physical Material Properties",
+      titleHead: 'Evaluating Physical Material Properties | VBCC Research',
+      metaDesc: "Uncover the key factors in evaluating physical material properties. Enhance your understanding and optimize material performance effortlessly.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service31-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service31-sec-2.png',
       header: 'Physical properties',
@@ -1911,44 +2025,44 @@ Laser diffraction measures particle size distributions by measuring the angular 
       industries: '₹ - Enquire for Estimate',
       para1: '',
       para2: `
-    <h4>Evaluating Material Properties</h4>
+    <h3>Evaluating Material Properties</h3>
 
-    <h4>Bulk Density:</h4>
+    <h3>Bulk Density:</h3>
     <p>Calculation: Determined by measuring the volume of 100 g of powder after compaction.</p>
     <p>Bulk Density = Sintered Weight / (Soaked Wt - Suspended Wt) g/cc.</p>
     <p>Significance: Indicates the mass of a material per unit volume. Essential for understanding the compactness of powders and sintered materials.</p>
 
     <br>
 
-    <h4>Porosity:</h4>
+    <h3>Porosity:</h3>
     <p>Calculation: Measured as a fraction of void spaces over the total volume or as a percentage.</p>
     <p>Porosity = (Soaked Wt - Sintered Wt) / (Soaked Wt - Suspended Wt) x 100%.</p>
     <p>Significance: Reflects the void fraction in a material. Crucial for assessing the material's structure and potential applications.</p>
 
     <br>
 
-    <h4>Water Absorption:</h4>
+    <h3>Water Absorption:</h3>
     <p>Calculation: Defined as the ratio of water absorbed to the weight of the dry material.</p>
     <p>Water Absorption = (Soaked Wt - Sintered Wt) / Sintered Weight x 100%.</p>
     <p>Significance: Measures a material's capacity to absorb water. Essential for understanding material behavior in various environments.</p>
 
     <br>
 
-    <h4>Fired Shrinkage:</h4>
+    <h3>Fired Shrinkage:</h3>
     <p>Calculation: Comparative indicator of the degree of vitrification during firing.</p>
     <p>Fired Shrinkage = (Dia of After Drying - Dia of After Firing) / Dia of After Drying.</p>
     <p>Significance: Reflects the extent of shrinkage during the firing process. Crucial for controlling the dimensional changes in ceramics.</p>
 
     <br>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <p>Quality Control: Essential metrics for quality control in ceramics and refractory production.</p>
     <p>Material Characterization: Provides insights into the physical properties of sintered materials.</p>
     <p>Process Optimization: Enables optimization of firing processes for desired shrinkage and properties.</p>
 
     <br>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <p>Quality Assurance: Ensures consistency and quality in material production.</p>
     <p>Process Efficiency: Guides process adjustments for optimal results.</p>
     <p>Material Performance: Aids in predicting material behavior in various conditions.</p>
@@ -1963,7 +2077,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 32,
-      titleHead: 'Physical properties',
+      mainHeader: "Particle Size Distribution Equipment",
+      titleHead: 'Particle Size Distribution Equipment for Precise Analysis | VBCC Research',
+      metaDesc: "Unlock Precision with Particle Size Distribution Equipment. Optimize processes, ensure quality, and predict performance across industries.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service32-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service32-sec-2.png',
       header: 'Physical properties',
@@ -1973,36 +2089,36 @@ Laser diffraction measures particle size distributions by measuring the angular 
       industries: '₹ - Enquire for Estimate',
       para1: '',
       para2: `
-    <h4>Definition:</h4>
+    <h3>Definition:</h3>
     <p>Particle size distribution denotes the percentage of particles within specified size intervals in a material.</p>
 
-    <h4>Methods:</h4>
-    <p><strong>Laser Light Scattering:</strong></p>
+    <h3>Methods:</h3>
+    <p><h4>Laser Light Scattering:</h4></p>
     <p>Utilized for nano particles, measuring sizes from 0.3 nm up to 5 mm.</p>
     <p>Suitable for a wide range of particle sizes, including those up to 30 mm.</p>
 
     <br>
 
-    <h4>How it Works:</h4>
-    <p><strong>Granulometry:</strong></p>
+    <h3>How It Works:</h3>
+    <p><h4>Granulometry:</h4></p>
     <p>Involves determining the relative amount of particles based on size, often expressed as a mathematical function or values.</p>
     <p>Laser light scattering measures particle sizes by analyzing light scattering patterns.</p>
 
     <br>
 
-    <h4>Use Cases:</h4>
-    <p><strong>Quality Control:</strong> Crucial in industries to ensure product consistency and quality.</p>
-    <p><strong>Pharmaceuticals:</strong> Particle size influences drug delivery and bioavailability.</p>
-    <p><strong>Chemical Processes:</strong> Affects reaction rates, surface area, and material properties.</p>
-    <p><strong>Nanotechnology:</strong> Essential for controlling nanomaterial properties and behaviors.</p>
+    <h3>Use Cases:</h3>
+    <p><h4>Quality Control:</h4> Crucial in industries to ensure product consistency and quality.</p>
+    <p><h4>Pharmaceuticals:</h4> Particle size influences drug delivery and bioavailability.</p>
+    <p><h4>Chemical Processes:</h4> Affects reaction rates, surface area, and material properties.</p>
+    <p><h4>Nanotechnology:</h4> Essential for controlling nanomaterial properties and behaviors.</p>
 
     <br>
 
-    <h4>Benefits:</h4>
-    <p><strong>Optimized Processes:</strong> Guides adjustments in manufacturing processes for desired particle characteristics.</p>
-    <p><strong>Product Quality:</strong> Ensures uniformity and quality in the final product.</p>
-    <p><strong>Performance Prediction:</strong> Helps predict material behavior in various applications.</p>
-    <p><strong>Research and Development:</strong> Informs material design and development strategies.</p>
+    <h3>Benefits:</h3>
+    <p><h4>Optimized Processes:</h4> Guides adjustments in manufacturing processes for desired particle characteristics.</p>
+    <p><h4>Product Quality:</h4> Ensures uniformity and quality in the final product.</p>
+    <p><h4>Performance Prediction:</h4> Helps predict material behavior in various applications.</p>
+    <p><h4>Research and Development:</h4> Informs material design and development strategies.</p>
 
     <br>
 
@@ -2013,7 +2129,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 33,
-      titleHead: 'Physical properties',
+      mainHeader: "Cold Crushing Strength Machine (CSS)",
+      titleHead: 'Enhance Quality with Cold Crushing Strength Machine | VBCC Research',
+      metaDesc: "Improve your product quality effortlessly with our Cold Crushing Strength machine. Enhance durability and reliability for superior results.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service33-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service33-sec-2.jpg',
       header: 'Physical properties',
@@ -2025,13 +2143,13 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Cold Crushing Strength (CCS) is a compressive test measuring a material's ability to withstand a given load, usually assessed at room temperature after firing to specific temperatures.</p>
 
-    <h4>Measurement Standards:</h4>
+    <h3>Measurement Standards:</h3>
     <p>Measured by ASTM C133.</p>
     <p>Provides an indication of abrasion resistance.</p>
 
-    <h4>Importance in Refractories:</h4>
+    <h3>Importance in Refractories:</h3>
     <ul>
-        <li>Particle Distribution and Packing:</li>
+        <li><h4>Particle Distribution and Packing:</h4></li>
         <ul>
             <li>Essential for developing good CCS.</li>
         </ul>
@@ -2042,40 +2160,40 @@ Laser diffraction measures particle size distributions by measuring the angular 
         </ul>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Quality Assessment:</li>
+        <li><h4>Quality Assessment:</h4></li>
         <ul>
             <li>Determines the strength of refractory materials.</li>
         </ul>
-        <li>Material Selection:</li>
+        <li><h4>Material Selection:</h4></li>
         <ul>
             <li>Influences choices in refractory linings based on anticipated mechanical stresses.</li>
         </ul>
-        <li>Insulating Bricks:</li>
+        <li><h4>Insulating Bricks:</h4></li>
         <ul>
-            <li>Critical for porous yet strong refractory insulating bricks.</li>
+            <li>Critical for porous yet h4 refractory insulating bricks.</li>
         </ul>
     </ul>
 
-    <h4>How it Works:</h4>
+    <h3>How It Works:</h3>
     <p>Compressive Test:</p>
     <ul>
         <li>Subjects a specimen to a compressive force to assess its strength.</li>
         <li>Typically measured at room temperature post-firing.</li>
     </ul>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Abrasion Resistance:</li>
+        <li><h4>Abrasion Resistance:</h4></li>
         <ul>
             <li>Higher CCS indicates greater resistance to abrasion.</li>
         </ul>
-        <li>Performance Prediction:</li>
+        <li><h4>Performance Prediction:</h4></li>
         <ul>
             <li>Provides insights into the ability of refractories to withstand mechanical stresses.</li>
         </ul>
-        <li>Material Development:</li>
+        <li><h4>Material Development:</h4></li>
         <ul>
             <li>Guides the development of refractory materials with desired strength characteristics.</li>
         </ul>
@@ -2087,7 +2205,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 34,
-      titleHead: 'Physical properties',
+      mainHeader: "Cold Crushing Strength Machine (CSS)",
+      titleHead: 'Enhance Durability with High-Impact Resistance Solutions | VBCC Research',
+      metaDesc: "Improve your product quality effortlessly with our Cold Crushing Strength machine. Enhance durability and reliability for superior results.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service34-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service34-sec-2.jpg',
       header: 'Physical properties',
@@ -2099,46 +2219,46 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Impact resistance, or impact strength, refers to a material's or product's capability to absorb shock or impact energy without undergoing fracture or breakage.</p>
 
-    <h4>Characteristics:</h4>
+    <h3>Characteristics:</h3>
     <ul>
-        <li>Shock Absorption:</li>
+        <li><h4>Shock Absorption:</h4></li>
         <ul>
             <li>Ability to absorb and dissipate energy from sudden impacts.</li>
         </ul>
-        <li>Material Integrity:</li>
+        <li><h4>Material Integrity:</h4></li>
         <ul>
             <li>Maintains structural integrity when subjected to impact forces.</li>
         </ul>
-        <li>Notched Specimen Test:</li>
+        <li><h4>Notched Specimen Test:</h4></li>
         <ul>
             <li>Involves striking a notched or V-notch specimen with a pendulum hammer.</li>
             <li>Measures energy absorbed during fracture.</li>
         </ul>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Consumer Products:</li>
+        <li><h4>Consumer Products:</h4></li>
         <ul>
             <li>Mobile devices, protective cases, and eyewear.</li>
         </ul>
-        <li>Automotive Components:</li>
+        <li><h4>Automotive Components:</h4></li>
         <ul>
             <li>Bumpers, safety features, and body panels.</li>
         </ul>
-        <li>Construction Materials:</li>
+        <li><h4>Construction Materials:</h4></li>
         <ul>
             <li>Building components and impact-resistant glass.</li>
         </ul>
-        <li>Sporting Equipment:</li>
+        <li><h4>Sporting Equipment:</h4></li>
         <ul>
             <li>Helmets, pads, and sports gear.</li>
         </ul>
     </ul>
 
-    <h4>How it Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Notched Specimen Test:</li>
+        <li><h4>Notched Specimen Test:</h4></li>
         <ul>
             <li>Utilizes a pendulum hammer to strike a notched or V-notch specimen.</li>
             <li>Measures the energy absorbed by the material during fracture.</li>
@@ -2146,21 +2266,21 @@ Laser diffraction measures particle size distributions by measuring the angular 
         </ul>
     </ul>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Durability Enhancement:</li>
+        <li><h4>Durability Enhancement:</h4></li>
         <ul>
             <li>Increases the ability of materials to withstand sudden forces.</li>
         </ul>
-        <li>Safety Assurance:</li>
+        <li><h4>Safety Assurance:</h4></li>
         <ul>
             <li>Crucial for products designed to protect users from impacts.</li>
         </ul>
-        <li>Product Longevity:</li>
+        <li><h4>Product Longevity:</h4></li>
         <ul>
             <li>Reduces the risk of damage and breakage during use.</li>
         </ul>
-        <li>Optimized Designs:</li>
+        <li><h4>Optimized Designs:</h4></li>
         <ul>
             <li>Enables the design of components for specific impact or shock loads.</li>
         </ul>
@@ -2173,7 +2293,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 35,
-      titleHead: 'Physical properties',
+      mainHeader: " Abrasion Resistance Testing Equipment ",
+      titleHead: 'High-Performance Abrasion Resistance Testing Equipment | VBCC Research',
+      metaDesc: "Unlock the potential of precision testing with our high-performance abrasion resistance testing equipment. Ensure accuracy & reliability in every evaluation process.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service35-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service35-sec-2.gif',
       header: 'Physical properties',
@@ -2185,45 +2307,45 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
     <p>Abrasion resistance is the capacity of materials and structures to endure wear and tear caused by friction, preventing deterioration and maintaining their original structure.</p>
 
-    <h4>Characteristics:</h4>
+    <h3>Characteristics:</h3>
     <ul>
-        <li>Mechanical Wear:</li>
+        <li><h4>Mechanical Wear:</h4></li>
         <ul>
             <li>Resistance to wearing down or rubbing away through friction.</li>
         </ul>
-        <li>Hardness:</li>
+        <li><h4>Hardness:</h4></li>
         <ul>
             <li>The harder the material, the higher its resistance to abrasion.</li>
         </ul>
-        <li>Abrasion Test:</li>
+        <li><h4>Abrasion Test:</h4></li>
         <ul>
             <li>Measures material loss using abrasive paper over a specified time.</li>
         </ul>
     </ul>
 
-    <h4>Use Cases:</h4>
+    <h3>Use Cases:</h3>
     <ul>
-        <li>Industrial Machinery:</li>
+        <li><h4>Industrial Machinery:</h4></li>
         <ul>
             <li>Components exposed to continuous friction.</li>
         </ul>
-        <li>Automotive Applications:</li>
+        <li><h4>Automotive Applications:</h4></li>
         <ul>
             <li>Tires, brake systems, and other parts.</li>
         </ul>
-        <li>Construction Materials:</li>
+        <li><h4>Construction Materials:</h4></li>
         <ul>
             <li>Flooring, concrete surfaces, and coatings.</li>
         </ul>
-        <li>Mining Equipment:</li>
+        <li><h4>Mining Equipment:</h4></li>
         <ul>
             <li>Tools, conveyor belts, and drilling components.</li>
         </ul>
     </ul>
 
-    <h4>How it Works:</h4>
+    <h3>How It Works:</h3>
     <ul>
-        <li>Abrasion Test:</li>
+        <li><h4>Abrasion Test:</h4></li>
         <ul>
             <li>Employs abrasive paper to simulate frictional wear.</li>
             <li>Measures material loss over a defined period.</li>
@@ -2231,21 +2353,21 @@ Laser diffraction measures particle size distributions by measuring the angular 
         </ul>
     </ul>
 
-    <h4>Benefits:</h4>
+    <h3>Benefits:</h3>
     <ul>
-        <li>Material Longevity:</li>
+        <li><h4>Material Longevity:</h4></li>
         <ul>
             <li>Enhances the lifespan of materials exposed to abrasive forces.</li>
         </ul>
-        <li>Cost Savings:</li>
+        <li><h4>Cost Savings:</h4></li>
         <ul>
             <li>Reduces the frequency of replacements and maintenance.</li>
         </ul>
-        <li>Performance Assurance:</li>
+        <li><h4>Performance Assurance:</h4></li>
         <ul>
             <li>Ensures materials can withstand mechanical wear in diverse applications.</li>
         </ul>
-        <li>Quality Assessment:</li>
+        <li><h4>Quality Assessment:</h4></li>
         <ul>
             <li>Key parameter in material selection for specific use cases.</li>
         </ul>
@@ -2257,7 +2379,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 36,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Creep Resistance",
+      titleHead: 'Advanced Creep Resistance Solutions | VBCC Research',
+      metaDesc: "Discover material stability with our Advanced Creep Resistance Solutions. Precise digital measurements unveil long-term performance insights under extreme conditions.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service36-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service36-sec-2.jpg',
       header: 'Thermal Testing',
@@ -2269,28 +2393,28 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Creep resistance is a material property that gauges its ability to withstand deformation when exposed to sustained compressive loads and elevated temperatures over an extended duration. This phenomenon commonly occurs in materials under mechanical stress at high operating conditions.</p>
 
-          <h4>How It Works:</h4>
-          <p>Digital Shrinkage Measurement:</p>
+          <h3>How It Works:</h3>
+          <h4>Digital Shrinkage Measurement:</h4>
           <p>The equipment utilizes a high-resolution linear variable differential transformer (LVDT) measuring system (1-micrometer precision) for digitally measuring the percentage of shrinkage in a test piece under a constant load and elevated temperature.</p>
-          <p>Computer Integration:</p>
+          <h4>Computer Integration:</h4>
           <p>LVDT values are transmitted to a computer through a dedicated cable, and Labview software is employed for real-time plotting of an online graph illustrating the relationship between temperature and the percentage of total expansion.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Refractory Testing:</p>
+          <h3>Use Cases:</h3>
+          <h4>Refractory Testing:</h4>
           <p>Creep in compression is particularly measured to assess the shrinkage of refractory materials under constant loads and high temperatures.</p>
 
-          <h4>Key Features:</h4>
-          <p>High-Temperature Capability:</p>
+          <h3>Key Features:</h3>
+          <h4>High-Temperature Capability:</h4>
           <p>The equipment is designed to operate at a maximum temperature of 1600°C, simulating harsh operating conditions.</p>
           <p>Sample Size Standardization:</p>
           <p>Standardized sample sizes with an outer diameter (OD) of 50mm and a length of 50mm ensure consistency in testing.</p>
 
-          <h4>Benefits:</h4>
-          <p>Material Stability Assessment:</p>
+          <h3>Benefits:</h3>
+          <h4>Material Stability Assessment:</h4>
           <p>Enables the assessment of a material's stability and resistance to deformation under prolonged compressive loads and elevated temperatures.</p>
-          <p>Digital Precision:</p>
+          <h4>Digital Precision:</h4>
           <p>The LVDT measuring system ensures high precision (1 micrometer), providing accurate and reliable measurements of material shrinkage.</p>
-          <p>Long-Term Performance Prediction:</p>
+          <h4>Long-Term Performance Prediction:</h4>
           <p>Facilitates insights into a material's long-term performance, aiding in predicting its behavior under sustained mechanical stress.</p>
 
           <p>Creep resistance testing, as performed by the CREEP equipment, holds significance in material engineering for evaluating materials used in high-stress, high-temperature applications. Its ability to simulate and assess long-term stability contributes to the understanding and improvement of materials for various industries, including those involving refractory materials.</p>
@@ -2307,7 +2431,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 37,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Hot Modulus of Rupture Machine (HMOR)",
+      titleHead: 'Precision Hot Modulus of Rupture Machines | VBCC Research',
+      metaDesc: "Elevate your testing precision with our hot modulus of rupture machines. Achieve superior results in materials analysis and quality assurance.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service37-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service37-sec-2.jpg',
       header: 'Thermal Testing',
@@ -2319,26 +2445,26 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Hot Modulus Of Rupture (HMOR), also referred to as hot bend strength or fracture strength at a specific temperature, is a crucial mechanical parameter used to evaluate the ability of brittle materials to resist deformation under a constant load at elevated temperatures. This parameter holds significant importance in the characterization of refractory materials.</p>
 
-          <h4>How It Works:</h4>
-          <p>High-Temperature Load Test:</p>
+          <h3>How It Works:</h3>
+          <h4>High-Temperature Load Test:</h4>
           <p>The equipment performs a high-temperature load test to determine the material's ability to withstand deformation under load at a constant temperature.</p>
-          <p>Maximum Temperature Capability:</p>
+          <h4>Maximum Temperature Capability:</h4>
           <p>The HMOR equipment is designed to operate at extreme temperatures, with a maximum capability of 1700°C.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Quality Control in Refractory Materials:</p>
+          <h3>Use Cases:</h3>
+          <h4>Quality Control in Refractory Materials:</h4>
           <p>HMOR is employed to assess the maximum load at high temperatures, providing essential data for quality control in the production and development of furnace linings.</p>
 
-          <h4>Key Features:</h4>
-          <p>Sample Standardization:</p>
+          <h3>Key Features:</h3>
+          <h4>Sample Standardization:</h4>
           <p>Standardized sample sizes of 25mm x 25mm x 150mm ensure consistency in testing, allowing for accurate comparisons.</p>
-          <p>High-Temperature Assessment:</p>
+          <h4>High-Temperature Assessment:</h4>
           <p>Capable of evaluating material strength under extreme conditions, making it particularly suitable for refractory materials used in high-temperature environments.</p>
 
-          <h4>Benefits:</h4>
-          <p>Quality Assurance:</p>
+          <h3>Benefits:</h3>
+          <h4>Quality Assurance:</h4>
           <p>HMOR testing serves as a reliable parameter for quality assurance, ensuring that refractory materials can withstand the demanding conditions of furnace linings.</p>
-          <p>Performance Prediction:</p>
+          <h4>Performance Prediction:</h4>
           <p>Provides insights into material performance at elevated temperatures, aiding in predicting its behavior in real-world applications.</p>
 
           <p>HMOR testing is a critical aspect of material engineering, especially for materials used in industries where high temperatures and mechanical stress are prevalent. The ability to evaluate rupture strength under extreme heat contributes to the development of robust and reliable materials for applications in furnace linings and other high-temperature environments.</p>
@@ -2358,7 +2484,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 38,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Thermal Conductivity Measurement Equipment ",
+      titleHead: 'Thermal Conductivity Measurement Equipment | VBCC Research',
+      metaDesc: "Unlock Material Potential with Precision: Explore our Thermal Conductivity Measurement Equipment. The key to accuracy.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service38-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service38-sec-2.png',
       header: 'Thermal Testing',
@@ -2370,26 +2498,26 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Thermal conductivity (k, λ, or κ) is a crucial metric defining a material's ability to conduct heat. It plays a pivotal role in determining the rate of heat transfer, with lower thermal conductivity indicating slower heat transfer and vice versa.</p>
 
-          <h4>How It Works:</h4>
-          <p>Temperature-Dependent Assessment:</p>
+          <h3>How It Works:</h3>
+          <h4>Temperature-Dependent Assessment:</h4>
           <p>The equipment evaluates thermal conductivity values from room temperature up to 1400°C or the maximum service limit of the refractory material.</p>
-          <p>Material Characterization:</p>
+          <h4>Material Characterization:</h4>
           <p>Conducts tests on non-carbonaceous dielectric refractories to assess their thermal conductivity under varying temperature conditions.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Refractory Material Optimization:</p>
+          <h3>Use Cases:</h3>
+          <h4>Refractory Material Optimization:</h4>
           <p>Essential for optimizing the composition of refractory materials, ensuring they meet thermal performance requirements in high-temperature applications.</p>
 
           <h4>Key Features:</h4>
-          <p>Wide Temperature Range:</p>
+          <h4>Wide Temperature Range:</h4>
           <p>Capable of determining thermal conductivity across a broad temperature spectrum, allowing for comprehensive material characterization.</p>
-          <p>Dielectric Refractories Testing:</p>
+          <h4>Dielectric Refractories Testing:</h4>
           <p>Specifically designed for non-carbonaceous dielectric refractories, providing insights into their thermal behavior.</p>
 
-          <h4>Benefits:</h4>
-          <p>Performance Prediction:</p>
+          <h3>Benefits:</h3>
+          <h4>Performance Prediction:</h4>
           <p>Enables the prediction of material performance in real-world applications by understanding how it conducts heat at various temperatures.</p>
-          <p>Material Selection Criteria:</p>
+          <h4>Material Selection Criteria:</h4>
           <p>Aids in material selection for applications with specific temperature requirements, ensuring optimal thermal performance.</p>
 
           <p>Understanding thermal conductivity is fundamental in material engineering, particularly for substances used in high-temperature environments. This knowledge empowers engineers to design and select materials with tailored thermal properties, crucial for applications ranging from refractory linings in industrial furnaces to components in aerospace engineering. The ability to measure and control thermal conductivity enhances the efficiency and reliability of materials under diverse temperature conditions.</p>
@@ -2410,7 +2538,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 39,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Permanent Linear Change of Refractory (PLC)",
+      titleHead: 'Stability with Permanent Linear Change of Refractory | VBCC Research',
+      metaDesc: "Enhance your operations with refractory materials designed for permanence. Explore the benefits of permanent linear change for long-lasting performance.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service39-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service39-sec-2.png',
       header: 'Thermal Testing',
@@ -2422,19 +2552,19 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Permanent Linear Change (PLC) serves as a crucial factor for assessing the suitability of refractory materials under diverse temperature conditions. It gauges the permanent alteration in dimensions that refractories may undergo due to processes like mineral formation, phase transformation, or shrinkage when exposed to heat.</p>
 
-          <h4>How It Works:</h4>
-          <p>Experimental Measurement:</p>
+          <h3>How It Works:</h3>
+          <h4>Experimental Measurement:</h4>
           <p>Refractories are heated to predetermined temperatures, held for specific durations, and then cooled to room temperature.</p>
           <p>The measuring temperature and time align with technical standards tailored to each product.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Temperature Suitability Assessment:</p>
+          <h3>Use Cases:</h3>
+          <h4>Temperature Suitability Assessment:</h4>
           <p>PLC is utilized to determine how refractory materials respond to temperature variations, ensuring they meet the requirements of specific applications.</p>
 
-          <h4>Benefits:</h4>
-          <p>Performance Prediction:</p>
+          <h3>Benefits:</h3>
+          <h4>Performance Prediction:</h4>
           <p>Allows for predicting how refractories will change dimensionally under various temperature scenarios, aiding in material selection for specific operational conditions.</p>
-          <p>Quality Control:</p>
+          <h4>Quality Control:</h4>
           <p>Forms an integral part of quality control processes, ensuring that refractory products adhere to specified standards and exhibit desired thermal stability.</p>
 
           <p>Permanent Linear Change is a critical parameter in the material engineering of refractories, providing insights into their behavior when exposed to elevated temperatures. Understanding and controlling PLC contribute to the reliable performance of refractory materials in applications such as industrial furnaces, kilns, and other high-temperature environments.</p>
@@ -2445,7 +2575,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 40,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Refractoriness Under Load:",
+      titleHead: 'Enhance Performance with High Refractoriness Under Load | VBCC Research',
+      metaDesc: "Unlock superior heat resistance with Refractoriness Under Load (RUL) solutions. Assess, evaluate, and ensure structural integrity for high-temperature applications.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service40-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service40-sec-2.png',
       header: 'Thermal Testing',
@@ -2457,20 +2589,20 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Refractoriness Under Load (RUL) is a critical measure defined by ISO 1893, evaluating the deformation behavior of refractory ceramic products under a constant load with increasing temperature. It provides insights into the product's ability to withstand high temperatures without significant deformation.</p>
 
-          <h4>How It Works:</h4>
-          <p>Constant Load and Temperature Increase:</p>
+          <h3>How It Works:</h3>
+          <h4>Constant Load and Temperature Increase:</h4>
           <p>Refractory samples are subjected to a constant load.</p>
           <p>The temperature is systematically increased to observe the onset of softening and deformation.</p>
 
-          <h4>Use Cases:</h4>
-          <p>High-Temperature Applications:</p>
+          <h3>Use Cases:</h3>
+          <h4>High-Temperature Applications:</h4>
           <p>RUL is employed to assess refractory products' suitability for applications exposed to elevated temperatures.</p>
           <p>Commonly used in industries such as metallurgy, cement, and glass manufacturing.</p>
 
-          <h4>Benefits:</h4>
-          <p>Performance Evaluation:</p>
+          <h3>Benefits:</h3>
+          <h4>Performance Evaluation:</h4>
           <p>RUL aids in understanding how refractory materials respond to high temperatures under load, ensuring they maintain structural integrity.</p>
-          <p>Quality Assurance:</p>
+          <h4>Quality Assurance:</h4>
           <p>Integral to quality control processes, RUL testing verifies that refractory products meet specified standards for high-temperature applications.</p>
 
           <p>Refractoriness Under Load is a crucial parameter in the selection and development of refractory materials for industries where exposure to high temperatures is common. The ability to withstand load while maintaining stability is vital for the reliable and safe operation of industrial processes involving intense heat.</p>
@@ -2479,7 +2611,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 41,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Pyrometric Cone Equivalent  (PCE)",
+      titleHead: 'Pyrometric Cone Equivalent for Temperature Measurement | VBCC Research',
+      metaDesc: "Discover the significance of Pyrometric Cone Equivalent in achieving optimal heat-work and temperature. Ideal for industrial and hobbyist kilns.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service41-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service41-sec-2.png',
       header: 'Thermal Testing',
@@ -2491,32 +2625,32 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>PCE, or Pyrometric Cone Equivalent, is a crucial metric in the ceramics industry, providing insights into the firing process by determining the cone equivalent of raw materials. This method involves placing various PCE cones alongside an unknown material, allowing for the assessment of heat-work, time, and temperature.</p>
 
-          <h4>How It Works:</h4>
-          <p>Comparative Analysis:</p>
+          <h3>How It Works:</h3>
+          <h4>Comparative Analysis:</h4>
           <p>Involves placing PCE cones alongside an unknown raw material pressed into a cone shape.</p>
           <p>The cones deform based on the heat-work, time, and temperature, providing a comparative analysis.</p>
-          <p>Indication of Firing Conditions:</p>
+          <h4>Indication of Firing Conditions:</h4>
           <p>The deformation of cones indicates the firing conditions and whether the desired heat-work has been achieved.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Industrial Kilns:</p>
+          <h3>Use Cases:</h3>
+          <h4>Industrial Kilns:</h4>
           <p>Widely used in industrial kilns for consistent monitoring of ceramic firings.</p>
           <p>Ensures that the firing conditions meet the required standards for quality production.</p>
-          <p>Pottery Kilns:</p>
+          <h4>Pottery Kilns:</h4>
           <p>Essential in pottery kilns to achieve the desired properties in the fired clay.</p>
           <p>Enables potters to maintain control over the firing process for optimal results.</p>
-          <p>Quality Assurance:</p>
+          <h4>Quality Assurance:</h4>
           <p>Used in small hobby kilns for quality assurance in artisanal ceramic production.</p>
           <p>Provides a simple yet effective method for hobbyists to achieve desired firing outcomes.</p>
 
-          <h4>Benefits:</h4>
-          <p>Precision in Firing:</p>
+          <h3>Benefits:</h3>
+          <h4>Precision in Firing:</h4>
           <p>Offers a precise indication of the heat-work and temperature achieved during firing.</p>
           <p>Allows for adjustments to firing conditions to meet specific requirements.</p>
-          <p>Quality Control:</p>
+          <h4>Quality Control:</h4>
           <p>Integral for quality control in ceramic production, ensuring uniformity and consistency.</p>
           <p>Provides a visual and tangible measure of the firing process.</p>
-          <p>Cost-Effective Monitoring:</p>
+          <h4>Cost-Effective Monitoring:</h4>
           <p>Provides a cost-effective means of monitoring and controlling firing processes.</p>
           <p>Enables both large-scale industrial operations and individual artists to achieve desired ceramic properties.</p>
 
@@ -2526,7 +2660,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 42,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Thermal Cycling Machines ",
+      titleHead: 'Precision Temperature Thermal Cycling Machines | VBCC Research',
+      metaDesc: "Elevate your experiments with advanced thermal cycling machines. Achieve precision temperature control effortlessly.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service42-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service42-sec-2.png',
       header: 'Thermal Testing',
@@ -2538,27 +2674,27 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Thermal cycling, also known as temperature cycling, is a recurring thermal test involving the regular alteration of temperatures, oscillating between high and low temperature peaks. This testing method is employed to evaluate the resilience of materials against exposure to alternating extremes of temperature.</p>
 
-          <h4>How It Works:</h4>
-          <p>Temperature Alteration:</p>
+          <h3>How It Works:</h3>
+          <h4>Temperature Alteration:</h4>
           <p>Materials or components undergo repetitive cycles of exposure to high-temperature peaks and low-temperature troughs.</p>
           <p>The goal is to simulate real-world conditions where temperature variations are encountered.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Performance Verification:</p>
+          <h3>Use Cases:</h3>
+          <h4>Performance Verification:</h4>
           <p>Thermal cycling is crucial for assessing the performance of components and materials in environments characterized by temperature fluctuations.</p>
           <p>Commonly applied in the testing of electronic components, materials for aerospace applications, and other temperature-sensitive devices.</p>
-          <p>Identifying Defects:</p>
+          <h4>Identifying Defects:</h4>
           <p>Detects workmanship or material defects that may arise under the stress of thermal cycling.</p>
           <p>Helps in quality control and ensuring reliability in diverse applications.</p>
 
-          <h4>Benefits:</h4>
-          <p>Quality Assurance:</p>
+          <h3>Benefits:</h3>
+          <h4>Quality Assurance:</h4>
           <p>Assures the integrity and reliability of materials by subjecting them to conditions replicating real-world temperature variations.</p>
-          <p>Durability Testing:</p>
+          <h4>Durability Testing:</h4>
           <p>Provides insights into the durability and longevity of materials and components under cyclic thermal stress.</p>
 
           <h4>Duration:</h4>
-          <p>Varied Timeframe:</p>
+          <h4>Varied Timeframe:</h4>
           <p>The duration of thermal cycling varies based on sample volume and specific equipment, typically lasting between one and four hours.</p>
 
           <p>Thermal cycling is a vital tool in materials testing, offering researchers and engineers a controlled environment to assess the impact of cyclic temperature changes on various materials and components. This process aids in refining designs, ensuring reliability, and identifying potential weaknesses in a wide range of applications.</p>
@@ -2569,7 +2705,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 43,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Thermal Cycling Machines",
+      titleHead: 'Expert Slag Testing Services | VBCC Research',
+      metaDesc: "Optimize durability in high-temperature environments with Slag Testing. Evaluate refractory resistance, minimize replacements, and cut maintenance costs.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service43-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service43-sec-2.png',
       header: 'Thermal Testing',
@@ -2581,32 +2719,32 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Slag testing is a critical evaluation method employed to assess the resilience of refractory materials when exposed to molten slag, a glass-like residue formed during the smelting process. This testing primarily distinguishes between two modes of attack: corrosion, signifying static chemical wear, and erosion, indicating mechanical wear caused by molten slag.</p>
 
-          <h4>How It Works:</h4>
-          <p>Corrosion Assessment:</p>
-          <p>Static Chemical Attack:</p>
+          <h3>How It Works:</h3>
+          <h4>Corrosion Assessment:</h4>
+          <h4>Static Chemical Attack:</h4>
           <p>Involves examining refractories for wear and tear caused by the chemical composition of slag.</p>
           <p>Identifies the refractory's resistance to chemical corrosion over time.</p>
-          <p>Erosion Analysis:</p>
-          <p>Mechanical Wear:</p>
+          <h4>Erosion Analysis:</h4>
+          <h4>Mechanical Wear:</h4>
           <p>Evaluates the breaking and washing away of refractory materials due to the mechanical action of molten slag.</p>
           <p>Assesses the refractory's ability to withstand physical erosion.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Steel Industry:</p>
+          <h3>Use Cases:</h3>
+          <h4>Steel Industry:</h4>
           <p>Crucial for assessing refractory performance in steelmaking furnaces exposed to aggressive slag.</p>
           <p>Ensures the durability and longevity of refractory linings in these high-temperature environments.</p>
-          <p>Foundries:</p>
+          <h4>Foundries:</h4>
           <p>Employed to evaluate refractory materials in foundry applications where molten metal and slag interactions are common.</p>
           <p>Facilitates the selection of refractories with optimal resistance to slag-induced wear.</p>
 
-          <h4>Benefits:</h4>
-          <p>Performance Validation:</p>
+          <h3>Benefits:</h3>
+          <h4>Performance Validation:</h4>
           <p>Validates the performance of refractories under conditions mimicking real-world industrial processes.</p>
           <p>Ensures refractory materials can endure prolonged exposure to molten slag.</p>
-          <p>Cost Efficiency:</p>
+          <h4>Cost Efficiency:</h4>
           <p>Identifies refractory materials with superior resistance, minimizing the need for frequent replacements.</p>
           <p>Reduces downtime and maintenance costs in industrial settings.</p>
-          <p>Quality Assurance:</p>
+          <h4>Quality Assurance:</h4>
           <p>Provides a qualitative and quantitative assessment of refractory durability.</p>
           <p>Assures the quality of refractory linings in critical applications.</p>
 
@@ -2616,7 +2754,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 44,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Sieve Analysis Testing Equipment",
+      titleHead: 'Precision Sieve Analysis Equipment for Accurate Testing | VBCC Research',
+      metaDesc: "Revolutionize your testing processes with our advanced sieve analysis equipment. Experience unparalleled precision in sieve testing for optimal results.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service44-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service44-sec-2.jpg',
       header: 'Thermal Testing',
@@ -2628,28 +2768,28 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Sieve analysis is a fundamental method employed to determine the distribution of grain sizes in soils with particles greater than 0.075 mm in diameter. Typically used for sand and gravel, this method is invaluable for understanding the composition of soil.</p>
 
-          <h4>How It Works:</h4>
-          <p>Particle Size Distribution:</p>
+          <h3>How It Works:</h3>
+          <h4>Particle Size Distribution:</h4>
           <p>Involves determining the quantity of powder retained on a series of sieves with varying aperture sizes.</p>
           <p>A sample is introduced at the top of a stack of sieves arranged in decreasing size order.</p>
-          <p>Formula:</p>
+          <h4>Formula:</h4>
           <p>Utilizes a formula to calculate the percentage retained on and passing through each sieve.</p>
           <p>Masses for each sieve (individual/cumulative) are divided by the total dry mass before washing and multiplied by 100.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Soil Composition Analysis:</p>
+          <h3>Use Cases:</h3>
+          <h4>Soil Composition Analysis:</h4>
           <p>Essential for analyzing and understanding the grain size distribution of soils.</p>
           <p>Particularly useful for sand and gravel but not exclusive to these materials.</p>
-          <p>Engineering and Construction:</p>
+          <h4>Engineering and Construction:</h4>
           <p>Critical in geotechnical engineering for designing foundations, slopes, and other structures.</p>
           <p>Guides construction decisions based on soil composition.</p>
 
-          <h4>Benefits:</h4>
-          <p>Accurate Classification:</p>
+          <h3>Benefits:</h3>
+          <h4>Accurate Classification:</h4>
           <p>Provides accurate information about the distribution of particle sizes within a soil sample.</p>
-          <p>Foundation for Decisions:</p>
+          <h4>Foundation for Decisions:</h4>
           <p>Aids in making informed decisions in engineering and construction projects based on soil characteristics.</p>
-          <p>Quality Control:</p>
+          <h4>Quality Control:</h4>
           <p>A valuable quality control tool, ensuring that soil used in construction meets specified criteria.</p>
 
           <p>Sieve analysis is a cornerstone in soil science and geotechnical engineering, offering insights into the physical properties of soils. By revealing the distribution of particle sizes, it aids in planning and executing construction projects, ensuring the stability and integrity of structures.</p>
@@ -2661,7 +2801,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 45,
-      titleHead: 'Thermal Testing',
+      mainHeader: "Thermal Shock Resistance Equipment",
+      titleHead: 'Enhance Performance with Thermal Shock Resistance Equipment | VBCC Research',
+      metaDesc: "Navigate through the science of thermal shock resistance. From laboratory simulations to key parameters, ensure material reliability in fluctuating temperatures.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service45-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service45-sec-2.png',
       header: 'Thermal Testing',
@@ -2673,37 +2815,37 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Thermal shock resistance is a critical property characterizing a material's ability to endure sudden and extreme changes in temperature, whether during rapid heating or cooling. This resilience is particularly crucial in applications where materials are subjected to alternating high and low-temperature environments.</p>
 
-          <h4>How It Works:</h4>
-          <p>Simulation Methods:</p>
-          <p>Laboratory Simulation:</p>
+          <h3>How It Works:</h3>
+          <h4>Simulation Methods:</h4>
+          <h4>Laboratory Simulation:</h4>
           <p>Conditions akin to thermal shock are replicated in the lab using water or air after exposure to furnace environments.</p>
           <p>Materials are subjected to abrupt temperature changes to assess their response.</p>
-          <p>Parameters for Computation:</p>
-          <p>High Fracture Strength (σf):</p>
+          <h4>Parameters for Computation:</h4>
+          <h4>High Fracture Strength (σf):</h4>
           <p>Measures the material's resistance to fracture under stress.</p>
-          <p>Thermal Conductivity (K):</p>
+          <h4>Thermal Conductivity (K):</h4>
           <p>Indicates the material's ability to conduct heat.</p>
-          <p>Elastic Modulus (E):</p>
+          <h4>Elastic Modulus (E):</h4>
           <p>Reflects the material's elastic deformation under stress.</p>
-          <p>Linear Coefficient of Thermal Expansion (αL):</p>
+          <h4>Linear Coefficient of Thermal Expansion (αL):</h4>
           <p>Defines how the material's dimensions change with temperature.</p>
 
-          <h4>Use Cases:</h4>
-          <p>Manufacturing Industries:</p>
+          <h3>Use Cases:</h3>
+          <h4>Manufacturing Industries:</h4>
           <p>Crucial for materials used in manufacturing processes involving rapid temperature changes, such as glass production.</p>
           <p>Ensures the durability and reliability of materials in challenging thermal environments.</p>
-          <p>Electronics:</p>
+          <h4>Electronics:</h4>
           <p>Essential in electronic components to withstand fluctuations in operating temperatures.</p>
           <p>Safeguards against thermal stress-induced failures in electronic devices.</p>
 
-          <h4>Benefits:</h4>
-          <p>Durability Assurance:</p>
+          <h3>Benefits:</h3>
+          <h4>Durability Assurance:</h4>
           <p>Identifies materials capable of withstanding abrupt temperature variations.</p>
           <p>Ensures longevity and performance stability in diverse applications.</p>
-          <p>Reliability in Extreme Conditions:</p>
+          <h4>Reliability in Extreme Conditions:</h4>
           <p>Guarantees the reliability of materials in environments with rapid and severe temperature fluctuations.</p>
           <p>Reduces the risk of material failure due to thermal shock.</p>
-          <p>Performance Optimization:</p>
+          <h4>Performance Optimization:</h4>
           <p>Enables the selection of materials with optimal thermal shock resistance for specific applications.</p>
           <p>Enhances the overall efficiency and dependability of materials in challenging thermal scenarios.</p>
 
@@ -2714,7 +2856,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 46,
-      titleHead: 'Raw Materials',
+      mainHeader: "Ball Clay",
+      titleHead: 'Premium Ball Clay for Exceptional Ceramics | VBCC Research',
+      metaDesc: "Unlock the potential of your ceramics with Ball Clay. Achieve unmatched plasticity, strength, and color consistency. Perfect for whiteware & sanitaryware production.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service46-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service46-sec-2.jpg',
       header: 'Raw Materials',
@@ -2726,8 +2870,8 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
           <p>Ball Clay: Fine-grained, highly plastic clays, primarily composed of kaolinite, mica, and quartz, appreciated for their plasticity, unfired strength, and light color upon firing.</p>
 
-          <h4>Composition:</h4>
-          <li>Typically contain:</li>
+          <h3>Composition:</h3>
+          <h4>Typically contain:</h4>
           <ul>
               <li>20–80% Kaolinite.</li>
               <li>10–25% Mica.</li>
@@ -2736,40 +2880,40 @@ Laser diffraction measures particle size distributions by measuring the angular 
               <li>Trace minerals like pyrite and siderite.</li>
           </ul>
 
-          <h4>Use Cases:</h4>
-          <p>1. Ceramic Whiteware Production:</p>
+          <h3>Use Cases:</h3>
+          <h4>1. Ceramic Whiteware Production:</h4>
           <ul>
               <li>Principal raw material for manufacturing ceramic whiteware (tableware, tiles, etc.).</li>
               <li>Adds plasticity, aiding in the molding and shaping of products.</li>
           </ul>
 
-          <p>2. Sanitaryware Manufacturing:</p>
+          <h4>2. Sanitaryware Manufacturing:</h4>
           <ul>
               <li>Widely used in the production of sanitaryware items (sinks, toilets) due to its desirable properties.</li>
           </ul>
 
-          <p>How It Works:</p>
-          <li>Plasticity Enhancement:</li>
+          <h3>How It Works:</h3>
+          <h4>Plasticity Enhancement:</h4>
           <ul>
               <li>Ball clays exhibit high plasticity, making them easy to shape and mold.</li>
               <li>Enhance workability in the forming process of ceramic products.</li>
           </ul>
 
-          <h4>Benefits:</h4>
-          <p>1. Plasticity:</p>
+          <h3>Benefits:</h3>
+          <h4>1. Plasticity:</h4>
           <ul>
               <li>Ensures ease of shaping during ceramic product formation.</li>
               <li> Allows intricate designs and detailed molding..</li>
           </ul>
-          <p>2. Unfired Strength:</p>
+          <h4>2. Unfired Strength:</h4>
           <ul>
               <li>Contributes to the structural integrity of products before firing.</li>
           </ul>
-          <p>3. Color Consistency:</p>
+          <h4>3. Color Consistency:</h4>
           <ul>
               <li> Yields a light color upon firing, contributing to the desired aesthetic of ceramic items.</li>
           </ul>
-          <p>4. Versatility:</p>
+          <h4>4. Versatility:</h4>
           <ul>
               <li>Adaptable for various ceramic applications, providing versatility in manufacturing.</li>
           </ul>
@@ -2782,7 +2926,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 47,
-      titleHead: 'Raw Materials',
+      mainHeader: "China Clay Kaolin ",
+      titleHead: 'Premium China Clay Kaolin | VBCC Research',
+      metaDesc: "Elevate your creations with China clay Kaolin for fine porcelain, enhanced paper, and diverse industrial applications.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service47-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service47-sec-2.jpg',
       header: 'Raw Materials',
@@ -2795,66 +2941,66 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
           <p>China Clay (Kaolin): Soft, white clay essential in the production of China and porcelain, with versatile applications in paper, rubber, paint, and various industries.</p>
 
-          <h4>Composition:</h4>
+          <h3>Composition:</h3>
           <li>Primarily composed of the mineral kaolinite.</li>
           <li>Natural state:  White, soft powder.</li>
           <br>
-          <h4>Characteristics:</h4>
+          <h3>Characteristics:</h3>
           <li>Kaolinite manifests as hexagonal, platy crystals.</li>
           <li>Crystal size: Ranges from about 0.1 micrometers to 10 micrometers or larger.</li>
           <br>
-          <h4>Formation:</h4>
+          <h3>Formation:</h3>
           <li>Originates from the decomposition of minerals, notably Feldspar.</li>
           <li>Feldspar decomposition occurs in rocks like Granite.</li>
           <li>Geological process occurred millions of years ago during the late Cretaceous and early Paleogene periods.</li>
           <br>
-          <h4>Use Cases:</h4>
-          <p>1. Porcelain and China Production:</p>
+          <h3>Use Cases:</h3>
+          <h4>1. Porcelain and China Production:</h4>
           <ul>
               <li>Integral ingredient for crafting high-quality porcelain and China.</li>
           </ul>
-          <p>2. Paper Manufacturing:</p>
+          <h4>2. Paper Manufacturing:</h4>
           <ul>
               <li>Enhances paper quality and texture.</li>
           </ul>
-          <p>3. Rubber Industry:</p>
+          <h4>3. Rubber Industry:</h4>
           <ul>
               <li> Used as a reinforcing agent in rubber products.</li>
           </ul>
-          <p>4. Paint Production:</p>
+          <h4>4. Paint Production:</h4>
           <ul>
               <li> Serves as a pigment and filler in paint formulations.</li>
           </ul>
-          <p>5. Versatile Industrial Applications:</p>
+          <h4>5. Versatile Industrial Applications:</h4>
           <ul>
               <li> Employed in the creation of diverse products due to its unique properties.</li>
           </ul>
           <br>
-          <h4>How It Works:</h4>
-          <li>Porcelain Formation:</li>
+          <h3>How It Works:</h3>
+          <h4>Porcelain Formation:</h4>
           <ul>
           <li>Kaolin contributes to the plasticity and workability of porcelain clay.</li>
           <li>During firing, kaolin transforms into a durable and white ceramic material.</li>
           </ul>
           <br>
-          <h4>Benefits:</h4>
-          <p>1. Porcelain Craftsmanship:</p>
+          <h3>Benefits:</h3>
+          <h4>1. Porcelain Craftsmanship:</h4>
           <ul>
               <li> Essential for producing fine porcelain items with distinctive characteristics.</li>
           </ul>
-          <p>2. Textural Enhancements:</p>
+          <h4>2. Textural Enhancements:</h4>
           <ul>
               <li>Improves the texture and printability of paper.</li>
           </ul>
-          <p>3. Reinforcement in Rubber:</p>
+          <h4>3. Reinforcement in Rubber:</h4>
           <ul>
               <li> Enhances the strength and resilience of rubber products.</li>
           </ul>
-          <p>4. Pigment and Filler:</p>
+          <h4>4. Pigment and Filler:</h4>
           <ul>
               <li> Acts as a pigment and filler in paint, contributing to color and consistency.</li>
           </ul>
-          <p>5. Broad Applicability:</p>
+          <h4>5. Broad Applicability:</h4>
           <ul>
               <li> Versatility allows its incorporation into a wide range of industrial products.</li>
           </ul>
@@ -2868,7 +3014,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 48,
-      titleHead: 'Raw Materials',
+      mainHeader: "Refractory Than Clay ",
+      titleHead: 'Refractory Than Clay Solutions for Ceramics | VBCC Research',
+      metaDesc: "Explore the world of refractory ceramics with Than clays. Crafting resilience in high-temperature environments, our solutions go beyond ordinary clay. ",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service48-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service48-sec-2.jpg',
       header: 'Raw Materials',
@@ -2885,21 +3033,21 @@ Laser diffraction measures particle size distributions by measuring the angular 
           </ul>
           <br>
 
-          <h4>Temperature Resistance:</h4>
+          <h3>Temperature Resistance:</h3>
           <ul>
           <li>High-grade fire clays withstand temperatures up to 1,775 °C (3,227 °F).</li>
           <li>To be classified as "fire clay," it must endure a minimum temperature of 1,515 °C (2,759 °F).</li>
           </ul>
           <br>
 
-          <h4>Types of Fire Clays:</h4>
+          <h3>Types of Fire Clays:</h3>
           <ul>
           <li>Range from flint clays to plastic fire clays.</li>
           <li>Include semi-flint and semi-plastic fire clays.</li>
           </ul>
           <br>
 
-          <h4>Composition (Typical):</h4>
+          <h3>Composition (Typical):</h3>
           <ul>
               <li>Al2O3: 23-34%</li>
               <li>SiO2: 50-60%</li>
@@ -2908,42 +3056,42 @@ Laser diffraction measures particle size distributions by measuring the angular 
           </ul>
           <br>
 
-          <h4>Chemical Analyses (19th Century):</h4>
+          <h3>Chemical Analyses (19th Century):</h3>
           <ul>
           <li>Alumina content historically lower in 19th-century sources.</li>
           <li>Contemporary analyses provide values closer to the defined composition.</li>
           </ul>
           <br>
 
-          <h4>Use Cases:</h4>
-          <p>1. Ceramic Manufacturing:</p>
+          <h3>Use Cases:</h3>
+          <h4>1. Ceramic Manufacturing:</h4>
           <ul>
               <li>Primary material for crafting fire bricks. Used in the production of refractory ceramics.</li>
           </ul>
-          <p>2. High-Temperature Applications:</p>
+          <h4>2. High-Temperature Applications:</h4>
           <ul>
               <li> Ideal for applications requiring resilience at elevated temperatures.</li>
           </ul>
-          <p>3. Refractory Products:</p>
+          <h4>3. Refractory Products:</h4>
           <ul>
               <li> Retains strength and structure at high temperatures, crucial for refractory applications.</li>
           </ul>
 
-          <h4>How It Works:</h4>
-          <li>Refractory Properties:</li>
+          <h3>How It Works:</h3>
+          <h4>Refractory Properties:</h4>
           <ul>
           <li> Retains strength and structure at high temperatures, crucial for refractory applications.</li>
 </ul>
-          <h4>Benefits:</h4>
-          <p>1. Temperature Endurance:</p>
+          <h3>Benefits:</h3>
+          <h4>1. Temperature Endurance:</h4>
           <ul>
               <li>Withstands extreme temperatures, ensuring reliability in high-heat environments.</li>
           </ul>
-          <p>2. Versatile Applications:</p>
+          <h4>2. Versatile Applications:</h4>
           <ul>
               <li>Suitable for various refractory and ceramic manufacturing needs.</li>
           </ul>
-          <p>3. Structural Integrity:</p>
+          <h4>3. Structural Integrity:</h4>
           <ul>
               <li> Contributes to the durability and longevity of refractory products.</li>
           </ul>
@@ -2955,7 +3103,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 49,
-      titleHead: 'Raw Materials',
+      mainHeader: "Feldspar Powder",
+      titleHead: 'High-Quality Feldspar Powder for Industrial Use | VBCC Research',
+      metaDesc: "Elevate your ceramics, glass, and industrial products with High-Quality Feldspar Powder. Explore its versatility as a flux and enhancer, optimizing luster and quality.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service49-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service49-sec-2.jpg',
       header: 'Raw Materials',
@@ -2968,7 +3118,7 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
           <p>A group of rock-forming aluminium tectosilicate minerals, featuring sodium, calcium, potassium, or barium as additional cations.</p>
 
-          <h4>Types of Feldspar:</h4>
+          <h3>Types of Feldspar:</h3>
               <li>Plagioclase Feldspars:</li>
                   <ul>
                       <li>Contain sodium-calcium components.</li>
@@ -2979,29 +3129,29 @@ Laser diffraction measures particle size distributions by measuring the angular 
                       <li>Feature potassium-sodium constituents.</li>
                   </ul>
                   <br>
-              <p>Industrial Significance:</p>
+              <h3>Industrial Significance:</h3>
               <li>An essential source of alumina in glassmaking and ceramics industries.</li>
           <br>
 
 
           <br>
 
-          <h4>Applications:</h4>
-          <p>1. Ceramics Industry:</p>
+          <h3>Applications:</h3>
+          <h4>1. Ceramics Industry:</h4>
           <ul>
               <li>Acts as a flux in ceramics, enhancing vitreous lustre in chinaware and ceramic tiles.</li>
           </ul>
-          <p>2. Glazes and Enamels:</p>
+          <h4>2. Glazes and Enamels:</h4>
           <ul>
               <li>Utilized in glazes and enamels for enhancing surface characteristics.</li>
           </ul>
-          <p>3. Paints, Plastics, Sealants, and Adhesives:</p>
+          <h4>3. Paints, Plastics, Sealants, and Adhesives:</h4>
           <ul>
               <li>Serves as a crucial mineral filler in various industrial products.</li>
           </ul>
           <br>
 
-          <h4>Composition:</h4>
+          <h3>Composition:</h3>
           <ul>
           <li>Aluminosilicate minerals with the general formula AT₄O₈.</li>
 
@@ -3010,23 +3160,23 @@ Laser diffraction measures particle size distributions by measuring the angular 
           </ul>
           <br>
 
-          <h4>How It Works:</h4>
+          <h3>How It Works:</h3>
           <li>Flux in Ceramics:</li>
           <ul>
               <li>Enhances melting and vitrification in ceramics production.</li>
           </ul>
           <br>
 
-          <h4>Benefits:</h4>
-          <p>1. Glass and Ceramic Enhancement:</p>
+          <h3>Benefits:</h3>
+          <h4>1. Glass and Ceramic Enhancement:</h4>
           <ul>
               <li>Improves the properties of glass and ceramic products.</li>
           </ul>
-          <p>2. Surface Characteristics:</p>
+          <h4>2. Surface Characteristics:</h4>
           <ul>
               <li>Enhances lustre and surface quality in chinaware and tiles.</li>
           </ul>
-          <p>3. Versatile Industrial Applications:</p>
+          <h4>3. Versatile Industrial Applications:</h4>
           <ul>
               <li>Valuable in a range of industries, including paints, plastics, sealants, and adhesives.</li>
           </ul>
@@ -3041,7 +3191,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 50,
-      titleHead: 'Raw Materials',
+      mainHeader: " Quartz Ceramics",
+      titleHead: 'High-Quality Quartz Ceramics  | VBCC Research',
+      metaDesc: "Explore unbeatable quartz on premium ceramics. Elevate your projects with high-quality quartz ceramics.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service50-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service50-sec-2.jpg',
       header: 'Raw Materials',
@@ -3054,36 +3206,36 @@ Laser diffraction measures particle size distributions by measuring the angular 
 
     <p>Quartz is a hard, crystalline mineral composed of silicon dioxide (SiO2), forming a continuous framework of SiO4 silicon–oxygen tetrahedra.</p>
 
-    <h4>Forms:</h4>
-    <p>1. α-Quartz:</p>
+    <h3>Forms:</h3>
+    <h4>1. α-Quartz:</h4>
     <ul>
         <li> Normal form.</li>
 
     </ul>
-    <p>2. β-Quartz:</p>
+    <h4>2. β-Quartz:</h4>
     <ul>
     <li> High-temperature form, transforming abruptly at 573 °C.</li>
     </ul>
     <br>
 
-    <h4>Chirality:</h4>
+    <h3>Chirality:</h3>
     <ul>
         <li>Both α- and β-quartz are chiral.</li>
     </ul>
     <br>
 
-    <h4>Transformation:</h4>
+    <h3>Transformation:</h3>
     <ul>
         <li>The transformation from α-quartz to β-quartz at 573 °C is accompanied by a significant change in volume, inducing micro fracturing in ceramics or rocks.</li>
     </ul>
     <br>
 
-    <h4>Use Cases:</h4>
-    <p>1. Construction Materials:</p>
+    <h3>Use Cases:</h3>
+    <h4>1. Construction Materials:</h4>
     <ul>
         <li>Raw material for glass, concrete, and mortar.</li>
     </ul>
-    <p>2. Silicon Production:</p>
+    <h4>2. Silicon Production:</h4>
     <ul>
         <li>Refined to yield silicon critical for computers and high-tech applications.</li>
     </ul>
@@ -3095,12 +3247,12 @@ Laser diffraction measures particle size distributions by measuring the angular 
     </ul>
     <br>
 
-    <h4>Benefits:</h4>
-    <p>1. Diverse Construction Applications:</p>
+    <h3>Benefits:</h3>
+    <h4>1. Diverse Construction Applications:</h4>
     <ul>
         <li>Essential in the production of glass, concrete, and mortar for construction.</li>
     </ul>
-    <p>2. Critical Silicon Source:</p>
+    <h4>2. Critical Silicon Source:</h4>
     <ul>
         <li>Serves as a crucial raw material for silicon production, vital in modern technology.</li>
     </ul>
@@ -3115,7 +3267,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 51,
-      titleHead: 'Raw Materials',
+      mainHeader: "Alumina Ceramics",
+      titleHead: 'High-Quality Alumina Ceramics for Superior Performance | VBCC Research',
+      metaDesc: "Elevate your materials with high-quality alumina ceramics. From abrasive materials to protective coatings, explore the versatility and durability of alumina.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service51-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service51-sec-2.jpg',
       header: 'Raw Materials',
@@ -3127,47 +3281,47 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Alumina, derived from aluminium oxide, stands out as a versatile material widely employed for its hardness, strength, and protective characteristics in diverse industrial applications.</p>
 
-          <h4>Composition:</h4>
+          <h3>Composition:</h3>
           <ul>
               <li>Aluminium oxide, or alumina (Al2O3), occurs naturally as corundum.</li>
           </ul>
           <br>
 
-          <h4>Production:</h4>
+          <h3>Production:</h3>
           <ul>
               <li>Obtained by burning aluminium in oxygen or by heating hydroxide, nitrate, or sulphate of the metal.</li>
               <li>Industrially separated from bauxite, an ore containing 30–54% alumina, iron (III) oxide (Fe2O3), and silica (SiO2).</li>
           </ul>
           <br>
 
-          <h4>Use Cases:</h4>
-          <p>1. Abrasive Materials:</p>
+          <h3>Use Cases:</h3>
+          <h4>1. Abrasive Materials:</h4>
           <ul>
               <li>Alumina is widely utilized in industrial abrasive materials.</li>
               <li>Superior hardness and strength make it effective for various abrasive applications.</li>
           </ul>
-          <p>2. Protective Coating:</p>
+          <h4>2. Protective Coating:</h4>
           <ul>
               <li>Used as a coating to protect surfaces against abrasion.</li>
               <li>Provides a durable shield, enhancing the lifespan of materials.</li>
           </ul>
-          <p>3. Industrial Applications:</p>
+          <h4>3. Industrial Applications:</h4>
           <ul>
               <li>Found in diverse industrial applications due to its versatility.</li>
               <li>Used in manufacturing processes requiring robust and wear-resistant materials.</li>
           </ul>
           <br>
 
-          <h4>Benefits:</h4>
-          <p>1. Superior Hardness:</p>
+          <h3>Benefits:</h3>
+          <h4>1. Superior Hardness:</h4>
           <ul>
               <li> Alumina exhibits exceptional hardness, contributing to its effectiveness in abrasive materials.</li>
           </ul>
-          <p>2. Strength:</p>
+          <h4>2. Strength:</h4>
           <ul>
           <li>The strength of alumina enhances its durability in applications subjected to wear and tear.</li>
           </ul>
-          <p>3. Protective Qualities:</p>
+          <h4>3. Protective Qualities:</h4>
           <ul>
           <li>As a coating, alumina offers protective qualities, reducing the impact of abrasion on surfaces.</li>
           </ul>
@@ -3178,7 +3332,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 52,
-      titleHead: 'Raw Materials',
+      mainHeader: "Zirconia Ceramics",
+      titleHead: 'Quality Zirconia White Solid Ceramic Glaze | VBCC Research',
+      metaDesc: "Elevate your applications with Zirconia Ceramics - the epitome of hardness and versatility. Quality Zirconia white solid ceramic glaze for lasting performance.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service52-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service52-sec-2.jpg',
       header: 'Raw Materials',
@@ -3188,52 +3344,52 @@ Laser diffraction measures particle size distributions by measuring the angular 
       industries: '₹ - Enquire for Estimate',
       para1: '',
       para2: `
-      <h4>Characteristics:</h4>
+      <h3>Characteristics:</h3>
       <li>Zirconia is a white solid ceramic glaze with properties that combine the strength of metal with the aesthetic appeal of porcelain.</li>
 <br>
-      <h4>Use Cases:</h4>
-      <p>1. Dental Applications:</p>
+      <h3>Use Cases:</h3>
+      <h4>1. Dental Applications:</h4>
       <ul>
           <li>Zirconia crowns and dental implants are continually developed for improved performance.</li>
           <li>Commonly used in dentistry due to its superior strength, hardness, wear resistance, and biocompatibility.</li>
       </ul>
 
-      <p>2. Refractory Products:</p>
+      <h4>2. Refractory Products:</h4>
       <ul>
           <li>Ideal for a range of refractory products requiring stability at high temperatures.</li>
-          <li>Exhibits strong thermal and corrosion resistance.</li>
+          <li>Exhibits h4 thermal and corrosion resistance.</li>
       </ul>
 
-      <p>3. Ceramic Colors and Pigments:</p>
+      <h4>3. Ceramic Colors and Pigments:</h4>
       <ul>
           <li>Used in the production of ceramic colors and pigments.</li>
           <li>Offers consistent quality and chemical inertness.</li>
       </ul>
 
-      <p>4. Electronic Applications:</p>
+      <h4>4. Electronic Applications:</h4>
       <ul>
           <li>Applied in electronic applications, showcasing good mechanical properties.</li>
       </ul>
 
-      <p>5. Biocompatible Prosthetics:</p>
+      <h4>5. Biocompatible Prosthetics:</h4>
       <ul>
           <li>Utilized in prosthesis devices such as hip joints and femoral ball heads.</li>
           <li>Known for excellent biocompatibility with the human body.</li>
       </ul>
 
-      <h4>Benefits:</h4>
-      <p>1. Mechanical Properties:</p>
+      <h3>Benefits:</h3>
+      <h4>1. Mechanical Properties:</h4>
       <ul>
           <li>Zirconia products demonstrate good mechanical properties.</li>
           <li>Suitable for applications requiring strength and stability.</li>
       </ul>
 
-      <p>2. Thermal and Corrosion Resistance:</p>
+      <h4>2. Thermal and Corrosion Resistance:</h4>
       <ul>
-          <li>Exhibits strong thermal and corrosion resistance, ensuring durability in various conditions.</li>
+          <li>Exhibits h4 thermal and corrosion resistance, ensuring durability in various conditions.</li>
       </ul>
 
-      <p>3. Biocompatibility:</p>
+      <h4>3. Biocompatibility:</h4>
       <ul>
           <li>Superior biocompatibility makes it a preferred material for medical implants.</li>
           <li>Particularly favored in dental applications for its compatibility with the human body.</li>
@@ -3247,7 +3403,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 53,
-      titleHead: 'Raw Materials',
+      mainHeader: "Silicon Carbide Ceramic",
+      titleHead: 'Quality Silicon Carbide Ceramic | VBCC Research',
+      metaDesc: "Optimize your projects with premium silicon carbide ceramics. Unleash quality and durability in every application.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service53-sec-1.jpg',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service53-sec-2.jpg',
       header: 'Raw Materials',
@@ -3259,58 +3417,58 @@ Laser diffraction measures particle size distributions by measuring the angular 
       para2: `
           <p>Silicon carbide (SiC), also known as carborundum, is a hard chemical compound composed of silicon and carbon.</p>
 
-          <h4>Occurrence:</h4>
+          <h3>Occurrence:</h3>
           <ul>
               <li>Naturally occurs as the rare mineral moissanite; however, it is mass-produced in powder and crystal forms.</li>
           </ul>
           <br>
 
-          <h4>Forms:</h4>
-          <p>1. Grains:</p>
+          <h3>Forms:</h3>
+          <h4>1. Grains:</h4>
           <ul>
               <li>Can be bonded by sintering to form hard ceramics.</li>
               <li>Widely used in applications requiring high endurance, such as car brakes, clutches, and bulletproof vests.</li>
           </ul>
-          <p>2. Single Crystals:</p>
+          <h4>2. Single Crystals:</h4>
           <ul>
               <li>Grown by the Lely method.</li>
               <li>Cut into gems known as synthetic moissanite.</li>
           </ul>
           <br>
 
-          <h4>Applications:</h4>
-          <p>1. Abrasive:</p>
+          <h3>Applications:</h3>
+          <h4>1. Abrasive:</h4>
           <ul>
               <li>Used for its abrasive properties.</li>
           </ul>
-          <p>2. Semiconductor:</p>
+          <h4>2. Semiconductor:</h4>
           <ul>
               <li>Functions as a semiconductor.</li>
           </ul>
-          <p>3. Gem Quality Diamond Simulant:</p>
+          <h4>3. Gem Quality Diamond Simulant:</h4>
           <ul>
               <li>Used as a diamond simulant, especially in gem-quality synthetic moissanite.</li>
           </ul>
           <br>
 
-          <h4>Manufacturing Process:</h4>
+          <h3>Manufacturing Process:</h3>
           <ul>
               <li>Silicon carbide is manufactured by combining silica sand and carbon in an Acheson graphite electric resistance furnace at high temperatures (1,600–2,500 °C).</li>
           </ul>
           <br>
 
-          <h4>Benefits:</h4>
-          <p>1. High Endurance:</p>
+          <h3>Benefits:</h3>
+          <h4>1. High Endurance:</h4>
 
           <ul>
               <li>Ideal for applications requiring durability, such as car brakes and bulletproof vests.</li>
           </ul>
-          <p> 2. Versatility:</p>
+          <h4> 2. Versatility:</h4>
 
           <ul>
               <li>Functions as an abrasive, semiconductor, and gem-quality diamond simulant.</li>
           </ul>
-          <p> 2. Manufacturing Simplicity:</p>
+          <h4> 3. Manufacturing Simplicity:</h4>
 
           <ul>
               <li> Produced through a straightforward process involving common materials.</li>
@@ -3327,7 +3485,9 @@ Laser diffraction measures particle size distributions by measuring the angular 
     },
     {
       id: 54,
-      title: 'Heat Treatment Facility',
+      mainHeader: "Industrial Hot Air Oven for Laboratory",
+      titleHead: 'Best Industrial Hot Air Ovens for Laboratory | VBCC Research',
+      metaDesc: "Discover the best industrial hot air ovens for laboratory use. Find reliable hot air ovens designed for precise temperature control and optimal performance.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service54-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service54-sec-2.jpg',
       header: 'Heat Treatment Facility',

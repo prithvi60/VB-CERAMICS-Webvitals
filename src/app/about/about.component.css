@@ -288,6 +288,7 @@ background: #cdd9fa;
 
 .main_section1_img,
 .main_section1_img img {
+  height: 350px;
   width: 100%;
   border-radius: 20px;
   align-self: stretch;
