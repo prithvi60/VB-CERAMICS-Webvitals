@@ -63,7 +63,7 @@ export class LibraryOneComponent {
 
   ngOnInit(): void {
     this.contentParams = this.activatedRoute.snapshot.params['routing'];
-    console.log(this.contentParams)
+    // console.log(this.contentParams)
     this.filterMethod();
     this.title.setTitle(
       this.headTitle
@@ -219,7 +219,7 @@ export class LibraryOneComponent {
       headTitle: "Graphite: Catalyst for Industrial Metallurgy & Industries | VBCC Research",
       metaDesc : "Discover the power of graphite in industrial metallurgy. Enhance efficiency and performance across various industries with this versatile catalyst.",
       heading: "Graphite’s Impact in Industries",
-      img: 'https://ik.imagekit.io/webibee/VBRC/images/article3.jpeg',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article3.webp',
       subHeading : "Graphite : A Catalyst for Transformation Across Varied Industries",
       desc1:"Graphite, an unassuming yet highly potent form of carbon, emerges as a mineral that has dynamically reformed multiple industries through its remarkable attributes and diverse applications. From its pivotal contributions to technological advancements to its role in energy storage and beyond, graphite wields a profound and pervasive influence. Let's embark on a journey into the realm of graphite, uncovering how it shapes and propels innovation across a spectrum of sectors.",
       point1:`
