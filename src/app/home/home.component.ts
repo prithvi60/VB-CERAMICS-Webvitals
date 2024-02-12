@@ -5,12 +5,15 @@ import {
   QueryList,
   HostListener,
   Renderer2,
+  PLATFORM_ID,
+  Inject
 } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Title, Meta, DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { orgLD } from 'src/organsation';
+import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -32,7 +35,8 @@ export class HomeComponent {
     private title: Title,
     private meta: Meta,
     private sanitizer: DomSanitizer,
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {
     this.getScreenSize();
   }
@@ -109,7 +113,7 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this.html = this.getSafeHTML(orgLD);
-    // this.addScriptToHead(this.html);
+    this.addScriptToHead(this.html);
     this.title.setTitle(
       'Trusted Ceramic Centre and Research Consultants | VBCC Research'
     );
@@ -118,11 +122,15 @@ export class HomeComponent {
       content:
         'Explore excellence at VB Ceramics - Trusted ceramic center and research hub. Expert ceramic consultants driving innovation and quality in every project.',
     });
+    if (isPlatformBrowser(this.platformId)) {
+      // Code that interacts with window object
     AOS.init({
       debounceDelay: 500, // the delay on debounce used while resizing window (advanced)
       once: false, // whether animation should happen only once - while scrolling down
       mirror: true, // whether elements should animate out while scrolling past them
     });
+  }
+
   }
   getSafeHTML(jsonLD: { [key: string]: any }): SafeHtml {
     const json = jsonLD ? JSON.stringify(jsonLD, null, 2) : '';
