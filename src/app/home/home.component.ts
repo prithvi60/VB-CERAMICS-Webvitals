@@ -109,7 +109,7 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this.html = this.getSafeHTML(orgLD);
-    // this.addScriptToHead(this.html);
+    this.addScriptToHead(this.html);
     this.title.setTitle(
       'Trusted Ceramic Centre and Research Consultants | VBCC Research'
     );
