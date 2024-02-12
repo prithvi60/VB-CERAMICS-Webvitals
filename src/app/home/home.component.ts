@@ -8,8 +8,8 @@ import {
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
 import { trigger, transition, style, animate } from '@angular/animations';
-import { Title, Meta } from '@angular/platform-browser';
-
+import { Title, Meta, DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { orgLD } from 'src/organsation';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -26,7 +26,12 @@ import { Title, Meta } from '@angular/platform-browser';
 export class HomeComponent {
   screenHeight: number;
   screenWidth: number;
-  constructor(private title: Title, private meta: Meta) {
+  html: SafeHtml;
+  constructor(
+    private title: Title,
+    private meta: Meta,
+    private sanitizer: DomSanitizer
+  ) {
     this.getScreenSize();
   }
 
@@ -101,6 +106,7 @@ export class HomeComponent {
   private worker!: Worker;
 
   ngOnInit(): void {
+    this.html = this.getSafeHTML(orgLD);
     this.title.setTitle(
       'Trusted Ceramic Centre and Research Consultants | VBCC Research'
     );
@@ -115,7 +121,12 @@ export class HomeComponent {
       mirror: true, // whether elements should animate out while scrolling past them
     });
   }
-
+  getSafeHTML(jsonLD: { [key: string]: any }): SafeHtml {
+    const json = jsonLD ? JSON.stringify(jsonLD, null, 2) : '';
+    // escape / to prevent script tag in JSON
+    const html = `<script type="application/ld+json">${json.replace(/<\/script>/g, '<\\/script>')}</script>`;
+    return this.sanitizer.bypassSecurityTrustHtml(html);
+  }
   @ViewChildren('boxElement') boxElements!: QueryList<ElementRef>;
   isVisible = false;
 
