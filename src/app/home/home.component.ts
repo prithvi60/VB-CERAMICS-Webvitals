@@ -131,11 +131,11 @@ export class HomeComponent {
     console.log("test json",json,html)
     return this.sanitizer.bypassSecurityTrustHtml(html);
   }
-  // private addScriptToHead(scriptHtml: SafeHtml) {
-  //   const scriptElement = this.renderer.createElement('script');
-  //   scriptElement.innerHTML = scriptHtml.toString();
-  //   this.renderer.appendChild(document.head, scriptElement);
-  // }
+  private addScriptToHead(scriptHtml: SafeHtml) {
+    const scriptElement = this.renderer.createElement('script');
+    scriptElement.innerHTML = scriptHtml.toString();
+    this.renderer.appendChild(document.head, scriptElement);
+  }
   @ViewChildren('boxElement') boxElements!: QueryList<ElementRef>;
   isVisible = false;
 
