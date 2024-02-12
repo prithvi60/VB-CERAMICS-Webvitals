@@ -18,17 +18,16 @@
         <div class="row">
         <div  class="col-md-12 ">
         <nav id="head_nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <img id='head_img' fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]'>
+          <img id='head_img' height="39" width="77"
+          ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]'>
         <button (click)="changeImage15()"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <img [src]="imagesNav[currentImageIndex15]" alt="">
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a class="nav-link" [routerLink] ='["/research"]'>Research</a>
-            </li>
-            <li class="nav-item">
+              <a class="nav-link" [routerLink] ='["/research"]'>Research </a>
+            </li>       <li class="nav-item">
               <a class="nav-link" [routerLink] ='["/service"]'>Services</a>
             </li>
             <li class="nav-item active">
@@ -37,11 +36,11 @@ ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]=
               <li class="nav-item">
                 <a class="nav-link" [routerLink] ='["/library"]'>Library</a>
               </li>
-
+    
             <li class="nav-item">
               <a class="nav-link" [routerLink] ='["/gallery"]'>Gallery</a>
             </li>
-
+    
             <li class="nav-item nav-item-contact">
               <a id='nav_contact' class="" style='background-color:white !important; color:#132249 ;border-radius: 50px;' [routerLink]='["/contact"]'>Contact Us</a>
             </li>
@@ -157,88 +156,166 @@ ngSrc="https://ik.imagekit.io/webibee/VBRC/images/graphite.webp" alt="">
    </div>
 
    <br>
-    <div class='flex10'>
-      <div class='card10'>
-        <p style="font-weight:500; margin-bottom: 10px;">COMPANY</p>
-        <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]' style="cursor: pointer;">
-        <br>
-        <br>
-        <p style='font-size:16px !important;'>3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate, Kottivakkam,
-          Chennai - 600 041</p>
+    <!-- Footer -->
+  <div class="flex10">
+    <div class="card10">
+      <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
+      <img
+        id="card1img"
+        ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
+        loading="lazy"
+        alt="footerimg"
+        width="80"
+        height="60"
+        [routerLink]="['/']"
+        style="cursor: pointer"
+      />
+
+      <br />
+      <p style="font-size: 16px !important">
+        3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate,
+        Kottivakkam, Chennai - 600 041
+      </p>
     </div>
-      <div class='card10'>
-        <p style="font-weight:500; margin-bottom: 10px;">SITEMAP</p>
-        <ul style="display: flex; flex-direction: column; gap: 8px;">
-          <li [routerLink]='["/"]'>Home</li>
-          <li [routerLink] ='["/research"]'>Research</li>
-          <li [routerLink] ='["/service"]'>Services</li>
-          <li [routerLink] ='["/about"]'>About Us</li>
-          <li [routerLink] ='["/gallery"]'>Gallery</li>
-          <li [routerLink]='["/contact"]'>Contact Us</li>
+    <div class="card10">
+      <p style="font-weight: 500; margin-bottom: 10px">SITEMAP</p>
+      <ul style="display: flex; flex-direction: column; gap: 8px">
+        <li [routerLink]="['/']">Home</li>
+        <li [routerLink]="['/research']">Research</li>
+        <li [routerLink]="['/service']">Services</li>
+        <li [routerLink]="['/about']">About Us</li>
+        <li [routerLink]="['/gallery']">Gallery</li>
+        <li [routerLink]="['/contact']">Contact Us</li>
+      </ul>
+    </div>
+    <div class="card10">
+      <div>
+        <p style="font-weight: 500; margin-bottom: 10px">SERVICES</p>
+        <ul style="display: flex; flex-direction: column; gap: 8px">
+          <li [routerLink]="['/service']">All Services</li>
+          <li [routerLink]="['/service/x-ray-diffraction-xrd']">
+            X-Ray Diffraction
+          </li>
+          <li
+            [routerLink]="['/service/scanning-electron-microscope-sem']"
+          >
+            SEM (3 Images)
+          </li>
+          <li [routerLink]="['/service/x-ray-fluorescence-xrf']">
+            X-Ray Fluorescence
+          </li>
         </ul>
       </div>
-      <div class='card10'>
-        <div>
-          <p style="font-weight:500; margin-bottom: 10px;">SERVICES</p>
-          <ul style="display: flex; flex-direction: column; gap: 8px;">
-            <li [routerLink] ='["/service"]'>All Services</li>
-          <li [routerLink] ='["/service/x-ray-diffraction-xrd"]'>X-Ray Diffraction</li>
-          <li [routerLink] ='["/service/scanning-electron-microscope-sem"]'>SEM (3 Images)</li>
-          <li [routerLink] ='["/service/x-ray-fluorescence-xrf"]'>X-Ray Fluorescence</li>
-
-          </ul>
-        </div>
-        <div style="margin-top: 20px;">
-          <p style="font-weight:500; margin-bottom: 10px;">SOCIALS</p>
-          <div style='display: flex;flex-direction:row;gap:20px'>
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg" alt="" (click)="socials('linkedIn')">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg" alt="" (click)="socials('youtube')">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg" alt="" (click)="socials('facebook')">
-          </div>
-        </div>
-      </div>
-      <div class='card10'>
-        <div>
-          <p style="font-weight:500; margin-bottom: 10px;">SUPPORT</p>
-          <ul style="display: flex; flex-direction: column; gap: 8px;">
-            <li [routerLink]='["/contact"]'>Contact Us</li>
-            <li [routerLink]='["/contact"]'>Help centre</li>
-          </ul>
-        </div>
-        <div style="margin-top: 20px;">
-          <p style="font-weight:500; margin-bottom: 10px;">OUR GROUPS</p>
-          <div style="display: flex; gap: 20px">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg" alt="" (click)="ourGroups('vbcc')">
-            <img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg" alt="" (click)="ourGroups('hiTemp')">
-          </div>
+      <div style="margin-top: 20px">
+        <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
+        <div style="display: flex; flex-direction: row; gap: 20px">
+          <img
+            loading="lazy"
+            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+            alt="social1"
+            width="40"
+            height="40"
+            (click)="socials('linkedIn')"
+          />
+          <img
+            loading="lazy"
+            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
+            alt="social2"
+            width="45"
+            height="35"
+            (click)="socials('youtube')"
+          />
+          <img
+            loading="lazy"
+            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
+            alt="social3"
+            width="35"
+            height="35"
+            (click)="socials('facebook')"
+          />
         </div>
       </div>
     </div>
+    <div class="card10">
+      <div>
+        <p style="font-weight: 500; margin-bottom: 10px">SUPPORT</p>
+        <ul style="display: flex; flex-direction: column; gap: 8px">
+          <li [routerLink]="['/contact']">Contact Us</li>
+          <li [routerLink]="['/contact']">Help centre</li>
+        </ul>
+      </div>
+      <div style="margin-top: 20px">
+        <p style="font-weight: 500; margin-bottom: 10px">OUR GROUPS</p>
+        <div style="display: flex; gap: 20px">
+          <img
+            loading="lazy"
+            src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
+            alt="footericon"
+            width="80px"
+            height="60px"
+            (click)="ourGroups('vbcc')"
+          />
+          <img
+            loading="lazy"
+            src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
+            alt="footericon2"
+            width="80px"
+            height="60px"
+            (click)="ourGroups('hiTemp')"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   </div>
 </body>
 
 <router-outlet></router-outlet>
 <footer>
-  <div class='footer'>
-    <p  id='footer_p' style='padding: 20px 30px 0px 20px;'>©VBCC Research. All Rights Reserved.</p>
-    <div class='cardfooter'>
-      <p>English <span><img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg" alt=""></span></p><div class="separator"></div>
-      <p>INR <span><img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg" alt=""></span></p><div class="separator"></div>
-      <p>Asia (India) <span><img fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg" alt=""></span></p>
+  <div class="footer">
+    <p id="footer_p" style="padding: 20px 30px 0px 20px">
+      ©VBCC Research. All Rights Reserved.
+    </p>
+    <div class="cardfooter">
+      <p>
+        English
+        <span
+          ><img
+            loading="lazy"
+            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
+            alt="link1"
+            width="25"
+            height="25"
+        /></span>
+      </p>
+      <div class="separator"></div>
+      <p>
+        INR
+        <span
+          ><img
+            loading="lazy"
+            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
+            alt="link2"
+            width="25"
+            height="25"
+        /></span>
+      </p>
+      <div class="separator"></div>
+      <p>
+        Asia (India)
+        <span
+          ><img
+            loading="lazy"
+            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
+            alt="link3"
+            width="25"
+            height="25"
+        /></span>
+      </p>
     </div>
   </div>
 </footer>
-
 </html>
 <!-- *ngIf="!childActive" -->
 
