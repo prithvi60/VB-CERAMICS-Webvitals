@@ -4,6 +4,7 @@ import {
   ViewChildren,
   QueryList,
   HostListener,
+  Renderer2,
 } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
@@ -30,7 +31,8 @@ export class HomeComponent {
   constructor(
     private title: Title,
     private meta: Meta,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private renderer: Renderer2
   ) {
     this.getScreenSize();
   }
@@ -107,6 +109,7 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this.html = this.getSafeHTML(orgLD);
+    // this.addScriptToHead(this.html);
     this.title.setTitle(
       'Trusted Ceramic Centre and Research Consultants | VBCC Research'
     );
@@ -125,8 +128,14 @@ export class HomeComponent {
     const json = jsonLD ? JSON.stringify(jsonLD, null, 2) : '';
     // escape / to prevent script tag in JSON
     const html = `<script type="application/ld+json">${json.replace(/<\/script>/g, '<\\/script>')}</script>`;
+    console.log("test json",json,html)
     return this.sanitizer.bypassSecurityTrustHtml(html);
   }
+  // private addScriptToHead(scriptHtml: SafeHtml) {
+  //   const scriptElement = this.renderer.createElement('script');
+  //   scriptElement.innerHTML = scriptHtml.toString();
+  //   this.renderer.appendChild(document.head, scriptElement);
+  // }
   @ViewChildren('boxElement') boxElements!: QueryList<ElementRef>;
   isVisible = false;
 
