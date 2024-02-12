@@ -1,369 +1,467 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>VBCC</title> -->
+    <!-- <meta name="description" content="Explore a world of expertise with Ceramics Blogs & Articles. Stay informed on the latest trends and insights in ceramic technology and industry advancements."> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <div class="service_page">
+    <div class="container-fluid1">
+      <div class="row">
+        <div class="col-md-12">
+          <nav
+            id="head_nav"
+            class="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <img
+              id="head_img"
+              src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
+              alt=""
+              [routerLink]="['/']"
+            />
+            <button
+              (click)="changeImage15()"
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <img [src]="imagesNav[currentImageIndex15]" alt="" />
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/research']">Research </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/service']">Services</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/about']">About Us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/library']">Library</a>
+                </li>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>VBCC</title> -->
-  <!-- <meta name="description" content="Explore a world of expertise with Ceramics Blogs & Articles. Stay informed on the latest trends and insights in ceramic technology and industry advancements."> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<div class="service_page">
-  <div class="container-fluid1">
-    <div class="row">
-    <div  class="col-md-12 ">
-    <nav id="head_nav" class="navbar navbar-expand-lg navbar-light bg-light">
-    <img id='head_img' fill
-ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg" alt="" [routerLink]='["/"]'>
-    <button (click)="changeImage15()"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <img [src]="imagesNav[currentImageIndex15]" alt="">
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink] ='["/research"]'>Research </a>
-        </li>       <li class="nav-item">
-          <a class="nav-link" [routerLink] ='["/service"]'>Services</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" [routerLink] ='["/about"]'>About Us </a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink] ='["/library"]'>Library</a>
-          </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/gallery']">Gallery</a>
+                </li>
 
-        <li class="nav-item">
-          <a class="nav-link" [routerLink] ='["/gallery"]'>Gallery</a>
-        </li>
-
-        <li class="nav-item nav-item-contact">
-          <a id='nav_contact' class="" style='background-color:white !important; color:#132249 ;border-radius: 50px;' [routerLink]='["/contact"]'>Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
-</div>
-</div>
-  <div class="service-section">
-    <div class="hero">
-      <h1 class="gallery-text">{{mainHeader}}</h1>
-      <div class="gall-para">
-        <p>Our services are transparently priced for optimal customer satisfaction. Check out our selection of
-          high-quality services at affordable rates.</p>
+                <li class="nav-item nav-item-contact">
+                  <a
+                    id="nav_contact"
+                    class=""
+                    style="
+                      background-color: white !important;
+                      color: #132249;
+                      border-radius: 50px;
+                    "
+                    [routerLink]="['/contact']"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
-    <hr class="hr_tag"/>
-  </div>
-  <div class="main">
-    <div class="sec-1">
-      <div class="sec-1-img1">
-        <img src={{image_1}}  class="d-b  k w-100" />
+    <div class="service-section">
+      <div class="hero">
+        <h1 class="gallery-text">{{ mainHeader }}</h1>
+        <div class="gall-para">
+          <p>
+            Our services are transparently priced for optimal customer
+            satisfaction. Check out our selection of high-quality services at
+            affordable rates.
+          </p>
+        </div>
       </div>
-      <div class="sec-1-img2">
-        <img src={{image_2}}/>
-      </div>
+      <hr class="hr_tag" />
     </div>
-    <div class="sec-2">
-      <div class="sec2_left" >
-        <div class="service_container" id="scroller">
-          <div class="service_top">
-            <div class="service_header">
-              {{header}}
-            </div>
-            <div class="service_heading">
-              {{heading}}
-            </div>
-            <div class="service_description">
-              {{description}}
-            </div>
-          </div>
-          <div class="service_bottom">
-            <div class="service_bottom_cnt">
-              <div class="service_students">
-                {{students}}
+    <div class="main">
+      <div class="sec-1">
+        <div class="sec-1-img1">
+          <img src="{{ image_1 }}" class="d-b k w-100" />
+        </div>
+        <div class="sec-1-img2">
+          <img src="{{ image_2 }}" />
+        </div>
+      </div>
+      <div class="sec-2">
+        <div class="sec2_left">
+          <div class="service_container" id="scroller">
+            <div class="service_top">
+              <div class="service_header">
+                {{ header }}
               </div>
-              <div class="service_cnt_btn">
-                <div class="service_industries">
-                  {{industries}}
+              <div class="service_heading">
+                {{ heading }}
+              </div>
+              <div class="service_description">
+                {{ description }}
+              </div>
+            </div>
+            <div class="service_bottom">
+              <div class="service_bottom_cnt">
+                <div class="service_students">
+                  {{ students }}
                 </div>
-                <!-- contact us  -->
-                <!-- <div>
+                <div class="service_cnt_btn">
+                  <div class="service_industries">
+                    {{ industries }}
+                  </div>
+                  <!-- contact us  -->
+                  <!-- <div>
                   <button class="btn2" [routerLink]='["/contact"]'><span class="btn-contact">Contact Us</span></button>
                 </div> -->
                 </div>
                 <form (submit)="submitForm()">
                   <h2 class="contact-text">Contact Us</h2>
-                  <div class="form-row col-md-12" style='margin-bottom: 5px;'>
-                    <div class="form-group col-md-6" >
-                      <input id="name" type="text" class="form-control" placeholder="Name" [(ngModel)]="formData.name" name="name">
+                  <div class="form-row col-md-12" style="margin-bottom: 5px">
+                    <div class="form-group col-md-6">
+                      <input
+                        id="name"
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                        [(ngModel)]="formData.name"
+                        name="name"
+                      />
                     </div>
-                    <div class="form-group col-md-6" >
-                      <input style='margin-left:10px;' id="email" type="email" [(ngModel)]="formData.email" name="email" class="form-control"  placeholder="Email">
+                    <div class="form-group col-md-6">
+                      <input
+                        style="margin-left: 10px"
+                        id="email"
+                        type="email"
+                        [(ngModel)]="formData.email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
                     </div>
                   </div>
-                  <div class="form-group col-md-12 " style='margin-bottom: 20px;'>
-                    <textarea name="" id="message" placeholder="Message" [(ngModel)]="formData.message" name="message"></textarea>
+                  <div class="form-group col-md-12" style="margin-bottom: 20px">
+                    <textarea
+                      name=""
+                      id="message"
+                      placeholder="Message"
+                      [(ngModel)]="formData.message"
+                      name="message"
+                    ></textarea>
                   </div>
                   <div class="form-group col-md-12">
-                    <button id="message_button" type="submit" class="btn btn-primary">Contact</button>
+                    <button
+                      id="message_button"
+                      type="submit"
+                      class="btn btn-primary"
+                    >
+                      Contact
+                    </button>
                   </div>
                 </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="sec2_right" *ngIf="header=='Sophisticated Instruments' || (header=='Material Preparation' && heading=='Sol Gel Route')
-      || (header=='Nano coating techniques' && heading=='Chemical Vapour Deposition (CVD)') || header=='Raw Materials'
-      || (header=='Physical properties' && heading!=='Bulk Density, Porosity, Water Absorption, Fired Shrinkage')">
-        <div class="instruments_div">
-          <p>{{para1}}</p>
-          <p  [innerHTML]="para2" *ngIf="para2 !== undefined"></p>
-          <p *ngIf="para3 !== undefined">{{para3}}</p>
-          <p *ngIf="para4 !== undefined">{{para4}}</p>
-          <div *ngIf="lists !== undefined">
-            <div *ngFor="let list of lists"><li class="list">{{list}}</li></div>
+        <div
+          class="sec2_right"
+          *ngIf="
+            header == 'Sophisticated Instruments' ||
+            (header == 'Material Preparation' && heading == 'Sol Gel Route') ||
+            (header == 'Nano coating techniques' &&
+              heading == 'Chemical Vapour Deposition (CVD)') ||
+            header == 'Raw Materials' ||
+            (header == 'Physical properties' &&
+              heading !==
+                'Bulk Density, Porosity, Water Absorption, Fired Shrinkage')
+          "
+        >
+          <div class="instruments_div">
+            <p>{{ para1 }}</p>
+            <p [innerHTML]="para2" *ngIf="para2 !== undefined"></p>
+            <p *ngIf="para3 !== undefined">{{ para3 }}</p>
+            <p *ngIf="para4 !== undefined">{{ para4 }}</p>
+            <div *ngIf="lists !== undefined">
+              <div *ngFor="let list of lists">
+                <li class="list">{{ list }}</li>
+              </div>
+            </div>
+            <div
+              class="table2_div"
+              *ngIf="table2_th !== undefined"
+              style="margin-top: 15px"
+            >
+              <table class="table2">
+                <tr>
+                  <td class="th_background">{{ table2_th }}</td>
+                  <td class="th_background">{{ table2_th2 }}</td>
+                </tr>
+                <tr *ngIf="table2_td !== undefined">
+                  <td>{{ table2_td }}</td>
+                  <td>{{ table2_td2 }}</td>
+                </tr>
+                <tr *ngIf="table1_td !== undefined">
+                  <td>{{ table1_td }}</td>
+                  <td>{{ table1_td2 }}</td>
+                </tr>
+              </table>
+            </div>
           </div>
-          <div class="table2_div" *ngIf="table2_th !== undefined" style="margin-top: 15px;">
+        </div>
+        <div
+          class="sec2_right"
+          *ngIf="
+            header == 'Heat Treatment Facility' ||
+            header == 'Thermal Testing' ||
+            (header == 'Material Preparation' && heading !== 'Sol Gel Route') ||
+            header == 'Shaping' ||
+            (header == 'Nano coating techniques' &&
+              heading !== 'Chemical Vapour Deposition (CVD)') ||
+            header == 'Casting'
+          "
+        >
+          <div class="sec2_top_sec">
+            <div class="para1">{{ para1 }}</div>
+            <!-- <div *ngIf="lists !== undefined">
+            <div *ngFor="let list of lists"><li class="list">{{list}}</li></div>
+          </div> -->
+            <div
+              class="para2"
+              [innerHTML]="para2"
+              *ngIf="para2 !== undefined"
+            ></div>
+            <div class="para3" *ngIf="para3 !== undefined">{{ para3 }}</div>
+            <div class="para4" *ngIf="para4 !== undefined">{{ para4 }}</div>
+          </div>
+          <div class="table1_div" *ngIf="table1_th !== undefined">
+            <table class="table1">
+              <tr>
+                <td class="th_background">{{ table1_th }}</td>
+                <td>{{ table1_th2 }}</td>
+              </tr>
+              <tr>
+                <td class="th_background">{{ table1_td }}</td>
+                <td>{{ table1_td2 }}</td>
+              </tr>
+              <tr *ngIf="table1_td3 !== undefined">
+                <td class="th_background">{{ table1_td3 }}</td>
+                <td>{{ table1_td4 }}</td>
+              </tr>
+              <tr *ngIf="table1_td5 !== undefined">
+                <td class="th_background">{{ table1_td5 }}</td>
+                <td>{{ table1_td6 }}</td>
+              </tr>
+              <tr *ngIf="table1_td7 !== undefined">
+                <td class="th_background">{{ table1_td7 }}</td>
+                <td>{{ table1_td8 }}</td>
+              </tr>
+              <tr *ngIf="table1_td9 !== undefined">
+                <td class="th_background">{{ table1_td9 }}</td>
+                <td>{{ table1_td10 }}</td>
+              </tr>
+            </table>
+          </div>
+          <div class="table2_div" *ngIf="table2_th !== undefined">
             <table class="table2">
               <tr>
-                <td class="th_background">{{table2_th}}</td>
-                <td class="th_background">{{table2_th2}}</td>
+                <td class="th_background">{{ table2_th }}</td>
+                <td class="th_background">{{ table2_th2 }}</td>
               </tr>
-              <tr *ngIf="table2_td !== undefined">
-                <td>{{table2_td}}</td>
-                <td>{{table2_td2}}</td>
-              </tr>
-              <tr *ngIf="table1_td !== undefined">
-                <td>{{table1_td}}</td>
-                <td>{{table1_td2}}</td>
+              <tr>
+                <td>{{ table2_td }}</td>
+                <td>{{ table2_td2 }}</td>
               </tr>
             </table>
           </div>
         </div>
-      </div>
-      <div class="sec2_right" *ngIf="header=='Heat Treatment Facility' || header=='Thermal Testing' || (header=='Material Preparation' && heading!=='Sol Gel Route') || header=='Shaping'
-        || (header=='Nano coating techniques' && heading!=='Chemical Vapour Deposition (CVD)') || header=='Casting'">
-        <div class="sec2_top_sec">
-          <div class="para1">{{para1}}</div>
-          <!-- <div *ngIf="lists !== undefined">
-            <div *ngFor="let list of lists"><li class="list">{{list}}</li></div>
-          </div> -->
-          <div class="para2" [innerHTML]="para2" *ngIf="para2 !== undefined"></div>
-          <div class="para3" *ngIf="para3 !== undefined">{{para3}}</div>
-          <div class="para4" *ngIf="para4 !== undefined">{{para4}}</div>
-        </div>
-        <div class="table1_div" *ngIf="table1_th !== undefined">
-          <table class="table1">
-            <tr>
-              <td class="th_background">{{table1_th}}</td>
-              <td>{{table1_th2}}</td>
-            </tr>
-            <tr>
-              <td class="th_background">{{table1_td}}</td>
-              <td>{{table1_td2}}</td>
-            </tr>
-            <tr *ngIf="table1_td3 !== undefined">
-              <td class="th_background">{{table1_td3}}</td>
-              <td>{{table1_td4}}</td>
-            </tr>
-            <tr *ngIf="table1_td5 !== undefined">
-              <td class="th_background">{{table1_td5}}</td>
-              <td>{{table1_td6}}</td>
-            </tr>
-            <tr *ngIf="table1_td7 !== undefined">
-              <td class="th_background">{{table1_td7}}</td>
-              <td>{{table1_td8}}</td>
-            </tr>
-            <tr *ngIf="table1_td9 !== undefined">
-              <td class="th_background">{{table1_td9}}</td>
-              <td>{{table1_td10}}</td>
-            </tr>
-          </table>
-        </div>
-        <div class="table2_div" *ngIf="table2_th !== undefined">
-          <table class="table2">
-            <tr>
-              <td class="th_background">{{table2_th}}</td>
-              <td class="th_background">{{table2_th2}}</td>
-            </tr>
-            <tr>
-              <td>{{table2_td}}</td>
-              <td>{{table2_td2}}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
 
-      <div class="sec2_right" *ngIf="(header=='Physical properties' && heading=='Bulk Density, Porosity, Water Absorption, Fired Shrinkage')">
-        <div class="instruments_div">
-          <!-- <p>{{para1}}<span style="display: block; font-style: italic;">Bulk Density = Sintered Weight / (Soaked Wt - Suspended Wt) g/cc</span></p> -->
-          <p [innerHTML]="para2">
-            <!-- <span style="display: block; font-style: italic;">Porosity = (Soaked Wt - Sintered Wt) / (Soaked Wt - Suspended Wt) x 100%</span> -->
-          </p>
-          <!-- <p>{{para3}}<span style="display: block; font-style: italic;">Water Absorption = (Soaked Wt - Sintered Wt) / Sintered Weight x 100%</span></p>
+        <div
+          class="sec2_right"
+          *ngIf="
+            header == 'Physical properties' &&
+            heading ==
+              'Bulk Density, Porosity, Water Absorption, Fired Shrinkage'
+          "
+        >
+          <div class="instruments_div">
+            <!-- <p>{{para1}}<span style="display: block; font-style: italic;">Bulk Density = Sintered Weight / (Soaked Wt - Suspended Wt) g/cc</span></p> -->
+            <p [innerHTML]="para2">
+              <!-- <span style="display: block; font-style: italic;">Porosity = (Soaked Wt - Sintered Wt) / (Soaked Wt - Suspended Wt) x 100%</span> -->
+            </p>
+            <!-- <p>{{para3}}<span style="display: block; font-style: italic;">Water Absorption = (Soaked Wt - Sintered Wt) / Sintered Weight x 100%</span></p>
           <p>{{para4}}<span style="display: block; font-style: italic;">Fired Shrinkage = (Dia of After Drying - Dia of After Firing) / Dia of After Drying</span></p> -->
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Footer -->
-  <div class="flex10">
-    <div class="card10">
-      <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
-      <img
-        id="card1img"
-        ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
-        loading="lazy"
-        alt="footerimg"
-        width="80"
-        height="60"
-        [routerLink]="['/']"
-        style="cursor: pointer"
-      />
+    <!-- Footer -->
+    <div class="flex10">
+      <div class="card10">
+        <p style="font-weight: 500; margin-bottom: 10px">COMPANY</p>
+        <img
+          id="card1img"
+          ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
+          loading="lazy"
+          alt="footerimg"
+          width="80"
+          height="60"
+          [routerLink]="['/']"
+          style="cursor: pointer"
+        />
 
-      <br />
-      <p style="font-size: 16px !important">
-        3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate,
-        Kottivakkam, Chennai - 600 041
-      </p>
-    </div>
-    <div class="card10">
-      <p style="font-weight: 500; margin-bottom: 10px">SITEMAP</p>
-      <ul style="display: flex; flex-direction: column; gap: 8px">
-        <li [routerLink]="['/']">Home</li>
-        <li [routerLink]="['/research']">Research</li>
-        <li [routerLink]="['/service']">Services</li>
-        <li [routerLink]="['/about']">About Us</li>
-        <li [routerLink]="['/gallery']">Gallery</li>
-        <li [routerLink]="['/contact']">Contact Us</li>
-      </ul>
-    </div>
-    <div class="card10">
-      <div>
-        <p style="font-weight: 500; margin-bottom: 10px">SERVICES</p>
-        <ul style="display: flex; flex-direction: column; gap: 8px">
-          <li [routerLink]="['/service']">All Services</li>
-          <li [routerLink]="['/service/x-ray-diffraction-xrd']">
-            X-Ray Diffraction
-          </li>
-          <li
-            [routerLink]="['/service/scanning-electron-microscope-sem']"
-          >
-            SEM (3 Images)
-          </li>
-          <li [routerLink]="['/service/x-ray-fluorescence-xrf']">
-            X-Ray Fluorescence
-          </li>
-        </ul>
+        <br />
+        <p style="font-size: 16px !important">
+          3rd Link st, Nehru Nagar, Rajiv Gandhi Salai, Industrial Estate,
+          Kottivakkam, Chennai - 600 041
+        </p>
       </div>
-      <div style="margin-top: 20px">
-        <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
-        <div style="display: flex; flex-direction: row; gap: 20px">
-          <img
-            loading="lazy"
-            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
-            alt="social1"
-            width="40"
-            height="40"
-            (click)="socials('linkedIn')"
-          />
-          <img
-            loading="lazy"
-            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
-            alt="social2"
-            width="45"
-            height="35"
-            (click)="socials('youtube')"
-          />
-          <img
-            loading="lazy"
-            ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
-            alt="social3"
-            width="35"
-            height="35"
-            (click)="socials('facebook')"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="card10">
-      <div>
-        <p style="font-weight: 500; margin-bottom: 10px">SUPPORT</p>
+      <div class="card10">
+        <p style="font-weight: 500; margin-bottom: 10px">SITEMAP</p>
         <ul style="display: flex; flex-direction: column; gap: 8px">
+          <li [routerLink]="['/']">Home</li>
+          <li [routerLink]="['/research']">Research</li>
+          <li [routerLink]="['/service']">Services</li>
+          <li [routerLink]="['/about']">About Us</li>
+          <li [routerLink]="['/gallery']">Gallery</li>
           <li [routerLink]="['/contact']">Contact Us</li>
-          <li [routerLink]="['/contact']">Help centre</li>
         </ul>
       </div>
-      <div style="margin-top: 20px">
-        <p style="font-weight: 500; margin-bottom: 10px">OUR GROUPS</p>
-        <div style="display: flex; gap: 20px">
-          <img
-            loading="lazy"
-            src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
-            alt="footericon"
-            width="80px"
-            height="60px"
-            (click)="ourGroups('vbcc')"
-          />
-          <img
-            loading="lazy"
-            src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
-            alt="footericon2"
-            width="80px"
-            height="60px"
-            (click)="ourGroups('hiTemp')"
-          />
+      <div class="card10">
+        <div>
+          <p style="font-weight: 500; margin-bottom: 10px">SERVICES</p>
+          <ul style="display: flex; flex-direction: column; gap: 8px">
+            <li [routerLink]="['/service']">All Services</li>
+            <li [routerLink]="['/service/x-ray-diffraction-xrd']">
+              X-Ray Diffraction
+            </li>
+            <li [routerLink]="['/service/scanning-electron-microscope-sem']">
+              SEM (3 Images)
+            </li>
+            <li [routerLink]="['/service/x-ray-fluorescence-xrf']">
+              X-Ray Fluorescence
+            </li>
+          </ul>
+        </div>
+        <div style="margin-top: 20px">
+          <p style="font-weight: 500; margin-bottom: 10px">SOCIALS</p>
+          <div style="display: flex; flex-direction: row; gap: 20px">
+            <img
+              loading="lazy"
+              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
+              alt="social1"
+              width="40"
+              height="40"
+              (click)="socials('linkedIn')"
+            />
+            <img
+              loading="lazy"
+              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
+              alt="social2"
+              width="45"
+              height="35"
+              (click)="socials('youtube')"
+            />
+            <img
+              loading="lazy"
+              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
+              alt="social3"
+              width="35"
+              height="35"
+              (click)="socials('facebook')"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card10">
+        <div>
+          <p style="font-weight: 500; margin-bottom: 10px">SUPPORT</p>
+          <ul style="display: flex; flex-direction: column; gap: 8px">
+            <li [routerLink]="['/contact']">Contact Us</li>
+            <li [routerLink]="['/contact']">Help centre</li>
+          </ul>
+        </div>
+        <div style="margin-top: 20px">
+          <p style="font-weight: 500; margin-bottom: 10px">OUR GROUPS</p>
+          <div style="display: flex; gap: 20px">
+            <img
+              loading="lazy"
+              src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
+              alt="footericon"
+              width="80px"
+              height="60px"
+              (click)="ourGroups('vbcc')"
+            />
+            <img
+              loading="lazy"
+              src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
+              alt="footericon2"
+              width="80px"
+              height="60px"
+              (click)="ourGroups('hiTemp')"
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <footer>
-    <div class="footer">
-      <p id="footer_p" style="padding: 20px 30px 0px 20px">
-        ©VBCC Research. All Rights Reserved.
-      </p>
-      <div class="cardfooter">
-        <p>
-          English
-          <span
-            ><img
-              loading="lazy"
-              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
-              alt="link1"
-              width="25"
-              height="25"
-          /></span>
+    <footer>
+      <div class="footer">
+        <p id="footer_p" style="padding: 20px 30px 0px 20px">
+          ©VBCC Research. All Rights Reserved.
         </p>
-        <div class="separator"></div>
-        <p>
-          INR
-          <span
-            ><img
-              loading="lazy"
-              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
-              alt="link2"
-              width="25"
-              height="25"
-          /></span>
-        </p>
-        <div class="separator"></div>
-        <p>
-          Asia (India)
-          <span
-            ><img
-              loading="lazy"
-              ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
-              alt="link3"
-              width="25"
-              height="25"
-          /></span>
-        </p>
+        <div class="cardfooter">
+          <p>
+            English
+            <span
+              ><img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
+                alt="link1"
+                width="25"
+                height="25"
+            /></span>
+          </p>
+          <div class="separator"></div>
+          <p>
+            INR
+            <span
+              ><img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
+                alt="link2"
+                width="25"
+                height="25"
+            /></span>
+          </p>
+          <div class="separator"></div>
+          <p>
+            Asia (India)
+            <span
+              ><img
+                loading="lazy"
+                ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
+                alt="link3"
+                width="25"
+                height="25"
+            /></span>
+          </p>
+        </div>
       </div>
-    </div>
-  </footer>
-</div>
+    </footer>
+  </div>
+</html>
