@@ -12,7 +12,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { LibraryComponent } from './library/library.component';
 import { TooltipsModule } from '@progress/kendo-angular-tooltip';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import 'hammerjs';
+// import 'hammerjs';
 import { LibraryOneComponent } from './sub-library/library-one/library-one.component';
 import { ServicesComponent } from './sub-service/services/services.component';
 import { FormsModule } from '@angular/forms';
