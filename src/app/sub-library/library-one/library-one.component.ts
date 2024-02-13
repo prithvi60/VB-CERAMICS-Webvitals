@@ -54,6 +54,7 @@ export class LibraryOneComponent {
   mainHeader:any
   headTitle:any
   metaDesc : any
+  alt : any
 
   ngDoCheck(){
     this.contentParams = this.activatedRoute.snapshot.params['routing'];
@@ -77,12 +78,15 @@ export class LibraryOneComponent {
 
   filterMethod(){
     const filteredData = this.content.filter((x)=>x.routing == this.contentParams);
+    console.log(filteredData);
+    
     this.id = filteredData[0].id;
     this.heading = filteredData[0].heading;
     this.mainHeader=filteredData[0].mainHeader;
     this.headTitle=filteredData[0].headTitle;
     this.metaDesc=filteredData[0].metaDesc;
     this.img = filteredData[0].img;
+    this.alt = filteredData[0].alt;
     this.subHeading = filteredData[0].subHeading;
     this.subHeading2 = filteredData[0].subHeading2;
     this.subHeading3 = filteredData[0].subHeading3;
@@ -131,45 +135,88 @@ export class LibraryOneComponent {
   content = [
     {
       id : 1,
-      routing : "agate-importance",
-      mainHeader: "Agate's Industrial Significance and Versatile Applications",
-      headTitle: "Agate's Industrial Significance and Versatile Applications  | VBCC Research",
-      metaDesc : "Explore the industrial significance of agate and its versatile applications. Learn how agate enhances various sectors with its unique properties.",
-      heading: 'Agate and It’s Importance',
-      img: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
-      subHeading : 'Agate: Unveiling Its Industrial Significance and Versatile Applications',
-      desc1:"Agate, a captivating gemstone valued for its colorful bands and distinct patterns, goes beyond just its visual charm to play a vital part in numerous industries. With its exceptional traits and adaptable features, agate has secured its place in various industrial applications, contributing to innovation and practicality in a range of sectors. Let's dive into the intriguing realm of agate and explore its significance in diverse industries.",
+      routing : "X-Ray-Diffraction",
+      mainHeader: "A Comprehensive Guide on X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism | VBCC Research",
+      headTitle: "X-Ray Diffraction (XRD) Equipment with Powder Diffraction",
+      metaDesc : "Discover X-ray Powder Diffraction in this comprehensive guide. Learn about XRD applications, principles, and versatile X ray diffractometer types.",
+      heading: 'Quartz - Interesting Facts',
+      img: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
+      alt: "X-Ray Diffraction",
+      subHeading : "",
+      desc1:"",
       point1:`
-      <h3>Jewellery and Accessories :</h3> 
-      <p>The captivating patterns and vibrant shades of agate have led to its desirability in the world of jewellery. When shaped into beads, cabochons, and pendants, agate takes on a central role in creating exquisite necklaces, earrings, and bracelets. The inherent beauty and versatile color palette provide endless design opportunities to cater to the preferences of discerning customers.</p>`,
+      <h3>A Comprehensive Guide on X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism</h3>
+      <p>X-ray diffraction (XRD) is a powerful analytical technique used in materials science, chemistry, geology, and various other scientific disciplines. This technique provides valuable insights into the crystallographic structure of materials. It allows researchers to understand their composition, phase purity, and even the presence of defects. Let’s understand the mechanisms of XRD instrumentation, and explore its components, principles, and applications.</p>
+  `,
       point2:`
-      <h3>Lapidary Artistry :</h3> 
-      <p>Skilled artisans and experts in lapidary work transform raw agate into intricate sculptures, carvings, and decorative pieces. The layers and patterns within agate serve as an inspiration for imaginative craftsmanship, yielding creations that are both visually captivating and culturally meaningful.</p>`,
+      <h3>Basics of X-Ray Diffraction:</h3>
+      <div><h4>X-Ray Source:</h4> When the high-energy electrons are bombarded on a metal target either copper or cobalt, an X-ray is emitted from a sealed X-ray tube.  The resulting X-rays have a wavelength on the order of angstroms, making them suitable for diffraction experiments.</div>
+      `,
       point3:`
-      <h3>Interior Design and Décor :</h3> 
-      <p>The mesmerizing patterns found in agate make it a favored choice for interior designers and decorators. Agate slices are converted into elegant tabletops, wall panels, and decorative accents. Incorporating agate into interior designs introduces an air of sophistication and a distinctive, nature-inspired aesthetic.</p>`,
+      <div><h4>Monochromator:</h4> The X-ray beam produced by the source is polychromatic, containing a range of wavelengths. A monochromator isolates specific wavelengths from the range of wavelengths. Single crystals or diffraction gratings are used to select a narrow range of X-ray wavelengths.</div>
+      <br/>
+      <div><h4>Sample Holder: </h4> The sample holder is a flat plate or a rotating cylinder to hold a sample of finely ground powder for XRD analysis. The sample holder is used to evenly disperse the powder to ensure a representative and homogeneous sample.</div>
+      `,
       point4:`
-      <h3>Semi-Precious Inlay :</h3> 
-      <p>Agate is frequently employed as an inlay material, enhancing the appeal of furniture, flooring, and architectural elements. Its inherent patterns, when thoughtfully arranged, yield striking visual effects that contribute value to premium products and design concepts.</p>`,
+      <div><h4>Goniometer: </h4>The goniometer is a critical component that allows precise control of the orientation of the sample concerning the incident X-ray beam. It facilitates the measurement of diffraction angles, crucial for determining crystallographic information.</div>
+      <br/>
+      <div><h4>Detector: </h4> The detector captures the diffracted X-rays, converting them into electrical signals. Modern detectors, such as scintillation or semiconductor detectors, offer high sensitivity and resolution.</div>
+      `,
       point5:`
-      <h3>Artistic Expressions :</h3> 
-      <p>The intricate bands and vibrant colors of agate find their way into artistic endeavors like paintings, sculptures, and mixed-media works. Serving as a wellspring of inspiration, agate's elegance sparks the creative imagination of artists, infusing their creations with the grace of the natural world.</p>`,
+      <h3>X-ray Powder Diffraction with HPAD Detector</h3>
+      <p>MiniFlex XRD system delivers speed and sensitivity through innovative technology advances, including the HyPix-400 MF 2D hybrid pixel array detector (HPAD) together with an available 600 W X-ray source and new 8-position automatic sample changer.</p>
+      `,
       point6:`
-      <h3>Horology and Timekeeping :</h3> 
-      <p>The durability and hardness of agate make it an optimal choice for crafting watch dials and decorative components in luxury timepieces. Its capacity to withstand wear and maintain its aesthetic allure renders it a favored material for horological craftsmanship.</p>`,
+      <h3>Principles of XRD:</h3>
+      <p>Bragg's Law was formulated by Sir William Bragg and his son Lawrence Bragg in 1913. XRD is based on the principles of Bragg's Law. It describes the relationship between the angle of incidence, wavelength of X-rays, and crystal lattice spacing in X-ray diffraction (XRD). The law is expressed as 2d sin θ = nλ, where 'd' is the crystal lattice spacing, 'θ' is the angle of incidence, 'n' is an integer representing the diffraction order, where 'λ' represents X-ray wavelength.</p>
+      <p>The diffraction pattern obtained from a sample provides information about the crystal lattice and allows for the determination of key parameters such as lattice constants, crystal symmetry, and phase identification.</p>`,
       point7:`
-      <h3>Home Accessories :</h3> 
-      <p>Agate is transformed into a range of home accessories, including coasters, candle holders, and decorative bowls. Its inherent patterns introduce a touch of refinement to everyday items, transforming them into functional pieces of artistry.</p>`,
+      <h3>XRD Applications:</h3>
+      <div> <h4>Phase Identification:</h4>
+      XRD is used for discerning distinct phases within a sample, as each crystalline phase exhibits a distinctive diffraction pattern. This characteristic allows researchers to analyze complex materials and ascertain their composition by identifying the unique fingerprints reflected in the diffraction patterns.</div>
+      <br/>
+      <div> <h4>Quantitative Analysis:</h4>
+      The intensity of diffracted peaks determines the relative amounts of different phases within a sample.</div>
+      <br/>
+      <div> <h4>Crystal Structure Determination:</h4>
+      By analysing the positions and intensities of diffraction peaks, researchers can unveil the three-dimensional arrangement of atoms within a crystal lattice.</div>
+      <br/>
+      <div> <h4>Stress and Strain Analysis:</h4>
+      XRD is used to analyse the stress and strain within a crystalline material. It provides insights into its mechanical properties.</div>
+      `,
       point8:`
-      <h3>Specialized Craftsmanship :</h3> 
-      <p>Agate finds a place in specialized craftsmanship techniques such as intarsia, involving the incorporation of segments from different materials to create intricate mosaics. Here, agate contributes to the formation of visually arresting and intricately detailed designs.</p>`,
+      <h3>Examples of XRD usage:</h3>
+      <p>X-ray diffraction (XRD) finds practical applications in various fields.</p>
+      <ul>
+          <li>In materials science, it helps to determine crystal structures and aids the study of polymers, metals, and ceramics. </li>
+          <li>In pharmaceuticals, XRD identifies drug compositions. It helps to ensure the purity and stability of pharmaceutical products by verifying their crystalline structure. It is used in quality control in industries such as electronics and construction.</li>
+          <li>Geological applications involve analyzing minerals in rocks and soil samples as different minerals exhibit unique diffraction patterns. It is used to identify phases in rocks.</li>
+          <li>In archaeology, it assists in dating artifacts by examining crystalline structures. </li>
+          <li>In nanotechnology, XRD is used to characterize nanomaterials. It provides valuable information about particle size, crystallinity, and phase composition.</li>
+      </ul>
+      `,
       point9:`
-      <h3>Healing and Metaphysical Products :</h3> 
-      <p>Within holistic practices, agate is believed to possess healing properties. Its utilization in crafting metaphysical products such as crystal grids, meditation tools, and energy-enhancing items underscores its role within wellness-focused sectors.</p>`,
+      <h3>Types of X-Ray Diffractometers:</h3>
+      <p>Each type of X-ray Powder Diffraction instrument caters to specific industry needs to provide precise analytical capabilities for a range of applications. The choice depends on factors such as the nature of the sample, required resolution, portability, and the specific goals of the analysis. Let us see a few types of XRD:</p>
+      <ul>
+          <li>Benchtop X-ray Diffractometers are used for academic research, small laboratories, and routine analysis in industries like pharmaceuticals and materials science. </li>
+          <li>Floor-Standing X-ray Diffractometers are used in materials science, pharmaceuticals, geology, and quality control in manufacturing.</li>
+          <li>Portable X-ray Diffractometers are best for geological exploration, field studies, and on-site quality control in industries like mining and construction.</li>
+          <li>Synchrotron-based X-ray Diffractometers help in advanced research in materials science, pharmaceuticals, and any field requiring high-intensity, tunable X-ray beams.</li>
+          <li>Texture and Residual Stress X-ray Diffractometers for use in metallurgy, aerospace, automotive, and any field concerned with understanding material properties and structural integrity.</li>
+      </ul>
+      `,
       point11:`
-      <h3>Architectural Elements :</h3> 
-      <p>Agate's entrancing appearance extends to architectural contexts. It is harnessed in premium interior and exterior designs, introducing an element of opulence to spaces through applications like wall panels, countertops, and decorative accents.</p>`,
-      summary:"In summary, agate's flexibility and innate allure position it as an indispensable asset across diverse industries. From adorning jewelry to enriching interior aesthetics, agate's presence infuses elegance, individuality, and a connection to the natural world. Its significance in industrial contexts not only highlights its aesthetic magnetism but also underscores its pragmatic value as a substance that augments functionality, beauty, and ingenuity."
+      <h3>Conclusion:</h3>
+      <p>X-ray powder Diffraction instrument is a versatile and indispensable tool in scientific research and industry due to its ability to detect the characteristics of crystalline.
+      <br/>
+      <br/>
+      VBCC Research is a prominent ceramic Equipment and Instrument manufacturer in India. They address the research and quality control needs in Glass, Ceramics, Nano Science, and Material Science. They provide a centralized hub for students, researchers, and engineers.
+      <br/>
+      <br/>
+      VBCC offers year-round access to a spectrum of experimental facilities and their services include comprehensive testing of mechanical, physical, chemical, and thermal properties from raw materials to final products. The facility supports synthesis and fabrication from laboratory to industrial scale, ensuring quality through final testing and characterizations. VBCC offers a wide range of X-ray diffractometers at affordable rates. Connect with us to know more. </p>
+     `,
+      summary:""
     },
     {
       id : 2,
@@ -179,6 +226,7 @@ export class LibraryOneComponent {
       metaDesc : "Explore the abundance and diversity of quartz minerals with intriguing facts. Unveil the fascinating world of quartz and its remarkable properties.",
       heading: 'Quartz - Interesting Facts',
       img: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
+      alt: "quartz",
       subHeading : "Unveiling the Enigmatic Beauty : Exploring Fascinating Facts about Quartz",
       desc1:"Quartz, a gem of the Earth's treasury, is a mineral that has captivated humans for centuries with its mesmerizing appearance, diverse forms, and intriguing properties. Let's embark on a journey to discover some lesser-known and enthralling facts about this extraordinary mineral.",
       point1:`
@@ -220,6 +268,7 @@ export class LibraryOneComponent {
       metaDesc : "Discover the power of graphite in industrial metallurgy. Enhance efficiency and performance across various industries with this versatile catalyst.",
       heading: "Graphite’s Impact in Industries",
       img: 'https://ik.imagekit.io/webibee/VBRC/images/article3.webp',
+      alt: "Graphite",
       subHeading : "Graphite : A Catalyst for Transformation Across Varied Industries",
       desc1:"Graphite, an unassuming yet highly potent form of carbon, emerges as a mineral that has dynamically reformed multiple industries through its remarkable attributes and diverse applications. From its pivotal contributions to technological advancements to its role in energy storage and beyond, graphite wields a profound and pervasive influence. Let's embark on a journey into the realm of graphite, uncovering how it shapes and propels innovation across a spectrum of sectors.",
       point1:`
@@ -262,6 +311,7 @@ export class LibraryOneComponent {
       metaDesc : "Discover precise thermal expansion measurement with our dilatometer thermal dynamics device. Accurate insights for diverse materials.",
       heading: 'Thermal Dynamics with Precision (Dilatometer)',
       img: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
+      alt: "Precision Dilatometer",
       subHeading : "Dilatometer : Thermal Dynamics with Exquisite Precision",
       desc1:"Within the complex realm of material science and thermal investigation, the dilatometer assumes a paramount role, serving as a conduit to comprehend how substances respond to alterations in temperature. This intricately designed instrument stands as a cornerstone of research, affording scientists and engineers a unique vantage point to explore the thermal properties and conduct of materials. Let's embark on an enlightening journey, unravelling the significance, operational mechanics, and diverse applications of the dilatometer.",
       subHeading2 :"Deciphering Thermal Expansion :",
@@ -304,6 +354,7 @@ export class LibraryOneComponent {
       metaDesc : "Elevate your research with glove boxes tailored for scientific excellence. Explore our solutions for precision and advancement.",
       heading: 'Glove Boxes for Scientific Advancement',
       img: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
+      alt: "Glove Boxes for Scientific Advancement",
       subHeading :"Glove Box : Creating Controlled Environments for Scientific Advancement",
       desc1:"A crucial tool stands at the forefront of scientific exploration - the glove box. This innovative device empowers researchers to conduct experiments and handle materials in controlled environments, shielded from external contaminants. Let's delve into the world of glove boxes, understanding their significance, operation, and their indispensable role in various research endeavours.",
       subHeading2:"The Essence of Controlled Environments :",
@@ -344,6 +395,7 @@ export class LibraryOneComponent {
       metaDesc : "Discover the inner workings of hot air ovens, their principles, and applications. Learn how hot air ovens function for optimal performance and efficiency.",
       heading: 'Working Principle of Hot Air Oven',
       img: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
+      alt: "Working Principle of Hot Air Oven",
       desc1:"The hot air oven, an essential apparatus in laboratories, industries, and research facilities, operates on a fundamental principle that facilitates uniform heating and sterilization of various materials. This versatile tool finds applications in diverse fields, including microbiology, material testing, and food industries. Let's delve into the core of its working principle, exploring how it achieves precise temperature control and its significance in modern-day applications.",
       subHeading2:"The Essence of Hot Air Oven :",
       desc2:"At its core, a hot air oven is designed to provide controlled heating through the circulation of hot air within an enclosed chamber. This uniform distribution of heat ensures that the items placed within the oven experience consistent temperature conditions. The oven's mechanism is based on the principles of convection, making it a reliable tool for drying, curing, and sterilizing purposes.",
@@ -394,5 +446,48 @@ export class LibraryOneComponent {
       <p> Hot air ovens aid in the drying and curing of electronic components, coatings, and adhesives.</p>`,
       summary:"In conclusion, the working principle of the hot air oven revolves around convection-based heating, which guarantees uniform temperature distribution for a variety of applications. Its role in laboratories, industries, and research centers underscores its significance in achieving precise, controlled heating and sterilization, contributing to advancements in science, technology, and various sectors.",
     },
+    {
+      id : 7,
+      routing : "agate-importance",
+      mainHeader: "Agate's Industrial Significance and Versatile Applications",
+      headTitle: "Agate's Industrial Significance and Versatile Applications  | VBCC Research",
+      metaDesc : "Explore the industrial significance of agate and its versatile applications. Learn how agate enhances various sectors with its unique properties.",
+      heading: 'Agate and It’s Importance',
+      img: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
+      alt: "agate-importance",
+      subHeading : 'Agate: Unveiling Its Industrial Significance and Versatile Applications',
+      desc1:"Agate, a captivating gemstone valued for its colorful bands and distinct patterns, goes beyond just its visual charm to play a vital part in numerous industries. With its exceptional traits and adaptable features, agate has secured its place in various industrial applications, contributing to innovation and practicality in a range of sectors. Let's dive into the intriguing realm of agate and explore its significance in diverse industries.",
+      point1:`
+      <h3>Jewellery and Accessories :</h3> 
+      <p>The captivating patterns and vibrant shades of agate have led to its desirability in the world of jewellery. When shaped into beads, cabochons, and pendants, agate takes on a central role in creating exquisite necklaces, earrings, and bracelets. The inherent beauty and versatile color palette provide endless design opportunities to cater to the preferences of discerning customers.</p>`,
+      point2:`
+      <h3>Lapidary Artistry :</h3> 
+      <p>Skilled artisans and experts in lapidary work transform raw agate into intricate sculptures, carvings, and decorative pieces. The layers and patterns within agate serve as an inspiration for imaginative craftsmanship, yielding creations that are both visually captivating and culturally meaningful.</p>`,
+      point3:`
+      <h3>Interior Design and Décor :</h3> 
+      <p>The mesmerizing patterns found in agate make it a favored choice for interior designers and decorators. Agate slices are converted into elegant tabletops, wall panels, and decorative accents. Incorporating agate into interior designs introduces an air of sophistication and a distinctive, nature-inspired aesthetic.</p>`,
+      point4:`
+      <h3>Semi-Precious Inlay :</h3> 
+      <p>Agate is frequently employed as an inlay material, enhancing the appeal of furniture, flooring, and architectural elements. Its inherent patterns, when thoughtfully arranged, yield striking visual effects that contribute value to premium products and design concepts.</p>`,
+      point5:`
+      <h3>Artistic Expressions :</h3> 
+      <p>The intricate bands and vibrant colors of agate find their way into artistic endeavors like paintings, sculptures, and mixed-media works. Serving as a wellspring of inspiration, agate's elegance sparks the creative imagination of artists, infusing their creations with the grace of the natural world.</p>`,
+      point6:`
+      <h3>Horology and Timekeeping :</h3> 
+      <p>The durability and hardness of agate make it an optimal choice for crafting watch dials and decorative components in luxury timepieces. Its capacity to withstand wear and maintain its aesthetic allure renders it a favored material for horological craftsmanship.</p>`,
+      point7:`
+      <h3>Home Accessories :</h3> 
+      <p>Agate is transformed into a range of home accessories, including coasters, candle holders, and decorative bowls. Its inherent patterns introduce a touch of refinement to everyday items, transforming them into functional pieces of artistry.</p>`,
+      point8:`
+      <h3>Specialized Craftsmanship :</h3> 
+      <p>Agate finds a place in specialized craftsmanship techniques such as intarsia, involving the incorporation of segments from different materials to create intricate mosaics. Here, agate contributes to the formation of visually arresting and intricately detailed designs.</p>`,
+      point9:`
+      <h3>Healing and Metaphysical Products :</h3> 
+      <p>Within holistic practices, agate is believed to possess healing properties. Its utilization in crafting metaphysical products such as crystal grids, meditation tools, and energy-enhancing items underscores its role within wellness-focused sectors.</p>`,
+      point11:`
+      <h3>Architectural Elements :</h3> 
+      <p>Agate's entrancing appearance extends to architectural contexts. It is harnessed in premium interior and exterior designs, introducing an element of opulence to spaces through applications like wall panels, countertops, and decorative accents.</p>`,
+      summary:"In summary, agate's flexibility and innate allure position it as an indispensable asset across diverse industries. From adorning jewelry to enriching interior aesthetics, agate's presence infuses elegance, individuality, and a connection to the natural world. Its significance in industrial contexts not only highlights its aesthetic magnetism but also underscores its pragmatic value as a substance that augments functionality, beauty, and ingenuity."
+    }
   ];
 }

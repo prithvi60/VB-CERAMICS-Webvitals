@@ -60,11 +60,11 @@ export class LibraryComponent implements OnInit{
 
   library = [
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
-      content: 'Quartz - Interesting Facts',
+      img1: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
+      content: 'X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism ',
       topic:'Raw Material',
       library_id:1,
-      routing : "quartz-interesting-facts"
+      routing : "X-Ray-Diffraction"
     },
     {
       img1: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
@@ -100,6 +100,13 @@ export class LibraryComponent implements OnInit{
       content: 'Working Principle of Hot Air Oven',
       library_id:6,
       routing : "working-principle-of-hot-air-oven"
+    },
+    {
+      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
+      content: 'Quartz - Interesting Facts',
+      topic:'Raw Material',
+      library_id:7,
+      routing : "quartz-interesting-facts"
     },
 
   ];

@@ -161,8 +161,8 @@ i
     {
       id: 1,
       mainHeader: "X-Ray Diffraction (XRD) Equipment with Powder Diffraction",
-      titleHead: 'A Comprehensive Guide on X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism | VBCC Research',
-      metaDesc: "Discover X-ray Powder Diffraction in this comprehensive guide. Learn about XRD applications, principles, and versatile X ray diffractometer types.",
+      titleHead: 'X-Ray Diffraction Equipment with Powder Diffraction for Test  | VBCC Research',
+      metaDesc: "Unlock the power of X-ray Diffraction (XRD). Explore our benchtop diffractometer for precise powder diffraction analysis test.",
       image_1: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
       image_2: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-2.png',
       header: 'Sophisticated Instruments',
@@ -172,90 +172,25 @@ i
       students: '₹750 - Students',
       industries: '₹1500 - Industries',
       para1: '',
-      // para2: `
-      //     <p>X-ray diffraction (XRD) is a non-destructive method for analyzing matters ranging from liquids to crystals. This characterization method provides statistical information on interlayer multiple orientations of carbon nanomaterials. The parameters examined by this technique are structural strain, diameter, chirality distribution, and impurities in CNMs.</p>
-      //    <br>
-      //     <h3>Benchtop X-ray Diffractometer for Phase Analysis</h3>
-      //     <p>New sixth generation MiniFlex benchtop X-ray diffractometer is a multipurpose powder diffraction analytical instrument that can determine: crystalline phase identification (phase ID) and quantification, percent (%) crystallinity, crystallite size and strain, lattice parameter refinement, Rietveld refinement, and molecular structure. It is widely used in research, especially in material science and chemistry, as well as in industry for research and quality control. It is the newest addition to the MiniFlex series of benchtop X-ray diffraction analyzers from Rigaku, which began with the introduction of the original MiniFlex XRD system decades ago.</p>
-
-      //    <br>
-      //     <h3>X-ray Powder Diffraction with HPAD Detector</h3>
-      //     <p>MiniFlex XRD system delivers speed and sensitivity through innovative technology advances, including the HyPix-400 MF 2D hybrid pixel array detector (HPAD) together with an available 600 W X-ray source and new 8-position automatic sample changer.</p>
-      //     <br>
-      //     <h3>Hybrid Pixel Array Detector (HPAD)</h3>
-      //     <p>This new direct photon counting detector enables high-speed, low-noise data collection and may be operated in 0D and 1D modes for conventional XRD analysis and 2D mode for samples with coarse grain size and/or preferred orientation.</p>
-      //     <br>
-      //     <h3>XRD Accessories Enhance Your MiniFlex</h3>
-      //     <p>A variety of X-ray tube anodes – along with a range of sample rotation and positioning accessories, together with a variety of temperature attachments – are offered to ensure that the MiniFlex X-ray diffraction (XRD) system is versatile enough to perform challenging qualitative and quantitative analyses of a broad range of samples, whether performing research or routine quality control. The new (Gen 6) MiniFlex X-ray diffractometer system embodies the Rigaku philosophy of “Leading with Innovation” by offering the world’s most advanced benchtop system for powder diffractometry.</p>
-      //     <br>
-      //     <h3   >Advanced Powder Diffraction Software</h3>
-      //     <p>Each MiniFlex comes standard with the latest version of SmartLab Studio-II, Rigaku's full-function powder diffraction analysis package. The latest version offers important new functionality; including a fundamental parameter method (FP) for more accurate peak calculation, phase identification using the Crystallography Open Database (COD), and a wizard for ab inito crystal structure analysis.</p>
-
-
-      // `,
       para2: `
-          <h3>A Comprehensive Guide on X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism</h3>
-          <p>X-ray diffraction (XRD) is a powerful analytical technique used in materials science, chemistry, geology, and various other scientific disciplines. This technique provides valuable insights into the crystallographic structure of materials. It allows researchers to understand their composition, phase purity, and even the presence of defects. Let’s understand the mechanisms of XRD instrumentation, and explore its components, principles, and applications.</p>
+          <p>X-ray diffraction (XRD) is a non-destructive method for analyzing matters ranging from liquids to crystals. This characterization method provides statistical information on interlayer multiple orientations of carbon nanomaterials. The parameters examined by this technique are structural strain, diameter, chirality distribution, and impurities in CNMs.</p>
          <br>
-          <h3>Basics of X-Ray Diffraction:</h3>
-          <div><h4>X-Ray Source:</h4> When the high-energy electrons are bombarded on a metal target either copper or cobalt, an X-ray is emitted from a sealed X-ray tube.  The resulting X-rays have a wavelength on the order of angstroms, making them suitable for diffraction experiments.</div>
-          <br/>
-          <div><h4>Monochromator:</h4> The X-ray beam produced by the source is polychromatic, containing a range of wavelengths. A monochromator isolates specific wavelengths from the range of wavelengths. Single crystals or diffraction gratings are used to select a narrow range of X-ray wavelengths.</div>
-          <br/>
-          <div><h4>Sample Holder: </h4> The sample holder is a flat plate or a rotating cylinder to hold a sample of finely ground powder for XRD analysis. The sample holder is used to evenly disperse the powder to ensure a representative and homogeneous sample.</div>
-          <br/>
-          <div><h4>Goniometer: </h4>The goniometer is a critical component that allows precise control of the orientation of the sample concerning the incident X-ray beam. It facilitates the measurement of diffraction angles, crucial for determining crystallographic information.</div>
-          <br/>
-          <div><h4>Detector: </h4> The detector captures the diffracted X-rays, converting them into electrical signals. Modern detectors, such as scintillation or semiconductor detectors, offer high sensitivity and resolution.</div>
+          <h3>Benchtop X-ray Diffractometer for Phase Analysis</h3>
+          <p>New sixth generation MiniFlex benchtop X-ray diffractometer is a multipurpose powder diffraction analytical instrument that can determine: crystalline phase identification (phase ID) and quantification, percent (%) crystallinity, crystallite size and strain, lattice parameter refinement, Rietveld refinement, and molecular structure. It is widely used in research, especially in material science and chemistry, as well as in industry for research and quality control. It is the newest addition to the MiniFlex series of benchtop X-ray diffraction analyzers from Rigaku, which began with the introduction of the original MiniFlex XRD system decades ago.</p>
+
          <br>
           <h3>X-ray Powder Diffraction with HPAD Detector</h3>
           <p>MiniFlex XRD system delivers speed and sensitivity through innovative technology advances, including the HyPix-400 MF 2D hybrid pixel array detector (HPAD) together with an available 600 W X-ray source and new 8-position automatic sample changer.</p>
           <br>
-          <h3>Principles of XRD:</h3>
-          <p>Bragg's Law was formulated by Sir William Bragg and his son Lawrence Bragg in 1913. XRD is based on the principles of Bragg's Law. It describes the relationship between the angle of incidence, wavelength of X-rays, and crystal lattice spacing in X-ray diffraction (XRD). The law is expressed as 2d sin θ = nλ, where 'd' is the crystal lattice spacing, 'θ' is the angle of incidence, 'n' is an integer representing the diffraction order, where 'λ' represents X-ray wavelength.</p>
-          <p>The diffraction pattern obtained from a sample provides information about the crystal lattice and allows for the determination of key parameters such as lattice constants, crystal symmetry, and phase identification.</p>
+          <h3>Hybrid Pixel Array Detector (HPAD)</h3>
+          <p>This new direct photon counting detector enables high-speed, low-noise data collection and may be operated in 0D and 1D modes for conventional XRD analysis and 2D mode for samples with coarse grain size and/or preferred orientation.</p>
           <br>
-          <h3>XRD Applications:</h3>
-          <div> <h4>Phase Identification:</h4>
-          XRD is used for discerning distinct phases within a sample, as each crystalline phase exhibits a distinctive diffraction pattern. This characteristic allows researchers to analyze complex materials and ascertain their composition by identifying the unique fingerprints reflected in the diffraction patterns.</div>
-          <br/>
-          <div> <h4>Quantitative Analysis:</h4>
-          The intensity of diffracted peaks determines the relative amounts of different phases within a sample.</div>
-          <br/>
-          <div> <h4>Crystal Structure Determination:</h4>
-          By analysing the positions and intensities of diffraction peaks, researchers can unveil the three-dimensional arrangement of atoms within a crystal lattice.</div>
-          <br/>
-          <div> <h4>Stress and Strain Analysis:</h4>
-          XRD is used to analyse the stress and strain within a crystalline material. It provides insights into its mechanical properties.</div>
+          <h3>XRD Accessories Enhance Your MiniFlex</h3>
+          <p>A variety of X-ray tube anodes – along with a range of sample rotation and positioning accessories, together with a variety of temperature attachments – are offered to ensure that the MiniFlex X-ray diffraction (XRD) system is versatile enough to perform challenging qualitative and quantitative analyses of a broad range of samples, whether performing research or routine quality control. The new (Gen 6) MiniFlex X-ray diffractometer system embodies the Rigaku philosophy of “Leading with Innovation” by offering the world’s most advanced benchtop system for powder diffractometry.</p>
           <br>
-          <h3>Examples of XRD usage:</h3>
-          <p>X-ray diffraction (XRD) finds practical applications in various fields.</p>
-          <ul>
-              <li>In materials science, it helps to determine crystal structures and aids the study of polymers, metals, and ceramics. </li>
-              <li>In pharmaceuticals, XRD identifies drug compositions. It helps to ensure the purity and stability of pharmaceutical products by verifying their crystalline structure. It is used in quality control in industries such as electronics and construction.</li>
-              <li>Geological applications involve analyzing minerals in rocks and soil samples as different minerals exhibit unique diffraction patterns. It is used to identify phases in rocks.</li>
-              <li>In archaeology, it assists in dating artifacts by examining crystalline structures. </li>
-              <li>In nanotechnology, XRD is used to characterize nanomaterials. It provides valuable information about particle size, crystallinity, and phase composition.</li>
-          </ul>
+          <h3   >Advanced Powder Diffraction Software</h3>
+          <p>Each MiniFlex comes standard with the latest version of SmartLab Studio-II, Rigaku's full-function powder diffraction analysis package. The latest version offers important new functionality; including a fundamental parameter method (FP) for more accurate peak calculation, phase identification using the Crystallography Open Database (COD), and a wizard for ab inito crystal structure analysis.</p>
 
-          <h3>Types of X-Ray Diffractometers:</h3>
-          <p>Each type of X-ray Powder Diffraction instrument caters to specific industry needs to provide precise analytical capabilities for a range of applications. The choice depends on factors such as the nature of the sample, required resolution, portability, and the specific goals of the analysis. Let us see a few types of XRD:</p>
-          <ul>
-              <li>Benchtop X-ray Diffractometers are used for academic research, small laboratories, and routine analysis in industries like pharmaceuticals and materials science. </li>
-              <li>Floor-Standing X-ray Diffractometers are used in materials science, pharmaceuticals, geology, and quality control in manufacturing.</li>
-              <li>Portable X-ray Diffractometers are best for geological exploration, field studies, and on-site quality control in industries like mining and construction.</li>
-              <li>Synchrotron-based X-ray Diffractometers help in advanced research in materials science, pharmaceuticals, and any field requiring high-intensity, tunable X-ray beams.</li>
-              <li>Texture and Residual Stress X-ray Diffractometers for use in metallurgy, aerospace, automotive, and any field concerned with understanding material properties and structural integrity.</li>
-          </ul>
-
-          <h3>Conclusion:</h3>
-          <p>X-ray powder Diffraction instrument is a versatile and indispensable tool in scientific research and industry due to its ability to detect the characteristics of crystalline.
-          <br/>
-          <br/>
-          VBCC Research is a prominent ceramic Equipment and Instrument manufacturer in India. They address the research and quality control needs in Glass, Ceramics, Nano Science, and Material Science. They provide a centralized hub for students, researchers, and engineers.
-          <br/>
-          <br/>
-          VBCC offers year-round access to a spectrum of experimental facilities and their services include comprehensive testing of mechanical, physical, chemical, and thermal properties from raw materials to final products. The facility supports synthesis and fabrication from laboratory to industrial scale, ensuring quality through final testing and characterizations. VBCC offers a wide range of X-ray diffractometers at affordable rates. Connect with us to know more. </p>
 
       `,
       routing: 'x-ray-diffraction-xrd',

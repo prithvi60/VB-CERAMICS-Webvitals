@@ -25,7 +25,7 @@
                 height="39"
                 width="77"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
-                alt=""
+                alt="logo"
                 [routerLink]="['/']"
               />
               <button
@@ -38,7 +38,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <img [src]="imagesNav[currentImageIndex15]" alt="" />
+                <img [src]="imagesNav[currentImageIndex15]" alt="btn" />
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
@@ -98,7 +98,7 @@
             <h2 class="top_heading_1">{{ heading }}</h2>
             <p class="datetext">Dec 15,2022</p>
           </div>
-          <img src="{{ img }}" alt="hero-1" class="articleimg d-block w-100" />
+          <img src="{{ img }}" alt="{{ alt }}" class="articleimg d-block w-100" />
           <div>
             <h2 class="top_heading_2">{{ subHeading }}</h2>
             <p class="top_para indent">{{ desc1 }}</p>
@@ -123,7 +123,7 @@
             <h2 class="top_heading_1">{{ heading }}</h2>
             <p class="datetext">Dec 15,2022</p>
           </div>
-          <img class="articleimg" src="{{ img }}" alt="" />
+          <img class="articleimg" src="{{ img }}" alt="{{ alt }}" />
           <div>
             <h2 class="top_heading_2">{{ subHeading }}</h2>
             <p class="top_para">{{ desc1 }}</p>
@@ -152,7 +152,7 @@
             <h1 class="top_heading_1">{{ heading }}</h1>
             <p class="datetext">Dec 15,2022</p>
           </div>
-          <img class="articleimg" src="{{ img }}" alt="" />
+          <img class="articleimg" src="{{ img }}" alt="{{ alt }}" />
           <div>
             <h2 class="top_heading_2">{{ subHeading }}</h2>
             <p class="top_para indent">{{ desc1 }}</p>
@@ -181,7 +181,7 @@
             <h1 class="top_heading_1">{{ heading }}</h1>
             <p class="datetext">Dec 15,2022</p>
           </div>
-          <img class="articleimg" src="{{ img }}" alt="" />
+          <img class="articleimg" src="{{ img }}" alt="{{ alt }}" />
           <div>
             <p class="top_para">{{ desc1 }}</p>
             <h2 class="top_heading_3">{{ subHeading2 }}</h2>
@@ -230,7 +230,7 @@
             height="320"
             width="320"
             ngSrc="https://ik.imagekit.io/webibee/VBRC/images/article1.webp"
-            alt=""
+            alt="quartz"
           />
           <div class="flex_explore">
             <p class="epara">Quartz - Interesting Facts</p>
@@ -244,7 +244,7 @@
             height="320"
             width="320"
             ngSrc="https://ik.imagekit.io/webibee/VBRC/images/article2.webp"
-            alt=""
+            alt="Agate"
           />
           <div class="flex_explore">
             <p class="epara">Agate and It’s Importance</p>
@@ -259,7 +259,7 @@
             width="320"
             [routerLink]="['../graphite-impact-in-industries']"
             ngSrc="https://ik.imagekit.io/webibee/VBRC/images/article3.webp"
-            alt=""
+            alt="Graphites"
           />
           <div id="thirdimgf" class="flex_explore">
             <p class="epara">Graphite’s Impact in Industries</p>
@@ -298,7 +298,7 @@
             id="card1img"
             ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
             loading="lazy"
-            alt="footerimg"
+            alt="footer img"
             width="80"
             height="60"
             [routerLink]="['/']"
@@ -344,7 +344,7 @@
               <img
                 loading="lazy"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
-                alt="social1"
+                alt="linkedin"
                 width="40"
                 height="40"
                 (click)="socials('linkedIn')"
@@ -352,7 +352,7 @@
               <img
                 loading="lazy"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
-                alt="social2"
+                alt="YouTube"
                 width="45"
                 height="35"
                 (click)="socials('youtube')"
@@ -360,7 +360,7 @@
               <img
                 loading="lazy"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
-                alt="social3"
+                alt="Facebook"
                 width="35"
                 height="35"
                 (click)="socials('facebook')"
@@ -382,7 +382,7 @@
               <img
                 loading="lazy"
                 src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
-                alt="footericon"
+                alt="footer icon"
                 width="80px"
                 height="60px"
                 (click)="ourGroups('vbcc')"
@@ -390,7 +390,7 @@
               <img
                 loading="lazy"
                 src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
-                alt="footericon2"
+                alt="footer icon 2"
                 width="80px"
                 height="60px"
                 (click)="ourGroups('hiTemp')"
@@ -413,7 +413,7 @@
             ><img
               loading="lazy"
               ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
-              alt="link1"
+              alt="web icon"
               width="25"
               height="25"
           /></span>
@@ -425,7 +425,7 @@
             ><img
               loading="lazy"
               ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
-              alt="link2"
+              alt="currency icon"
               width="25"
               height="25"
           /></span>
@@ -437,7 +437,7 @@
             ><img
               loading="lazy"
               ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
-              alt="link3"
+              alt="clock icon"
               width="25"
               height="25"
           /></span>

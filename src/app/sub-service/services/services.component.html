@@ -27,7 +27,7 @@
             <img
               id="head_img"
               src="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
-              alt=""
+              alt="logo"
               [routerLink]="['/']"
             />
             <button
@@ -40,7 +40,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <img [src]="imagesNav[currentImageIndex15]" alt="" />
+              <img [src]="imagesNav[currentImageIndex15]" alt="btn" />
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
@@ -96,10 +96,10 @@
     <div class="main">
       <div class="sec-1">
         <div class="sec-1-img1">
-          <img src="{{ image_1 }}" class="d-b k w-100" />
+          <img src="{{ image_1 }}" class="d-b k w-100" alt="{{heading}}" />
         </div>
         <div class="sec-1-img2">
-          <img src="{{ image_2 }}" />
+          <img src="{{ image_2 }}" alt="{{heading}}"/>
         </div>
       </div>
       <div class="sec-2">
@@ -317,7 +317,7 @@
           id="card1img"
           ngSrc="https://ik.imagekit.io/webibee/VBRC/vbcclogofooter.svg"
           loading="lazy"
-          alt="footerimg"
+          alt="footer img"
           width="80"
           height="60"
           [routerLink]="['/']"
@@ -363,7 +363,7 @@
             <img
               loading="lazy"
               ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_linkedin.svg"
-              alt="social1"
+              alt="linkedin"
               width="40"
               height="40"
               (click)="socials('linkedIn')"
@@ -371,7 +371,7 @@
             <img
               loading="lazy"
               ngSrc="https://ik.imagekit.io/webibee/VBRC/images/YouTube.svg"
-              alt="social2"
+              alt="YouTube"
               width="45"
               height="35"
               (click)="socials('youtube')"
@@ -379,7 +379,7 @@
             <img
               loading="lazy"
               ngSrc="https://ik.imagekit.io/webibee/VBRC/images/Facebook.svg"
-              alt="social3"
+              alt="Facebook"
               width="35"
               height="35"
               (click)="socials('facebook')"
@@ -401,7 +401,7 @@
             <img
               loading="lazy"
               src="https://ik.imagekit.io/webibee/VBRC/ceramicslogo.svg"
-              alt="footericon"
+              alt="footer icon"
               width="80px"
               height="60px"
               (click)="ourGroups('vbcc')"
@@ -409,7 +409,7 @@
             <img
               loading="lazy"
               src="https://ik.imagekit.io/webibee/VBRC/hightechlogo.svg"
-              alt="footericon2"
+              alt="footer icon 2"
               width="80px"
               height="60px"
               (click)="ourGroups('hiTemp')"
@@ -431,7 +431,7 @@
               ><img
                 loading="lazy"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_web.svg"
-                alt="link1"
+                alt="web icon"
                 width="25"
                 height="25"
             /></span>
@@ -443,7 +443,7 @@
               ><img
                 loading="lazy"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/images/material-symbols_currency-rupee.svg"
-                alt="link2"
+                alt="currency icon"
                 width="25"
                 height="25"
             /></span>
@@ -455,7 +455,7 @@
               ><img
                 loading="lazy"
                 ngSrc="https://ik.imagekit.io/webibee/VBRC/images/mdi_clock.svg"
-                alt="link3"
+                alt="clock icon"
                 width="25"
                 height="25"
             /></span>
