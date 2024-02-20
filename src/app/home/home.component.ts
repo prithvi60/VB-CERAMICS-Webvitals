@@ -9,11 +9,10 @@ import {
   Inject
 } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import AOS from 'aos';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Title, Meta, DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { orgLD } from 'src/organsation';
-import { isPlatformBrowser } from '@angular/common';
+// import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -122,14 +121,14 @@ export class HomeComponent {
       content:
         'Explore excellence at VB Ceramics - Trusted ceramic center and research hub. Expert ceramic consultants driving innovation and quality in every project.',
     });
-    if (isPlatformBrowser(this.platformId)) {
-      // Code that interacts with window object
-    AOS.init({
-      debounceDelay: 500, // the delay on debounce used while resizing window (advanced)
-      once: false, // whether animation should happen only once - while scrolling down
-      mirror: true, // whether elements should animate out while scrolling past them
-    });
-  }
+  //   if (isPlatformBrowser(this.platformId)) {
+  //     // Code that interacts with window object
+  //   AOS.init({
+  //     debounceDelay: 500, // the delay on debounce used while resizing window (advanced)
+  //     once: false, // whether animation should happen only once - while scrolling down
+  //     mirror: true, // whether elements should animate out while scrolling past them
+  //   });
+  // }
 
   }
   getSafeHTML(jsonLD: { [key: string]: any }): SafeHtml {
