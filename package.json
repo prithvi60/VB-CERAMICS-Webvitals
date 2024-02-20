@@ -4,13 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build-dev": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng run client:serve-ssr",
     "serve:ssr": "node dist/client/server/main.js",
     "build:ssr": "ng build && ng run client:server",
-    "prerender": "ng run client:prerender"
+    "prerender": "ng run client:prerender",
+    "vercel-build": "npm run build:ssr"
   },
   "private": true,
   "dependencies": {
@@ -60,6 +61,5 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4",
     "webpack-bundle-analyzer": "^4.10.1"
-  },
-  "type": "module"
+  }
 }

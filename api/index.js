@@ -1,3 +1,3 @@
-import * as server from '../dist/client/server/main.js';
+const server = require("../dist/client/server/main");
 
-export default server.app();
+module.exports = server.app();
