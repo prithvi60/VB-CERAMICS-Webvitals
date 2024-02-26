@@ -511,6 +511,7 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: #132249;
   color: white;
   font-family: Schibsted Grotesk;
@@ -526,8 +527,23 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
   display: flex;
   flex-direction: row;
   float: right;
-  margin-left: auto;
+/* margin-left: auto; */
   padding: 20px 20px 0px 20px;
+}
+
+.maintain{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.maintain:hover{
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+}
+
+@media only screen and (max-width: 650px) {
+  .maintain{
+    text-decoration: underline;
+  }
 }
 
 .separator {
@@ -617,6 +633,9 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
   }
 
   .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
   .navbar {

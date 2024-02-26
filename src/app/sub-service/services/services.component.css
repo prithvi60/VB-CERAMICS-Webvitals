@@ -448,6 +448,7 @@ table > tfoot:not(:last-child) {
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   background-color: #132249;
   color: white;
   font-family: Schibsted Grotesk;
@@ -462,8 +463,23 @@ table > tfoot:not(:last-child) {
   display: flex;
   flex-direction: row;
   float: right;
-  margin-left: auto;
+  /* margin-left: auto; */
   padding: 20px 20px 0px 20px;
+}
+
+.maintain{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.maintain:hover{
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+}
+
+@media only screen and (max-width: 650px) {
+  .maintain{
+    text-decoration: underline;
+  }
 }
 
 .separator {
@@ -633,6 +649,9 @@ table > tfoot:not(:last-child) {
     display: none;
   }
   .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
   .main {
