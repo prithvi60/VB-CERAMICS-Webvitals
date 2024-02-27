@@ -432,6 +432,7 @@ line-height: 30px; /* 187.5% */
   display: flex;
   flex-direction: row;
   background-color: #132249;
+  justify-content: space-between;
   color: white;
   font-family: Schibsted Grotesk;
 font-size: 16px;
@@ -445,8 +446,24 @@ line-height: 30px; /* 187.5% */
   display: flex;
   flex-direction: row;
   float: right;
-  margin-left: auto;
+  // margin-left: auto;
   padding: 20px 20px 0px 20px;
+}
+
+.maintain{
+  text-decoration: none;
+  color: whitesmoke;
+
+  &:hover{
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .maintain{
+    text-decoration: underline;
+  }
 }
 
 .separator {
@@ -890,7 +907,10 @@ $animationSpeed: 15s;
   }
 
   .footer {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 }
 

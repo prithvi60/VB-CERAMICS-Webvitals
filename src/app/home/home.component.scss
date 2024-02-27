@@ -471,6 +471,7 @@ h2 {
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: #132249;
   color: white;
 }
@@ -480,8 +481,24 @@ h2 {
   display: flex;
   flex-direction: row;
   float: right;
-  margin-left: auto;
+  // margin-left: auto;
   padding: 20px 20px 0px 20px;
+}
+
+.maintain{
+  text-decoration: none;
+  color: whitesmoke;
+
+  &:hover{
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .maintain{
+    text-decoration: underline;
+  }
 }
 
 .flex1 {
@@ -1935,7 +1952,7 @@ tfoot > tr > td {
     display: none;
   }
   .footer {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
 }
