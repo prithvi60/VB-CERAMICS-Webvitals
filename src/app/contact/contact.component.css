@@ -393,10 +393,10 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
     .cardfooter{
       display: none;
     }
-    .footer{
+    /* .footer{
       flex-direction: column;
       text-align: center;
-    }
+    } */
 
     .navbar{
       padding: 20px;
@@ -480,6 +480,7 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
 .card10 > div > img:hover{
   transform: scale(1.2);
 }
+
 .flex10 > .card10 > p:first-child {
   color: #000;
   font-family: Schibsted Grotesk;
@@ -523,7 +524,9 @@ line-height: 30px; /* 187.5% */
   line-height: 30px; /* 187.5% */
 }
 @media (max-width: 570px) {
-
+  #footer_p {
+    font-size: 13px;
+  }
 }
 @media (max-width: 530px) {
 
@@ -535,9 +538,6 @@ line-height: 30px; /* 187.5% */
   }
 }
 @media only screen and (max-width: 400px) {
-  #footer_p {
-    font-size: 13px;
-}
   #headimg{
     margin-left: 13px !important;
   }

@@ -748,11 +748,11 @@ line-height: 150%; /* 24px */
   .cardfooter{
     display: none;
   }
-  .footer{
+  /* .footer{
     flex-direction: column;
     text-align: center;
     justify-content: center;
-  }
+  } */
   #library_para{
 font-size: 14px;
   }
@@ -829,6 +829,9 @@ font-size: 14px;
   .texta{
     margin: 153px 0px 0px 0px;
   }
+  #footer_p {
+    font-size: 13px;
+}
 }
 
 @media (max-width: 499px) {
@@ -862,9 +865,6 @@ font-size: 14px;
 }
 
 @media only screen and (max-width:400px) {
-  #footer_p {
-    font-size: 13px;
-}
   .textb{
     margin: 143px 0px 0px 0px;
   }
