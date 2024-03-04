@@ -5,7 +5,7 @@ import { Title, Meta } from '@angular/platform-browser';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  styleUrls: ['./about.component.css'],
 })
 export class AboutComponent {
   // Set the initial state of the menu
@@ -13,24 +13,36 @@ export class AboutComponent {
   public lastSectionID: string;
 
   windowScrolled: boolean;
-  constructor(@Inject(DOCUMENT) private document: Document,private title: Title, private meta: Meta) {}
-  @HostListener("window:scroll", [ `{ passive: true }`])
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private title: Title,
+    private meta: Meta
+  ) {}
+  @HostListener('window:scroll', [`{ passive: true }`])
   onWindowScroll() {
-      if (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop > 100) {
-          this.windowScrolled = true;
-      }
-     else if (this.windowScrolled && window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop < 10) {
-          this.windowScrolled = false;
-      }
+    if (
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop > 100
+    ) {
+      this.windowScrolled = true;
+    } else if (
+      (this.windowScrolled && window.pageYOffset) ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop < 10
+    ) {
+      this.windowScrolled = false;
+    }
   }
   scrollToTop() {
-      (function smoothscroll() {
-          var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
-          if (currentScroll > 0) {
-              window.scrollTo(0, 0);
-          }
-      })();
-    }
+    (function smoothscroll() {
+      var currentScroll =
+        document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentScroll > 0) {
+        window.scrollTo(0, 0);
+      }
+    })();
+  }
 
   scrollToSection(sectionId: string): void {
     const element = document.getElementById(sectionId);
@@ -43,25 +55,23 @@ export class AboutComponent {
       }
       const elementPosition = element.getBoundingClientRect();
       const scrollToY = elementPosition.top - scrollOffset;
-      element.scrollIntoView({ behavior: 'smooth'});
+      element.scrollIntoView({ behavior: 'smooth' });
       window.scrollBy(0, scrollToY);
     }
   }
 
   toggleMenu(): void {
-    let menuBtn =
-      document.querySelector(".menu-btn");
-    let menu =
-      document.querySelector(".menu");
+    let menuBtn = document.querySelector('.menu-btn');
+    let menu = document.querySelector('.menu');
     if (!this.showMenu) {
-      menuBtn.classList.add("close");
-      menu.classList.add("show");
+      menuBtn.classList.add('close');
+      menu.classList.add('show');
       window.scrollTo(0, 0);
       // Reset the menu state
       this.showMenu = true;
     } else {
-      menuBtn.classList.remove("close");
-      menu.classList.remove("show");
+      menuBtn.classList.remove('close');
+      menu.classList.remove('show');
       // Reset the menu state
       this.showMenu = false;
     }
@@ -71,24 +81,25 @@ export class AboutComponent {
     var imageId = document.getElementById('fellowship_img');
     imageId.classList.toggle('zoomed');
 
-      // var div = document.getElementById('section5_images1');
-      // div.classList.add('overlay');
-
+    // var div = document.getElementById('section5_images1');
+    // div.classList.add('overlay');
   }
 
-  ourGroups(param : any){
-    if(param == 'vbcc'){
-      window.location.href = 'https://vbccinstruments.com'
+  ourGroups(param: any) {
+    if (param == 'vbcc') {
+      window.location.href = 'https://vbccinstruments.com';
     } else {
-      window.location.href = 'https://www.hitechceramics.in/'
+      window.location.href = 'https://www.hitechceramics.in/';
     }
   }
 
-  socials(param : any){
-    if(param == 'youtube'){
-      window.location.href = 'https://www.youtube.com/@drviswabaskaranvbceramics4394'
-    } else if (param == 'linkedIn'){
-      window.location.href = 'https://www.linkedin.com/company/dr.vb-ceramics-research-centre/'
+  socials(param: any) {
+    if (param == 'youtube') {
+      window.location.href =
+        'https://www.youtube.com/@drviswabaskaranvbceramics4394';
+    } else if (param == 'linkedIn') {
+      window.location.href =
+        'https://www.linkedin.com/company/dr.vb-ceramics-research-centre/';
     } else {
       window.location.href = 'paste a facebook URL here';
     }
@@ -96,12 +107,12 @@ export class AboutComponent {
 
   open(modalId: string): void {
     var modal = document.getElementById(modalId);
-    modal.style.display = "block";
+    modal.style.display = 'block';
   }
 
   close(modalId: string): void {
     var modal = document.getElementById(modalId);
-    modal.style.display = "none";
+    modal.style.display = 'none';
   }
 
   public profileContent: string = `VBCC Research, a division of VBCC Group of Companies (a leading ceramic Equipment and Instrument manufacturer in India) has been developed to cater to the needs of research and development and quality control in Glass, Ceramics, Nano Science and Material Science.`;
@@ -156,6 +167,9 @@ export class AboutComponent {
       content:
         'Discover expertise at VBCC Research, a trusted name in the ceramics industry. As premier machine manufacturers, we offer comprehensive R&D solutions.',
     });
+    // this.meta.updateTag({
+    //   name: 'canonical',
+    //   content: 'https://vbccresearch.com/about',
+    // });
   }
-
 }

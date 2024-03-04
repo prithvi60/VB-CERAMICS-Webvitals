@@ -20,7 +20,7 @@
       name="og:image"
       content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg"
     />
-    <meta name="og:url" content="https://www.drvbceramicresearch.com/service" />
+    <meta name="og:url" content="https://www.vbccresearch.com/service" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
@@ -30,6 +30,12 @@
       href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://vbccresearch.com/service" rel="canonical">
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <meta name="googlebot-news" content="noindex" />
+    <meta name="slurp" content="noindex" />
+    <meta name="msnbot" content="noindex" />
   </head>
 
   <div style="overflow: hidden">
@@ -280,7 +286,7 @@
             [routerLink]="['/service', service.routing]"
           >
             <div class="service_img">
-              <img src="{{ service.img }}" alt="service img" class="d-block w-100" />
+              <img src="{{ service.img }}" alt="{{ service.header }}" class="d-block w-100" />
             </div>
             <div class="service_container">
               <div class="service_top">

@@ -9,7 +9,13 @@
   <meta name="og:title" content="Research Blogs & Articles Latest Insights and Updates | VBCC Research">
   <meta name="og:description" content="Explore a world of expertise with Research Blogs & Articles. Stay informed on the latest trends/insights, technology and industry advancements.">
   <meta name="og:image" content="https://ik.imagekit.io/webibee/VBRC/vbcclogonew.svg">
-  <meta name="og:url" content="https://www.drvbceramicresearch.com/library">
+  <meta name="og:url" content="https://www.vbccresearch.com/library">
+  <link href="https://vbccresearch.com/library" rel="canonical">
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <meta name="googlebot-news" content="noindex" />
+    <meta name="slurp" content="noindex" />
+    <meta name="msnbot" content="noindex" />
 </head>
 <body>
   <div>
@@ -132,7 +138,7 @@ ngSrc="https://ik.imagekit.io/webibee/VBRC/images/graphite.webp" alt="graphite i
   *ngFor="let library of library">
     <div class='flex-items2'>
       <div id='top_of_lib'>
-        <img class='articleimg' src={{library.img1}} alt="image">
+        <img class='articleimg' src={{library.img1}} alt={{library.alt}}>
         <span class="bottom-left">{{library.topic}}</span>
         <div class='dateflex'>
           <p id='library_para'>{{library.content}}</p>
