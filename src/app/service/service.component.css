@@ -632,12 +632,12 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
     display: none;
   }
 
-  .footer {
+  /* .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+  } */
   .navbar {
     padding: 20px;
   }
@@ -686,6 +686,9 @@ https://ik.imagekit.io/webibee/VBRC/images/arrowright.svg) left no-repeat;
   .service_img {
     height: 300px;
   }
+  #footer_p {
+    font-size: 13px;
+}
 }
 
 @media (max-width: 499px) {

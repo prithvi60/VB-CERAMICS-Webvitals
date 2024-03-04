@@ -653,10 +653,10 @@ margin: 0px;
     .cardfooter{
       display: none;
     }
-    .footer{
+    /* .footer{
       flex-direction: column;
       text-align: center;
-    }
+    } */
     .top_heading_1{
       font-size: 28px;
     }
@@ -759,6 +759,9 @@ gap: 20px;
     #con_button{
       margin:10px 2px;
     }
+    #footer_p {
+      font-size: 13px;
+  }
   }
 
   @media (max-width: 499px) {
@@ -792,8 +795,5 @@ gap: 20px;
     }
   }
   @media (max-width: 450px){
-    #footer_p {
-      font-size: 13px;
-  }
   }
 

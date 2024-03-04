@@ -1951,10 +1951,10 @@ tfoot > tr > td {
   .cardfooter {
     display: none;
   }
-  .footer {
-    flex-direction: column;
-    text-align: center;
-  }
+  // .footer {
+  //   flex-direction: column;
+  //   text-align: center;
+  // }
 }
 
 @media only screen and (max-width: 780px) {
@@ -2231,6 +2231,9 @@ tfoot > tr > td {
     justify-content: center;
     align-items: center;
   }
+  #footer_p {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -2398,9 +2401,6 @@ tfoot > tr > td {
   }
   #con_input {
     width: 10%;
-  }
-  #footer_p {
-    font-size: 13px;
   }
   .flex-items {
     margin-left: 25%;
