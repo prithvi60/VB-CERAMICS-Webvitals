@@ -104,8 +104,6 @@ export class LibraryComponent implements OnInit {
       topic: 'Raw Material',
       content: 'Graphite’s Impact in Industries',
       library_id: 3,
-      routing: 'graphite-impact-in-industries',
-
       routing : "agate-importance-1",
       alt : "Agate"
     },
