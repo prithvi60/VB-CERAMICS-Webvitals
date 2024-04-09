@@ -448,6 +448,7 @@ table > tfoot:not(:last-child) {
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   background-color: #132249;
   color: white;
   font-family: Schibsted Grotesk;
@@ -462,8 +463,23 @@ table > tfoot:not(:last-child) {
   display: flex;
   flex-direction: row;
   float: right;
-  margin-left: auto;
+  /* margin-left: auto; */
   padding: 20px 20px 0px 20px;
+}
+
+.maintain{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.maintain:hover{
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
+}
+
+@media only screen and (max-width: 650px) {
+  .maintain{
+    text-decoration: underline;
+  }
 }
 
 .separator {
@@ -632,9 +648,12 @@ table > tfoot:not(:last-child) {
   .cardfooter {
     display: none;
   }
-  .footer {
+  /* .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-  }
+  } */
   .main {
     padding: 20px;
   }
@@ -666,6 +685,10 @@ table > tfoot:not(:last-child) {
   .sec-1 .sec-1-img2 {
     height: 325px;
   }
+
+  #footer_p {
+    font-size: 13px;
+}
 
   .service_header {
     font-size: 18px;

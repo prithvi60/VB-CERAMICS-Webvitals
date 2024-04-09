@@ -113,21 +113,37 @@ gap: 50px;
     transform: scale(1, 1);
     }
 
-.footer{
-    display: flex;
-    flex-direction: row;
-    background-color: #132249;
-    color: white;
-  }
-
-.cardfooter{
-    gap: 20px;
-    display: flex;
-    flex-direction: row;
-    float: right;
-    margin-left: auto;
-    padding: 20px 20px 0px 20px;
-  }
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #132249;
+      color: white;
+    }
+    
+    .cardfooter {
+      gap: 20px;
+      display: flex;
+      flex-direction: row;
+      float: right;
+  /* margin-left: auto; */
+      padding: 20px 20px 0px 20px;
+    }
+    
+    .maintain{
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    .maintain:hover{
+      text-decoration: underline;
+      text-decoration-color: whitesmoke;
+    }
+    
+    @media only screen and (max-width: 650px) {
+      .maintain{
+        text-decoration: underline;
+      }
+    }
   .main-section{
     width: 100%;
     display: grid;
@@ -637,10 +653,10 @@ margin: 0px;
     .cardfooter{
       display: none;
     }
-    .footer{
-      flex-direction: column-reverse;
+    /* .footer{
+      flex-direction: column;
       text-align: center;
-    }
+    } */
     .top_heading_1{
       font-size: 28px;
     }
@@ -743,6 +759,9 @@ gap: 20px;
     #con_button{
       margin:10px 2px;
     }
+    #footer_p {
+      font-size: 13px;
+  }
   }
 
   @media (max-width: 499px) {
@@ -776,8 +795,5 @@ gap: 20px;
     }
   }
   @media (max-width: 450px){
-    #footer_p {
-      font-size: 13px;
-  }
   }
 

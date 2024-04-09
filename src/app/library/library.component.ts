@@ -74,16 +74,28 @@ export class LibraryComponent implements OnInit {
 
   library = [
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
-      content: 'Quartz - Interesting Facts',
-      topic: 'Raw Material',
-      library_id: 1,
-      routing: 'quartz-interesting-facts',
+
+      img1: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
+      content: 'X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism ',
+      topic:'Raw Material',
+      library_id:1,
+      routing : "X-Ray-Diffraction",
+      alt : "X-Ray Powder Diffraction"
+    },
+    {
+      img1: 'https://ik.imagekit.io/webibee/VBRC/service3-sec-1.png',
+      content: 'Scanning Electron Microscope (SEM)',
+      topic:'Raw Material',
+      library_id:2,
+      routing : "Scanning-Electron-Microscope",
+      alt : "Scanning Electron Microscope"
+
     },
     {
       img1: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
       topic: 'Raw Material',
       content: 'Agate and It’s Importance',
+
       library_id: 2,
       routing: 'agate-importance',
     },
@@ -93,27 +105,53 @@ export class LibraryComponent implements OnInit {
       content: 'Graphite’s Impact in Industries',
       library_id: 3,
       routing: 'graphite-impact-in-industries',
+
+      routing : "agate-importance-1",
+      alt : "Agate"
+    },
+    {
+      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article3.webp',
+      topic:'Raw Material',
+      content: "Graphite’s Impact in Industries",
+      library_id:4,
+      routing : 'graphite-impact-in-industries',
+      alt : "Graphite’s Impact"
+
     },
     {
       img1: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
       topic: 'Thermal Testing ',
       content: 'Thermal Dynamics with Precision (Dilatometer)',
-      library_id: 4,
-      routing: 'thermal-dynamic-with-precision',
+
+      library_id:5,
+      routing : "thermal-dynamic-with-precision",
+      alt : "Thermal Dynamics"
     },
     {
       img1: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
       topic: 'Material Preparation',
       content: 'Glove Boxes for Scientific Advancement',
-      library_id: 5,
-      routing: 'glove-boxes-for-scientific-advancement',
+
+      library_id:6,
+      routing : 'glove-boxes-for-scientific-advancement',
+      alt : "'Glove Boxes"
     },
     {
       img1: 'https://ik.imagekit.io/webibee/VBRC/images/article6.webp',
       topic: 'Heat treatment facility',
       content: 'Working Principle of Hot Air Oven',
-      library_id: 6,
-      routing: 'working-principle-of-hot-air-oven',
+
+      library_id:7,
+      routing : "working-principle-of-hot-air-oven",
+      alt : "Hot Air Oven"
+    },
+    {
+      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
+      content: 'Quartz - Interesting Facts',
+      topic:'Raw Material',
+      library_id:8,
+      routing : "quartz-interesting-facts",
+      alt : "Quartz"
     },
   ];
 }
