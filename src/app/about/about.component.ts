@@ -160,16 +160,25 @@ export class AboutComponent {
 
   ngOnInit(): void {
     this.title.setTitle(
-      'Leading Ceramic Machine Manufacturers | VBCC Research'
+      'Research & Development Center for Scholars & Students | VBCC Research'
     );
     this.meta.updateTag({
       name: 'description',
       content:
-        'Discover expertise at VBCC Research, a trusted name in the ceramics industry. As premier machine manufacturers, we offer comprehensive R&D solutions.',
+        'Fuel your passion for discovery at our distinguished Research & Development Center, fostering an environment of excellence for scholars and students alike.',
     });
-    // this.meta.updateTag({
-    //   name: 'canonical',
-    //   content: 'https://vbccresearch.com/about',
-    // });
+
+              // Update or add a custom meta tag for the primary keyword
+              this.meta.updateTag({
+                name: 'keyword',
+                content: 'research and development center',
+              });
+
+              // Update or add a custom meta tag for the secondary keyword
+              this.meta.updateTag({
+                name: 'secondary-keyword',
+                content: 'research center for students & scholars',
+              });
+
   }
 }

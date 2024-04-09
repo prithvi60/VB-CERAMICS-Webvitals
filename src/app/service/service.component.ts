@@ -33,13 +33,24 @@ export class ServiceComponent {
     this.filteredList =new MatTableDataSource(this.service);
     this.filteredSelector =new MatTableDataSource(this.service);
     this.title.setTitle(
-      'Ceramic Equipment Services Experts | VBCC Research'
+      'Research Services & Equipment for Students & Industries | VBCC Research'
     );
     this.meta.updateTag({
       name: 'description',
       content:
-        'Trusted partner for innovative ceramic equipment solutions. Discover our comprehensive services designed to enhance your industrial operations.',
+        'Discover comprehensive research services & equipment tailored for students and industries. Access advanced tools for academic and industrial research.',
     });
+          // Update or add a custom meta tag for the primary keyword
+          this.meta.updateTag({
+            name: 'keyword',
+            content: 'research services',
+          });
+
+          // Update or add a custom meta tag for the secondary keyword
+          this.meta.updateTag({
+            name: 'secondary-keyword',
+            content: 'research equipments , research equipments for students & industries',
+          });
   }
 
   service = [
