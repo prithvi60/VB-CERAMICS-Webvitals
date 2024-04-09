@@ -114,13 +114,24 @@ export class HomeComponent {
     this.html = this.getSafeHTML(orgLD);
     this.addScriptToHead(this.html);
     this.title.setTitle(
-      'Trusted Ceramic Centre and Research Consultants | VBCC Research'
+      'Research Center for Students in Chennai | VBCC Research'
     );
     this.meta.updateTag({
       name: 'description',
       content:
-        'Explore excellence at VB Ceramics - Trusted ceramic center and research hub. Expert ceramic consultants driving innovation and quality in every project.',
+        'Discover a hub of knowledge and exploration at a prestigious research center in Chennai. Dive into research opportunities crafted for students at our renowned center.',
     });
+      // Update or add a custom meta tag for the primary keyword
+      this.meta.updateTag({
+        name: 'keyword',
+        content: 'research center',
+      });
+
+      // Update or add a custom meta tag for the secondary keyword
+      this.meta.updateTag({
+        name: 'secondary-keyword',
+        content: 'research center in chennai , research center for students',
+      });
   //   if (isPlatformBrowser(this.platformId)) {
   //     // Code that interacts with window object
   //   AOS.init({
@@ -138,7 +149,7 @@ export class HomeComponent {
       /<\/script>/g,
       '<\\/script>'
     )}</script>`;
-    console.log('test json', json, html);
+    // console.log('test json', json, html);
     return this.sanitizer.bypassSecurityTrustHtml(html);
   }
   private addScriptToHead(scriptHtml: SafeHtml) {

@@ -148,12 +148,23 @@ export class GalleryComponent {
 
   ngOnInit(): void {
     this.title.setTitle(
-      'Explore Ceramics Gallery & Certifications | VBCC Research'
+      'Explore Research Certifications & Accolades | VBCC Research'
     );
     this.meta.updateTag({
       name: 'description',
       content:
-        'Embark on a visual journey through Ceramics Gallery and explore our certifications, reflecting our unwavering pursuit of excellence in the ceramic industry.',
+        'Take your research career to new heights with VBCC Research. Explore a wide range of certifications & accolades to validate your expertise and achievements.',
     });
+          // Update or add a custom meta tag for the primary keyword
+          this.meta.updateTag({
+            name: 'keyword',
+            content: 'research certifications',
+          });
+
+          // Update or add a custom meta tag for the secondary keyword
+          this.meta.updateTag({
+            name: 'secondary-keyword',
+            content: 'research accolades',
+          });
   }
 }
