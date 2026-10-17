@@ -15,8 +15,8 @@ export class ContactComponent {
   constructor(private title: Title, private meta: Meta) {}
   currentImageIndex15 = 0;
   imagesNav=[
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ];
   changeImage15() {
     this.currentImageIndex15 = (this.currentImageIndex15 + 1) % this.imagesNav.length;
