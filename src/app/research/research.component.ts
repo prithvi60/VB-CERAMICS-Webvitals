@@ -12,8 +12,8 @@ import { Location } from '@angular/common';
 export class ResearchComponent implements OnInit{
   currentImageIndex15 = 0;
   imagesNav=[
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ]
   changeImage15() {
     this.currentImageIndex15 = (this.currentImageIndex15 + 1) % this.imagesNav.length;
@@ -85,42 +85,42 @@ export class ResearchComponent implements OnInit{
 
   library = [
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article1.webp',
       content: 'Quartz - Interesting Facts',
       topic:'Raw Material',
       library_id:1,
       routing : "quartz-interesting-facts"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article2.webp',
       topic:'Raw Material',
       content: 'Agate and It’s Importance',
       library_id:2,
       routing : "agate-importance"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article3.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article3.webp',
       topic:'Raw Material',
       content: "Graphite’s Impact in Industries",
       library_id:3,
       routing : 'graphite-impact-in-industries'
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article4.webp',
       topic:'Thermal Testing ',
       content: 'Thermal Dynamics with Precision (Dilatometer)',
       library_id:4,
       routing : "thermal-dynamic-with-precision"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/glovebox.webp',
       topic:'Material Preparation',
       content: 'Glove Boxes for Scientific Advancement',
       library_id:5,
       routing : 'glove-boxes-for-scientific-advancement'
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article6.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article6.webp',
       topic:'Heat treatment facility',
       content: 'Working Principle of Hot Air Oven',
       library_id:6,
