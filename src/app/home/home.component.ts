@@ -92,8 +92,8 @@ export class HomeComponent {
     nav: true,
     // stagePadding: 0,
     navText: [
-      "<img src='https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg' width='40px' height='20px' alt='leftArrow1'>",
-      "<img src='https://ik.imagekit.io/webibee/VBRC/images/arrow_c.svg' width='40px' height='20px' alt='leftArrow2'>",
+      "<img src='https://cdn.webibeeinfra.in/vbrc/images/arrow_cc.svg' width='40px' height='20px' alt='leftArrow1'>",
+      "<img src='https://cdn.webibeeinfra.in/vbrc/images/arrow_c.svg' width='40px' height='20px' alt='leftArrow2'>",
     ],
 
     responsive: {
@@ -189,12 +189,12 @@ export class HomeComponent {
   currentImageIndex14 = 0;
   currentImageIndex15 = 0;
   images = [
-    'https://ik.imagekit.io/webibee/VBRC/images/double_arrow_.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/double_arrow.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/double_arrow_.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/double_arrow.svg',
   ];
   imagesNav = [
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ];
   changeImage() {
     this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
@@ -249,8 +249,8 @@ export class HomeComponent {
   }
 
   arrowimages = [
-    'https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/Vectorb.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/arrow_cc.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/Vectorb.svg',
   ];
 
   currentImageIndex7 = 0;
@@ -284,8 +284,8 @@ export class HomeComponent {
   }
 
   arrowimages2 = [
-    'https://ik.imagekit.io/webibee/VBRC/images/arrow_c.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/Vectorbr.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/arrow_c.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/Vectorbr.svg',
   ];
 
   currentImageIndex8 = 0;
