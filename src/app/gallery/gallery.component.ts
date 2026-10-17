@@ -138,8 +138,8 @@ export class GalleryComponent {
   }
 
   imagesNav=[
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ];
   currentImageIndex15 = 0;
   changeImage15() {
