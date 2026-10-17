@@ -12,8 +12,8 @@ import { Location } from '@angular/common';
 export class LibraryComponent implements OnInit {
   currentImageIndex15 = 0;
   imagesNav = [
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ];
   changeImage15() {
     this.currentImageIndex15 =
@@ -75,7 +75,7 @@ export class LibraryComponent implements OnInit {
   library = [
     {
 
-      img1: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/service1-sec-1.png',
       content: 'X-Ray Powder Diffraction (XRD) Instrumentation & its Mechanism ',
       topic:'Raw Material',
       library_id:1,
@@ -83,7 +83,7 @@ export class LibraryComponent implements OnInit {
       alt : "X-Ray Powder Diffraction"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/service3-sec-1.png',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/service3-sec-1.png',
       content: 'Scanning Electron Microscope (SEM)',
       topic:'Raw Material',
       library_id:2,
@@ -92,7 +92,7 @@ export class LibraryComponent implements OnInit {
 
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article2.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article2.webp',
       topic: 'Raw Material',
       content: 'Agate and It’s Importance',
 
@@ -100,7 +100,7 @@ export class LibraryComponent implements OnInit {
       routing: 'agate-importance',
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article3.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article3.webp',
       topic: 'Raw Material',
       content: 'Graphite’s Impact in Industries',
       library_id: 3,
@@ -108,7 +108,7 @@ export class LibraryComponent implements OnInit {
       alt : "Agate"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article3.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article3.webp',
       topic:'Raw Material',
       content: "Graphite’s Impact in Industries",
       library_id:4,
@@ -117,7 +117,7 @@ export class LibraryComponent implements OnInit {
 
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article4.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article4.webp',
       topic: 'Thermal Testing ',
       content: 'Thermal Dynamics with Precision (Dilatometer)',
 
@@ -126,7 +126,7 @@ export class LibraryComponent implements OnInit {
       alt : "Thermal Dynamics"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/glovebox.webp',
       topic: 'Material Preparation',
       content: 'Glove Boxes for Scientific Advancement',
 
@@ -135,7 +135,7 @@ export class LibraryComponent implements OnInit {
       alt : "'Glove Boxes"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article6.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article6.webp',
       topic: 'Heat treatment facility',
       content: 'Working Principle of Hot Air Oven',
 
@@ -144,7 +144,7 @@ export class LibraryComponent implements OnInit {
       alt : "Hot Air Oven"
     },
     {
-      img1: 'https://ik.imagekit.io/webibee/VBRC/images/article1.webp',
+      img1: 'https://cdn.webibeeinfra.in/vbrc/images/article1.webp',
       content: 'Quartz - Interesting Facts',
       topic:'Raw Material',
       library_id:8,
