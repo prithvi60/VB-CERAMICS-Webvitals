@@ -171,8 +171,8 @@ export class ServicesComponent {
         'X-Ray Diffraction Equipment with Powder Diffraction for Test  | VBCC Research',
       metaDesc:
         'Unlock the power of X-ray Diffraction (XRD). Explore our benchtop diffractometer for precise powder diffraction analysis test.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service1-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service1-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service1-sec-2.png',
       alt1: 'An X-Ray Diffraction (XRD) instrument designed for studying the crystalline structure of materials via X-ray diffraction',
       alt2: 'X-Ray Diffraction instrument displayed in a laboratory setting, used for studying the arrangement of atoms in materials',
       header: 'Sophisticated Instruments',
@@ -212,8 +212,8 @@ export class ServicesComponent {
         'X-Ray Fluorescence Equipment Reliable XRF Analyzer | VBCC Research',
       metaDesc:
         'Discover precise XRF analyzer solutions for accurate X-ray fluorescence results. Explore advanced X-ray fluorescence equipment designed for reliable analysis.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service2-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service2-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service2-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service2-sec-2.png',
       alt1: ': X-Ray Fluorescence (XRF) instrument used for material analysis and elemental composition detection in various samples',
       alt2: 'X-Ray Fluorescence instrument featuring advanced technology for accurate elemental analysis across multiple material types',
       header: 'Sophisticated Instruments',
@@ -265,8 +265,8 @@ export class ServicesComponent {
       titleHead: 'Scanning Electron Microscope Services & Test | VBCC Research',
       metaDesc:
         'Reliable scanning electron microscope Test in Chennai. Discover benchtop SEM features for comprehensive material analysis.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service3-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service3-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service3-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service3-sec-2.png',
       alt1: 'A scanning electron microscope (SEM) provides high-resolution images of sample surfaces by using electrons instead of light for scientific analysis',
       alt2: 'Screen of a Scanning Electron Microscope showcasing high-resolution images of structures and surfaces',
       header: 'Sophisticated Instruments',
@@ -327,8 +327,8 @@ export class ServicesComponent {
       titleHead: 'High-Quality SEM Gold Sputtering Services | VBCC Research',
       metaDesc:
         'Discover precision in SEM imaging with our gold sputtering instrument. Our benchtop SEM with advanced features ensures accurate results in no time.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service4-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service4-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service4-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service4-sec-2.png',
       alt1: 'SEM apparatus with gold sputtering system, utilized for detailed surface analysis and imaging of materials at the nanoscale',
       alt2: 'Scanning Electron Microscope (SEM) with gold sputtering capability, showcasing advanced imaging technology for material analysis',
       header: 'Sophisticated Instruments',
@@ -394,8 +394,8 @@ export class ServicesComponent {
         'Laser Particle Size Analyzer Test at Best Price for Students | VBCC Research',
       metaDesc:
         'Elevate your research with our advanced laser particle size analyzers for tests with unbeatable quality and affordability, tailored for student budgets.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service5-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service5-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service5-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service5-sec-2.png',
       alt1: 'Laser Particle Size Analyser (PSA) device designed for the precise measurement of particle sizes in different materials by analysing how light scatters as they pass through a laser beam',
       alt2: 'A Laser Particle Size Analyzer used for accurate analysis of particle size distribution in different substances and industries',
       header: 'Sophisticated Instruments',
@@ -452,8 +452,8 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High Precision Thermal Expansion Dilatometers 1000°C | VBCC Research',
       metaDesc:
         'Explore High Precision Thermal Expansion Dilatometers up to 1000°C. Discover accurate measurements with linear variable differential transformer technology.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service6-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service6-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service6-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service6-sec-2.png',
       alt1: 'High-temperature dilatometer designed for thermal expansion studies, functioning effectively at temperatures reaching 1000°C',
       alt2: 'A dilatometer designed for measuring thermal expansion up to 1000°C, showcasing its advanced temperature capabilities',
       header: 'Thermal Testing',
@@ -513,8 +513,8 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Accurate BET Analysis with Brunauer Emmett Teller Instrument | VBCC Research',
       metaDesc:
         'Discover excellence in Brunauer Emmett Teller analysis. Our advanced instrument ensures precision in BET analysis, setting new standards in material characterization.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service7-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service7-sec-2.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service7-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service7-sec-2.png',
       alt1: 'BET analysis is a non-destructive technique used for measuring the surface area and porosity distribution of solid materials',
       alt2: 'Visual representation of the BET analysis instrument, detailing its structure and function in measuring surface area of materials',
       header: 'Sophisticated Instruments',
@@ -575,8 +575,8 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Pin on Disc Tribometer for Wear Test | VBCC Research',
       metaDesc:
         'Explore precision and durability with our Pin on Disc Tribometer & Wear Test solutions with unmatched quality. Discover excellence today.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service8-sec-1.png',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service8-sec-2.gif',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service8-sec-1.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service8-sec-2.gif',
       alt1: 'Pin on Disc Tribometer instrument utilized for assessing the tribological performance of materials through friction tests',
       alt2: 'Graph from a Pin on Disc Tribometer experiment, highlighting key metrics of friction coefficients and material wear rates',
       header: 'Sophisticated Instruments',
@@ -641,8 +641,8 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Efficiency Planetary Mill with Tungsten Carbide Balls & Vial per hour | VBCC Research',
       metaDesc:
         'Maximize productivity with our High-Efficiency Planetary Mill, designed for processing Tungsten Carbide Balls & Vials per hour with precision.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service9-sec-1.jpg',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service9-sec-2.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service9-sec-1.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service9-sec-2.jpg',
       alt1: 'Planetary mill equipped with tungsten carbide balls and vial, designed for efficient material processing per hour',
       alt2: 'A planetary mill with rotating bowls and grinding media, used for fine particle size reduction in laboratory settings',
       header: 'Material Preparation',
@@ -704,10 +704,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Quality Pellet Press Machines with 10 Ton Capacity | VBCC Research',
       metaDesc:
         'Unleash productivity with our top-notch pellet press machine. Achieve precision and power with our 10-ton pellet press for quality pellets every time.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service10-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service10-sec-1.jpg',
       alt1: 'A pellet press machine designed for compacting the different kinds of ceramic and metal powders into pellet shape for variety of applications and characterization.',
       alt2: ': Equipment for pelletizing ceramic and metal powders, ensuring uniformity and quality in the production of compacted pellets.',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service10-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service10-sec-2.jpg',
 
       header: 'Shaping',
       heading: 'Pellet Press (10 tone)',
@@ -784,10 +784,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'High-Quality Industrial Box Furnace 1200°C  | VBCC Research',
       metaDesc:
         'Elevate your industrial processes with our high-quality box furnace, designed to reach 1200°C. Experience efficiency and reliability like never before.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service11-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service11-sec-1.png',
       alt1: 'Box furnace capable of reaching temperatures up to 1200°C, designed for high-temperature applications.',
       alt2: 'High-temperature box furnace designed for 1200°C operation, featuring a 5°C ramp and a 3-hour dwell period for optimal results',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service11-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service11-sec-2.png',
 
       header: 'Heat Treatment Facility',
       heading: 'Box Furnace - up to 1200°C (5°C ramp & 3hrs dwell)',
@@ -864,10 +864,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Performance Box Furnace for 1400°C Precision | VBCC Research',
       metaDesc:
         'Discover the excellence of our 1400°C box furnace – a powerhouse for precision heating. Elevate your operations with high-performance temperature control.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service12-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service12-sec-1.png',
       alt1: 'Box furnace operating at temperatures up to 1400°C, with a controlled 5°C ramp rate and a 3-hour dwell for effective heating',
       alt2: 'Box furnace featuring a robust design, including vertical lift and swing out door features, utilized for high-temperature heating processes',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service12-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service12-sec-2.jpg',
 
       header: 'Heat Treatment Facility',
       heading: 'Box Furnace - up to 1400°C (5°C ramp & 3hrs dwell)',
@@ -943,10 +943,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'High- Quality Box Furnace up to 1600°C  | VBCC Research',
       metaDesc:
         'Discover precision with our high-quality box furnace, reaching temperatures up to 1600°C. Achieve unparalleled performance for your industrial needs.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service13-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service13-sec-1.png',
       alt1: 'High-temperature box furnace designed for 1600°C, featuring a 5°C ramp rate and a 3-hour dwell period',
       alt2: 'A box furnace used for precise heating in laboratories and manufacturing processes, showcasing its robust design',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service13-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service13-sec-2.png',
 
       header: 'Heat Treatment Facility',
       heading: ' Box Furnace - up to 1600°C (5°C ramp & 3hrs dwell)',
@@ -1022,10 +1022,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Efficient Tubular Furnace 1200°C  | VBCC Research',
       metaDesc:
         'Unlock precision with our Efficient Tubular Furnace 1200°C. Explore high-temperature possibilities for advanced applications.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service14-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service14-sec-1.jpg',
       alt1: 'Tubular furnace operating at 1200°C with controlled atmosphere, featuring cold vacuum and argon purging capabilities',
       alt2: 'A tubular furnace with a long, cylindrical structure, engineered for high-temperature operations and efficient heat distribution',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service14-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service14-sec-2.jpg',
 
       header: 'Heat Treatment Facility',
       heading:
@@ -1108,10 +1108,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Tubular Furnace 1600°C Electric Heating Device | VBCC Research',
       metaDesc:
         'Explore high-performance 1600°C tubular furnaces – precision heating devices for your experiments. Trust the efficiency of electric tube furnaces.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service15-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service15-sec-1.jpg',
       alt1: ': A technician operates a Tubular Furnace at 1600°C, utilizing controlled atmosphere with cold vacuum and argon purging',
       alt2: 'A person stands beside a Tubular Furnace, showcasing its controlled atmosphere capabilities at 1600°C with argon purging',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service15-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service15-sec-2.jpg',
 
       header: 'Heat Treatment Facility',
       heading:
@@ -1193,10 +1193,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Performance Microwave Furnace up to 1500°C | VBCC Research',
       metaDesc:
         'Unlock precision with our High-Performance Microwave Furnace up to 1500°C. Explore advanced laboratory furnace for testing.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service16-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service16-sec-1.jpg',
       alt1: 'High-temperature microwave furnace in a lab, achieving 1500°C with a 20°C ramp and a 30-minute dwell period',
       alt2: 'An advanced microwave furnace with a robust structure, highlighting its efficient heating capabilities and safety features',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service16-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service16-sec-2.jpg',
 
       header: 'Heat Treatment Facility',
       heading: 'Microwave Furnace up to 1500°C (20°C ramp & 30 min dwell)',
@@ -1276,10 +1276,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Quality Spin Coating Equipment with Technology | VBCC Research',
       metaDesc:
         'Achieve Precision in Thin Film Deposition with Our Spin Coating Machines with Quality Equipment in Spin Coating Technology.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service17-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service17-sec-1.jpg',
       alt1: 'A laboratory spin coating machine designed for the precise application of thin films on various substrates',
       alt2: 'An image depicting the spin coating technique, showcasing a substrate being coated with a thin layer of liquid material',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service17-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service17-sec-2.jpg',
 
       header: 'Nano coating techniques',
       heading: 'Spin Coating',
@@ -1333,10 +1333,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Efficient Spray Pyrolysis Equipment | VBCC Research',
       metaDesc:
         'Unlock Precision with Spray Pyrolysis Equipment - Explore a range of instruments for nanostructure synthesis and thin film deposition. ',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service18-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service18-sec-1.jpg',
       alt1: 'A laboratory setup showcasing spray pyrolysis equipment, featuring a spray nozzle and heating elements for material synthesis',
       alt2: 'Image of a lab environment with spray pyrolysis system, highlighting its role in material development and research',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service18-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service18-sec-2.jpg',
 
       header: 'Nano coating techniques',
       heading: 'Spray Pyrolysis',
@@ -1395,10 +1395,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'High-Quality Ceramic Dip Coating Machines | VBCC Research',
       metaDesc:
         'Discover efficiency and uniformity in Ceramic Dip Coating. Explore our high-quality Dip Coater for precise thin film production.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service19-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service19-sec-1.png',
       alt1: 'A ceramic dip coating machine designed for efficient and precise application of ceramic coatings on various surfaces',
       alt2: 'A laboratory featuring a ceramic dip coating machine, highlighting its functionality and precision in coating applications',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service19-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service19-sec-2.png',
 
       header: 'Nano coating techniques',
       heading: 'Dip Coating',
@@ -1453,10 +1453,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Modulus of Rupture & Flexural Strength Boost Bend Strength | VBCC Research',
       metaDesc:
         'Strengthen your products with Modulus of Rupture & Flexural Strength Testing. Optimize Construction, Ceramics & Automotive Designs for Bending Forces.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service20-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service20-sec-1.jpg',
       alt1: 'An image of flexural strength apparatus designed for testing the bending strength of materials in a laboratory setting',
       alt2: 'Image depicting a three-point bend test setup for measuring the modulus of rupture in materials',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service20-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service20-sec-2.jpg',
 
       header: 'Physical properties',
       heading:
@@ -1562,10 +1562,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Advanced Aluminium Stir Casting Machine | VBCC Research',
       metaDesc:
         'Elevate your manufacturing with our Advanced Aluminium Stir Casting Machine. Explore the efficiency of aluminium stir casting for precise material formation.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service21-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service21-sec-1.jpg',
       alt1: 'Close up view of an aluminium Stir Casting Machine, highlighting its mechanical features and casting process.',
       alt2: 'Aluminium stir casting machine in operation, showcasing the process of metal mixing and casting in a manufacturing setting',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service21-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service21-sec-2.jpg',
 
       header: 'Casting',
       heading: 'Aluminium Stir Casting',
@@ -1607,10 +1607,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Quality Magnesium Stir Casting Equipment | VBCC Research',
       metaDesc:
         'Experience the future of material engineering with magnesium stir casting. Explore our fully automatic stir-casting equipment for crafting lightweight components.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service22-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service22-sec-1.jpg',
       alt1: "VBCC's Magnesium Stir Casting Furnace, featuring innovative design for enhanced efficiency in magnesium casting operations",
       alt2: 'A magnesium stir casting furnace, emphasizing its durable construction and innovative features for effective metal casting applications',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service22-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service22-sec-2.png',
 
       header: 'Casting',
       heading: 'Magnesium Stir Casting',
@@ -1663,10 +1663,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'High-Quality Extruder Machine | VBCC Research',
       metaDesc:
         'Explore efficient extruder machines for ceramics, plastics, and metals. High-quality and versatile, our extruders offer continuous production.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service23-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service23-sec-1.jpg',
       alt1: 'An extruder device featuring a rotating screw and heated chamber for moulding various materials in production',
       alt2: 'A mechanical extruder machine used for the continuous shaping of various materials through extrusion techniques',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service23-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service23-sec-2.jpg',
 
       header: 'Shaping',
       heading: 'Extruder',
@@ -1715,10 +1715,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Quality Chemical Vapor Deposition Machine | VBCC Research',
       metaDesc:
         'Unlock the potential of Chemical Vapour Deposition (CVD) Machine for precision nanostructure control and diverse coating applications.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service24-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service24-sec-1.jpg',
       alt1: 'Depiction of a chemical vapor deposition system, highlighting the process of depositing materials onto substrates ',
       alt2: "VBCC's Chemical Vapour Deposition process showcasing advanced technology for material synthesis and surface coating applications",
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service24-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service24-sec-2.jpg',
 
       header: 'Nano coating techniques',
       heading: 'Chemical Vapour Deposition (CVD)',
@@ -1767,10 +1767,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Premium Slip Casting Ceramics Equipment | VBCC Research',
       metaDesc:
         'Crafting precision with slip casting ceramics – explore our premium equipment for flawless creations. Unleash your artistry with the best in slip casting technology',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service25-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service25-sec-1.jpg',
       alt1: 'An artisan expertly performs slip casting, pouring liquid clay into molds to create detailed ceramic pieces',
       alt2: 'Multiple slip casting machines for ceramics arranged in a row, highlighting their role in the ceramic manufacturing process',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service25-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service25-sec-2.jpg',
 
       header: 'Casting',
       heading: 'Slip Casting',
@@ -1801,10 +1801,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Sol-Gel Route with advanced Methods & process | VBCC Research',
       metaDesc:
         'Unlock the potential of advanced materials through the innovative Sol-Gel Route. Explore the Sol-Gel method and process for cutting-edge applications.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service26-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service26-sec-1.png',
       alt1: 'A Sol Gel Route machine designed for the preparation of materials via sol-gel techniques in scientific research',
       alt2: ': Diagram illustrating various stages and pathways involved in the sol-gel synthesis process',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service26-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service26-sec-2.png',
 
       header: 'Material Preparation',
       heading: 'Sol Gel Route',
@@ -1854,10 +1854,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Quality Planetary Ball Mill with Alumina Jar | VBCC Research',
       metaDesc:
         'Elevate your processes with our advanced planetary ball milling machine, equipped with an alumina jar. Achieve exceptional outcomes in material refinement.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service27-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service27-sec-1.jpg',
       alt1: 'A Planetary Ball Mill featuring an Alumina Jar, designed for efficient grinding and mixing of materials in a laboratory setting ',
       alt2: 'A Planetary Ball Mill featuring a sample placed in front, illustrating the apparatus used for material grinding',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service27-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service27-sec-2.jpg',
 
       header: 'Material Preparation',
       heading: 'Planetary Ball Mill with Alumina Jar(500ml)',
@@ -1925,10 +1925,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Jar Mill & Industrial Grinder for Dry/Wet Grinding | VBCC Research',
       metaDesc:
         'Elevate your grinding game with our jar mill - the epitome of excellence in dry/wet grinding. Discover the expertise of leading ball mill manufacturers in India.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service28-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service28-sec-1.jpg',
       alt1: 'A 5-litre jar mill, ideal for laboratory use, facilitating the grinding and mixing of different substances effectively',
       alt2: 'A technician is engaged in the operation of a 5-litre Jar Mill, facilitating the effective blending of substances in a controlled environment',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service28-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service28-sec-2.jpg',
 
       header: 'Material Preparation',
       heading: 'Jar Mill (5 litre)',
@@ -1982,10 +1982,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Top-Quality Glove Box Container | VBCC Research',
       metaDesc:
         'Discover top-quality glove box containers for your lab needs. Find the perfect glove box and containers designed for efficiency and durability.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/glovebox.webp',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/glovebox.webp',
       alt1: "VBCC's glove box, featuring advanced technology for secure manipulation of objects where a separate atmosphere is desired",
       alt2: 'A close-up view of glovebox operation, showcasing the manipulation of objects while maintaining a sterile workspace',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service29-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service29-sec-2.jpg',
 
       header: 'Material Preparation',
       heading: 'Glove Box',
@@ -2027,10 +2027,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Planetary Ball Mill with Porcelain Jar Machine | VBCC Research',
       metaDesc:
         'Discover precision in every grind with our Planetary Ball Mill, featuring a porcelain jar for superior performance. Explore the excellence.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service30-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service30-sec-1.jpg',
       alt1: 'A Planetary Ball Mill featuring a porcelain Jar, designed for efficient grinding and mixing of materials in a laboratory setting',
       alt2: 'A Planetary Ball Mill is displayed with a porcelain jar, highlighting its use in material processing and grinding applications',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service30-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service30-sec-2.jpg',
 
       header: 'Material Preparation',
       heading: 'Planetary Ball Mill with Porcelain Jar(500ml)',
@@ -2090,10 +2090,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Evaluating Physical Material Properties | VBCC Research',
       metaDesc:
         'Uncover the key factors in evaluating physical material properties. Enhance your understanding and optimize material performance effortlessly.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service31-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service31-sec-1.png',
       alt1: 'Visual representation of particle density versus bulk density in solids, showcasing key distinctions and measurement techniques',
       alt2: 'Diagram illustrating high porosity and low porosity, emphasizing variations in material density and air space',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service31-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service31-sec-2.png',
 
       header: 'Physical properties',
       heading: 'Bulk Density, Porosity, Water Absorption, Fired Shrinkage',
@@ -2159,10 +2159,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Particle Size Distribution Equipment for Precise Analysis | VBCC Research',
       metaDesc:
         'Unlock Precision with Particle Size Distribution Equipment. Optimize processes, ensure quality, and predict performance across industries.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service32-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service32-sec-1.png',
       alt1: 'Device used for determining particle size distribution, essential for research and quality control in various industries',
       alt2: 'A laboratory Particle Size Distribution machine used for measuring and analysing particle sizes in various samples',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service32-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service32-sec-2.png',
 
       header: 'Physical properties',
       heading: 'Particle Size Distribution',
@@ -2216,10 +2216,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Enhance Quality with Cold Crushing Strength Machine | VBCC Research',
       metaDesc:
         'Improve your product quality effortlessly with our Cold Crushing Strength machine. Enhance durability and reliability for superior results.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service33-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service33-sec-1.jpg',
       alt1: 'Hydraulic press designed for measuring cold crushing strength in materials testing applications',
       alt2: 'Visual representation of a hydraulic press featuring cold crushing strength equipment, emphasizing its industrial application',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service33-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service33-sec-2.jpg',
 
       header: 'Physical properties',
       heading: 'Cold Crushing Strength (CSS)',
@@ -2297,10 +2297,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Enhance Durability with High-Impact Resistance Solutions | VBCC Research',
       metaDesc:
         'Elevate your projects with high-impact resistance solutions. Unleash durability that withstands the toughest conditions strengthen structures for lasting performance.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service34-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service34-sec-1.jpg',
       alt1: 'A specialized machine for conducting impact resistance tests, highlighting its engineering and capability to assess material strength',
       alt2: 'Close-up of impact resistance testing equipment, showcasing its design and functionality for material durability assessment',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service34-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service34-sec-2.jpg',
 
       header: 'Physical properties',
       heading: 'Impact Resistance',
@@ -2390,10 +2390,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Performance Abrasion Resistance Testing Equipment | VBCC Research',
       metaDesc:
         'Unlock the potential of precision testing with our high-performance abrasion resistance testing equipment. Ensure accuracy & reliability in every evaluation process.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service35-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service35-sec-1.png',
       alt1: 'An image of a device used to assess the abrasion resistance of materials, vital for determining their longevity and suitability for use',
       alt2: 'Abrasion resistance testing equipment showcasing data points that measure the durability of different materials',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service35-sec-2.gif',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service35-sec-2.gif',
 
       header: 'Physical properties',
       heading: 'Abrasion Resistance',
@@ -2480,10 +2480,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Advanced Creep Resistance Solutions | VBCC Research',
       metaDesc:
         'Discover material stability with our Advanced Creep Resistance Solutions. Precise digital measurements unveil long-term performance insights under extreme conditions.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service36-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service36-sec-1.jpg',
       alt1: 'Creep Resistance testing equipment designed for evaluating material deformation under sustained load over time',
       alt2: 'Creep Resistance testing machine used to assess the long-term stability of materials under sustained loads',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service36-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service36-sec-2.jpg',
 
       header: 'Thermal Testing',
       heading: 'Creep Resistance',
@@ -2536,10 +2536,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Precision Hot Modulus of Rupture Machines | VBCC Research',
       metaDesc:
         'Elevate your testing precision with our hot modulus of rupture machines. Achieve superior results in materials analysis and quality assurance.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service37-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service37-sec-1.jpg',
       alt1: 'A technician skilfully operates a Hot Modulus of Rupture machine in a laboratory setting, ensuring precise measurements for brittle materials',
       alt2: "Hot Modulus of Rupture Machine arranged for testing, highlighting its design and essential parts for evaluating materials' resistance to thermal stress and deformation",
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service37-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service37-sec-2.jpg',
 
       header: 'Thermal Testing',
       heading: 'Hot Modulus Of Rupture (HMOR)',
@@ -2593,10 +2593,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Thermal Conductivity Measurement Equipment | VBCC Research',
       metaDesc:
         'Unlock Material Potential with Precision: Explore our Thermal Conductivity Measurement Equipment. The key to accuracy.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service38-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service38-sec-1.png',
       alt1: 'Instrument for measuring thermal conductivity, crucial for evaluating material properties in scientific and engineering fields',
       alt2: 'Thermal conductivity measurement apparatus on display, featuring tools designed for precise thermal property evaluation',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service38-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service38-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Thermal Conductivity',
@@ -2652,10 +2652,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Stability with Permanent Linear Change of Refractory | VBCC Research',
       metaDesc:
         'Enhance your operations with refractory materials designed for permanence. Explore the benefits of permanent linear change for long-lasting performance.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service39-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service39-sec-1.png',
       alt1: 'Visual representation of permanent linear changes in refractory, highlighting structural alterations and stability under thermal conditions',
       alt2: ': Device utilized for assessing the permanent linear change in refractory materials under specific testing conditions',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service39-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service39-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Permanent Linear Change (PLC)',
@@ -2694,10 +2694,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Enhance Performance with High Refractoriness Under Load | VBCC Research',
       metaDesc:
         'Unlock superior heat resistance with Refractoriness Under Load (RUL) solutions. Assess, evaluate, and ensure structural integrity for high-temperature applications.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service40-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service40-sec-1.png',
       alt1: 'Testing apparatus for Refractory Under Load, highlighting its role in evaluating material performance under stress conditions',
       alt2: 'Image depicting Refractory Under Load (RUL) testing, showcasing material performance under high-temperature conditions',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service40-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service40-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Refractory Under Load (RUL)',
@@ -2735,10 +2735,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Pyrometric Cone Equivalent for Temperature Measurement | VBCC Research',
       metaDesc:
         'Discover the significance of Pyrometric Cone Equivalent in achieving optimal heat-work and temperature. Ideal for industrial and hobbyist kilns.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service41-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service41-sec-1.png',
       alt1: 'An image depicting Pyrometric Cone Equivalent (PCE), which serves as a temperature measurement tool in the ceramics and glass industry',
       alt2: 'Tools designed for assessing Pyrometric Cone Equivalent (PCE), critical for understanding thermal behaviour in various materials.',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service41-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service41-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Pyrometric Cone Equivalent (PCE)',
@@ -2789,10 +2789,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Precision Temperature Thermal Cycling Machines | VBCC Research',
       metaDesc:
         'Elevate your experiments with advanced thermal cycling machines. Achieve precision temperature control effortlessly.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service42-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service42-sec-1.png',
       alt1: 'An image depicting thermal cycling, highlighting the process of temperature fluctuations and material stress responses',
       alt2: 'An illustration of a Thermal Cycling experiment, featuring apparatus and samples experiencing controlled temperature fluctuations',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service42-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service42-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Thermal Cycling',
@@ -2838,10 +2838,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Expert Slag Testing Services | VBCC Research',
       metaDesc:
         'Optimize durability in high-temperature environments with Slag Testing. Evaluate refractory resistance, minimize replacements, and cut maintenance costs.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service43-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service43-sec-1.png',
       alt1: 'Slag testing equipment displayed, showcasing tools and instruments for analysing slag properties in metallurgical processes',
       alt2: 'A slag testing equipment arranged for evaluating the characteristics and quality of metallurgical slag samples',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service43-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service43-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Slag Testing',
@@ -2892,10 +2892,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Precision Sieve Analysis Equipment for Accurate Testing | VBCC Research',
       metaDesc:
         'Revolutionize your testing processes with our advanced sieve analysis equipment. Experience unparalleled precision in sieve testing for optimal results.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service44-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service44-sec-1.jpg',
       alt1: 'Sieve analysis apparatus designed to assess the particle size distribution in various materials effectively',
       alt2: 'Sieve analysis testing equipment displayed, featuring various sieves and a mechanical shaker for particle size distribution analysis',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service44-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service44-sec-2.jpg',
 
       header: 'Thermal Testing',
       heading: 'Sieve Analysis',
@@ -2944,10 +2944,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'Enhance Performance with Thermal Shock Resistance Equipment | VBCC Research',
       metaDesc:
         'Navigate through the science of thermal shock resistance. From laboratory simulations to key parameters, ensure material reliability in fluctuating temperatures.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service45-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service45-sec-1.png',
       alt1: 'Thermal shock resistance equipment engineered to endure sudden temperature fluctuations, maintaining performance and integrity',
       alt2: 'Thermal shock resistance equipment ready for dispatch, built to withstand rapid temperature fluctuations effectively',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service45-sec-2.png',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service45-sec-2.png',
 
       header: 'Thermal Testing',
       heading: 'Thermal Shock Resistance',
@@ -3003,10 +3003,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Premium Ball Clay for Exceptional Ceramics | VBCC Research',
       metaDesc:
         'Unlock the potential of your ceramics with Ball Clay. Achieve unmatched plasticity, strength, and color consistency. Perfect for whiteware & sanitaryware production.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service46-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service46-sec-1.jpg',
       alt1: 'A sample of raw ball clay displayed on a white background, showcasing its fine texture and earthy colour',
       alt2: 'Close-up of a Ball Clay sample that is not powered, emphasizing its raw, unprocessed appearance and unique texture',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service46-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service46-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Ball Clay',
@@ -3077,10 +3077,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Premium China Clay Kaolin | VBCC Research',
       metaDesc:
         'Elevate your creations with China clay Kaolin for fine porcelain, enhanced paper, and diverse industrial applications.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service47-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service47-sec-1.jpg',
       alt1: 'Unprocessed China Clay material, emphasizing its texture and muted colours in a natural environment',
       alt2: 'A detailed image of a China Clay Kaolin sample, emphasizing its fine grain and bright white hue, suitable for multiple industries',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service47-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service47-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'China Clay',
@@ -3169,10 +3169,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Refractory Than Clay Solutions for Ceramics | VBCC Research',
       metaDesc:
         'Explore the world of refractory ceramics with Than clays. Crafting resilience in high-temperature environments, our solutions go beyond ordinary clay. ',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service48-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service48-sec-1.jpg',
       alt1: 'Display of Than Clay sample, emphasizing its rich texture and versatility for creative projects in ceramics and art',
       alt2: 'A close-up image of a sample of than clay, showcasing its texture and colour variations in natural light',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service48-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service48-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Than Clay',
@@ -3263,10 +3263,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Quality Feldspar Powder for Industrial Use | VBCC Research',
       metaDesc:
         'Elevate your ceramics, glass, and industrial products with High-Quality Feldspar Powder. Explore its versatility as a flux and enhancer, optimizing luster and quality.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service49-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service49-sec-1.jpg',
       alt1: 'A feldspar mineral sample displayed against a clean white background, highlighting its unique texture and colour variations',
       alt2: 'Close-up of a feldspar sample on a white background, showcasing its distinct crystalline structure and natural hues',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service49-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service49-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Feldspar',
@@ -3355,10 +3355,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'High-Quality Quartz Ceramics  | VBCC Research',
       metaDesc:
         'Explore unbeatable quartz on premium ceramics. Elevate your projects with high-quality quartz ceramics.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service50-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service50-sec-1.jpg',
       alt1: 'Raw quartz ceramics material displayed, showcasing its natural texture and colour variations for industrial use',
       alt2: 'Close-up of raw quartz ceramics material, highlighting its unique textures and colours, essential for manufacturing processes',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service50-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service50-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Quartz',
@@ -3436,10 +3436,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
         'High-Quality Alumina Ceramics for Superior Performance | VBCC Research',
       metaDesc:
         'Elevate your materials with high-quality alumina ceramics. From abrasive materials to protective coatings, explore the versatility and durability of alumina.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service51-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service51-sec-1.jpg',
       alt1: 'A sample of alumina ceramic powder is being displayed on a black surface, showcasing its fine, white granules and texture.',
       alt2: 'A collection of alumina ceramic balls displayed in a blow, showcasing their smooth surface and uniform size',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service51-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service51-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Alumina',
@@ -3505,10 +3505,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Quality Zirconia White Solid Ceramic Glaze | VBCC Research',
       metaDesc:
         'Elevate your applications with Zirconia Ceramics - the epitome of hardness and versatility. Quality Zirconia white solid ceramic glaze for lasting performance.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service52-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service52-sec-1.jpg',
       alt1: 'Various zirconia ceramics items arranged aesthetically, highlighting their smooth surfaces and intricate designs',
       alt2: 'Two glass bowls filled with zirconia ceramic balls, showcasing their smooth texture and glossy finish',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service52-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service52-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Zirconia',
@@ -3580,10 +3580,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Quality Silicon Carbide Ceramic | VBCC Research',
       metaDesc:
         'Optimize your projects with premium silicon carbide ceramics. Unleash quality and durability in every application.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service53-sec-1.jpg',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service53-sec-1.jpg',
       alt1: 'Silicon carbide ceramic sample presented on a plain white surface, emphasizing its durability and distinctive material properties',
       alt2: 'A close-up view of a bowl containing Silicon Carbide ceramic balls, highlighting their glossy finish and distinct colour',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service53-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service53-sec-2.jpg',
 
       header: 'Raw Materials',
       heading: 'Silicon Carbide',
@@ -3666,10 +3666,10 @@ Laser diffraction measures particle size distributions by measuring the angular 
       titleHead: 'Best Industrial Hot Air Ovens for Laboratory | VBCC Research',
       metaDesc:
         'Discover the best industrial hot air ovens for laboratory use. Find reliable hot air ovens designed for precise temperature control and optimal performance.',
-      image_1: 'https://ik.imagekit.io/webibee/VBRC/service54-sec-1.png',
+      image_1: 'https://cdn.webibeeinfra.in/vbrc/service54-sec-1.png',
       alt1: 'Industrial hot air oven designed for laboratory use, providing reliable drying and heating with advanced temperature management.',
       alt2: 'An opened hot air oven, displaying its interior space, utilized for precise heating and drying in laboratory or industrial settings',
-      image_2: 'https://ik.imagekit.io/webibee/VBRC/service54-sec-2.jpg',
+      image_2: 'https://cdn.webibeeinfra.in/vbrc/service54-sec-2.jpg',
 
       header: 'Heat Treatment Facility',
       heading: 'Hot Air Oven',
@@ -3704,8 +3704,8 @@ Laser diffraction measures particle size distributions by measuring the angular 
   }
 
   imagesNav = [
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ];
   currentImageIndex15 = 0;
   changeImage15() {
