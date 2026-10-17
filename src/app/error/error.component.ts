@@ -74,8 +74,8 @@ export class ErrorComponent {
     nav: true,
     // stagePadding: 0,
     navText: [
-      "<img src='https://ik.imagekit.io/webibee/VBRC/images/arrow_cc.svg' width='40px' height='20px' alt='leftArrow1'>",
-      "<img src='https://ik.imagekit.io/webibee/VBRC/images/arrow_c.svg' width='40px' height='20px' alt='leftArrow2'>",
+      "<img src='https://cdn.webibeeinfra.in/vbrc/images/arrow_cc.svg' width='40px' height='20px' alt='leftArrow1'>",
+      "<img src='https://cdn.webibeeinfra.in/vbrc/images/arrow_c.svg' width='40px' height='20px' alt='leftArrow2'>",
     ],
 
     responsive: {
@@ -101,12 +101,12 @@ export class ErrorComponent {
   @HostListener('window:scroll', ['$event', `{ passive: true }`])
   currentImageIndex15 = 0;
   images = [
-    'https://ik.imagekit.io/webibee/VBRC/images/double_arrow_.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/double_arrow.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/double_arrow_.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/double_arrow.svg',
   ];
   imagesNav = [
-    'https://ik.imagekit.io/webibee/VBRC/images/menu_own.svg',
-    'https://ik.imagekit.io/webibee/VBRC/images/icons8-close.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/menu_own.svg',
+    'https://cdn.webibeeinfra.in/vbrc/images/icons8-close.svg',
   ];
 
   changeImage15() {
